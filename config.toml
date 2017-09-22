@@ -1,3 +1,71 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# Site settings
+baseurl = "http://www.danioved.com/blog/"
+publishDir = "docs"
+# HTML Language Code Reference, such as en, zh-cn
+languageCode = "en"
+title = "Dan Oved's Blog"
+theme = "cactus-plus"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-106896744-1"
+hasCJKLanguage = true
+# pygmentsCodeFences = true
+# pygmentsCodeFencesGuessSyntax = true
+# pygmentsStyle="monokai"
+
+[params]
+	name = "Dan Oved's Blog"
+	description = "Connecting the digital with the analog world @ ITP"
+	bio = "Connecting the digital with the analog world @ ITP"
+	# Enter optionally your twitter account
+	enableRSS = false
+
+	# Disqus comment
+	disqusShortname = "danoved"
+	# Disable disqus comments by set `enableDisqus = "false"`
+	enableDisqus = true 
+
+	enableGithubIssuesTips = false
+
+	# Enable googleAnalytics
+	enableGoogleAnalytics = true
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = ["/css/style-custom.css"]
+	customJS  = []
+
+	# Navigation links
+	home = ""
+	about = ""
+	archive = ""
+	subscribe = ""
+	tags = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "I am so the best around."
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+  socialIconStyle = ""
+
+# Add additional social link entries underneath
+[social]
+	#facebook-square = "https://www.facebook.com/DanOved"
+  instagram = "https://www.instagram.com/stangogh/"
+  #twitter-square = "your_twitter_link"
+  github-square = "https://github.com/oveddan"
+
+[taxonomies]
+  tags = "tags"
+  classes = "classes"
+
+

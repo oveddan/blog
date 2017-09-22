@@ -1,0 +1,67 @@
+    {{ partial "head.html" . }}
+    <body>
+       {{ partial "nav.html" . }}
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        {{ if .CurrentSection }}
+                          {{ with .CurrentSection.Params.projectname }}
+                            {{ . }} -
+                          {{ end }}
+                        {{ end }}
+                        {{ .Title }}
+                    </h1>
+                    <h2 class="headline">
+                    {{ .Date.Format "Jan 2, 2006 15:04" }}
+                    · {{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }}
+                    · {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}
+                      <span class="tags">
+                      {{ with .Params.tags }}
+                      {{ if ge (len .) 1 }}
+                          {{ range . }}
+                              <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
+                          {{ end }}
+                      {{ end }}
+                      {{ end}}
+                      </span>
+                      {{ if .Params.showPagesInSection }}
+                        {{ partial "next-and-previous.html" . }}
+                      {{ end }}
+                    </h2>
+                </header>
+                {{ if .Site.Params.enableToc }}
+                  {{ if .TableOfContents }}
+                    <div id="toc">
+                      {{ .TableOfContents }}
+                    </div>
+                  {{ end }}
+                {{ end }}
+                <section id="post-body">
+                    {{ .Content }}
+
+                    {{ if .Params.showPagesInSection }}
+                      {{ partial "pages-in-section.html" . }}
+                    {{ end }}
+                </section>
+            </article>
+
+            {{ if .Site.Params.enableGithubIssuesTips }}
+                {{ partial "github-issues-tip.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.enableDisqus }}
+                {{ partial "disqus.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.enableDuoshuo }}
+                {{ partial "duoshuo.html" . }}
+            {{ end }}
+
+            {{ partial "footer.html" . }}
+        </section>
+
+        {{ partial "js.html" . }}
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<div class="profile">
+    <section id="wrapper">
+        <header id="header">
+            <a href='{{ .Site.BaseURL }}about'>
+                <img id="avatar" class="2x" src="{{ .Site.BaseURL }}images/avatar.png"/>
+            </a>
+            <h1></h1>
+            <h1>{{ .Site.Params.name }}</h1>
+            {{ if .Page.IsHome }}
+              {{ with .Site.Params.bio }}<h2>{{ . | markdownify }}</h2>{{ end }}
+            {{ else }}
+              {{ with .Page.Title }}
+                <h2>
+                  Posts for <strong>{{ . }}</strong>
+                </h2>
+              {{ end }}
+            {{ end}}
+        </header>
+    </section>
+</div>

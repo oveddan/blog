@@ -1,0 +1,120 @@
+/* nav */
+nav.main-nav section {
+  width: 100%;
+  margin: 8px 0;
+}
+
+nav.main-nav a {
+  top: 8px;
+  right: 6px;
+  padding: 0px 12px;
+}
+
+nav.main-nav .title {
+  top: 8px;
+  left: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+  line-height: 1.35;
+  border-radius: 3px;
+}
+
+/* content */
+
+img {
+  width: auto;
+  border-radius: 0;
+}
+
+.split-image img {
+  display: inline;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+
+.post h2.headline {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.post h2.headline .tags {
+  margin: 5px 0 0 0;
+}
+
+.post h2.headline #post-nav {
+  margin-top: 5px;
+  padding-top: 0;
+}
+
+#post-list .featured {
+  max-height: 170px;
+  overflow-y: hidden;
+  margin-bottom: 10px;
+}
+
+#post-list a, #other-posts-list a {
+  cursor: pointer;
+}
+
+#post-list li {
+  /* border-bottom: #E5E5E5 1px solid; */
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#other-posts h2 {
+  margin-bottom: 5px;
+}
+
+#other-posts-list li {
+  margin-bottom: 5px;
+}
+
+#other-posts-list li {
+  list-style-type: none;
+}
+
+#other-posts-list li a {
+  color: #5badf0;
+  font-size: 13px;
+  line-height: 1.35;
+  border-radius: 3px;
+  font-weight: normal;
+}
+
+#post-list li+li {
+  padding: 0;
+}
+
+#post-list h2 {
+  color: #333;
+  display: block;
+  font: bold 19px/1.7 "Helvetica Neue", helvetica, Arial, sans-serif;
+}
+
+#post-list .post-description {
+  font: normal 17px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #aaa;
+  max-width: none;
+  text-align: justify;
+  margin-top: 2px;
+}
+
+#post-list li .summary {
+  padding: 0px 0px 20px 0px;
+}
+
+figure {
+  margin-bottom: 20px;
+}
+
+#post-body p {
+  text-align: justify;
+}
+
+.post h2 {
+  margin-bottom: 20px;
+}

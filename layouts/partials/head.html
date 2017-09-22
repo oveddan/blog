@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    <meta property="og:title" content="{{ .Title }}  - Dan Oved's blog" />
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Description}}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+    {{ if .Params.images }}
+      {{ range first 6 .Params.images }}
+        <meta property="og:image" content="{{ . | absURL }}" />
+      {{ end }}
+    {{ else if .Params.imageResources }}
+      {{ $Page := .Page }}
+      {{ range first 6 .Params.imageResources }}
+        {{ $original := $Page.Resources.GetMatch (printf "%s*" (.)) }}
+        {{ $image := $original.Resize "520x" }}
+        <meta property="og:image" content="{{ $image.RelPermalink  | absURL }}" />
+      {{ end }}
+    {{ else if .Params.featuredImageResource }}
+      {{ $original := .Resources.GetMatch (printf "%s*" (.Params.featuredImageResource.src)) }}
+      <meta property="og:image" content="{{$original.RelPermalink | absURL }}" />
+    {{ end }}
+    {{ with .Params.videos}}
+      {{ range first 6 . }}
+        <meta property="og:video" content="{{ . | absURL }}" />
+      {{ end }}
+    {{ end }}
+
+    {{ if not .Date.IsZero }}
+      <meta property="og:updated_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}"/>
+    {{ end }}
+    {{ .Hugo.Generator }}
+    <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css">
+    {{ range .Site.Params.customCSS }}
+    <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+    {{ end }}
+
+    {{ if eq .Site.Params.iconFont "font-awesome" }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css">
+    {{ else }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/monosocialiconsfont.css">
+    {{ end }}
+
+    {{ if .Site.Params.enableRSS }}
+    <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ end }}
+  </head>
