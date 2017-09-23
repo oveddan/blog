@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://oveddan.github.io/blog/posts/what-is-physical-interaction/</loc>
+    <lastmod>2017-09-17T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oveddan.github.io/blog/posts/about-writing-a-blog/</loc>
     <lastmod>2017-09-01T00:00:00-04:00</lastmod>
   </url>
@@ -23,13 +28,25 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/</loc>
-    <lastmod>2017-09-01T00:00:00-04:00</lastmod>
+    <lastmod>2017-09-17T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/tags/physical-computing/</loc>
+    <lastmod>2017-09-17T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/categories/physical-computing/</loc>
+    <lastmod>2017-09-17T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/posts/</loc>
-    <lastmod>2017-09-01T00:00:00-04:00</lastmod>
+    <lastmod>2017-09-17T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   

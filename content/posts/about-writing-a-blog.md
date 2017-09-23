@@ -1,5 +1,6 @@
 +++
 title = "Finally fulfilling a ten-year-old goal of starting a blog and posting something."
+description = "Today was the final day of orientation for ITP.  I'm grateful to the residents for giving us great workshops on creating documentation and how to create a blog, then forcing us do it."
 date = 2017-09-01
 tags = [
   "thoughts"
@@ -11,7 +12,7 @@ menu = "main"
 +++
 
 
-Today was the final day of orientation for ITP.  Thanks to the [residents](http://itp.nyu.edu/residents/) for giving us great workshops on
+Today was the final day of orientation for ITP.  Thanks goes out to the [residents](http://itp.nyu.edu/residents/) for giving us great workshops on
 [creating documentation](http://itp.nyu.edu/residents/doc-day-2017-documentation/) and [how to create a blog](http://itp.nyu.edu/residents/doc-day-2017-blog-setup/),
 then forcing us do it.
 
