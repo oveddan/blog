@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://oveddan.github.io/blog/posts/an-example-of-good-design/</loc>
+    <lastmod>2017-09-13T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oveddan.github.io/blog/posts/about-writing-a-blog/</loc>
     <lastmod>2017-09-01T00:00:00-04:00</lastmod>
   </url>
@@ -59,6 +64,18 @@
   <url>
     <loc>https://oveddan.github.io/blog/categories/thoughts/</loc>
     <lastmod>2017-09-01T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/tags/visual-language/</loc>
+    <lastmod>2017-09-13T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/categories/visual-language/</loc>
+    <lastmod>2017-09-13T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
