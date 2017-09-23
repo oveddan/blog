@@ -1,7 +1,6 @@
 +++
 title= "Batteries in Parallel"
 date= 2017-09-21
-draft= true
 description= "Doubling the capacity while maintaining the same voltage"
 categories= ["Basic Analog Circuits", "Physical Computing"]
 tags= ["Physical Computing", "Circuits"]
