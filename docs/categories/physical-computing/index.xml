@@ -6,7 +6,7 @@
     <description>Recent content in Physical Computing on Dan Oved&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Sep 2017 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 07 Sep 2017 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://oveddan.github.io/blog/categories/physical-computing/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>What Is Physical Interaction?</title>
       <link>https://oveddan.github.io/blog/posts/what-is-physical-interaction/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 -0400</pubDate>
       
       <guid>https://oveddan.github.io/blog/posts/what-is-physical-interaction/</guid>
       <description>According to Chris Crawford in The Art of Interactive Design, Physical interaction is where a human interfaces with another entity, such as a person or computer, and that entity responds based on that action. It must be two-way; uni-directional communication is not interaction.

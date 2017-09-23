@@ -6,20 +6,20 @@
     <description>Recent content in Posts on Dan Oved&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Sep 2017 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 20 Sep 2017 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://oveddan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>What Is Physical Interaction?</title>
-      <link>https://oveddan.github.io/blog/posts/what-is-physical-interaction/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 -0400</pubDate>
+      <title>Designing for Digital Fabrication - Drawing a Real World Object in Vectorworks</title>
+      <link>https://oveddan.github.io/blog/posts/drawing-a-real-world-object-in-vectorworks/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/what-is-physical-interaction/</guid>
-      <description>According to Chris Crawford in The Art of Interactive Design, Physical interaction is where a human interfaces with another entity, such as a person or computer, and that entity responds based on that action. It must be two-way; uni-directional communication is not interaction.
-Examples of physical interaction:
- Typing in a text editor and seeing letters appearing. Painting with hand-help controllers in virtual reality. Having a conversation with another person. Playing a competitive sport.</description>
+      <guid>https://oveddan.github.io/blog/posts/drawing-a-real-world-object-in-vectorworks/</guid>
+      <description>Our first homework assignment for Daniel Rozin&amp;rsquo;s Designing for Digital Fabrication class was to draw three 2d perspectives of a real world object in Vectorworks. I took this as an opportunity to get the exact dimensions of an object I&amp;rsquo;ve been eager to to incorporate into a project.
+At the Armory show in 2015, I discovered and was amazed by the low-resolution work of Jim Campbell.
+Jim Campbell - Scattered 25X (Marathon)</description>
     </item>
     
     <item>
@@ -29,6 +29,17 @@ Examples of physical interaction:
       
       <guid>https://oveddan.github.io/blog/posts/an-example-of-good-design/</guid>
       <description>This last Sunday I was at a rooftop party at Output in Williamsburg and noticed my friend drinking what looked like a perfectly refreshing beverage – a can of Babe Rosé. Before even tasting her drink I decided to get one for myself, figuring it would be the perfect drink to enjoy during the sunset. In retrospect – the sleek, clean, and elegant design of the slender can is what lured me in.</description>
+    </item>
+    
+    <item>
+      <title>What Is Physical Interaction?</title>
+      <link>https://oveddan.github.io/blog/posts/what-is-physical-interaction/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/what-is-physical-interaction/</guid>
+      <description>According to Chris Crawford in The Art of Interactive Design, Physical interaction is where a human interfaces with another entity, such as a person or computer, and that entity responds based on that action. It must be two-way; uni-directional communication is not interaction.
+Examples of physical interaction:
+ Typing in a text editor and seeing letters appearing. Painting with hand-help controllers in virtual reality. Having a conversation with another person. Playing a competitive sport.</description>
     </item>
     
     <item>

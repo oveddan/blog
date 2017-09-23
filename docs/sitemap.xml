@@ -3,13 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://oveddan.github.io/blog/posts/what-is-physical-interaction/</loc>
-    <lastmod>2017-09-17T00:00:00-04:00</lastmod>
+    <loc>https://oveddan.github.io/blog/posts/drawing-a-real-world-object-in-vectorworks/</loc>
+    <lastmod>2017-09-20T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/posts/an-example-of-good-design/</loc>
     <lastmod>2017-09-13T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/posts/what-is-physical-interaction/</loc>
+    <lastmod>2017-09-07T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -33,25 +38,43 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/</loc>
-    <lastmod>2017-09-17T00:00:00-04:00</lastmod>
+    <lastmod>2017-09-20T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/tags/design/</loc>
+    <lastmod>2017-09-20T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/categories/designing-for-digital-fabrication/</loc>
+    <lastmod>2017-09-20T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/tags/digital-fabrication/</loc>
+    <lastmod>2017-09-20T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/tags/physical-computing/</loc>
-    <lastmod>2017-09-17T00:00:00-04:00</lastmod>
+    <lastmod>2017-09-07T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/categories/physical-computing/</loc>
-    <lastmod>2017-09-17T00:00:00-04:00</lastmod>
+    <lastmod>2017-09-07T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/posts/</loc>
-    <lastmod>2017-09-17T00:00:00-04:00</lastmod>
+    <lastmod>2017-09-20T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   

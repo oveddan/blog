@@ -1,8 +1,8 @@
 +++
 title = "What Is Physical Interaction?"
-description = "According to Chris Crawford in The Art of Interactive Design, Physical interaction is where a human interfaces with another entity, such as a person or computer, and that entity responds based on that action.  It must be two-way; uni-directional communication is not interaction."
+description = "Defining what it is and what it is not."
 
-date = 2017-09-17
+date = 2017-09-07
 categories = [
   "Physical Computing"
 ]
