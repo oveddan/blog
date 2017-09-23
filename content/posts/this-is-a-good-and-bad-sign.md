@@ -8,7 +8,6 @@ categories = [
 tags = [
   "Visual Language"
 ]
-draft = true
 +++
 
 For this homework assignment, we are to show two examples each of successful and unsuccessful signs, then redesign one of the bad signs.
@@ -52,5 +51,9 @@ A more robust but expensive solution would be to build a neon/illuminated sign w
 
 The **Starbucks on Waverly Place** has great signage - it's located on a corner, and its distinct logo is placed on both sides of the corner, clearly visible from far down both roads.
 
+![Starbucks](/blog/images/visual_language/starbucks.jpg)
+
 The **RawMkt** awning and window signage is beautiful, clean, and clear.  It's high quality conveys Japanese style and freshness from the ocean.
+
+![RawMkt](/blog/images/visual_language/rawmkt.jpg)
 
