@@ -6,7 +6,7 @@ languageCode = "en"
 title = "Dan Oved's blog"
 theme = "cactus-plus"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "your_google_analytics_code"
+googleAnalytics = "UA-106896744-1"
 hasCJKLanguage = true
 
 [params]
@@ -19,7 +19,7 @@ hasCJKLanguage = true
 	enableGithubIssuesTips = false
 
 	# Enable googleAnalytics
-	enableGoogleAnalytics = false
+	enableGoogleAnalytics = true
 
 	# Add custom assets with their paths relative to the static folder
 	customCSS = ["/css/style-custom.css"]

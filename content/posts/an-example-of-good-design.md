@@ -8,19 +8,20 @@ categories = [
   "Visual Language"
 ]
 description = "Looking closely at an enticing beverage can"
+thumbnail = "/blog/images/babe4_1024x1024.jpg"
 +++
 
 This last Sunday I was at a rooftop party at Output in Williamsburg and noticed my friend drinking what looked like a perfectly refreshing beverage – a can of [Babe Rosé](https://www.swishbev.com/products/babe-rose-with-bubbles-4-pack).
 Before even tasting her drink I decided to get one for myself, figuring it would be the perfect drink to enjoy during the sunset.  In retrospect – the sleek, clean, and elegant 
 design of the slender can is what lured me in.  My other friends at this party were also enticed by the look of these cans, all asking me to taste this new beverage.
 
-![BabeCans](/blog/images/babe4_1024x1024.jpg)
+{{< figure src="/blog/images/babe4_1024x1024.jpg" alt="Babe Cans" >}}
 
 ## Analyzing the Design
 
 This can uses a single column, four row grid. Dedicating the top 3 rows to the brand emphasizes the name.
 
-![Babe With Grid](/blog/images/bebe-withgrid.png)
+{{< figure src="/blog/images/bebe-withgrid.png" alt="Babe With Grid" >}}
 
 The big, bold, but clean letters, all of the same color and font, are clear, consistent, and simple.
 In all caps, they convey elegance, fun, attractiveness, and a refreshing feeling, all ideal for a vibrant, hot day in the summer.  It would likely be a tough sell during the winter.
