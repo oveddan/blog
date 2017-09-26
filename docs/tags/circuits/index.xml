@@ -13,10 +13,10 @@
     
     <item>
       <title>Doubling the Battery Power</title>
-      <link>https://oveddan.github.io/blog/posts/batteries-in-parallel/</link>
+      <link>https://oveddan.github.io/blog/posts/physical_computing/batteries-in-parallel/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/batteries-in-parallel/</guid>
+      <guid>https://oveddan.github.io/blog/posts/physical_computing/batteries-in-parallel/</guid>
       <description>A project I worked on this past summer required a portable power source of 3.3 - 4 volts. I used the Tenergy Li-Ion 3.7v 2600 mAH rechargeable battery, connected to the Adafruit LiPoly backpack charger and a Teensy 3.2. In this system, the battery would be drained after only about half an hour; I wanted to increase the capacity but did not know how.
 Then last week, for my Basic Analog Circuit course, I learned about connecting multiple batteries in parallel to maintain the same voltage but increase the current and capacity by connecting the powers and grounds together of the batteries.</description>
     </item>
