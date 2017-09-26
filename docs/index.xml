@@ -6,10 +6,32 @@
     <description>Recent content on Dan Oved&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Sep 2017 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 25 Sep 2017 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://oveddan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Expressive Words</title>
+      <link>https://oveddan.github.io/blog/posts/visual_language/expressive-words/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/visual_language/expressive-words/</guid>
+      <description>For this homework assignment we were to design 3 expressive words that visually communicate their meanings. Here is what I created:  
+ Icons used: The Rest, Afro and cat from The Noun Project</description>
+    </item>
+    
+    <item>
+      <title>Redesigning the Delta Boarding Pass</title>
+      <link>https://oveddan.github.io/blog/posts/visual_language/boarding-pass-redesign/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/visual_language/boarding-pass-redesign/</guid>
+      <description>Original Design For this homework assignment we were to take the boarding pass below and redesign it:
+ 
+My Redesign   Icons used: Door and Airplane Seat from The Noun Project
+My design assumes that the passenger gets this boarding pass at the check-in counter or kiosk, and the stub on the right is torn off and handed to the passenger at the gate. The information hierarchy is organized to make it quick to find the most important information at every part of the way from the check-in counter to the seat.</description>
+    </item>
     
     <item>
       <title>Doubling the Battery Power</title>
