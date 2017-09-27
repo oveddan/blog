@@ -33,9 +33,9 @@ by Arduino's [Shifting Out guide](https://www.arduino.cc/en/Tutorial/ShiftOut). 
 The full code for this is available [here.](https://github.com/oveddan/physical_computing/blob/master/light_loop/light_loop.ino)
 
 To control 16 LEDs with two shift registers, two bytes are stored in an array.  Setting an LED on or off is abstracted by a function
-that maps the LED index to the corresponding byte, and updates the bit in that byte.
+that maps the LED index to the corresponding byte, and updates the bit in that byte:
 
-```arduino
+```
 #define NUM_LEDS 16
 #define LEDS_PER_COLUMN 3
 #define LEDS_PER_SHIFTER 8
@@ -51,6 +51,17 @@ void setLed(int led, int onOrOff) {
   else
     bitClear(leds[shifterIndex], ledToSet);
 }
+
 ```
 
+To send the corresponding bits to the LEDs via the shift registers, they are pushed in bytes in descending order:
 
+```
+void updateShiftRegister()
+{
+   digitalWrite(latchPin, LOW);
+   shiftOut(dataPin, clockPin, MSBFIRST, leds[1]);
+   shiftOut(dataPin, clockPin, MSBFIRST, leds[0]);
+   digitalWrite(latchPin, HIGH);
+}
+```
