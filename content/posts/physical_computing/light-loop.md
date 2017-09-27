@@ -24,7 +24,7 @@ The loop can be stopped by blocking the light from the photoresistor, as demonst
 A **pentiometer,** another analog input, can be turned to speed up or slow down the animation.
 
 The 74HC595 **Shift Register** is used to control 16 LEDs, each digital outputs, from **a single digital output** pin.  Two shift registers are chained together to control 8 LEDs each, as instructed
-by Arduino's [Shifting Out guide](https://www.arduino.cc/en/Tutorial/ShiftOut).
+by Arduino's [Shifting Out guide](https://www.arduino.cc/en/Tutorial/ShiftOut).  Adafruit's [Shift Register guide](https://learn.adafruit.com/adafruit-arduino-lesson-4-eight-leds/overview) was helpful as well.
 
 # The Code
 
