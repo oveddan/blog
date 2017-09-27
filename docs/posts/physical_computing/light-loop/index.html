@@ -1,0 +1,157 @@
+    <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Dan Oved&#39;s Blog">
+		<meta name="description" content="Adventures through the virtual and physical world @ ITP">
+		<meta name="generator" content="Hugo 0.27.1" />
+		<title>Light Loop &middot; Dan Oved&#39;s blog</title>
+		<link rel="shortcut icon" href="https://oveddan.github.io/blog/images/favicon.ico">
+		<link rel="stylesheet" href="https://oveddan.github.io/blog/css/style.css">
+		<link rel="stylesheet" href="https://oveddan.github.io/blog/css/highlight.css">
+		
+		<link rel="stylesheet" href="https://oveddan.github.io/blog//css/style-custom.css">
+		
+
+		
+		<link rel="stylesheet" href="https://oveddan.github.io/blog/css/font-awesome.min.css">
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://oveddan.github.io/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://oveddan.github.io/blog/posts'>Archive</a>
+	<a href='https://oveddan.github.io/blog/tags'>Tags</a>
+	<a href='https://oveddan.github.io/blog/about'>About</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        Light Loop
+                    </h1>
+                    <h2 class="headline">
+                    Sep 26, 2017 00:00
+                    · 201 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://oveddan.github.io/blog/tags/physical-computing">Physical Computing</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//player.vimeo.com/video/235674020" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
+
+<h1 id="the-features">The Features</h1>
+
+<p>The goal of this project is to use analog input and digital input to drive digital output.</p>
+
+<p>This is accomplished by detecting when a <strong>photoresistor,</strong> an <strong>analog input,</strong> gets a certain amount of light.
+When that happens, it triggers an animation on the opposite end of the LEDS which travels through them back towards the photoresistor.
+When the photoresistor picks up enough light from the animation that has reached it, it triggers the start of the animation again.  This
+essentially creates an infinite feedback loop.</p>
+
+<p>The loop can be stopped by blocking the light from the photoresistor, as demonstrated in the video.  It can be initialized by pressing the
+<strong>pushbutton</strong> which acts as a <strong>digital input</strong> that turns on the last LED, placed next to the photoresistor.  This light causes the photoresistor to start the animation.</p>
+
+<p>A <strong>pentiometer,</strong> another analog input, can be turned to speed up or slow down the animation.</p>
+
+<p>The 74HC595 <strong>Shift Register</strong> is used to control 16 LEDs, each digital outputs, from <strong>a single digital output</strong> pin.  Two shift registers are chained together to control 8 LEDs each, as instructed
+by Arduino&rsquo;s <a href="https://www.arduino.cc/en/Tutorial/ShiftOut">Shifting Out guide</a>.</p>
+
+<h1 id="the-code">The Code</h1>
+
+<p>The full code for this is available <a href="https://github.com/oveddan/physical_computing/blob/master/light_loop/light_loop.ino">here.</a></p>
+
+                </section>
+            </article>
+
+            
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/oveddan">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.instagram.com/stangogh/">
+        <i class="fa fa-instagram-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2017 <i class="fa fa-heart" aria-hidden="true"></i> Dan Oved&#39;s Blog
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://oveddan.github.io/blog/js/jquery-2.2.4.min.js"></script>
+<script src="https://oveddan.github.io/blog/js/main.js"></script>
+<script src="https://oveddan.github.io/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-106896744-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
