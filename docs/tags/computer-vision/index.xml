@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision on Dan Oved&#39;s blog</title>
+    <link>https://oveddan.github.io/blog/tags/computer-vision/</link>
+    <description>Recent content in Computer Vision on Dan Oved&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Oct 2017 22:55:41 -0400</lastBuildDate>
+    
+	<atom:link href="https://oveddan.github.io/blog/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Final Project Proposal for Design for Digital Fabrication and Intro to Physical Computing - Presence</title>
+      <link>https://oveddan.github.io/blog/posts/presence/proposal/</link>
+      <pubDate>Tue, 31 Oct 2017 22:55:41 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/presence/proposal/</guid>
+      <description>The Presence Project - Proposal This is the proposal for the Presence Project, an art piece that is activated the longer and the more people gaze directly at it. It would encourage being present and engaged, and connect the fellow participants with each other over moments of mindfulness.
+We will use small cameras and computer vision to detect the quantify of people present and how many of them are gazing at a specific point, and reveal parts of the piece using motors and other physical controls.</description>
+    </item>
+    
+  </channel>
+</rss>

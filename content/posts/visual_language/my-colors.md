@@ -1,34 +1,35 @@
 +++
 title= "My Colors and Compositions"
-description= "Picking a color scheme that represents me and creating six compositions using it"
+description= "Picking a color palette that represents me and creating six compositions using it"
+featuredImage= "/blog/images/visual_language/colors/color_featured.png"
 date= 2017-10-04
 tags = ["Visual Language"]
 categories = ["Visual Language"]
 +++
 
-For this Visual Language [homework assignment](https://itp.nyu.edu/~kd49/design/?page_id=1256), I was tasked to pick a color scheme that represents me,
+For this Visual Language [homework assignment](https://itp.nyu.edu/~kd49/design/?page_id=1256), I was tasked to pick a color palette that represents me,
 and create six compositions using those colors.
 
-# The Color Scheme
+# The Color Palette
 
-I chose the theme inspired by *Tame Impala 'Currents'* from [The Day's Color](http://thedayscolor.com/):
+I wanted a theme with red because this represents it represents love and life, and I believe in living a life doing what you love.  
+I chose the color palette inspired by *Tame Impala 'Currents'* from [The Day's Color](http://thedayscolor.com/):
 
 {{<figure src="/blog/images/visual_language/colors/colortheme.png">}}
 
-The colors in this theme theme are both vibrant and diverse.  To me, this represents how I'm always learning
-different things, and using them in innovative ways to create something exciting.  The red in this theme
-matches the color of one of my favorite pieces of clothing.
+These colors are both vibrant and diverse.  To me, they represents how I'm always learning
+different things, and using them in innovative ways to create something exciting.  
 
 # The Compositions
 
 {{<figure src="/blog/images/visual_language/colors/breadth.png" caption="Breadth">}}
 Each leaf of this tree represents somethign I've discovered and pursued.  My path has not gone in a particular
-direction, but everything I've learned is connected, and can be combined and built upon.
+direction over a long period of time, but the short paths and pivots are all connected, and can be combined and built upon.
 
 ---
 
 {{<figure src="/blog/images/visual_language/colors/monet.png" caption="Monet - Sunset in Venice">}}
-Monet's Sunset in Venice painting in my color scheme.
+Monet's Sunset in Venice painting in my color palette.
 
 ---
 
@@ -64,7 +65,7 @@ mode to indexed color with six colors.
 {{<figure src="/blog/images/visual_language/colors/sunset-in-venice-colors.png" caption="The six color conversion in Photoshop">}}
 
 I then opened the six-color image in *Illustrator,* and used the *Pen* tool to
-draw polygons with fills of colors from the theme on top of the image.
+draw polygons with fills of colors from the palette on top of the image.
 
 For **Cornucopia** I used processing to recursively draw ellipses that shrank as they drifted off the screen, giving the illusion of a horn.
 

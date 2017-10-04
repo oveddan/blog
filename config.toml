@@ -14,10 +14,15 @@ hasCJKLanguage = true
 
 [params]
 	name = "Dan Oved's Blog"
-	description = "Adventures through the virtual and physical world @ ITP"
-	bio = "Adventures through the virtual and physical world @ ITP"
+	description = "Connecting the digital with the analog world @ ITP"
+	bio = "Connecting the digital with the analog world @ ITP"
 	# Enter optionally your twitter account
 	enableRSS = false
+
+	# Disqus comment
+	disqusShortname = "danoved"
+	# Disable disqus comments by set `enableDisqus = "false"`
+	enableDisqus = true 
 
 	enableGithubIssuesTips = false
 
@@ -56,6 +61,6 @@ hasCJKLanguage = true
 # Add additional social link entries underneath
 [social]
 	#facebook-square = "https://www.facebook.com/DanOved"
-  instagram-square = "https://www.instagram.com/stangogh/"
+  instagram = "https://www.instagram.com/stangogh/"
   #twitter-square = "your_twitter_link"
   github-square = "https://github.com/oveddan"

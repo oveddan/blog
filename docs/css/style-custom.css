@@ -2,3 +2,43 @@ img {
   width: auto;
   border-radius: 0;
 }
+
+.split-image img {
+  display: inline;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+#post-list .featured {
+  max-height: 170px;
+  overflow-y: hidden;
+  margin-bottom: 10px;
+}
+
+#post-list a {
+  cursor: pointer;
+}
+
+#post-list li {
+  /* border-bottom: #E5E5E5 1px solid; */
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#post-list li+li {
+  padding: 0;
+}
+
+#post-list li .summary {
+  padding: 0px 0px 20px 0px;
+}
+
+figure {
+  margin-bottom: 20px;
+}
+
+#post-body p {
+  text-align: justify;
+}

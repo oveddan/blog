@@ -6,10 +6,82 @@
     <description>Recent content on Dan Oved&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Oct 2017 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 31 Oct 2017 22:55:41 -0400</lastBuildDate>
     
 	<atom:link href="https://oveddan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Final Project Proposal for Design for Digital Fabrication and Intro to Physical Computing - Presence</title>
+      <link>https://oveddan.github.io/blog/posts/presence/proposal/</link>
+      <pubDate>Tue, 31 Oct 2017 22:55:41 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/presence/proposal/</guid>
+      <description>The Presence Project - Proposal This is the proposal for the Presence Project, an art piece that is activated the longer and the more people gaze directly at it. It would encourage being present and engaged, and connect the fellow participants with each other over moments of mindfulness.
+We will use small cameras and computer vision to detect the quantify of people present and how many of them are gazing at a specific point, and reveal parts of the piece using motors and other physical controls.</description>
+    </item>
+    
+    <item>
+      <title>Weather Diorama</title>
+      <link>https://oveddan.github.io/blog/posts/physical_computing/weather-diorama/</link>
+      <pubDate>Sun, 29 Oct 2017 20:33:47 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/physical_computing/weather-diorama/</guid>
+      <description>Background / Motivation This was my teams&amp;rsquo; project for our Intro to Physical Computing midterm, where we were encouraged to use serial communication. Barak Chamo and Mai Arakida Izsak were the other team members, and contributed to this post.
+After seeing Barak create his initial Fuji Diorama:
+We thought it would be interesting to insert lights between the layers that could change the appearance of the scene depend on the time of day or weather.</description>
+    </item>
+    
+    <item>
+      <title>From Shader to Physical Animation - the Voronoi Cellular Zoetrope</title>
+      <link>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</link>
+      <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</guid>
+      <description>This is a continuation of Part 1 and Part 2 of the Zeotrope project.
+Motivation This was the final phase of our homework assignment for Design for Digital Fabrication which was to design something algorithmically and laser cut it. Now that the mechanics of the Zoetrope animation were proven out the previous week, it was time to generate something elaborate. I was particularly inspired by John Edmark&amp;rsquo;s animated bloom sculptures:   After seeing what he made, my goal was to create an animation that:</description>
+    </item>
+    
+    <item>
+      <title>Designing my Business Card</title>
+      <link>https://oveddan.github.io/blog/posts/visual_language/business-card/</link>
+      <pubDate>Wed, 18 Oct 2017 00:43:12 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/visual_language/business-card/</guid>
+      <description>For our final homework assignment in Visual Language, we were to design a logo and business card for ourselves.
+Earlier in the semseter, when I heard that this would be our final project, I was both excited and terrified. This proved to be very challenging in the end. When it finally came time to work on this, I found myself frequently criticizing my designs, starting over, and letting out a highly audible sigh that made those around me chuckle.</description>
+    </item>
+    
+    <item>
+      <title>Generating Zoetrope Animations</title>
+      <link>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</link>
+      <pubDate>Thu, 12 Oct 2017 13:25:28 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</guid>
+      <description>This is a continuation of Part 1 of the Zeotrope project for my Design for Digital Fabrication class. The final phase can be seen in Part 3
+The next step of the project was to prototype the mechanics of the animation. The main questions were:
+ How many frames of animation are optimal? What should the rotation speed be? At what rate should the lights flash?  The Rotation Mechanism - a Turntable There were many examples of Zoetropes on the web - the majority of them used a turntable to rotate the animation.</description>
+    </item>
+    
+    <item>
+      <title>Design for the ITP Winter Show 2017 Show Postcard</title>
+      <link>https://oveddan.github.io/blog/posts/visual_language/show-postcard/</link>
+      <pubDate>Wed, 11 Oct 2017 02:15:02 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/visual_language/show-postcard/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Zoetrope Light and Materials Exploration</title>
+      <link>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</link>
+      <pubDate>Fri, 06 Oct 2017 10:08:02 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</guid>
+      <description>See Part 2 and Part 3 of this project.
+ For our first project for Designing for Digital Fabrication, we are to create something using the laser cutter, with at least some of the geometry generated algebraically. We have two weeks to complete this.
+Inspiration I searched for inspirations for a project like this and ended up discovering the Zoetrope and being blown away by what people have done with it:</description>
+    </item>
     
     <item>
       <title>My Colors and Compositions</title>
@@ -17,9 +89,10 @@
       <pubDate>Wed, 04 Oct 2017 00:00:00 -0400</pubDate>
       
       <guid>https://oveddan.github.io/blog/posts/visual_language/my-colors/</guid>
-      <description>For this Visual Language homework assignment, I was tasked to pick a color scheme that represents me, and create six compositions using those colors.
-The Color Scheme I chose the theme inspired by Tame Impala &amp;lsquo;Currents&amp;rsquo; from The Day&amp;rsquo;s Color:
- The colors in this theme theme are both vibrant and diverse. To me, this represents how I&amp;rsquo;m always learning different things, and using them in innovative ways to create something exciting.</description>
+      <description>For this Visual Language homework assignment, I was tasked to pick a color palette that represents me, and create six compositions using those colors.
+The Color Palette I wanted a theme with red because this represents it represents love and life, and I believe in living a life doing what you love.
+I chose the color palette inspired by Tame Impala &amp;lsquo;Currents&amp;rsquo; from The Day&amp;rsquo;s Color:
+ These colors are both vibrant and diverse.</description>
     </item>
     
     <item>

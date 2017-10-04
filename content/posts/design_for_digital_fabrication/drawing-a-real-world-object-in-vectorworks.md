@@ -10,6 +10,7 @@ tags = [
   "Design"
 ]
 menu = "main"
+featuredImage= "/blog/images/digitalfab/vectorworks_led_featured.png"
 +++
 
 Our first homework assignment for Daniel Rozin's *Designing for Digital Fabrication* class was to draw three 2d perspectives of a real world object in Vectorworks.

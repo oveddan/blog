@@ -1,0 +1,435 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dan Oved&#39;s Blog">
+    <meta name="description" content="Connecting the digital with the analog world @ ITP">
+    <meta property="og:title" content="Weather Diorama  - Dan Oved's blog" />
+    <meta property="og:description" content="How we built a diorama based on Japanese art that has lights which change the appearance of the scene depend on the time of day or weather." />
+    
+      
+        <meta property="og:image" content="https://oveddan.github.io/blog/images/pcomp/diorama/sunset.jpg" />
+      
+    
+    
+
+    
+      <meta property="og:updated_time" content="2017-10-29T20:33:47-04:00"/>
+    
+    <meta name="generator" content="Hugo 0.25.1" />
+    <title>Weather Diorama &middot; Dan Oved&#39;s blog</title>
+    <link rel="shortcut icon" href="https://oveddan.github.io/blog/images/favicon.ico">
+    <link rel="stylesheet" href="https://oveddan.github.io/blog/css/style.css">
+    <link rel="stylesheet" href="https://oveddan.github.io/blog/css/highlight.css">
+    
+    <link rel="stylesheet" href="https://oveddan.github.io/blog//css/style-custom.css">
+    
+
+    
+    <link rel="stylesheet" href="https://oveddan.github.io/blog/css/font-awesome.min.css">
+    
+
+    
+  </head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://oveddan.github.io/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://oveddan.github.io/blog/posts'>Archive</a>
+	<a href='https://oveddan.github.io/blog/tags'>Tags</a>
+	<a href='https://oveddan.github.io/blog/about'>About</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        Weather Diorama
+                    </h1>
+                    <h2 class="headline">
+                    Oct 29, 2017 20:33
+                    · 437 words
+                    · 3 minutes read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://oveddan.github.io/blog/tags/physical-computing">Physical Computing</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<p><img src="/blog/images/pcomp/diorama/transitions.gif" /></p>
+
+<h1 id="background-motivation">Background / Motivation</h1>
+
+<p>This was my teams&rsquo; project for our Intro to Physical Computing midterm, where we were encouraged to use serial communication.  <a href="http://www.barakchamo.com/">Barak Chamo</a> and <a href="http://www.maispace.space/">Mai Arakida Izsak</a> were the other team members, and contributed to this post.</p>
+
+<p>After seeing Barak create his initial <a href="http://www.barakchamo.com/the-low-poly-bonzai-mixed-material-fabrication/">Fuji Diorama</a>:</p>
+
+<p><img src="/blog/images/pcomp/diorama/barak_diorama.jpg" /></p>
+
+<p>We thought it would be interesting to insert lights between the layers that could change the appearance of the scene depend on the time of day or weather.
+We had the idea to connect it to an api through a serial connection that would provide the current weather for the location the scene was taken, and we&rsquo;d make the lights in the scene reflect the weather and time of day of the real location.  This would provide a deeper connection to the real location for the observer.</p>
+
+<p>For this project chose to convert Meditating Samurai, by Bacht:</p>
+
+
+<figure >
+    <a href="https://society6.com/product/meditating-samurai_stretched-canvas">
+        <img src="/blog/images/pcomp/diorama/meditating-samurai-canvas.jpg" alt="Meditating Samurai by Bacht" />
+    </a>
+    
+    <figcaption>
+        <p>
+        Meditating Samurai by Bacht
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>We figured this diorama would be ideal because:</p>
+
+<ul>
+<li>It would be easy to trace vectors for laser cutting the layers.</li>
+<li>We could insert addressable leds between the layers and alter each layers colors independently.</li>
+<li>We could make the sun also behave as a moon by backlighting it and altering its color.</li>
+</ul>
+
+<h1 id="fabrication">Fabrication</h1>
+
+<p>We cut these layers both on white paper and on colored paper, to see how the scene would look under different lighting:</p>
+
+<p>
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/white_papers_2.jpg" alt="White papers with sunrise colors" />
+    
+    
+    <figcaption>
+        <p>
+        White papers with sunrise colors
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/white_papers_sunset.jpg" alt="White papers with sunset colors" />
+    
+    
+    <figcaption>
+        <p>
+        White papers with sunset colors
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/colored_papers.jpg" alt="Colored papers with daytime colors" />
+    
+    
+    <figcaption>
+        <p>
+        Colored papers with daytime colors
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+</p>
+
+<p>We decided to go with colored papers because they would more closely resemble the original.  We put 5 strips of 10 <em>WS2812</em> leds each between each layer.</p>
+
+<p>
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/barak_mai_building.jpg" alt="Barak and Mai wiring up the layers" />
+    
+    
+    <figcaption>
+        <p>
+        Barak and Mai wiring up the layers
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/built_2.jpg" alt="The layers" />
+    
+    
+    <figcaption>
+        <p>
+        The layers
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/do_testing.jpg" alt="Me (Dan) testing out the buttons" />
+    
+    
+    <figcaption>
+        <p>
+        Me (Dan) testing out the buttons
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/built.jpg" alt="With leds connected and turned on" />
+    
+    
+    <figcaption>
+        <p>
+        With leds connected and turned on
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+</p>
+
+<p>We used a single <em>WS2812</em> neopixel to represent the sun, and diffused it with some frosted paper.</p>
+
+<p>
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/built_with_sunset.jpg" alt="Sunset" />
+    
+    
+    <figcaption>
+        <p>
+        Sunset
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/daytime.jpg" alt="Middday with clear skies" />
+    
+    
+    <figcaption>
+        <p>
+        Middday with clear skies
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/sunrise.jpg" alt="Sunrise" />
+    
+    
+    <figcaption>
+        <p>
+        Sunrise
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/sunset_2.jpg" alt="Sunset" />
+    
+    
+    <figcaption>
+        <p>
+        Sunset
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/blog/images/pcomp/diorama/night_2.jpg" alt="Nighttime" />
+    
+    
+    <figcaption>
+        <p>
+        Nighttime
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+</p>
+
+<h1 id="the-hardware-and-code">The Hardware and Code</h1>
+
+<p>The system was built using Arduino, WS2812 addressable leds, and a lightweight node.js app that would fetch the weather via an api and provide it via serial to the Arduino.
+We created a simple physical computing interface with three buttons that would:</p>
+
+<ul>
+<li>toggle the time of the day (sunrise, midday, sunset, nighttime)</li>
+<li>change weather (clear skies, cloudy, rain)</li>
+<li>request the current weather and time of day at Mt Fuji via serial communication</li>
+</ul>
+
+<p><strong><a href="https://gist.github.com/oveddan/4fddf79bc2a030d2bfaeab27a04242e8">See the gist for The Arduino and Node.js code here.</a></strong></p>
+
+<p>When transitioning between conditions, the colors would fade to the new colors.  This was done using the FastLED library&rsquo;s <code>blend</code> function to lerp between colors.
+At nighttime, the sky would simulate stars sparkling by animating them to white or dark blue.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//player.vimeo.com/video/240558802" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'danoved'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/oveddan">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.instagram.com/stangogh/">
+        <i class="fa fa-instagram"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2017 <i class="fa fa-heart" aria-hidden="true"></i> Dan Oved&#39;s Blog
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://oveddan.github.io/blog/js/jquery-2.2.4.min.js"></script>
+<script src="https://oveddan.github.io/blog/js/main.js"></script>
+<script src="https://oveddan.github.io/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-106896744-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
