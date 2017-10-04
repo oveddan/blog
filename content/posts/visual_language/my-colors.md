@@ -1,5 +1,5 @@
 +++
-title= "Visual Language - My Colors"
+title= "My Colors and Compositions"
 description= "Picking a color scheme that represents me and creating six compositions using it"
 date= 2017-10-04
 tags = ["Visual Language"]
