@@ -15,9 +15,9 @@ I chose the theme inspired by *Tame Impala 'Currents'* from [The Day's Color](ht
 
 {{<figure src="/blog/images/visual_language/colors/colortheme.png">}}
 
-This colors in this theme theme are both vibrant and diverse.  To me, this represents how I'm always learning
+The colors in this theme theme are both vibrant and diverse.  To me, this represents how I'm always learning
 different things, and using them in innovative ways to create something exciting.  The red in this theme
-matches the color of my favorite pieces of clothing.
+matches the color of one of my favorite pieces of clothing.
 
 # The Compositions
 
