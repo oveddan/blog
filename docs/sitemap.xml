@@ -104,13 +104,13 @@
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/tags/physical-computing/</loc>
+    <loc>https://oveddan.github.io/blog/categories/physical-computing/</loc>
     <lastmod>2017-09-26T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/categories/physical-computing/</loc>
+    <loc>https://oveddan.github.io/blog/tags/physical-computing/</loc>
     <lastmod>2017-09-26T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -122,25 +122,25 @@
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/tags/thoughts/</loc>
-    <lastmod>2017-09-01T00:00:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://oveddan.github.io/blog/categories/thoughts/</loc>
     <lastmod>2017-09-01T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/tags/visual-language/</loc>
-    <lastmod>2017-10-04T00:00:00-04:00</lastmod>
+    <loc>https://oveddan.github.io/blog/tags/thoughts/</loc>
+    <lastmod>2017-09-01T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/categories/visual-language/</loc>
+    <lastmod>2017-10-04T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/tags/visual-language/</loc>
     <lastmod>2017-10-04T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
