@@ -6,8 +6,8 @@ tags = ["Visual Language"]
 categories = ["Visual Language"]
 +++
 
-For this homework assignment, we were tasked to pick a color scheme that represents us,
-and create six compositions using that scheme.
+For this homework assignment, I was tasked to pick a color scheme that represents me,
+and create six compositions using those colors.
 
 # The Color Scheme
 
