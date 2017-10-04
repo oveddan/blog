@@ -55,8 +55,6 @@ The present is what matters.
 These were all made using *Adobe Illustrator,* with the exception of *Cornucopia,* which
 was made with *Processing.*  *Adobe Photoshop* was used for some pre-processing of images.
 
-I created an illustrator file with six artboards.
-
 For **Breadth,** I used the *Pathfinder Divide* tool to have the rotated rectangle cut the pieces it overlaps 
 and to color those pieces a different color.
 
