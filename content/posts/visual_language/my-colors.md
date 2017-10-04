@@ -33,7 +33,7 @@ Monet's Sunset in Venice painting in my color scheme.
 ---
 
 {{<figure src="/blog/images/visual_language/colors/cornucopia.png" caption="Cornucopia">}}
-Technology provides an infinite supply of possibilities
+Technology provides an infinite supply of possibilities.
 
 ---
 
