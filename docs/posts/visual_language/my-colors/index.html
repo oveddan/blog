@@ -46,8 +46,8 @@
                     </h1>
                     <h2 class="headline">
                     Oct 4, 2017 00:00
-                    · 71 words
-                    · 1 minute read
+                    · 515 words
+                    · 3 minutes read
                       <span class="tags">
                       
                       
@@ -70,7 +70,7 @@ and create six compositions using those colors.</p>
 
 <p>I chose the theme inspired by <em>Tame Impala &lsquo;Currents&rsquo;</em> from <a href="http://thedayscolor.com/">The Day&rsquo;s Color</a>:</p>
 
-<p>
+
 <figure >
     
         <img src="/blog/images/visual_language/colors/colortheme.png" />
@@ -78,12 +78,12 @@ and create six compositions using those colors.</p>
     
 </figure>
 
-<br/></p>
+
+<p>This colors in this theme theme are both vibrant and diverse.  To me, this represents how I&rsquo;m always learning
+different things, and using them in innovative ways to create something exciting.  The red in this theme
+matches the color of my favorite pieces of clothing.</p>
 
 <h1 id="the-compositions">The Compositions</h1>
-
-<p>These were all made using Adobe Illustrator, with the exception of <em>Cornucopia,</em> which
-was made with Processing.</p>
 
 <p>
 <figure >
@@ -102,6 +102,8 @@ was made with Processing.</p>
     
 </figure>
 
+Each leaf of this tree represents somethign I&rsquo;ve discovered and pursued.  My path has not gone in a particular
+direction, but everything I&rsquo;ve learned is connected, and can be combined and built upon.
 <br/></p>
 
 <p>
@@ -121,6 +123,7 @@ was made with Processing.</p>
     
 </figure>
 
+Monet&rsquo;s Sunset in Venice painting in my color scheme.
 <br/></p>
 
 <p>
@@ -140,6 +143,7 @@ was made with Processing.</p>
     
 </figure>
 
+Technology provides an infinite supply of possibilities
 <br/></p>
 
 <p>
@@ -159,6 +163,7 @@ was made with Processing.</p>
     
 </figure>
 
+A vector version of an LED clock I build with a friend.
 <br/></p>
 
 <p>
@@ -178,17 +183,18 @@ was made with Processing.</p>
     
 </figure>
 
+My eyes and glasses on Harvey, the best cat ever.
 <br/></p>
 
-
+<p>
 <figure >
     
-        <img src="/blog/images/visual_language/colors/pathways.png" alt="Pathways" />
+        <img src="/blog/images/visual_language/colors/pathways.png" alt="Now" />
     
     
     <figcaption>
         <p>
-        Pathways
+        Now
         
             
         
@@ -197,6 +203,94 @@ was made with Processing.</p>
     
 </figure>
 
+The present is what matters.
+<br/></p>
+
+<h1 id="the-technique">The technique</h1>
+
+<p>These were all made using <em>Adobe Illustrator,</em> with the exception of <em>Cornucopia,</em> which
+was made with <em>Processing.</em>  <em>Adobe Photoshop</em> was used for some pre-processing of images.</p>
+
+<p>I created an illustrator file with six artboards.</p>
+
+<p>For <strong>Breadth,</strong> I used the <em>Pathfinder Divide</em> tool to have the rotated rectangle cut the pieces it overlaps
+and to color those pieces a different color.</p>
+
+<p>For <strong>Monet - Sunset in Venice</strong> I opened an image with the original painting in <em>Photoshop,</em> then set the image
+mode to indexed color with six colors.</p>
+
+
+<figure >
+    
+        <img src="/blog/images/visual_language/colors/sunset-in-venice-colors.png" alt="The six color conversion in Photoshop" />
+    
+    
+    <figcaption>
+        <p>
+        The six color conversion in Photoshop
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>I then opened the six-color image in <em>Illustrator,</em> and used the <em>Pen</em> tool to
+draw polygons with fills of colors from the theme on top of the image.</p>
+
+<p>For <strong>Cornucopia</strong> I used processing to recursively draw ellipses that shrank as they drifted off the screen, giving the illusion of a horn.</p>
+
+<p>The code:</p>
+
+<pre><code class="language-Java">int screenHeight = 1024;
+int screenWidth =1024;
+int margin = 10;
+
+color bg1 = color(9, 9, 22);
+color[] colors = { color(213, 68, 68), color(216, 116, 162), color(151, 131, 183) };
+
+int maxDepth = 100;
+
+void setup() {
+ size(1024, 1024);
+ background(bg1);
+}
+
+float firstCircleSize = screenHeight * 0.8;
+
+void draw() { 
+  stroke(0, 0);
+  float circleHeight = firstCircleSize * 1.1;
+  drawCircle(firstCircleSize / 2 + margin, margin + circleHeight / 2, firstCircleSize, circleHeight, 0);
+}
+
+void drawCircle(float x, float y, float width, float height, int depth) {
+  if (depth &gt;= maxDepth) return;
+  fill(colors[depth % colors.length]);
+  ellipse(x, y, width, height);
+
+  drawCircle(pow(x, 1.002), pow(y, 1.002), width * 0.95, height * (0.96), depth + 1);    
+}
+</code></pre>
+
+<p>For <strong>Solar Flare</strong> I drew a shape using the <em>Curvature</em> tool, and like in <em>Breadth</em> used the <em>Pathfinder Divide</em> tool to have it cut the arms of the flare
+and color the cut pieces.</p>
+
+<p>For <strong>Harvey Dan</strong> I took a picture of Harvey, my brother&rsquo;s cat, and put my eyes and glasses on it using <em>Photoshop.</em><br />
+
+<figure >
+    
+        <img src="/blog/images/visual_language/colors/DanHarvsSource.png" />
+    
+    
+</figure>
+</p>
+
+<p>I then exported this into <em>Illustrator</em> and used the <em>Curvature</em> tool to draw shapes over this image.</p>
+
+<p><strong>Now</strong> was created quickly in <em>Illustrator</em> using squares.</p>
 
                 </section>
             </article>
