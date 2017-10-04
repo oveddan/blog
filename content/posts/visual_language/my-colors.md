@@ -6,7 +6,7 @@ tags = ["Visual Language"]
 categories = ["Visual Language"]
 +++
 
-For this homework assignment, I was tasked to pick a color scheme that represents me,
+For this Visual Language [homework assignment](https://itp.nyu.edu/~kd49/design/?page_id=1256), I was tasked to pick a color scheme that represents me,
 and create six compositions using those colors.
 
 # The Color Scheme
@@ -21,25 +21,19 @@ I chose the theme inspired by *Tame Impala 'Currents'* from [The Day's Color](ht
 These were all made using Adobe Illustrator, with the exception of *Cornucopia,* which
 was made with Processing.
 
-### Breadth
-{{<figure src="/blog/images/visual_language/colors/breadth.png">}}
+{{<figure src="/blog/images/visual_language/colors/breadth.png" caption="Breadth">}}
 <br/>
 
-### Monet - Sunset in Venice
-{{<figure src="/blog/images/visual_language/colors/monet.png">}}
+{{<figure src="/blog/images/visual_language/colors/monet.png" caption="Monet - Sunset in Venice">}}
 <br/>
 
-### Cornucopia
-{{<figure src="/blog/images/visual_language/colors/cornucopia.png">}}
+{{<figure src="/blog/images/visual_language/colors/cornucopia.png" caption="Cornucopia">}}
 <br/>
 
-### Solar Clock 
-{{<figure src="/blog/images/visual_language/colors/solarclock.png">}}
+{{<figure src="/blog/images/visual_language/colors/solarclock.png" caption="Solar Flare">}}
 <br/>
 
-### Harvey Dan
-{{<figure src="/blog/images/visual_language/colors/danharvs.png">}}
+{{<figure src="/blog/images/visual_language/colors/danharvs.png" caption="Harvey Dan">}}
 <br/>
 
-### Pathways
-{{<figure src="/blog/images/visual_language/colors/pathways.png">}}
+{{<figure src="/blog/images/visual_language/colors/pathways.png" caption="Pathways">}}
