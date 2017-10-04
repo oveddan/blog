@@ -24,27 +24,31 @@ matches the color of my favorite pieces of clothing.
 {{<figure src="/blog/images/visual_language/colors/breadth.png" caption="Breadth">}}
 Each leaf of this tree represents somethign I've discovered and pursued.  My path has not gone in a particular
 direction, but everything I've learned is connected, and can be combined and built upon.
-<br/>
+
+---
 
 {{<figure src="/blog/images/visual_language/colors/monet.png" caption="Monet - Sunset in Venice">}}
 Monet's Sunset in Venice painting in my color scheme.
-<br/>
+
+---
 
 {{<figure src="/blog/images/visual_language/colors/cornucopia.png" caption="Cornucopia">}}
 Technology provides an infinite supply of possibilities
-<br/>
+
+---
 
 {{<figure src="/blog/images/visual_language/colors/solarclock.png" caption="Solar Flare">}}
 A vector version of an LED clock I build with a friend.
-<br/>
+
+---
 
 {{<figure src="/blog/images/visual_language/colors/danharvs.png" caption="Harvey Dan">}}
 My eyes and glasses on Harvey, the best cat ever.
-<br/>
+
+---
 
 {{<figure src="/blog/images/visual_language/colors/pathways.png" caption="Now">}}
 The present is what matters.
-<br/>
 
 # The technique
 
