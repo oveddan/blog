@@ -109,19 +109,6 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/tags/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oveddan.github.io/blog/categories/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oveddan.github.io/blog/tags/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
   </url>
   
   <url>
@@ -144,7 +131,7 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/categories/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
+    <lastmod>2017-09-21T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -241,6 +228,18 @@
   <url>
     <loc>https://oveddan.github.io/blog/categories/thoughts/</loc>
     <lastmod>2017-09-01T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/tags/tmp/</loc>
+    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/categories/tmp/</loc>
+    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   

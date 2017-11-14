@@ -27,7 +27,7 @@
       
       <guid>https://oveddan.github.io/blog/posts/gaze/predicting-gaze-with-the-model/</guid>
       <description>View the ipython notebook with the code here
-My next goal was to try to get eye gaze prediction working using the Eye Tracking for Everyone model. I wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU. The ultimate deployment would be on the NVidia Jetson TX2, a single-board computer with a powerful GPU and support for six camera inputs.</description>
+My next goal for The Gaze Project was to try to get eye gaze prediction working using the Eye Tracking for Everyone model. I wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU. The ultimate deployment would be on the NVidia Jetson TX2, a single-board computer with a powerful GPU and support for six camera inputs.</description>
     </item>
     
     <item>

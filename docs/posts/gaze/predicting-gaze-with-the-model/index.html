@@ -58,7 +58,7 @@
                     </h1>
                     <h2 class="headline">
                     Nov 13, 2017 22:21
-                    · 720 words
+                    · 724 words
                     · 4 minutes read
                       <span class="tags">
                       
@@ -83,7 +83,7 @@
 
 <p><strong><a href="https://github.com/oveddan/gaze/blob/712d776af2cdd69f51c8dc8fd7893d6a0c4ba434/notebooks/Predicting%20Gaze%20with%20Eye%20Tracking%20for%20Everyone.ipynb">View the ipython notebook with the code here</a></strong></p>
 
-<p>My next goal was to try to get eye gaze prediction working using the <a href="http://gazecapture.csail.mit.edu/index.php">Eye Tracking for Everyone</a> model.  I  wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU.  The ultimate deployment would be on the <a href="http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html">NVidia Jetson TX2</a>, a single-board computer with a powerful GPU and support for six camera inputs.</p>
+<p>My next goal for <a href="/blog/tags/the-gaze-project">The Gaze Project</a> was to try to get eye gaze prediction working using the <a href="http://gazecapture.csail.mit.edu/index.php">Eye Tracking for Everyone</a> model.  I  wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU.  The ultimate deployment would be on the <a href="http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html">NVidia Jetson TX2</a>, a single-board computer with a powerful GPU and support for six camera inputs.</p>
 
 <p>For the neural network framework I stuck with caffe since that&rsquo;s what the model is published in.   I struggled for days but finally setup Ubuntu with caffe and cuda on my macbook pro, which has a basic <em>NVIDIA GeForce GT 650M</em> graphics card.</p>
 
@@ -118,7 +118,7 @@
 <p>
 <figure >
     
-        <img src="/blog/images/gaze/testing_model/gaze_with_good_result_2.png" />
+        <img src="/blog/images/gaze/testing_model/gaze_with_good_result_2.jpg" />
     
     
 </figure>
@@ -126,7 +126,7 @@
 
 <figure >
     
-        <img src="/blog/images/gaze/testing_model/looking_down.png" />
+        <img src="/blog/images/gaze/testing_model/looking_down.jpg" />
     
     
 </figure>
@@ -134,7 +134,7 @@
 
 <figure >
     
-        <img src="/blog/images/gaze/testing_model/gaze_with_two_people.png" alt="Multiple people and gazes" />
+        <img src="/blog/images/gaze/testing_model/gaze_with_two_people.jpg" alt="Multiple people and gazes" />
     
     
     <figcaption>
@@ -151,7 +151,7 @@
 
 <figure >
     
-        <img src="/blog/images/gaze/testing_model/gaze_with_good_result_3.png" />
+        <img src="/blog/images/gaze/testing_model/gaze_with_good_result_3.jpg" />
     
     
 </figure>
@@ -159,7 +159,7 @@
 
 <figure >
     
-        <img src="/blog/images/gaze/testing_model/looking_at_camera.png" alt="I told him to look at the camera when taking this." />
+        <img src="/blog/images/gaze/testing_model/looking_at_camera.jpg" alt="I told him to look at the camera when taking this." />
     
     
     <figcaption>
@@ -177,7 +177,7 @@
 
 <figure >
     
-        <img src="/blog/images/gaze/testing_model/gaze_with_bad_result.png" alt="A bad prediction" />
+        <img src="/blog/images/gaze/testing_model/gaze_with_bad_result.jpg" alt="A bad prediction" />
     
     
     <figcaption>

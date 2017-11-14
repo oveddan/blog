@@ -10,7 +10,7 @@ draft: false
 
 **[View the ipython notebook with the code here](https://github.com/oveddan/gaze/blob/712d776af2cdd69f51c8dc8fd7893d6a0c4ba434/notebooks/Predicting%20Gaze%20with%20Eye%20Tracking%20for%20Everyone.ipynb)**
 
-My next goal was to try to get eye gaze prediction working using the [Eye Tracking for Everyone] (http://gazecapture.csail.mit.edu/index.php) model.  I  wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU.  The ultimate deployment would be on the [NVidia Jetson TX2](http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html), a single-board computer with a powerful GPU and support for six camera inputs.
+My next goal for [The Gaze Project](/blog/tags/the-gaze-project) was to try to get eye gaze prediction working using the [Eye Tracking for Everyone] (http://gazecapture.csail.mit.edu/index.php) model.  I  wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU.  The ultimate deployment would be on the [NVidia Jetson TX2](http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html), a single-board computer with a powerful GPU and support for six camera inputs.
 
 For the neural network framework I stuck with caffe since that's what the model is published in.   I struggled for days but finally setup Ubuntu with caffe and cuda on my macbook pro, which has a basic *NVIDIA GeForce GT 650M* graphics card.
 
@@ -26,13 +26,13 @@ For all pictures tested I used the selfie camera in portrait mode on an IPhone 8
 
 **For each picture the blue dot is where the camera was, and the red dot is where the gaze was predicted to be.** The blue and green square are where the faces and eyes are detected with open cv correspondingly.
 
-{{<figure src="/blog/images/gaze/testing_model/gaze_with_good_result_2.png">}}
-{{<figure src="/blog/images/gaze/testing_model/looking_down.png">}}
-{{<figure src="/blog/images/gaze/testing_model/gaze_with_two_people.png" caption="Multiple people and gazes">}}
-{{<figure src="/blog/images/gaze/testing_model/gaze_with_good_result_3.png">}}
-{{<figure src="/blog/images/gaze/testing_model/looking_at_camera.png" caption="I told him to look at the camera when taking this.">}}
+{{<figure src="/blog/images/gaze/testing_model/gaze_with_good_result_2.jpg">}}
+{{<figure src="/blog/images/gaze/testing_model/looking_down.jpg">}}
+{{<figure src="/blog/images/gaze/testing_model/gaze_with_two_people.jpg" caption="Multiple people and gazes">}}
+{{<figure src="/blog/images/gaze/testing_model/gaze_with_good_result_3.jpg">}}
+{{<figure src="/blog/images/gaze/testing_model/looking_at_camera.jpg" caption="I told him to look at the camera when taking this.">}}
 
-{{<figure src="/blog/images/gaze/testing_model/gaze_with_bad_result.png" caption="A bad prediction">}}
+{{<figure src="/blog/images/gaze/testing_model/gaze_with_bad_result.jpg" caption="A bad prediction">}}
 
 # Performance
 
