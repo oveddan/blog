@@ -31,6 +31,20 @@ figcaption {
   padding: 0;
 }
 
+#post-list h2 {
+  color: #333;
+  display: block;
+  font: bold 19px/1.7 "Helvetica Neue", helvetica, Arial, sans-serif;
+}
+
+#post-list .post-description {
+  font: normal 17px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #aaa;
+  max-width: none;
+  text-align: justify;
+  margin-top: 2px;
+}
+
 #post-list li .summary {
   padding: 0px 0px 20px 0px;
 }
