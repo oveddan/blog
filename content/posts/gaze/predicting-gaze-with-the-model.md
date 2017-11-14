@@ -1,5 +1,5 @@
 ---
-title: 'Predicting Gaze in Python with the Eye Tracking for Everyone Model'
+title: 'Predicting Gaze in Python with the Eye Tracking for Everyone Neural Network'
 date: 2017-11-13T22:21:18-05:00
 tags: ["The Gaze Project", "Digital Fabrication", "Physical Computing", "Usability Testing"]
 categories: ["Digital Fabrication", "Physical Computing"]
