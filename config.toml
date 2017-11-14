@@ -3,7 +3,7 @@ baseurl = "https://oveddan.github.io/blog/"
 publishDir = "docs"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
-title = "Dan Oved's blog"
+title = "Dan Oved's Blog"
 theme = "cactus-plus"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-106896744-1"
