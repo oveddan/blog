@@ -1,0 +1,14 @@
+<li>
+    {{ if .Params.featuredImage }}
+      <div class='featured'>
+        <a href='{{ .Permalink }}'><img src="{{.Params.featuredImage}}"></a>
+      </div>
+    {{ end }}
+    <div class='summary'>
+      <a href='{{ .Permalink }}'><aside class="dates">{{ .Date.Format "Jan 2" }}</aside></a>
+      <a href='{{ .Permalink }}'>
+          {{ .Title }} <h2>{{ .Description | markdownify }}</h2>
+      </a>
+    </div>
+</li>
+

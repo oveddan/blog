@@ -4,20 +4,22 @@
 	{{ partial "profile.html" . }}
 
 	<section id="wrapper" class="home">
-		<div class="archive">
-      {{ if eq .Page.Kind "taxonomy" }}
-  			<h3>Posts for {{ .Page.Title }}</h3>
-      {{ else }}
+		<div class="archive" id="post-list">
+      {{ if ne .Page.Kind "taxonomy" }}
   			<h3>{{ .Page.Title }}</h3>
       {{ end }}
 			<ul>
 					{{ range .Pages }}
-					<div class="post-item">
-						<div class="post-time">{{ .Date.Format "Jan 2" }}</div>
-						<a href="{{ .Permalink }}" class="post-link">
-							{{ .Title }}
-						</a>
-					</div>
+            {{ if eq $.Page.Kind "taxonomy" }}
+              {{ partial "post-summary.html" . }}
+            {{ else }}
+              <div class="post-item">
+                <div class="post-time">{{ .Date.Format "Jan 2" }}</div>
+                <a href="{{ .Permalink }}" class="post-link">
+                  {{ .Title }}
+                </a>
+              </div>
+            {{ end }}
 					{{ end }}
 			</ul>
 		</div>
