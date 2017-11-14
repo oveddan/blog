@@ -7,7 +7,7 @@ description: "Findings from testing the assumptions and user experience."
 draft: false
 ---
 
-**[View the ipython notebook with the code here](https://github.com/oveddan/gaze/blob/2c4ad08e8ba75f9a61f9448d3a25aaf5783a6e98/notebooks/Predicting%20Gaze%20with%20Gaze%20Capture%20for%20Everyone.ipynb)**
+**[View the ipython notebook with the code here](https://github.com/oveddan/gaze/blob/712d776af2cdd69f51c8dc8fd7893d6a0c4ba434/notebooks/Predicting%20Gaze%20with%20Eye%20Tracking%20for%20Everyone.ipynb)**
 
 My next goal was to try to get eye gaze prediction working using the [Eye Tracking for Everyone] (http://gazecapture.csail.mit.edu/index.php) model.  I  wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU.  The ultimate deployment would be on the [NVidia Jetson TX2](http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html), a single-board computer with a powerful GPU and support for six camera inputs.
 
@@ -48,7 +48,7 @@ Also, in the research paper they say they were able to compress the model and ru
 
 # Conclusion & Next Work
 
-I'm thrilled with this experiment as for the most part the results came out pretty accurate, and I'm more confident now this can be used to predict gaze for the installation.    
+I'm thrilled with this experiment as for the most part the results came out pretty accurate, and I'm more confident now this can be used to predict gaze for the installation.     The neural network outputs the x and y distance from the camera in centimeters, which is easily usable for a physical installation where we know how far everything is from the camera.
 
 I need to test how well this would work when gazing at a bigger space than just the area round the screen.  This accuracy will determine how large
 the final installation will be, as if there is a high error rate when gazing far away from the camera, then the experience will suffer at those

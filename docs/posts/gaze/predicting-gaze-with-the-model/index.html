@@ -54,7 +54,7 @@
                     </h1>
                     <h2 class="headline">
                     Nov 13, 2017 22:21
-                    · 688 words
+                    · 720 words
                     · 4 minutes read
                       <span class="tags">
                       
@@ -77,7 +77,7 @@
                 <section id="post-body">
                     
 
-<p><strong><a href="https://github.com/oveddan/gaze/blob/2c4ad08e8ba75f9a61f9448d3a25aaf5783a6e98/notebooks/Predicting%20Gaze%20with%20Gaze%20Capture%20for%20Everyone.ipynb">View the ipython notebook with the code here</a></strong></p>
+<p><strong><a href="https://github.com/oveddan/gaze/blob/712d776af2cdd69f51c8dc8fd7893d6a0c4ba434/notebooks/Predicting%20Gaze%20with%20Eye%20Tracking%20for%20Everyone.ipynb">View the ipython notebook with the code here</a></strong></p>
 
 <p>My next goal was to try to get eye gaze prediction working using the <a href="http://gazecapture.csail.mit.edu/index.php">Eye Tracking for Everyone</a> model.  I  wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU.  The ultimate deployment would be on the <a href="http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html">NVidia Jetson TX2</a>, a single-board computer with a powerful GPU and support for six camera inputs.</p>
 
@@ -203,7 +203,7 @@ that step around 100 ms.  The bottleneck ended up being the opencv detection par
 
 <h1 id="conclusion-next-work">Conclusion &amp; Next Work</h1>
 
-<p>I&rsquo;m thrilled with this experiment as for the most part the results came out pretty accurate, and I&rsquo;m more confident now this can be used to predict gaze for the installation.</p>
+<p>I&rsquo;m thrilled with this experiment as for the most part the results came out pretty accurate, and I&rsquo;m more confident now this can be used to predict gaze for the installation.     The neural network outputs the x and y distance from the camera in centimeters, which is easily usable for a physical installation where we know how far everything is from the camera.</p>
 
 <p>I need to test how well this would work when gazing at a bigger space than just the area round the screen.  This accuracy will determine how large
 the final installation will be, as if there is a high error rate when gazing far away from the camera, then the experience will suffer at those
