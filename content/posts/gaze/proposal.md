@@ -1,9 +1,9 @@
 ---
 title: 'The Gaze Project - Proposal'
 date: 2017-10-31T22:55:41-04:00
-tags: ["Gaze Project", "Digital Fabrication", "Physical Computing", "Computer Vision"]
+tags: ["The Gaze Project", "Digital Fabrication", "Physical Computing", "Computer Vision"]
 categories: ["Digital Fabrication", "Physical Computing"]
-description:  "Proposal for an art installation that is activated the longer and the more people gaze directly at it.  It would encourage being present and engaged, and connect the fellow participants with each other over moments of mindfulness.  This will be my final project for Intro to Physical Computing and Design for Digital Fabrication."
+description:  "The proposal for an art installation that is activated the longer and the more people gaze directly at it.  It would encourage being present and engaged, and connect the fellow participants with each other over moments of mindfulness.  This will be my final project for Intro to Physical Computing and Design for Digital Fabrication."
 draft: false
 ---
 
@@ -21,7 +21,6 @@ the least bit by push notifications and rapid-fire content consumption.  I also 
 It would be interesting to challenge the user to remain in front of a piece and be present with it.
 
 ## Eye Tracking
-
 Much of the implementation will be based on incredible research from 2016 called [Eye Tracking for Everyone](http://gazecapture.csail.mit.edu/) by Kyle Krafk, A. Khosla, et. al at MIT and Univerity of Georgia,
 where they were able to train a convolutional neural network to detect where a user is gazing on an IPhone or tablet using just the stock camera with 1.71 cm accuracy.  They were able to compress the
 network to run in real-time (10-15fps) on a mobile device.

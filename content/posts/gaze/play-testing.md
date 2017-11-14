@@ -12,7 +12,6 @@ For Intro to Physical Computing this week, we were to play test our final projec
 For the Gaze Project, I set up the following for the test:
 
 ## Assumptions
-
 * Initially - people will try to follow the animation with their eyes,  but they will notice that doing that causes it to go away. They will eventually learn to focus on one point and see the animation grow with their peripherals.
 * The visuals will be engaging enough to keep them looking at the same point over an extended period of time.
 * The animations do not distract to the point of losing focus - in fact they encourage the meditative state.
@@ -23,7 +22,6 @@ Look at this sketch, and see if you notice anything.  The goal here was to see i
 with the installation without any instruction.
 
 ## Questions for the User
-
 * Which animation did you prefer? Why?
 * How did the experience make you feel?
 * How long is an ideal experience?
@@ -31,16 +29,14 @@ with the installation without any instruction.
 * Tell us about your mindfullness practice, and if you felt any of that while gazing.
 
 ## Experiment Setup
-
 I created a sketch in Processing that simulated a few of the animations.  It rendered the physical
 animation as graphics, so that we could easily prototype different visuals.  We has the user look at this on a wide screen monitor.
 To simulate it reacting to their gaze, we observed their eyes, and physically controlled a potentiometer that would send the faked gaze x coordinate to the processing sketch over serial.
 
 ## Results
-
 We tested it without about 7 classmates, and recorded our conversations on index cards:
 
-<img src="/blog/images/play_testing/indexcards.jpg"/>
+<img src="/blog/images/gaze/play_testing/indexcards.jpg"/>
 
 Unfortunately I can't seem to find the rest of the index cards.  A lot of this is from memory, and likely some of the things said are attributed to the wrong person.
 
@@ -89,7 +85,6 @@ When asking him about how we could simulate the y-axis when we just are rotating
 {{< vimeo 61924239 >}}
 
 ## Conclusions
-
 This was a wonderful experience, and I'm glad that they make it part of the process.  Practicing and getting better at user testing has
 been a desire of mine since my startup, [Tapactive,](https://techcrunch.com/2013/09/25/heres-what-we-saw-at-eras-summer-2013-demo-day/),
 with was based on untempted assumptions, failed.  I also enjoyed checking out others projects and giving them feedback.  The tests provided a lot of greats information.
