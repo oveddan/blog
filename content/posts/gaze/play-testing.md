@@ -1,8 +1,9 @@
 ---
-title: "Play Testing"
+title: "The Gaze Project - Play Testing"
 date: 2017-11-07T20:16:51-05:00
-tags: ["Gaze Project", "Digital Fabrication", "Physical Computing", "Usability Testing"]
+tags: ["The Gaze Project", "Digital Fabrication", "Physical Computing", "Usability Testing"]
 categories: ["Digital Fabrication", "Physical Computing"]
+description: "Findings from testing the assumptions and user experience."
 draft: false
 ---
 

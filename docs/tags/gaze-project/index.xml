@@ -6,21 +6,10 @@
     <description>Recent content in Gaze Project on Dan Oved&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Nov 2017 20:16:51 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 31 Oct 2017 22:55:41 -0400</lastBuildDate>
     
 	<atom:link href="https://oveddan.github.io/blog/tags/gaze-project/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Play Testing</title>
-      <link>https://oveddan.github.io/blog/posts/gaze/play-testing/</link>
-      <pubDate>Tue, 07 Nov 2017 20:16:51 -0500</pubDate>
-      
-      <guid>https://oveddan.github.io/blog/posts/gaze/play-testing/</guid>
-      <description>For Intro to Physical Computing this week, we were to play test our final project with our classmates.
-For the Gaze Project, I set up the following for the test:
-Assumptions  Initially - people will try to follow the animation with their eyes, but they will notice that doing that causes it to go away. They will eventually learn to focus on one point and see the animation grow with their peripherals.</description>
-    </item>
     
     <item>
       <title>The Gaze Project - Proposal</title>
