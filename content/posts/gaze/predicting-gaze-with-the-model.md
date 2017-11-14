@@ -4,7 +4,7 @@ date: 2017-11-13T22:21:18-05:00
 tags: ["The Gaze Project", "Digital Fabrication", "Physical Computing", "Usability Testing"]
 categories: ["Digital Fabrication", "Physical Computing"]
 featuredImage: "/blog/images/gaze/testing_model/testing_model_featured.jpg"
-description: "Findings from testing the assumptions and user experience."
+images: ["/blog/images/gaze/testing_model/testing_model_featured.jpg"]
 draft: false
 ---
 
