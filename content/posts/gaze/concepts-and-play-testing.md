@@ -1,18 +1,38 @@
 ---
-title: "The Gaze Project - Play Testing"
+title: "The Gaze Project - Concepts and Play Testing"
 date: 2017-11-07T20:16:51-05:00
 tags: ["The Gaze Project", "Digital Fabrication", "Physical Computing", "Usability Testing"]
 categories: ["Digital Fabrication", "Physical Computing"]
 featuredImage: "/blog/images/gaze/concepts/play_testing_featured.jpg"
-description: "Findings from testing the assumptions and user experience."
+description: "Conceptualizing designs, and testing the assumptions and user experience."
 draft: false
 ---
 
 For Intro to Physical Computing this week, we were to play test our final project with our classmates.
 
-For the Gaze Project, I set up the following for the test:
+I collaborated with [Katya Rozanova](http://www.katyarozanova.com/) to come up with initial designs.  
+Here are some of her sketches and concepts:
 
-## Assumptions
+<img src="/blog/images/gaze/concepts/sketch_1.png"/>
+<img src="/blog/images/gaze/concepts/sketch_2.png"/>
+<img src="/blog/images/gaze/concepts/sketch_3.png"/>
+
+We ultimately settled on a form with vertical columns that rotate and reveal certain patterns depending on where you are looking.
+We chose this because it would be easier to build; with a single axis, the x-axis, we
+could have servos rotate the columns to represent the gaze is on that axis.
+
+Here are some of her designs for this rotating column-based structure:
+<img src="/blog/images/gaze/concepts/column_2.png"/>
+<img src="/blog/images/gaze/concepts/column_1.png"/>
+<img src="/blog/images/gaze/concepts/column_3.png"/>
+<img src="/blog/images/gaze/concepts/column_4.png"/>
+<img src="/blog/images/gaze/concepts/column_5.png"/>
+
+# Play Testing
+
+Katya and I came up with the following for the test:
+
+## Our Assumptions
 * Initially - people will try to follow the animation with their eyes,  but they will notice that doing that causes it to go away. They will eventually learn to focus on one point and see the animation grow with their peripherals.
 * The visuals will be engaging enough to keep them looking at the same point over an extended period of time.
 * The animations do not distract to the point of losing focus - in fact they encourage the meditative state.
@@ -31,11 +51,11 @@ with the installation without any instruction.
 
 ## Experiment Setup
 I created a sketch in Processing that simulated a few of the animations.  It rendered the physical
-animation as graphics, so that we could easily prototype different visuals.  We has the user look at this on a wide screen monitor.
-To simulate it reacting to their gaze, we observed their eyes, and physically controlled a potentiometer that would send the faked gaze x coordinate to the processing sketch over serial.
+animation as graphics, so that I could easily prototype different visuals.  I had the user look at this on a wide screen monitor.
+To simulate it reacting to their gaze, I observed their eyes, and physically controlled a potentiometer that would send the faked gaze x coordinate to the processing sketch over serial.
 
 ## Results
-We tested it without about 7 classmates, and recorded our conversations on index cards:
+I tested it without about 7 classmates, and recorded my conversations on index cards:
 
 <img src="/blog/images/gaze/play_testing/indexcards.jpg"/>
 

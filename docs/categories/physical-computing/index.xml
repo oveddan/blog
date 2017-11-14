@@ -22,14 +22,15 @@ My next goal was to try to get eye gaze prediction working using the Eye Trackin
     </item>
     
     <item>
-      <title>The Gaze Project - Play Testing</title>
-      <link>https://oveddan.github.io/blog/posts/gaze/play-testing/</link>
+      <title>The Gaze Project - Concepts and Play Testing</title>
+      <link>https://oveddan.github.io/blog/posts/gaze/concepts-and-play-testing/</link>
       <pubDate>Tue, 07 Nov 2017 20:16:51 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/gaze/play-testing/</guid>
+      <guid>https://oveddan.github.io/blog/posts/gaze/concepts-and-play-testing/</guid>
       <description>For Intro to Physical Computing this week, we were to play test our final project with our classmates.
-For the Gaze Project, I set up the following for the test:
-Assumptions  Initially - people will try to follow the animation with their eyes, but they will notice that doing that causes it to go away. They will eventually learn to focus on one point and see the animation grow with their peripherals.</description>
+I collaborated with Katya Rozanova to come up with initial designs.
+Here are some of her sketches and concepts:
+We ultimately settled on a form with vertical columns that rotate and reveal certain patterns depending on where you are looking. We chose this because it would be easier to build; with a single axis, the x-axis, we could have servos rotate the columns to represent the gaze is on that axis.</description>
     </item>
     
     <item>

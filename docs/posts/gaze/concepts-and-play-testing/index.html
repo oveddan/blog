@@ -1,0 +1,288 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dan Oved&#39;s Blog">
+    <meta name="description" content="Connecting the digital with the analog world @ ITP">
+    <meta property="og:title" content="The Gaze Project - Concepts and Play Testing  - Dan Oved's blog" />
+    <meta property="og:description" content="Conceptualizing designs, and testing the assumptions and user experience." />
+    
+    
+
+    
+      <meta property="og:updated_time" content="2017-11-07T20:16:51-05:00"/>
+    
+    <meta name="generator" content="Hugo 0.27.1" />
+    <title>The Gaze Project - Concepts and Play Testing &middot; Dan Oved&#39;s Blog</title>
+    <link rel="shortcut icon" href="https://oveddan.github.io/blog/images/favicon.ico">
+    <link rel="stylesheet" href="https://oveddan.github.io/blog/css/style.css">
+    <link rel="stylesheet" href="https://oveddan.github.io/blog/css/highlight.css">
+    
+    <link rel="stylesheet" href="https://oveddan.github.io/blog//css/style-custom.css">
+    
+
+    
+    <link rel="stylesheet" href="https://oveddan.github.io/blog/css/font-awesome.min.css">
+    
+
+    
+  </head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://oveddan.github.io/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://oveddan.github.io/blog/posts'>Archive</a>
+	<a href='https://oveddan.github.io/blog/tags'>Tags</a>
+  
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        The Gaze Project - Concepts and Play Testing
+                    </h1>
+                    <h2 class="headline">
+                    Nov 7, 2017 20:16
+                    · 1454 words
+                    · 7 minutes read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://oveddan.github.io/blog/tags/the-gaze-project">The Gaze Project</a>
+                          
+                              <a href="https://oveddan.github.io/blog/tags/digital-fabrication">Digital Fabrication</a>
+                          
+                              <a href="https://oveddan.github.io/blog/tags/physical-computing">Physical Computing</a>
+                          
+                              <a href="https://oveddan.github.io/blog/tags/usability-testing">Usability Testing</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<p>For Intro to Physical Computing this week, we were to play test our final project with our classmates.</p>
+
+<p>I collaborated with <a href="http://www.katyarozanova.com/">Katya Rozanova</a> to come up with initial designs.<br />
+Here are some of her sketches and concepts:</p>
+
+<p><img src="/blog/images/gaze/concepts/sketch_1.png"/>
+<img src="/blog/images/gaze/concepts/sketch_2.png"/>
+<img src="/blog/images/gaze/concepts/sketch_3.png"/></p>
+
+<p>We ultimately settled on a form with vertical columns that rotate and reveal certain patterns depending on where you are looking.
+We chose this because it would be easier to build; with a single axis, the x-axis, we
+could have servos rotate the columns to represent the gaze is on that axis.</p>
+
+<p>Here are some of her designs for this rotating column-based structure:
+<img src="/blog/images/gaze/concepts/column_2.png"/>
+<img src="/blog/images/gaze/concepts/column_1.png"/>
+<img src="/blog/images/gaze/concepts/column_3.png"/>
+<img src="/blog/images/gaze/concepts/column_4.png"/>
+<img src="/blog/images/gaze/concepts/column_5.png"/></p>
+
+<h1 id="play-testing">Play Testing</h1>
+
+<p>Katya and I came up with the following for the test:</p>
+
+<h2 id="our-assumptions">Our Assumptions</h2>
+
+<ul>
+<li>Initially - people will try to follow the animation with their eyes,  but they will notice that doing that causes it to go away. They will eventually learn to focus on one point and see the animation grow with their peripherals.</li>
+<li>The visuals will be engaging enough to keep them looking at the same point over an extended period of time.</li>
+<li>The animations do not distract to the point of losing focus - in fact they encourage the meditative state.</li>
+</ul>
+
+<h2 id="instruction-for-the-user">Instruction for the User</h2>
+
+<p>Look at this sketch, and see if you notice anything.  The goal here was to see if they could figure out how to interact
+with the installation without any instruction.</p>
+
+<h2 id="questions-for-the-user">Questions for the User</h2>
+
+<ul>
+<li>Which animation did you prefer? Why?</li>
+<li>How did the experience make you feel?</li>
+<li>How long is an ideal experience?</li>
+<li>Were you aware that staring at a point made a difference in the experience?</li>
+<li>Tell us about your mindfullness practice, and if you felt any of that while gazing.</li>
+</ul>
+
+<h2 id="experiment-setup">Experiment Setup</h2>
+
+<p>I created a sketch in Processing that simulated a few of the animations.  It rendered the physical
+animation as graphics, so that I could easily prototype different visuals.  I had the user look at this on a wide screen monitor.
+To simulate it reacting to their gaze, I observed their eyes, and physically controlled a potentiometer that would send the faked gaze x coordinate to the processing sketch over serial.</p>
+
+<h2 id="results">Results</h2>
+
+<p>I tested it without about 7 classmates, and recorded my conversations on index cards:</p>
+
+<p><img src="/blog/images/gaze/play_testing/indexcards.jpg"/></p>
+
+<p>Unfortunately I can&rsquo;t seem to find the rest of the index cards.  A lot of this is from memory, and likely some of the things said are attributed to the wrong person.</p>
+
+<p>For the first one to test, Nick Wallace, I told him to just look at the screen and see if he notices anything.
+He was trying to figure out what was going on.  When he moved his eyes sharply I&rsquo;d turn the potentiometer to follow
+to simulate the visuals resetting.  After a bit I told him what the idea was.  He said he kinda got it.  He liked the idea
+of eye tracking, but it wasnt clear to him that it was following his eyes.  I asked him about his meditation practice, and he told me
+he has a slight one. I asked him if this felt meditative at all and he said no, because his practice is more about his breathing.</p>
+
+<p>The next test was Simon.  Jim sat down next to him.  He was staring for a bit, he was able to not move his eyes to the side.   He was saying how
+he noticed the visuals were slightly moving but couldnt exactly tell why.  Then I told him he was suppose to gaze at a certain point.
+He would, then after a while he moved his eyes and I forced them to reset.  After the experience, he said he really liked the idea of tracking his eyes,
+but for it to be effective it would need to be accurate and quick.  He also said how it could be an interesting effect if the tracking was following his eyes. He also
+said that where you look something should appear rather than blankness, because that would more clearly show the indicator.</p>
+
+<p>I asked Simon and Jim how they would feel if it was done with multiple people.  They both didn&rsquo;t seem to understand how that could work.  I told them how it could follow
+multiple peoples&rsquo; gazes, but they thought it would be wierd if one person was canceling out the other.  I attempted to explain to them how it be colloborative and a bigger
+effect, but found it challenging to visualize this or depict it with words.</p>
+
+<p>They also weren&rsquo;t clear that this was physical.  I had to explain how it would be built.</p>
+
+<p>From this point on I figured the visuals and animations were not clear enough to not give the users any instruction, so I told them to gaze at a point on the screen.</p>
+
+<p>With Erin, I noticed she was moving her eyes rapidly.  She told me after it felt like it was intentionally distracting her, and when she looked away it was trying to punish her.
+It did not feel calming.  She did not get a sense that it was growing. She said that with the prompt she was resisting the temptation of distraction.  I asked her how
+she would feel about doing this with multiple people.  She said she wasn&rsquo;t sure - the other people could possibly be distracting.</p>
+
+<p>With Terrick, the interaction didnt seem to work at all.  He kept looking around, and I would reset it.  I had to explain to him what it was about in detail.<br />
+He suggested maybe using diagonal lines, and adding more variation.  He was bored with the visuals and wanted more, maybe some color and features.  I showed him all of the animations
+and he liked the ones with the nearly vertical, diagonal lines the most.</p>
+
+<p>With Martin, he knew how how to interact and he gazed at one point.  It was because he heard that it was about computer vision and gazing before, and he liked that.
+He thought a really cool app would be something you use on the web with a webcam and computer.  He like the jagged lines version 2nd best, and the one with rectangles
+in the middle being his favorite.  He said there should be more on it to make it more insteresting, like if you look at different sides, more is revealed. He said
+it would be awesome if it worked well, and it would have to quickly respond to the gaze for it to feel good.</p>
+
+<p>Some of the best feedback came from the teacher, Daniel Rozin.  He said maybe its better if the point you are looking at is more pronounced, and that the visuals
+are rippling towards the point.  He asked - what is the contour of the interaction vs our emotions?<br />
+Maybe when we start there is a sort of bewilderment, then comes total understanding.  What is the total cycle?
+He said you have to imagine what you want the user to get after a few minutes, and their state of mind.
+He said it should be clearer where you are gazing.  I asked him what did he think about having multiple people look at it and he didn&rsquo;t realy understand how that would work.
+I found it challenging to explain how I thought it would work clearly.</p>
+
+<p>When asking him about how we could simulate the y-axis when we just are rotating around the x-axis, he told me to look at:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//player.vimeo.com/video/61924239" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>This was a wonderful experience, and I&rsquo;m glad that they make it part of the process.  Practicing and getting better at user testing has
+been a desire of mine since my startup, <a href="https://techcrunch.com/2013/09/25/heres-what-we-saw-at-eras-summer-2013-demo-day/">Tapactive,</a>,
+with was based on untempted assumptions, failed.  I also enjoyed checking out others projects and giving them feedback.  The tests provided a lot of greats information.
+I hope we continue doing this in the future.</p>
+
+<p>My personal thoughts on the installation:</p>
+
+<ul>
+<li>I should add a bit to the visuals, make them vary on different sides.</li>
+<li>I should highlight quickly where the user is looking to make the gesture more clear and gratifying.</li>
+<li>Since I have a tough time explaning how it would work, maybe multiple users is overcomplicating things.  It will be challenging
+enough to get the interaction and technology right for just one person, so lets focus on that first, and if we get it right, we can
+explore multiple people.  This would also scale down the physical size and complexity.</li>
+<li>Most people did not get the mindfullness aspect of it.  Question - can we really make this a meditative experience if we are limited
+to such a small change in visuals?  Maybe it should be simplified to just follow a users&rsquo; gaze and making that as good as possible?</li>
+<li>It would be interested to explore the y axis by using spirals</li>
+</ul>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'danoved'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/oveddan">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.instagram.com/stangogh/">
+        <i class="fa fa-instagram"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2017 <i class="fa fa-heart" aria-hidden="true"></i> Dan Oved&#39;s Blog
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://oveddan.github.io/blog/js/jquery-2.2.4.min.js"></script>
+<script src="https://oveddan.github.io/blog/js/main.js"></script>
+<script src="https://oveddan.github.io/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-106896744-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
