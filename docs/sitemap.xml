@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://oveddan.github.io/blog/posts/gaze/design-bom-schematics/</loc>
+    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oveddan.github.io/blog/posts/gaze/predicting-gaze-with-the-model/</loc>
     <lastmod>2017-11-13T22:21:18-05:00</lastmod>
   </url>
@@ -150,13 +155,13 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/</loc>
-    <lastmod>2017-11-13T22:21:18-05:00</lastmod>
+    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/tags/design/</loc>
-    <lastmod>2017-10-18T00:43:12-04:00</lastmod>
+    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -168,13 +173,13 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/tags/digital-fabrication/</loc>
-    <lastmod>2017-11-13T22:21:18-05:00</lastmod>
+    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/categories/digital-fabrication/</loc>
-    <lastmod>2017-11-13T22:21:18-05:00</lastmod>
+    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -186,19 +191,19 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/tags/physical-computing/</loc>
-    <lastmod>2017-11-13T22:21:18-05:00</lastmod>
+    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/categories/physical-computing/</loc>
-    <lastmod>2017-11-13T22:21:18-05:00</lastmod>
+    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/posts/</loc>
-    <lastmod>2017-11-13T22:21:18-05:00</lastmod>
+    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -210,7 +215,7 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/tags/the-gaze-project/</loc>
-    <lastmod>2017-11-13T22:21:18-05:00</lastmod>
+    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   

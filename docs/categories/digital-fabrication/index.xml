@@ -6,10 +6,20 @@
     <description>Recent content in Digital Fabrication on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Nov 2017 22:21:18 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 14 Nov 2017 15:38:22 -0500</lastBuildDate>
     
 	<atom:link href="https://oveddan.github.io/blog/categories/digital-fabrication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Gaze Project - Physical Design, Bill of Materials and Schematics</title>
+      <link>https://oveddan.github.io/blog/posts/gaze/design-bom-schematics/</link>
+      <pubDate>Tue, 14 Nov 2017 15:38:22 -0500</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/gaze/design-bom-schematics/</guid>
+      <description>After doing play testing for The Gaze Project, I concluded that:
+ Trying to make this a meditative experience would be challenging. It will be difficult enough to get the interation and gaze tracking right, so just create a experience that simply reacts to the users gaze. There should be, near-instantaneous, clear visuals showing where the user is gazing, instead of making a column and its surroundings turn blank gradually.</description>
+    </item>
     
     <item>
       <title>Predicting Gaze in Python with the Eye Tracking for Everyone Neural Network</title>
