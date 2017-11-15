@@ -24,9 +24,9 @@ Here the columns can be rotated to create a wavy effect, and represent both on t
 Based on the above design, there would be twenty wooden dowels oriented vertically.  A servo motor connected 
 to each dowel would rotate it 180 degrees.The question is - how big of a dowel should be used and what length should it be?  
 
-Costs are a big factor.  I went through all of the **hardwood round dowels** that are at least 1" in diameter to get their cost per inch:
+Costs are a big factor.  I went through all of the **hardwood round dowels** sold on HomeDepot.com that are at least 1" in diameter to get their cost per inch:
 
-| Dowel                                                                                                             | Price  | Diamaeter | Height    | Price per Inch |
+| Round Hardwood Dowel                                                                                                             | Price  | Diamaeter | Height    | Price per Inch |
 | -----------------------                                                                                           | ------ | -----     | --------- | ------         |
 | [3/4x48](https://www.homedepot.com/p/6412U-3-4-in-x-3-4-in-x-48-in-Hardwood-Round-Dowel-10001806/203334066)       | $2.98  | 0.75      | 48        | $0.06          |
 | [1x72](https://www.homedepot.com/p/Waddell-1-in-x-72-in-Hardwood-Round-Dowel-6422U/204397043)                     | $6.37  | 1         | 72        | $0.09          |
