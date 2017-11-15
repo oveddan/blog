@@ -2,6 +2,7 @@
 title: 'The Gaze Project - Physical Design, Bill of Materials and Schematics'
 date: 2017-11-14T15:38:22-05:00
 tags: ["The Gaze Project", "Digital Fabrication", "Physical Computing", "Design"]
+featuredImage: "/blog/images/gaze/schematics/design_featured.png"
 categories: ["Digital Fabrication", "Physical Computing"]
 
 draft: false 
