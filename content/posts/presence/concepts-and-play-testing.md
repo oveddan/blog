@@ -1,7 +1,7 @@
 ---
-title: "The Gaze Project - Concepts and Play Testing"
+title: "Presence - Concepts and Play Testing"
 date: 2017-11-07T20:16:51-05:00
-tags: ["The Gaze Project", "Digital Fabrication", "Physical Computing", "Usability Testing"]
+tags: ["Presence", "Digital Fabrication", "Physical Computing", "Usability Testing"]
 categories: ["Digital Fabrication", "Physical Computing"]
 featuredImage: "/blog/images/gaze/concepts/play_testing_featured.jpg"
 description: "Conceptualizing designs, and testing the assumptions and user experience."

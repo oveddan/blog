@@ -1,14 +1,14 @@
 ---
-title: 'The Gaze Project - Proposal'
+title: 'Presence - Proposal'
 date: 2017-10-31T22:55:41-04:00
-tags: ["The Gaze Project", "Digital Fabrication", "Physical Computing", "Computer Vision"]
+tags: ["Presence", "Digital Fabrication", "Physical Computing", "Computer Vision"]
 categories: ["Digital Fabrication", "Physical Computing"]
 featuredImage: "/blog/images/gaze/proposal/proposal_featured.jpg"
 description:  "The proposal for an art installation that is activated the longer and the more people gaze directly at it.  It would encourage being present and engaged, and connect the fellow participants with each other over moments of mindfulness.  This will be my final project for Intro to Physical Computing and Design for Digital Fabrication."
 draft: false
 ---
 
-This is the proposal for the Gaze Project, an art piece that is activated the longer and the more people gaze directly at it.  It would encourage
+This is the proposal for Presence, an art piece that is activated the longer and the more people gaze directly at it.  It would encourage
 being present and engaged, and connect the fellow participants with each other over moments of mindfulness.  This will be
 my final project for [Intro to Physical Computing](/blog/tags/physical-computing) and [Design for Digital Fabrication](digital-fabrication).
 

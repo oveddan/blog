@@ -1,7 +1,7 @@
 ---
 title: 'Predicting Gaze in Python with the Eye Tracking for Everyone Neural Network'
 date: 2017-11-13T22:21:18-05:00
-tags: ["The Gaze Project", "Digital Fabrication", "Physical Computing", "Usability Testing"]
+tags: ["Presence", "Digital Fabrication", "Physical Computing", "Usability Testing"]
 categories: ["Digital Fabrication", "Physical Computing"]
 featuredImage: "/blog/images/gaze/testing_model/testing_model_featured.jpg"
 images: ["/blog/images/gaze/testing_model/testing_model_featured.jpg"]
@@ -10,7 +10,7 @@ draft: false
 
 **[View the ipython notebook with the code here](https://github.com/oveddan/gaze/blob/712d776af2cdd69f51c8dc8fd7893d6a0c4ba434/notebooks/Predicting%20Gaze%20with%20Eye%20Tracking%20for%20Everyone.ipynb)**
 
-My next goal for [The Gaze Project](/blog/tags/the-gaze-project) was to try to get eye gaze prediction working using the [Eye Tracking for Everyone] (http://gazecapture.csail.mit.edu/index.php) model.  I  wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU.  The ultimate deployment would be on the [NVidia Jetson TX2](http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html), a single-board computer with a powerful GPU and support for six camera inputs.
+My next goal for [Presence](/blog/tags/the-gaze-project) was to try to get eye gaze prediction working using the [Eye Tracking for Everyone] (http://gazecapture.csail.mit.edu/index.php) model.  I  wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU.  The ultimate deployment would be on the [NVidia Jetson TX2](http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html), a single-board computer with a powerful GPU and support for six camera inputs.
 
 For the neural network framework I stuck with caffe since that's what the model is published in.   I struggled for days but finally setup Ubuntu with caffe and cuda on my macbook pro, which has a basic *NVIDIA GeForce GT 650M* graphics card.
 

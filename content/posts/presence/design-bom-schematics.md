@@ -1,14 +1,14 @@
 ---
-title: 'The Gaze Project - Physical Design, Bill of Materials and Schematics'
+title: 'Presence - Physical Design, Bill of Materials and Schematics'
 date: 2017-11-14T15:38:22-05:00
-tags: ["The Gaze Project", "Digital Fabrication", "Physical Computing", "Design"]
+tags: [Presence, "Digital Fabrication", "Physical Computing", "Design"]
 featuredImage: "/blog/images/gaze/schematics/design_featured.png"
 categories: ["Digital Fabrication", "Physical Computing"]
 
 draft: false 
 ---
 
-After [doing play testing]({{<relref "concepts-and-play-testing.md">}}) for [The Gaze Project](/blog/tags/the-gaze-project), I concluded that:
+After [doing play testing]({{<relref "concepts-and-play-testing.md">}}) for [Presence](/blog/tags/the-gaze-project), I concluded that:
 
 * Trying to make this a meditative experience would be challenging.  It will be difficult enough to get the interation and gaze tracking right, so just create a experience that simply reacts to the users gaze.
 * There should be, near-instantaneous, clear visuals showing where the user is gazing, instead of making a column and its surroundings turn blank gradually.
@@ -50,6 +50,7 @@ I would want the design to be an even square.  The best tradeoff of size vs cost
 32" height.  At 20 dowels, to get 32" width (even with the height) there would be 7" of free space.  Taking 19 gaps between tubes and a gap at each end this gives 
 7/21 or a **1/3" gap** between tubes.  **A camera would be embeded into the top of the frame.** I rendered this in Vectorworks with the design as a texture:
 
+<img src="/blog/images/gaze/schematics/3d-rendering.png" />
 <img src="/blog/images/gaze/schematics/3d-rendering-face-on.png" />
 
 <script src="https://embed.github.com/view/3d/oveddan/blog/master/static/models/tubes_with_frame.stl"></script>

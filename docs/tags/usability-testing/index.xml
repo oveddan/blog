@@ -13,20 +13,20 @@
     
     <item>
       <title>Predicting Gaze in Python with the Eye Tracking for Everyone Neural Network</title>
-      <link>https://oveddan.github.io/blog/posts/gaze/predicting-gaze-with-the-model/</link>
+      <link>https://oveddan.github.io/blog/posts/presence/predicting-gaze-with-the-model/</link>
       <pubDate>Mon, 13 Nov 2017 22:21:18 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/gaze/predicting-gaze-with-the-model/</guid>
+      <guid>https://oveddan.github.io/blog/posts/presence/predicting-gaze-with-the-model/</guid>
       <description>View the ipython notebook with the code here
-My next goal for The Gaze Project was to try to get eye gaze prediction working using the Eye Tracking for Everyone model. I wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU. The ultimate deployment would be on the NVidia Jetson TX2, a single-board computer with a powerful GPU and support for six camera inputs.</description>
+My next goal for Presence was to try to get eye gaze prediction working using the Eye Tracking for Everyone model. I wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU. The ultimate deployment would be on the NVidia Jetson TX2, a single-board computer with a powerful GPU and support for six camera inputs.</description>
     </item>
     
     <item>
-      <title>The Gaze Project - Concepts and Play Testing</title>
-      <link>https://oveddan.github.io/blog/posts/gaze/concepts-and-play-testing/</link>
+      <title>Presence - Concepts and Play Testing</title>
+      <link>https://oveddan.github.io/blog/posts/presence/concepts-and-play-testing/</link>
       <pubDate>Tue, 07 Nov 2017 20:16:51 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/gaze/concepts-and-play-testing/</guid>
+      <guid>https://oveddan.github.io/blog/posts/presence/concepts-and-play-testing/</guid>
       <description>For Intro to Physical Computing this week, we were to play test our final project with our classmates.
 I collaborated with Katya Rozanova to come up with initial designs.
 Here are some of her sketches and concepts:

@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Dan Oved&#39;s Blog">
     <meta name="description" content="Connecting the digital with the analog world @ ITP">
-    <meta property="og:title" content="Final Project Proposal for Design for Digital Fabrication and Intro to Physical Computing - Presence  - Dan Oved's blog" />
-    <meta property="og:description" content="" />
+    <meta property="og:title" content="Presence - Proposal  - Dan Oved's blog" />
+    <meta property="og:description" content="The proposal for an art installation that is activated the longer and the more people gaze directly at it.  It would encourage being present and engaged, and connect the fellow participants with each other over moments of mindfulness.  This will be my final project for Intro to Physical Computing and Design for Digital Fabrication." />
     
     
 
     
       <meta property="og:updated_time" content="2017-10-31T22:55:41-04:00"/>
     
-    <meta name="generator" content="Hugo 0.25.1" />
-    <title>Final Project Proposal for Design for Digital Fabrication and Intro to Physical Computing - Presence &middot; Dan Oved&#39;s blog</title>
+    <meta name="generator" content="Hugo 0.27.1" />
+    <title>Presence - Proposal &middot; Dan Oved&#39;s Blog</title>
     <link rel="shortcut icon" href="https://oveddan.github.io/blog/images/favicon.ico">
     <link rel="stylesheet" href="https://oveddan.github.io/blog/css/style.css">
     <link rel="stylesheet" href="https://oveddan.github.io/blog/css/highlight.css">
@@ -38,7 +38,7 @@
 	
 	<a href='https://oveddan.github.io/blog/posts'>Archive</a>
 	<a href='https://oveddan.github.io/blog/tags'>Tags</a>
-	<a href='https://oveddan.github.io/blog/about'>About</a>
+  
 
 	
 
@@ -50,15 +50,17 @@
             <article class="post">
                 <header>
                     <h1>
-                        Final Project Proposal for Design for Digital Fabrication and Intro to Physical Computing - Presence
+                        Presence - Proposal
                     </h1>
                     <h2 class="headline">
                     Oct 31, 2017 22:55
-                    · 539 words
+                    · 516 words
                     · 3 minutes read
                       <span class="tags">
                       
                       
+                          
+                              <a href="https://oveddan.github.io/blog/tags/presence">Presence</a>
                           
                               <a href="https://oveddan.github.io/blog/tags/digital-fabrication">Digital Fabrication</a>
                           
@@ -75,16 +77,12 @@
                 <section id="post-body">
                     
 
-<h1 id="the-presence-project-proposal">The Presence Project - Proposal</h1>
+<p>This is the proposal for Presence, an art piece that is activated the longer and the more people gaze directly at it.  It would encourage
+being present and engaged, and connect the fellow participants with each other over moments of mindfulness.  This will be
+my final project for <a href="/blog/tags/physical-computing">Intro to Physical Computing</a> and <a href="digital-fabrication">Design for Digital Fabrication</a>.</p>
 
-<p>This is the proposal for the Presence Project, an art piece that is activated the longer and the more people gaze directly at it.  It would encourage
-being present and engaged, and connect the fellow participants with each other over moments of mindfulness.</p>
-
-<p>We will use small cameras and computer vision to detect the quantify of people present and how many of them are gazing at a specific point,
+<p>I will use small cameras and computer vision to detect the quantify of people present and how many of them are gazing at a specific point,
 and reveal parts of the piece using motors and other physical controls.</p>
-
-<p>Our team will be formed of me, <a href="http://www.barakchamo.com">Barak Chamo</a>, and <a href="http://www.katyarozanova.com/">Katya Rozanova</a>. I&rsquo;m doing this as the final projects
-for both <a href="/blog/tags/physical-computing">Intro to Physical Computing</a>, and <a href="/blog/tags/digital-fabrication">Design for Digital Fabrication</a>, and will use elements of <a href="http://www.basicanalogcircuits.com/Syllabus.html">Basic Analog Circuits</a>.</p>
 
 <p>For me this addresses a personal issue I&rsquo;ve had since I was a kid - my mother has told me that when we went to theme parks,
 I already wanted to get on the next ride before the current one was finished. This urge to jump from one thing to the other has stayed with me since then, and hasn&rsquo;t been helped
@@ -92,9 +90,9 @@ the least bit by push notifications and rapid-fire content consumption.  I also 
 
 <p>It would be interesting to challenge the user to remain in front of a piece and be present with it.</p>
 
-<h1 id="eye-tracking">Eye Tracking</h1>
+<h2 id="eye-tracking">Eye Tracking</h2>
 
-<p>Much of the implementation will be based on incredible research from 2016 called <a href="http://gazecapture.csail.mit.edu/">Eye Tracking for Everyone</a> by Kyle Krafk et. al at MIT,
+<p>Much of the implementation will be based on incredible research from 2016 called <a href="http://gazecapture.csail.mit.edu/">Eye Tracking for Everyone</a> by Kyle Krafk, A. Khosla, et. al at MIT and Univerity of Georgia,
 where they were able to train a convolutional neural network to detect where a user is gazing on an IPhone or tablet using just the stock camera with 1.71 cm accuracy.  They were able to compress the
 network to run in real-time (10-15fps) on a mobile device.</p>
 
@@ -104,7 +102,7 @@ where a user was looking when a red dot was moved on the screen.</p>
 
 <figure >
     
-        <img src="/blog/images/presence/testdata.png" alt="Some of the images they used to train the network" />
+        <img src="/blog/images/gaze/proposal/testdata.png" alt="Some of the images they used to train the network" />
     
     
     <figcaption>
@@ -121,13 +119,13 @@ where a user was looking when a red dot was moved on the screen.</p>
 
 
 <figure >
-    
-        <img src="/blog/images/presence/convnet.png" alt="The convolution neural network architecture.  See the research paper for details" />
-    
+    <a href="http://gazecapture.csail.mit.edu/cvpr2016_gazecapture.pdf">
+        <img src="/blog/images/gaze/proposal/convnet.png" alt="The convolution neural network architecture.  See the research paper for details." />
+    </a>
     
     <figcaption>
         <p>
-        The convolution neural network architecture.  See the research paper for details
+        The convolution neural network architecture.  See the research paper for details.
         
             
         
@@ -137,19 +135,20 @@ where a user was looking when a red dot was moved on the screen.</p>
 </figure>
 
 
-<p>They&rsquo;ve provided the pre-trained models - we will attempt to run these models in real time to determine if a user is looking at a specific point.</p>
+<p>They&rsquo;ve provided the pre-trained models - I will attempt to run these models in real time to determine if a user is looking at a specific point.</p>
 
 <p>This model takes as inputs: a picture of the face, a picture of each eye, and the position of the face within the picture.  The network learns to triangulate
 this data and determine where the eyes are gazing.</p>
 
-<p>As the first step of our implementation, we need to extract the face and eye positions.  The paper says they did it using Apple&rsquo;s <a href="https://developer.apple.com/library/content/documentation/GraphicsImaging/Conceptual/CoreImaging/ci_detect_faces/ci_detect_faces.html">Core Image face detection</a>.
-We don&rsquo;t want to necessarily be bound to apple to build this, but could resort to using a mac mini if we see other methods are not working well.  For now, we prototyped
-extracting face and eye positions using processing and opencv.  It works decently well - there are some bugs in how we place the eye boxes.</p>
+<p>As the first step of our implementation, Ie need to extract the face and eye positions.  The paper says they did it using Apple&rsquo;s <a href="https://developer.apple.com/library/content/documentation/GraphicsImaging/Conceptual/CoreImaging/ci_detect_faces/ci_detect_faces.html">Core Image face detection</a>.</p>
+
+<p>I don&rsquo;t want to necessarily be bound to apple to build this, but could resort to using a mac mini if we see other methods are not working well.  For now, I prototyped
+extracting face and eye positions using processing and opencv.  It works decently well - there are some bugs in how I place the eye boxes.</p>
 
 
 <figure >
     
-        <img src="/blog/images/presence/face_detect.gif" alt="First stab at face and eye detection with OpenCV" />
+        <img src="/blog/images/gaze/proposal/face_detect.gif" alt="First stab at face and eye detection with OpenCV" />
     
     
     <figcaption>

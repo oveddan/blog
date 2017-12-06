@@ -3,22 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://oveddan.github.io/blog/posts/gaze/design-bom-schematics/</loc>
+    <loc>https://oveddan.github.io/blog/posts/presence/fabricating-the-prototype/</loc>
+    <lastmod>2017-12-05T23:52:29-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/posts/presence/design-bom-schematics/</loc>
     <lastmod>2017-11-14T15:38:22-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/posts/gaze/predicting-gaze-with-the-model/</loc>
+    <loc>https://oveddan.github.io/blog/posts/presence/predicting-gaze-with-the-model/</loc>
     <lastmod>2017-11-13T22:21:18-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/posts/gaze/concepts-and-play-testing/</loc>
+    <loc>https://oveddan.github.io/blog/posts/presence/concepts-and-play-testing/</loc>
     <lastmod>2017-11-07T20:16:51-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/posts/gaze/proposal/</loc>
+    <loc>https://oveddan.github.io/blog/posts/presence/proposal/</loc>
     <lastmod>2017-10-31T22:55:41-04:00</lastmod>
   </url>
   
@@ -155,13 +160,13 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
+    <lastmod>2017-12-05T23:52:29-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/tags/design/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
+    <lastmod>2017-12-05T23:52:29-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -173,13 +178,13 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/tags/digital-fabrication/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
+    <lastmod>2017-12-05T23:52:29-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/categories/digital-fabrication/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
+    <lastmod>2017-12-05T23:52:29-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -191,31 +196,31 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/tags/physical-computing/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
+    <lastmod>2017-12-05T23:52:29-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/categories/physical-computing/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
+    <lastmod>2017-12-05T23:52:29-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/posts/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
+    <lastmod>2017-12-05T23:52:29-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/tags/presence/</loc>
+    <lastmod>2017-12-05T23:52:29-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/tags/processing/</loc>
     <lastmod>2017-10-25T16:10:23-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oveddan.github.io/blog/tags/the-gaze-project/</loc>
-    <lastmod>2017-11-14T15:38:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
