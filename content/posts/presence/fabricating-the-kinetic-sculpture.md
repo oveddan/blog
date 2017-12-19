@@ -9,7 +9,7 @@ description: After prototyping fabricating a prototype of Presence to test the d
 draft: false
 ---
 
-After [prototyping fabricating a small version]({{<relref "zoetrope-light-and-materials-exploration.md">}}) of [Presence](/blog/tags/presence) to test the design and physical mechanics, it was
+After [prototyping fabricating a small version]({{<relref "fabricating-the-prototype.md">}}) of [Presence](/blog/tags/presence) to test the design and physical mechanics, it was
 time to build the real thing.
 
 I decided to go with a design of 21 tubes arranged tightly together in a curve.  
