@@ -1,6 +1,6 @@
 # Site settings
-baseurl = "http://www.danioved.com/blog/"
-publishDir = "docs"
+baseurl = "https://danoved.netlify.com/blog/"
+publishDir = "docs/blog"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
 title = "Dan Oved's Blog"
@@ -68,4 +68,5 @@ hasCJKLanguage = true
   tags = "tags"
   classes = "classes"
 
-
+[context.production.environment]
+  HUGO_VERSION = "0.32"
