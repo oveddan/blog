@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://oveddan.github.io/blog/posts/energy/kinetic-project/concepts/</loc>
+    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://oveddan.github.io/blog/posts/presence/fabricating-the-kinetic-sculpture/</loc>
     <lastmod>2017-12-17T00:30:39-05:00</lastmod>
   </url>
@@ -165,7 +170,7 @@
   
   <url>
     <loc>https://oveddan.github.io/blog/</loc>
-    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
+    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -182,14 +187,26 @@
   </url>
   
   <url>
+    <loc>https://oveddan.github.io/blog/categories/digital-fabrication/</loc>
+    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://oveddan.github.io/blog/tags/digital-fabrication/</loc>
     <lastmod>2017-12-17T00:30:39-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/categories/digital-fabrication/</loc>
-    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
+    <loc>https://oveddan.github.io/blog/categories/energy/</loc>
+    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://oveddan.github.io/blog/tags/energy/</loc>
+    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -200,20 +217,20 @@
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/tags/physical-computing/</loc>
-    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
+    <loc>https://oveddan.github.io/blog/categories/physical-computing/</loc>
+    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/categories/physical-computing/</loc>
-    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
+    <loc>https://oveddan.github.io/blog/tags/physical-computing/</loc>
+    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://oveddan.github.io/blog/posts/</loc>
-    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
+    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -230,13 +247,13 @@
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/tags/thoughts/</loc>
+    <loc>https://oveddan.github.io/blog/categories/thoughts/</loc>
     <lastmod>2017-09-01T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/categories/thoughts/</loc>
+    <loc>https://oveddan.github.io/blog/tags/thoughts/</loc>
     <lastmod>2017-09-01T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -248,13 +265,13 @@
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/tags/visual-language/</loc>
+    <loc>https://oveddan.github.io/blog/categories/visual-language/</loc>
     <lastmod>2017-10-18T00:43:12-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://oveddan.github.io/blog/categories/visual-language/</loc>
+    <loc>https://oveddan.github.io/blog/tags/visual-language/</loc>
     <lastmod>2017-10-18T00:43:12-04:00</lastmod>
     <priority>0</priority>
   </url>

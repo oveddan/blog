@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dan Oved&#39;s Blog</title>
+    <link>https://danoved.netlify.com/blog/tags/</link>
+    <description>Recent content on Dan Oved&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://danoved.netlify.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Animation</title>
+      <link>https://danoved.netlify.com/blog/tags/animation/</link>
+      <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>https://danoved.netlify.com/blog/tags/arduino/</link>
+      <pubDate>Thu, 12 Oct 2017 13:25:28 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Circuits</title>
+      <link>https://danoved.netlify.com/blog/tags/circuits/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/circuits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Graphics</title>
+      <link>https://danoved.netlify.com/blog/tags/computer-graphics/</link>
+      <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/computer-graphics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://danoved.netlify.com/blog/tags/computer-vision/</link>
+      <pubDate>Tue, 31 Oct 2017 22:55:41 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://danoved.netlify.com/blog/tags/design/</link>
+      <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Fabrication</title>
+      <link>https://danoved.netlify.com/blog/tags/digital-fabrication/</link>
+      <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/digital-fabrication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laser Cutting</title>
+      <link>https://danoved.netlify.com/blog/tags/laser-cutting/</link>
+      <pubDate>Fri, 06 Oct 2017 10:08:02 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/laser-cutting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Physical Computing</title>
+      <link>https://danoved.netlify.com/blog/tags/physical-computing/</link>
+      <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/physical-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presence</title>
+      <link>https://danoved.netlify.com/blog/tags/presence/</link>
+      <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/presence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Processing</title>
+      <link>https://danoved.netlify.com/blog/tags/processing/</link>
+      <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thoughts</title>
+      <link>https://danoved.netlify.com/blog/tags/thoughts/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/thoughts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usability Testing</title>
+      <link>https://danoved.netlify.com/blog/tags/usability-testing/</link>
+      <pubDate>Mon, 13 Nov 2017 22:21:18 -0500</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/usability-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Language</title>
+      <link>https://danoved.netlify.com/blog/tags/visual-language/</link>
+      <pubDate>Wed, 18 Oct 2017 00:43:12 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/tags/visual-language/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

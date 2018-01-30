@@ -1,0 +1,567 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dan Oved&#39;s Blog">
+    <meta name="description" content="Connecting the digital with the analog world @ ITP">
+    <meta property="og:title" content="From Shader to Physical Animation - the Voronoi Cellular Zoetrope  - Dan Oved's blog" />
+    <meta property="og:description" content="Using shaders, processing, and a laser cutter to generate a seamless physical animation that loops continuously." />
+    
+      
+        <meta property="og:image" content="https://danoved.netlify.com/blog/images/digitalfab/cellular_zoetrope/finalresult_og.jpg" />
+      
+    
+    
+      
+        <meta property="og:video" content="https://danoved.netlify.com/blog/images/digitalfab/cellular_zoetrope/cellular_zoetrope_smaller.mov" />
+      
+    
+
+    
+      <meta property="og:updated_time" content="2017-10-25T16:10:23-04:00"/>
+    
+    <meta name="generator" content="Hugo 0.32.4" />
+    <title>From Shader to Physical Animation - the Voronoi Cellular Zoetrope &middot; Dan Oved&#39;s Blog</title>
+    <link rel="shortcut icon" href="https://danoved.netlify.com/blog/images/favicon.ico">
+    <link rel="stylesheet" href="https://danoved.netlify.com/blog/css/style.css">
+    <link rel="stylesheet" href="https://danoved.netlify.com/blog/css/highlight.css">
+    
+    <link rel="stylesheet" href="https://danoved.netlify.com/blog//css/style-custom.css">
+    
+
+    
+    <link rel="stylesheet" href="https://danoved.netlify.com/blog/css/font-awesome.min.css">
+    
+
+    
+  </head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://danoved.netlify.com/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://danoved.netlify.com/blog/posts'>Archive</a>
+	<a href='https://danoved.netlify.com/blog/tags'>Tags</a>
+  
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        From Shader to Physical Animation - the Voronoi Cellular Zoetrope
+                    </h1>
+                    <h2 class="headline">
+                    Oct 25, 2017 16:10
+                    · 1693 words
+                    · 8 minutes read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://danoved.netlify.com/blog/tags/digital-fabrication">Digital Fabrication</a>
+                          
+                              <a href="https://danoved.netlify.com/blog/tags/animation">Animation</a>
+                          
+                              <a href="https://danoved.netlify.com/blog/tags/processing">Processing</a>
+                          
+                              <a href="https://danoved.netlify.com/blog/tags/computer-graphics">Computer Graphics</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<p><img src="/blog/images/digitalfab/cellular_zoetrope/zoetrope_a.gif" /></p>
+
+<p>This is a continuation of <a href="/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/">Part 1</a> and <a href="/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/">Part 2</a> of the Zeotrope project.</p>
+
+<h1 id="motivation">Motivation</h1>
+
+<p>This was the final phase of our homework assignment for Design for Digital Fabrication which was to design something algorithmically and laser cut it.
+Now that the mechanics of the Zoetrope animation were proven out <a href="/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/">the previous week</a>,
+it was time to generate something elaborate.   I was particularly inspired by John Edmark&rsquo;s animated bloom sculptures:
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//player.vimeo.com/video/198605915" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+</p>
+
+<p>After seeing what he made, my goal was to create an animation that:</p>
+
+<ul>
+<li>loops continuously</li>
+<li>is seamless between frames, allowing the frames to appear as a single image when placed next to each other.</li>
+</ul>
+
+<h1 id="the-animation">The Animation</h1>
+
+<p>I searched around the web for an animation that would fit this criteria and when I came across the
+<a href="https://thebookofshaders.com/12/">chapter on cellular noise</a> in The Book of Shaders, I realized that the Voronoi Algorithm would be ideal.</p>
+
+<p>I couldn&rsquo;t use an out of the box Voronoi generator in Illustrator or Processing because I needed to:</p>
+
+<ul>
+<li>render the cells in an arc using radial coordinates so that they could be tiled in a circle</li>
+<li>be able to specify and parameterize the border sizes</li>
+<li>make the animation frames next to each other tilable/seamless</li>
+<li>control how the points are placed and cells are shifted for each animation frame.</li>
+</ul>
+
+<p>The only way to do this would be to have full control of the Voronoi generation.</p>
+
+<p>For a great explaination of the Voronoi algorithm, see the <a href="https://thebookofshaders.com/12/">book of shaders.</a>
+In order to be able to laser cut Voronoi cells, I would need vectors that define where the edges of the voronoi cells lie.
+Inigo Quilez&rsquo; <a href="http://www.iquilezles.org/www/articles/voronoilines/voronoilines.htm">Voronoi Border</a> variation could accomplish this, as it clearly
+defines the difference between a border and the interior of the cell:</p>
+
+<p><a href="https://thebookofshaders.com/edit.php#12/2d-voronoi.frag">
+  <img src="https://thebookofshaders.com/12/2d-voronoi.gif"/>
+</a>
+<em>source: <a href="https://thebookofshaders.com/edit.php#12/2d-voronoi.frag">The Book of Shaders</a></em></p>
+
+<p>This flavor of the algorithm works by, for each pixel, finding the two nearest Voronoi points, bisecting them,
+and calculating the distance of the pixel from the plane that is perpendicular to the line that intersects on that bisected point.  The pixel&rsquo;s color
+is determined by this distance.</p>
+
+<p><img src="http://www.iquilezles.org/www/articles/voronoilines/gfx04.jpg"/><br/>
+<em>source: <a href="http://www.iquilezles.org/www/articles/voronoilines/voronoilines.htm">Inigo Quilez</a></em></p>
+
+<p>To make this shader just render borders, I modified it by using the <code>step</code> function to determine if the pixel should appear, and setting that as the alpha:</p>
+
+<pre><code class="language-GLSL">vec3 c = voronoi(st);
+
+float show = 1. - step(0.1, c.x);
+
+gl_FragColor = vec4(vec3(1.),show);
+</code></pre>
+
+<p><em>view all of the code <a href="http://thebookofshaders.com/edit.php?log=171025211406">here</a></em>
+
+<figure >
+    <a href="http://thebookofshaders.com/edit.php?log=171025211406">
+        <img src="/blog/images/digitalfab/cellular_zoetrope/voronoi-borders-only.gif" />
+    </a>
+    
+</figure>
+</p>
+
+<p>As it stood, the cells in the edges used points that extend beyond the edges:
+
+<figure >
+    
+        <img src="/blog/images/digitalfab/cellular_zoetrope/using_points_around_edges.jpg" />
+    
+    
+</figure>
+
+This prevented a frame from tiling seamlessly next to itself:
+<a href="http://thebookofshaders.com/edit.php?log=171025211406">
+  <img src="/blog/images/digitalfab/cellular_zoetrope/non-tiled.gif"/>
+</a></p>
+
+<p>To fix this, in all of the cells at the edges, instead of searching for points that extended past the edges, I used points from cells on the opposite end:
+
+<figure >
+    
+        <img src="/blog/images/digitalfab/cellular_zoetrope/using_wrapped_points.jpg" />
+    
+    
+</figure>
+</p>
+
+<pre><code class="language-GLSL">int cols = 3;
+int rows = 3;
+vec2 getWrappedPoint(vec2 point) {
+  int x;
+  int y;
+
+  if (point.x &lt; 0.) {
+    x = cols - 1;
+  } 
+  else if(point.x &gt;= float(cols)) {
+    x = 0;
+  } 
+  else {
+    x = int(point.x);
+  }
+  
+  if (point.y &lt; 0.) {
+    y = rows - 1;
+  } else if(point.y &gt;= float(rows)) {
+    y = 0;
+  } else {
+    y = int(point.y);
+  }
+  
+  return vec2(x, y);
+}
+
+vec3 voronoi( in vec2 x ) {
+  vec2 n = floor(x);
+  vec2 f = fract(x);
+
+  // first pass: regular voronoi
+  vec2 mg, mr;
+  float md = 8.0;
+  for (int j= -1; j &lt;= 1; j++) {
+    for (int i= -1; i &lt;= 1; i++) {
+      vec2 g = vec2(float(i),float(j));
+      // convert to wrapped point
+      vec2 o = random2(getWrappedPoint(n + g));
+      o = 0.5 + 0.5*sin( u_time + 6.2831*o );
+
+      // rest of code left out for brevity purposes.  Click link below to see full examplele
+    }
+  }
+  // rest of code left out for brevity purposes.  Click link below to see full examplele
+}
+
+</code></pre>
+
+<p><em>view all of the code <a href="http://thebookofshaders.com/edit.php?log=171025231819">here.</a></em></p>
+
+<p>This caused the edge cells to wrap around to the cells on the opposite end, letting the frames be tilable:
+<a href="http://thebookofshaders.com/edit.php?log=171025231819">
+  <img src="/blog/images/digitalfab/cellular_zoetrope/tiled.gif"/>
+</a></p>
+
+<h1 id="projecting-the-animation-onto-a-circle">Projecting the Animation onto a Circle</h1>
+
+<p>For this animation to be projected onto a circle for the Zoetrope, it had to:</p>
+
+<ul>
+<li>Contain 33 frames, and loop at the end of the sequence.</li>
+<li>Have each frame be converted into an arc, and make these arcs tilable.</li>
+<li>Rotate each arc frame around a circle</li>
+</ul>
+
+<p>I used Processing to accomplish this, as I discovered it&rsquo;s incredibly easy to work with shaders and render frames
+using a buffer.</p>
+
+<p>To make the animation 33 frames long, in <em>Processing,</em> the <code>u_time</code> uniform was set to be <code>frame / 33</code>:</p>
+
+<pre><code class="language-java">shader.set(&quot;u_time&quot;, frame / 33.0);  
+</code></pre>
+
+<p>In the <em>shader</em>, the animation was set to repeat every <code>sin(u_time * 2 * PI)</code>:</p>
+
+<pre><code class="language-GLSL">o = 0.5 + 0.5*sin( u_time * 2 * PI + 6.2831*o );
+</code></pre>
+
+<p>To render the frame as an arc with a transparent background, the x and y were converted into radial coordinates, and everything outside of the <code>2 * PI /33</code> size arc had an alpha of 0, making those areas transparent:</p>
+
+<pre><code class="language-GLSL">int frames = 33;
+float totalTheta = 2. * PI / float(frames);
+float minTheta = -totalTheta / 2.;
+
+// origin is at the middle top of the screen
+vec2 origin = vec2(0.5, 1.);
+
+vec2 getRadialCoords(vec2 point) {
+  float y = length(point - origin);
+  float xMagnitude = point.x - origin.x;
+  float theta = sin(xMagnitude / y);
+  return vec2((theta - minTheta) / totalTheta, y);
+}
+
+// rest of code left out for brevity purposes
+
+void main() {
+  vec2 st = gl_FragCoord.xy/u_resolution.xy;
+  st.x *= u_resolution.x/u_resolution.y;
+  st = getRadialCoords(st);
+  vec3 color = vec3(0.);
+
+  float show = (1. - step(1., st.y));
+  show *= step(0., st.x) * (1.-step(1., st.x));
+  
+  // Scale 
+  st *= vec2(2., 8.);// cells;
+  vec3 c = voronoi(st);
+
+  show *= 1.-step(0.09, c.x);
+
+  gl_FragColor = vec4(vec3(1.),show);
+}
+</code></pre>
+
+<p><a href="http://thebookofshaders.com/edit.php?log=171016221639">
+  <img src="/blog/images/digitalfab/cellular_zoetrope/arc.gif"/>
+</a></p>
+
+<p>To project this onto a circle in Processing, each frame was rendered into a <code>PGraphics</code> buffer,
+then the scene was rotated, scaled, and the buffer was rendered as an image in the proper size and rotation:</p>
+
+<pre><code class="language-java">PShader frag;
+
+int frames = 33;
+float frameTheta = 2. * PI / frames;
+
+int h = 300;
+int w = 300;
+float base = 2 * tan(frameTheta / 2.)* h;
+int renderSize = ceil(base);
+
+float sliceAspect = sin(1. / frames * 0.5 * 2 * PI) * 2.;
+int frameWidth = ceil(h * sliceAspect);
+
+void settings() {
+  size(w, h, P2D);
+}
+  
+PGraphics pg;
+
+void setup() {
+  frag = loadShader(&quot;colorfrag.GLSL&quot;, &quot;colorvert.GLSL&quot;);
+  frag.set(&quot;u_resolution&quot;, float(frameWidth), float(h));
+  frag.set(&quot;u_cells&quot;, float(3), float(14));
+  frag.set(&quot;u_bordersize&quot;, 0.1);
+  frag.set(&quot;u_miny&quot;, 0.1);
+  
+  background(255);
+}
+
+int frame = 0;
+void draw() {
+  // circle complete, stop animating.
+  if (frame &gt; frames) noLoop();
+  
+  noStroke();
+  frag.set(&quot;u_time&quot;, frame * 1.0 / frames);  
+  // create buffer
+  pg = createGraphics(frameWidth, h, P2D);
+  pg.beginDraw();
+  // render the shader in the buffer
+  pg.filter(frag); 
+  pg.endDraw();
+ 
+  translate(w/2, h/2);
+  scale(0.5);
+  
+  rotate(lerp(0, -2. * PI, float(frame) / frames));
+  
+  // after rotation, move frame to the middle
+  translate(-frameWidth/2, 0);
+  image(pg, 0,0 ); 
+  frame++;
+}
+</code></pre>
+
+<p><img src="/blog/images/digitalfab/cellular_zoetrope/project_circle.gif"/></p>
+
+<p>As the voronoi approached the center of the circle, the borders become narrower and more skewed - this would be nearly impossible to cut.
+To improve this, within a specified radius, the animation was changed to be a different voronoi animation from the book of shaders, <a href="https://thebookofshaders.com/edit.php#12/metaballs.frag">meatballs:</a></p>
+
+<p><img src="/blog/images/digitalfab/cellular_zoetrope/withmeatballs.gif"/></p>
+
+<p>With the animation created, I wanted to laser cut multiple layers of it, each with a slightly larger border, enabling the physical layers to have different colors and stack on top of each other, creating a sort
+of 3D/depth effect.  To generate these layers in processing, I parameterized the shader to be able to specify the border size and the color it renders.
+For each layer, the animation was projected around the circle with these parameters set layer by layer:
+<a href="https://gist.github.com/oveddan/509d9510974a5a1494c58a0d0b648a09">
+  <img src="/blog/images/digitalfab/cellular_zoetrope/layered.gif"/>
+</a></p>
+
+<p><em>view the code for this <a href="https://gist.github.com/oveddan/509d9510974a5a1494c58a0d0b648a09">here</a></em></p>
+
+<h1 id="preparing-for-laser-cutting">Preparing for Laser Cutting</h1>
+
+<p>Converting these layers into vectors that could be laser cut was pretty straightforward.  First, I modified the processing script to render each layer as a separate image
+with resolution 2000x2000, and white for where the borders would be:</p>
+
+<p><img src="/blog/images/digitalfab/cellular_zoetrope/export_for_illustrator.jpg"/></p>
+
+<p>To convert a layer into a vector for laser cutting, in <em>Adobe Illustrator,</em> I:</p>
+
+<ul>
+<li>Converted the generated image for layer to a vector by used Image Trace.</li>
+<li>selected all of the black fill vectors and deleted them.</li>
+<li>scaled the layer to its real size of 30 cm (or 11.81&rdquo;).</li>
+<li>converted all the vectors to a red stroke with 0.1 size, so that the laser cutter would recognize it for cutting.</li>
+</ul>
+
+<p><img src="/blog/images/digitalfab/cellular_zoetrope/illustrator_vector.gif" />
+<em>Layer 2 prepared for laser cutting in Illustrator</em></p>
+
+<h1 id="laser-cutting">Laser Cutting</h1>
+
+<p>The laser cutter was able to easily read these vectors and cut the layers:</p>
+
+<p><img src="/blog/images/digitalfab/cellular_zoetrope/bluelayer.jpg" />
+<img src="/blog/images/digitalfab/cellular_zoetrope/layer1oncutter.jpg" />
+
+<figure >
+    
+        <img src="/blog/images/digitalfab/cellular_zoetrope/layer1onblue3.jpg" alt="Layer 1 on a blue background" />
+    
+    
+    <figcaption>
+        <p>
+        Layer 1 on a blue background
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/blog/images/digitalfab/cellular_zoetrope/layer3and1and2.jpg" alt="Layer 3 (did not end up being used)" />
+    
+    
+    <figcaption>
+        <p>
+        Layer 3 (did not end up being used)
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+</p>
+
+<p>I tried stacking all the layers as originally intended on top of each other, but the blue on the bottom was barely visible under the purple.  I found the
+best combination was white top layer, blue under it, and white background:</p>
+
+
+<figure >
+    
+        <img src="/blog/images/digitalfab/cellular_zoetrope/layer1to3.jpg" />
+    
+    
+</figure>
+
+
+<p>The middle part, the meatball variation, ended up with a few gaps where the animation was not attached to the rest of the disc. I had intended to attach these back on, but these pieces fell through the cracks
+when laser cutting.  I left it off the main zoetrope animation:</p>
+
+<p><img src="/blog/images/digitalfab/cellular_zoetrope/middlepart.jpg" />
+I used acrylic glue to attach the top two layers to each other:
+
+<figure >
+    
+        <img src="/blog/images/digitalfab/cellular_zoetrope/attached_on_turntable.jpg" />
+    
+    
+</figure>
+
+<img src="/blog/images/digitalfab/cellular_zoetrope/finalresult.jpg"/></p>
+
+<h1 id="filming-the-zoetrope">Filming the Zoetrope</h1>
+
+<p>When it came time to film this animation, I wanted to do it without needing the rgb led flashers from my previous experiments because the camera does not properly capture the strobe effects.
+I realized then why in <a href="http://www.retchy.com/pages/project_zoetrope.html">Retchy&rsquo;s post on Zeotropes</a> he recommended using 33 frames of animation:</p>
+
+<p>At 45 rpm, or 0.75 rotations per second, with 33 frames, dividing the frames by rps gives us <strong>24.75 frames appearing each second</strong>. This lines up closely with the camera&rsquo;s standard 24 fps.
+I filmed this using the Canon Mark III generously provided by ITP; with a high shutter speed (<sup>1</sup>&frasl;<sub>4000</sub>), this created the wonderful effect of a physical, seamless animation:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//player.vimeo.com/video/239159794" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
+
+<h1 id="conclusions-future-work">Conclusions / Future Work</h1>
+
+<p>I&rsquo;m incredibly pleased with the results of this experiment as it surpassed my expectations.
+I&rsquo;d like to explore creating some more animations such as one that depicts entering an infinite spiral.
+I also want to figure out a proper setup for the flashing light and interacting with its speed.
+I hope others can learn from this, use it as a resource, and be inispired to create something better.</p>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'danoved'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/oveddan">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.instagram.com/stangogh/">
+        <i class="fa fa-instagram"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> Dan Oved&#39;s Blog
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://danoved.netlify.com/blog/js/jquery-2.2.4.min.js"></script>
+<script src="https://danoved.netlify.com/blog/js/main.js"></script>
+<script src="https://danoved.netlify.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-106896744-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>

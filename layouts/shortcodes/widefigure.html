@@ -1,0 +1,12 @@
+{{ $images := .Page.Resources.ByType "images" }}
+{{ $original := $images.GetByPrefix (.Get "src") }}
+
+{{ $image := $original.Resize "625x CatmullRom" }}
+
+<figure>
+  <img src="{{ $image.RelPermalink }}" />
+  {{ with .Get "caption" }}
+    <figcaption>{{.}}</figcaption>
+  {{ end }}
+</figure>
+

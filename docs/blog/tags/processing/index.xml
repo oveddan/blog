@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Processing on Dan Oved&#39;s Blog</title>
+    <link>https://danoved.netlify.com/blog/tags/processing/</link>
+    <description>Recent content in Processing on Dan Oved&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Oct 2017 16:10:23 -0400</lastBuildDate>
+    
+	<atom:link href="https://danoved.netlify.com/blog/tags/processing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From Shader to Physical Animation - the Voronoi Cellular Zoetrope</title>
+      <link>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</link>
+      <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</guid>
+      <description>This is a continuation of Part 1 and Part 2 of the Zeotrope project.
+Motivation This was the final phase of our homework assignment for Design for Digital Fabrication which was to design something algorithmically and laser cut it. Now that the mechanics of the Zoetrope animation were proven out the previous week, it was time to generate something elaborate. I was particularly inspired by John Edmark&amp;rsquo;s animated bloom sculptures:   After seeing what he made, my goal was to create an animation that:</description>
+    </item>
+    
+    <item>
+      <title>Designing my Business Card</title>
+      <link>https://danoved.netlify.com/blog/posts/visual_language/business-card/</link>
+      <pubDate>Wed, 18 Oct 2017 00:43:12 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/visual_language/business-card/</guid>
+      <description>For our final homework assignment in Visual Language, we were to design a logo and business card for ourselves.
+Earlier in the semseter, when I heard that this would be our final project, I was both excited and terrified. This proved to be very challenging in the end. When it finally came time to work on this, I found myself frequently criticizing my designs, starting over, and letting out a highly audible sigh that made those around me chuckle.</description>
+    </item>
+    
+    <item>
+      <title>Generating Zoetrope Animations</title>
+      <link>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</link>
+      <pubDate>Thu, 12 Oct 2017 13:25:28 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</guid>
+      <description>This is a continuation of Part 1 of the Zeotrope project for my Design for Digital Fabrication class. The final phase can be seen in Part 3
+The next step of the project was to prototype the mechanics of the animation. The main questions were:
+ How many frames of animation are optimal? What should the rotation speed be? At what rate should the lights flash?  The Rotation Mechanism - a Turntable There were many examples of Zoetropes on the web - the majority of them used a turntable to rotate the animation.</description>
+    </item>
+    
+  </channel>
+</rss>

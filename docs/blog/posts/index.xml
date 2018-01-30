@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Dan Oved&#39;s Blog</title>
+    <link>https://danoved.netlify.com/blog/posts/</link>
+    <description>Recent content in Posts on Dan Oved&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Dec 2017 00:30:39 -0500</lastBuildDate>
+    
+	<atom:link href="https://danoved.netlify.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Presence - Fabricating the Kinetic Sculpture</title>
+      <link>https://danoved.netlify.com/blog/posts/presence/fabricating-the-kinetic-sculpture/</link>
+      <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/presence/fabricating-the-kinetic-sculpture/</guid>
+      <description>After prototyping fabricating a small version of Presence to test the design and physical mechanics, it was time to build the real thing.
+I decided to go with a design of 21 tubes arranged tightly together in a curve.
+They would be mounted on long piece of arcrylic attached at the bottom to a piece of CNC routed plywood:
+For the sides, I designed walls with small .2&amp;rdquo; deep x .</description>
+    </item>
+    
+    <item>
+      <title>Presence - Fabricating the Prototype</title>
+      <link>https://danoved.netlify.com/blog/posts/presence/fabricating-the-prototype/</link>
+      <pubDate>Tue, 05 Dec 2017 23:52:29 -0500</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/presence/fabricating-the-prototype/</guid>
+      <description>For the first phase of the physical installation, I wanted to fabricate a basic prototype that prove out the form factor, mechanics of the motors, and strength of the frame.
+The design for the full installation:
+Originally, I wanted to use wooden dowels and paint the patterns on them. However, these proved to be heavy and expensive. A cheaper, lighter solution was to use shipping tubes. I could order 2&amp;rdquo;x48&amp;rdquo; order in bulk from Mcmaster Carr for $16 per 5 tubes.</description>
+    </item>
+    
+    <item>
+      <title>Presence - Physical Design, Bill of Materials and Schematics</title>
+      <link>https://danoved.netlify.com/blog/posts/presence/design-bom-schematics/</link>
+      <pubDate>Tue, 14 Nov 2017 15:38:22 -0500</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/presence/design-bom-schematics/</guid>
+      <description>After doing play testing for Presence, I concluded that:
+ Trying to make this a meditative experience would be challenging. It will be difficult enough to get the interation and gaze tracking right, so just create a experience that simply reacts to the users gaze. There should be, near-instantaneous, clear visuals showing where the user is gazing, instead of making a column and its surroundings turn blank gradually. Having the gaze represented in the y-axis when just rotating columns in the x-axis can be achieved with a spiral design similar to Daniel Rozin&amp;rsquo;s Twisted Strips  I came up with this design:</description>
+    </item>
+    
+    <item>
+      <title>Predicting Gaze in Python with the Eye Tracking for Everyone Neural Network</title>
+      <link>https://danoved.netlify.com/blog/posts/presence/predicting-gaze-with-the-model/</link>
+      <pubDate>Mon, 13 Nov 2017 22:21:18 -0500</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/presence/predicting-gaze-with-the-model/</guid>
+      <description>View the ipython notebook with the code here
+My next goal for Presence was to try to get eye gaze prediction working using the Eye Tracking for Everyone model. I wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU. The ultimate deployment would be on the NVidia Jetson TX2, a single-board computer with a powerful GPU and support for six camera inputs.</description>
+    </item>
+    
+    <item>
+      <title>Presence - Concepts and Play Testing</title>
+      <link>https://danoved.netlify.com/blog/posts/presence/concepts-and-play-testing/</link>
+      <pubDate>Tue, 07 Nov 2017 20:16:51 -0500</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/presence/concepts-and-play-testing/</guid>
+      <description>For Intro to Physical Computing this week, we were to play test our final project with our classmates.
+I collaborated with Katya Rozanova to come up with initial designs.
+Here are some of her sketches and concepts:
+We ultimately settled on a form with vertical columns that rotate and reveal certain patterns depending on where you are looking. We chose this because it would be easier to build; with a single axis, the x-axis, we could have servos rotate the columns to represent the gaze is on that axis.</description>
+    </item>
+    
+    <item>
+      <title>Presence - Proposal</title>
+      <link>https://danoved.netlify.com/blog/posts/presence/proposal/</link>
+      <pubDate>Tue, 31 Oct 2017 22:55:41 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/presence/proposal/</guid>
+      <description>This is the proposal for Presence, an art piece that is activated the longer and the more people gaze directly at it. It would encourage being present and engaged, and connect the fellow participants with each other over moments of mindfulness. This will be my final project for Intro to Physical Computing and Design for Digital Fabrication.
+I will use small cameras and computer vision to detect the quantify of people present and how many of them are gazing at a specific point, and reveal parts of the piece using motors and other physical controls.</description>
+    </item>
+    
+    <item>
+      <title>Weather Diorama</title>
+      <link>https://danoved.netlify.com/blog/posts/physical_computing/weather-diorama/</link>
+      <pubDate>Sun, 29 Oct 2017 20:33:47 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/physical_computing/weather-diorama/</guid>
+      <description>Background / Motivation This was my teams&amp;rsquo; project for our Intro to Physical Computing midterm, where we were encouraged to use serial communication. Barak Chamo and Mai Arakida Izsak were the other team members, and contributed to this post.
+After seeing Barak create his initial Fuji Diorama:
+We thought it would be interesting to insert lights between the layers that could change the appearance of the scene depend on the time of day or weather.</description>
+    </item>
+    
+    <item>
+      <title>From Shader to Physical Animation - the Voronoi Cellular Zoetrope</title>
+      <link>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</link>
+      <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</guid>
+      <description>This is a continuation of Part 1 and Part 2 of the Zeotrope project.
+Motivation This was the final phase of our homework assignment for Design for Digital Fabrication which was to design something algorithmically and laser cut it. Now that the mechanics of the Zoetrope animation were proven out the previous week, it was time to generate something elaborate. I was particularly inspired by John Edmark&amp;rsquo;s animated bloom sculptures:   After seeing what he made, my goal was to create an animation that:</description>
+    </item>
+    
+    <item>
+      <title>Designing my Business Card</title>
+      <link>https://danoved.netlify.com/blog/posts/visual_language/business-card/</link>
+      <pubDate>Wed, 18 Oct 2017 00:43:12 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/visual_language/business-card/</guid>
+      <description>For our final homework assignment in Visual Language, we were to design a logo and business card for ourselves.
+Earlier in the semseter, when I heard that this would be our final project, I was both excited and terrified. This proved to be very challenging in the end. When it finally came time to work on this, I found myself frequently criticizing my designs, starting over, and letting out a highly audible sigh that made those around me chuckle.</description>
+    </item>
+    
+    <item>
+      <title>Generating Zoetrope Animations</title>
+      <link>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</link>
+      <pubDate>Thu, 12 Oct 2017 13:25:28 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</guid>
+      <description>This is a continuation of Part 1 of the Zeotrope project for my Design for Digital Fabrication class. The final phase can be seen in Part 3
+The next step of the project was to prototype the mechanics of the animation. The main questions were:
+ How many frames of animation are optimal? What should the rotation speed be? At what rate should the lights flash?  The Rotation Mechanism - a Turntable There were many examples of Zoetropes on the web - the majority of them used a turntable to rotate the animation.</description>
+    </item>
+    
+    <item>
+      <title>Design for the ITP Winter Show 2017 Show Postcard</title>
+      <link>https://danoved.netlify.com/blog/posts/visual_language/show-postcard/</link>
+      <pubDate>Wed, 11 Oct 2017 02:15:02 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/visual_language/show-postcard/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Zoetrope Light and Materials Exploration</title>
+      <link>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</link>
+      <pubDate>Fri, 06 Oct 2017 10:08:02 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</guid>
+      <description>See Part 2 and Part 3 of this project.
+ For our first project for Designing for Digital Fabrication, we are to create something using the laser cutter, with at least some of the geometry generated algebraically. We have two weeks to complete this.
+Inspiration I searched for inspirations for a project like this and ended up discovering the Zoetrope and being blown away by what people have done with it:</description>
+    </item>
+    
+    <item>
+      <title>My Colors and Compositions</title>
+      <link>https://danoved.netlify.com/blog/posts/visual_language/my-colors/</link>
+      <pubDate>Wed, 04 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/visual_language/my-colors/</guid>
+      <description>For this Visual Language homework assignment, I was tasked to pick a color palette that represents me, and create six compositions using those colors.
+The Color Palette I wanted a theme with red because this represents it represents love and life, and I believe in living a life doing what you love.
+I chose the color palette inspired by Tame Impala &amp;lsquo;Currents&amp;rsquo; from The Day&amp;rsquo;s Color:
+ These colors are both vibrant and diverse.</description>
+    </item>
+    
+    <item>
+      <title>Light Loop</title>
+      <link>https://danoved.netlify.com/blog/posts/physical_computing/light-loop/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/physical_computing/light-loop/</guid>
+      <description>The Features The goal of this project is to use analog input and digital input to drive digital output.
+This is accomplished by detecting when a photoresistor, an analog input, gets a certain amount of light. When that happens, it triggers an animation on the opposite end of the LEDS which travels through them back towards the photoresistor. When the photoresistor picks up enough light from the animation that has reached it, it triggers the start of the animation again.</description>
+    </item>
+    
+    <item>
+      <title>Expressive Words</title>
+      <link>https://danoved.netlify.com/blog/posts/visual_language/expressive-words/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/visual_language/expressive-words/</guid>
+      <description>For this homework assignment we were to design 3 expressive words that visually communicate their meanings. Here is what I created:  
+ Icons used: The Rest, Afro and cat from The Noun Project</description>
+    </item>
+    
+    <item>
+      <title>Redesigning the Delta Boarding Pass</title>
+      <link>https://danoved.netlify.com/blog/posts/visual_language/boarding-pass-redesign/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/visual_language/boarding-pass-redesign/</guid>
+      <description>Original Design For this homework assignment we were to take the boarding pass below and redesign it:
+ 
+My Redesign   Icons used: Door and Airplane Seat from The Noun Project
+My design assumes that the passenger gets this boarding pass at the check-in counter or kiosk, and the stub on the right is torn off and handed to the passenger at the gate. The information hierarchy is organized to make it quick to find the most important information at every part of the way from the check-in counter to the seat.</description>
+    </item>
+    
+    <item>
+      <title>Doubling the Battery Power</title>
+      <link>https://danoved.netlify.com/blog/posts/physical_computing/batteries-in-parallel/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/physical_computing/batteries-in-parallel/</guid>
+      <description>A project I worked on this past summer required a portable power source of 3.3 - 4 volts. I used the Tenergy Li-Ion 3.7v 2600 mAH rechargeable battery, connected to the Adafruit LiPoly backpack charger and a Teensy 3.2. In this system, the battery would be drained after only about half an hour; I wanted to increase the capacity but did not know how.
+Then last week, for my Basic Analog Circuit course, I learned about connecting multiple batteries in parallel to maintain the same voltage but increase the current and capacity by connecting the powers and grounds together of the batteries.</description>
+    </item>
+    
+    <item>
+      <title>Designing for Digital Fabrication - Drawing a Real World Object in Vectorworks</title>
+      <link>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/drawing-a-real-world-object-in-vectorworks/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/design_for_digital_fabrication/drawing-a-real-world-object-in-vectorworks/</guid>
+      <description>Our first homework assignment for Daniel Rozin&amp;rsquo;s Designing for Digital Fabrication class was to draw three 2d perspectives of a real world object in Vectorworks. I took this as an opportunity to get the exact dimensions of an object I&amp;rsquo;ve been eager to to incorporate into a project.
+At the Armory show in 2015, I discovered and was amazed by the low-resolution work of Jim Campbell.
+Jim Campbell - Scattered 25X (Marathon)</description>
+    </item>
+    
+    <item>
+      <title>Visual Language - This Is a Good and Bad Sign</title>
+      <link>https://danoved.netlify.com/blog/posts/visual_language/this-is-a-good-and-bad-sign/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/visual_language/this-is-a-good-and-bad-sign/</guid>
+      <description>For this homework assignment, we are to show two examples each of successful and unsuccessful signs, then redesign one of the bad signs.
+Unsuccessful Signs V-Nam cafe, on 1st and 1st, is in my opinion the best Vietnamese restaurant in New York City. I used to live a block away and would walk by it all the time, but had no idea it existed until discovering it through Yelp.</description>
+    </item>
+    
+    <item>
+      <title>An Example of Good Design</title>
+      <link>https://danoved.netlify.com/blog/posts/visual_language/an-example-of-good-design/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/visual_language/an-example-of-good-design/</guid>
+      <description>This last Sunday I was at a rooftop party at Output in Williamsburg and noticed my friend drinking what looked like a perfectly refreshing beverage – a can of Babe Rosé. Before even tasting her drink I decided to get one for myself, figuring it would be the perfect drink to enjoy during the sunset. In retrospect – the sleek, clean, and elegant design of the slender can is what lured me in.</description>
+    </item>
+    
+    <item>
+      <title>What Is Physical Interaction?</title>
+      <link>https://danoved.netlify.com/blog/posts/physical_computing/what-is-physical-interaction/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/physical_computing/what-is-physical-interaction/</guid>
+      <description>According to Chris Crawford in The Art of Interactive Design, Physical interaction is where a human interfaces with another entity, such as a person or computer, and that entity responds based on that action. It must be two-way; uni-directional communication is not interaction.
+Examples of physical interaction:
+ Typing in a text editor and seeing letters appearing. Painting with hand-help controllers in virtual reality. Having a conversation with another person. Playing a competitive sport.</description>
+    </item>
+    
+    <item>
+      <title>Finally fulfilling a ten-year-old goal of starting a blog and posting something.</title>
+      <link>https://danoved.netlify.com/blog/posts/about-writing-a-blog/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://danoved.netlify.com/blog/posts/about-writing-a-blog/</guid>
+      <description>Today was the final day of orientation for ITP. Thanks goes out to the residents for giving us great workshops on creating documentation and how to create a blog, then forcing us do it.
+I&amp;rsquo;ve been wanting to since I started coding, but each time my fear of public writing has turned into infinite procrastination.
+One of the biggest takeaways from this talk is that even if you build something amazing, if no one sees and learns from it, then it&amp;rsquo;s pretty wasteful.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Energy on Dan Oved&#39;s Blog</title>
+    <link>https://oveddan.github.io/blog/categories/energy/</link>
+    <description>Recent content in Energy on Dan Oved&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jan 2018 23:07:13 -0500</lastBuildDate>
+    
+	<atom:link href="https://oveddan.github.io/blog/categories/energy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kinetic Project - Concepts and Brainstorming</title>
+      <link>https://oveddan.github.io/blog/posts/energy/kinetic-project/concepts/</link>
+      <pubDate>Mon, 29 Jan 2018 23:07:13 -0500</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/energy/kinetic-project/concepts/</guid>
+      <description>For our Kinetic Energy assignment for the Energy class, I partnered up with Arnav. We came up with a few concepts for how to turn human motion into light.
+Hand-Crank Music Box The first thing we explored was turning a hand-crank music box into a music box that emits light.
+ We would connect a motor to the end of the crank shaft and have that generate electricity.
+Weelchair Powered Light We explored using the wheelchair on the ITP floor for kinetic energy - it could work in one of two ways.</description>
+    </item>
+    
+  </channel>
+</rss>

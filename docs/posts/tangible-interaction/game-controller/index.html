@@ -1,0 +1,182 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dan Oved&#39;s Blog">
+    <meta name="description" content="Connecting the digital with the analog world @ ITP">
+    <meta property="og:title" content="Game Controller  - Dan Oved's blog" />
+    <meta property="og:description" content="" />
+    
+    
+
+    
+      <meta property="og:updated_time" content="2018-01-27T20:28:36-05:00"/>
+    
+    <meta name="generator" content="Hugo 0.32.4" />
+    <title>Game Controller &middot; Dan Oved&#39;s Blog</title>
+    <link rel="shortcut icon" href="https://oveddan.github.io/blog/images/favicon.ico">
+    <link rel="stylesheet" href="https://oveddan.github.io/blog/css/style.css">
+    <link rel="stylesheet" href="https://oveddan.github.io/blog/css/highlight.css">
+    
+    <link rel="stylesheet" href="https://oveddan.github.io/blog//css/style-custom.css">
+    
+
+    
+    <link rel="stylesheet" href="https://oveddan.github.io/blog/css/font-awesome.min.css">
+    
+
+    
+  </head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://oveddan.github.io/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://oveddan.github.io/blog/posts'>Archive</a>
+	<a href='https://oveddan.github.io/blog/tags'>Tags</a>
+  
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        Game Controller
+                    </h1>
+                    <h2 class="headline">
+                    Jan 27, 2018 20:28
+                    · 314 words
+                    · 2 minutes read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://oveddan.github.io/blog/tags/tangible-interaction-workshop">tangible interaction workshop</a>
+                          
+                              <a href="https://oveddan.github.io/blog/tags/interaction">interaction</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    <p>For this assignment, I tried about both versions of the game.  According to the instructions,
+we were supposed to make the controller work for both games.</p>
+
+<p>First,  I sketched out the current controls for each game:</p>
+
+<p>Then I came up with an initial design:</p>
+
+<p>This had a joystick on the left that would go only left and right, and a joystick on the right that would go up and down.
+A toggle switch in the middle would change if the game mode is Atari or the other one.  Depending on what
+the toggle was set to, the joysticks would either trigger w a s d or up down left right on the keyboard, since each
+game used a different set of keys.A joystick in the top middle and a button would act as a mouse click.
+A trigger on the top right would act as the spacebar.</p>
+
+<p>After experimenting with the Atari game, I realized that it also worked with the arrow keys, even though not documented.  Therefore
+I could trigger the same keys no matter the game, so the toggle switch is no longer needed to switch between game modes.</p>
+
+<p>I redesigned without that middle button:</p>
+
+<p>I also experimented with adding the space bar on the top of the controller, as this would be easier to build:</p>
+
+<p>Then I thought a bit - users are not accustomed to using joysticks that just go in a single axis.  They are much more used
+to working with buttons.  So I should make a controller just with that.  Also I discovered there are joysticks you can also press
+down to click.  This would allow both the joystick and button on my controller for the mouse to be combined into that single joystick
+that can be clicked.</p>
+
+<p>My final design was as such:</p>
+
+<p>I would etch or draw on the conroller symbols showing what the buttons do.</p>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'danoved'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/oveddan">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.instagram.com/stangogh/">
+        <i class="fa fa-instagram"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> Dan Oved&#39;s Blog
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://oveddan.github.io/blog/js/jquery-2.2.4.min.js"></script>
+<script src="https://oveddan.github.io/blog/js/main.js"></script>
+<script src="https://oveddan.github.io/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-106896744-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
