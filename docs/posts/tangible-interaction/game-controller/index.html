@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Dan Oved&#39;s Blog">
     <meta name="description" content="Connecting the digital with the analog world @ ITP">
-    <meta property="og:title" content="Game Controller  - Dan Oved's blog" />
+    <meta property="og:title" content="Tangible Interaction Workshop - Game Controller  - Dan Oved's blog" />
     <meta property="og:description" content="" />
     
     
 
     
-      <meta property="og:updated_time" content="2018-01-27T20:28:36-05:00"/>
+      <meta property="og:updated_time" content="2018-01-30T20:28:36-05:00"/>
     
     <meta name="generator" content="Hugo 0.32.4" />
-    <title>Game Controller &middot; Dan Oved&#39;s Blog</title>
+    <title>Tangible Interaction Workshop - Game Controller &middot; Dan Oved&#39;s Blog</title>
     <link rel="shortcut icon" href="https://oveddan.github.io/blog/images/favicon.ico">
     <link rel="stylesheet" href="https://oveddan.github.io/blog/css/style.css">
     <link rel="stylesheet" href="https://oveddan.github.io/blog/css/highlight.css">
@@ -50,19 +50,19 @@
             <article class="post">
                 <header>
                     <h1>
-                        Game Controller
+                        Tangible Interaction Workshop - Game Controller
                     </h1>
                     <h2 class="headline">
-                    Jan 27, 2018 20:28
-                    · 314 words
-                    · 2 minutes read
+                    Jan 30, 2018 20:28
+                    · 936 words
+                    · 5 minutes read
                       <span class="tags">
                       
                       
                           
-                              <a href="https://oveddan.github.io/blog/tags/tangible-interaction-workshop">tangible interaction workshop</a>
+                              <a href="https://oveddan.github.io/blog/tags/tangible-interaction-workshop">Tangible Interaction Workshop</a>
                           
-                              <a href="https://oveddan.github.io/blog/tags/interaction">interaction</a>
+                              <a href="https://oveddan.github.io/blog/tags/interaction">Interaction</a>
                           
                       
                       
@@ -71,12 +71,20 @@
                 </header>
                 
                 <section id="post-body">
-                    <p>For this assignment, I tried about both versions of the game.  According to the instructions,
+                    
+
+<h2 id="design-and-sketching-concepts">Design and Sketching Concepts</h2>
+
+<p>For this assignment, I tried about both versions of the game.  According to the instructions,
 we were supposed to make the controller work for both games.</p>
 
 <p>First,  I sketched out the current controls for each game:</p>
 
+<p><img src="/blog/images/tangible-interaction/game-controller/game_elements_sketch.jpg" alt="Game Controls Concepts" /></p>
+
 <p>Then I came up with an initial design:</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/initial_design.png" alt="Initial Design" /></p>
 
 <p>This had a joystick on the left that would go only left and right, and a joystick on the right that would go up and down.
 A toggle switch in the middle would change if the game mode is Atari or the other one.  Depending on what
@@ -89,16 +97,159 @@ I could trigger the same keys no matter the game, so the toggle switch is no lon
 
 <p>I redesigned without that middle button:</p>
 
+<p><img src="/blog/images/tangible-interaction/game-controller/redo_design_1.png" alt="Redo Design" /></p>
+
 <p>I also experimented with adding the space bar on the top of the controller, as this would be easier to build:</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/redo_design_2.png" alt="Redo Design With Space Bar on Top" /></p>
 
 <p>Then I thought a bit - users are not accustomed to using joysticks that just go in a single axis.  They are much more used
 to working with buttons.  So I should make a controller just with that.  Also I discovered there are joysticks you can also press
 down to click.  This would allow both the joystick and button on my controller for the mouse to be combined into that single joystick
-that can be clicked.</p>
+that can be clicked:</p>
 
-<p>My final design was as such:</p>
+<p><img src="/blog/images/tangible-interaction/game-controller/redo_design_2.png" alt="Design with buttons" /></p>
 
 <p>I would etch or draw on the conroller symbols showing what the buttons do.</p>
+
+<p>After emailing back and forth with Tom Igoe (the instructor), I learned that we only needed to design for one of the games, and only
+needd to make controls for a specific game.  In this case, for the &ldquo;other&rdquo; version (not the Atari one), the only controls are
+really left, right, up for the gas, and click to start. This would let me do a controller with just those 4 controls:</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/focused_design.jpg" alt="Focused design" /></p>
+
+<h2 id="using-a-joystick-to-allow-for-adjustable-thruster">Using a joystick to allow for adjustable thruster</h2>
+
+<p>When playing the game, I found it annoying that the thruster could only be fully on or off.  This made
+it more challenging to ease into a smooth the landing.  I thought the ideal
+situation would be to be able to control how strong the thrust is with a sort of joystick or slide mechanism,
+similar to how it is controlled in airplanes or fighter jets.</p>
+
+<p>I experimented with doing this by pressing rapidly on the up key; this got the desired result of the thrusters only
+emitting part of their capacity.  I realized we could simulate this by having the controller repeatedly press the <em>up</em> key, and
+how far the joystick or slide potentiometer is pushed would correspond to how long the up key is pressed down for in each period.</p>
+
+<p>This methodology corresponds directly to how <a href="https://www.arduino.cc/en/Tutorial/PWM">Pulse With Modulation</a> works,
+where a signal is on for a specific period in an interval:</p>
+
+
+<figure >
+    
+        <img src="https://www.arduino.cc/en/uploads/Tutorial/pwm.gif" alt="Source: https://www.arduino.cc/en/Tutorial/PWM" />
+    
+    
+    <figcaption>
+        <p>
+        Source: https://www.arduino.cc/en/Tutorial/PWM
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>For the game, we could model the tapping of the <em>up</em> key just like this.</p>
+
+<p>For the physical control, I did not have a slide potentiometer; I only had a joystick that could move in both axises.  Allowing
+the user to move the joystick in both the x and y would be confusing, as the x is never used, and only one direction of the y is used.</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/joystick.jpg" alt="Joystick in both axis" /></p>
+
+<p>A clearer interface would be one where they can only pull the y in one direction and that would control the strenght of the thruster.
+To try making this, I cut a thin slot into a piece of card-paper, and removing the knob from on top of the joystick:</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/limiting_joystick_axis.jpg" alt="Limiting to one direction" /></p>
+
+<p>I then use a button I had from a switch I removed off of a Korg mixer as this button would indicate it should be pushed in a single direction:</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/limit_switch.gif" alt="Limit switch" /></p>
+
+<h2 id="assembling-and-coding-the-controller">Assembling and Coding the Controller</h2>
+
+<p>When it came time to assemble, I laid everything out similar to the sketch, except with the joystick on the right:</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/assembled_on_breadboard.jpg" alt="Assembled" /></p>
+
+<p>I originally attempted to have the joystick attached via pins to a small breadboard:</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/joystick_on_breadboard.jpg" alt="With Pins" /></p>
+
+<p>However, this proved unreliable, as the joystick would easily be pushed up or down, and could become slightly displaced
+for a moment from the breadboard, providing inconsistent resistance rating. This caused me hours of troubleshooting and pain.</p>
+
+<p>I ended up soldering wires to the pins on the joystick; this proved much more reliable:</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/soldered_pins.jpg" alt="Soldered Wires" /></p>
+
+<p>I wrote code for the controller to achieve the pulse with modulation effect on the thrust key. To calibrate the 0 on the joystick,
+when the start key is pressed, the joystick y is zeroed.</p>
+
+<script src="//gist.github.com/oveddan/402a7e1302462fcc150cbba4d005fa81.js"></script>
+
+<h2 id="testing-it-out">Testing it Out</h2>
+
+<p>I tested out the controls and they worked well.  Being able to have light thrusters instead of full strength let me get a smooth
+landing:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//player.vimeo.com/video/253572510" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
+
+<h2 id="assembling-the-final-case">Assembling the Final Case</h2>
+
+<p>To assemble the final case, I drew some guides on a piece of black card-paper and cut them with an exacto knife.</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/lines_for_case.jpg" alt="Lines for Case" /></p>
+
+<p>To get precise folds I cut light lines into one of the sides.</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/cut_case.jpg" alt="Cut Case" /></p>
+
+<p>To create a secure folding I used a glue gun.  I had the bottom close via a slot so that
+the case can be opened in case anything goes wrong.</p>
+
+<p><img src="/blog/images/tangible-interaction/game-controller/glue_gun.jpg" alt="Glue Gun" />
+<img src="/blog/images/tangible-interaction/game-controller/bottom_fold.jpg" alt="Bottom Fold" /></p>
+
+
+<figure >
+    
+        <img src="/blog/images/tangible-interaction/game-controller/assembled_case.jpg" alt="The fully assembled case" />
+    
+    
+    <figcaption>
+        <p>
+        The fully assembled case
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+
+<figure >
+    
+        <img src="/blog/images/tangible-interaction/game-controller/controller_in_hands.jpg" alt="The controller felt great to hold and fun to play the game with" />
+    
+    
+    <figcaption>
+        <p>
+        The controller felt great to hold and fun to play the game with
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
 
                 </section>
             </article>
