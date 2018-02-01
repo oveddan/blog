@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on Dan Oved&#39;s Blog</title>
+    <link>https://oveddan.github.io/blog/tags/hardware/</link>
+    <description>Recent content in Hardware on Dan Oved&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 31 Jan 2018 20:33:10 -0500</lastBuildDate>
+    
+	<atom:link href="https://oveddan.github.io/blog/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Homemade Hardware - Ultrasonic Distance Sensor Input</title>
+      <link>https://oveddan.github.io/blog/posts/homemade-hardware/ultrasonic-distance-sensor/</link>
+      <pubDate>Wed, 31 Jan 2018 20:33:10 -0500</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/homemade-hardware/ultrasonic-distance-sensor/</guid>
+      <description>For our first homework assignment for Homemade Hardware, we are to create a breadboard ATtiny project, using a sensor of your choosing that controls an LED. I chose the ultrasonic distance sensor, since I&amp;rsquo;ve never used it, and can see many uses for it.
+Here is a hand-drawn schematic of how it would be hooked up to an ATTiny85:
+And here is the ultrasonic distance sensor hooked up to the ATTiny85, controlling the brightness of an LED:</description>
+    </item>
+    
+  </channel>
+</rss>
