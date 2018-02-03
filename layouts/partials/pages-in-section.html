@@ -1,0 +1,9 @@
+<div id="other-posts">
+  <h2>Other posts for <strong>{{ .Page.CurrentSection.Title}}<strong /></h2>
+
+  <ul id="other-posts-list">
+    {{ range where .Page.CurrentSection.Pages "Params.hidden" "ne" "true" }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</div>
