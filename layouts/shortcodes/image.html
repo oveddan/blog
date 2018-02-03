@@ -1,4 +1,4 @@
-{{ $original := .Page.Resources.GetMatch (printf "images/%s*" (.Get "src")) }}
+{{ $original := .Page.Resources.GetMatch (printf "%s*" (.Get "src")) }}
 
 {{ if $original }}
   <figure>

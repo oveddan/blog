@@ -4,6 +4,15 @@
         <a href='{{ .Permalink }}'><img src="{{.Params.featuredImage}}"></a>
       </div>
     {{ end }}
+    {{ if .Params.featuredImageResource }}
+      {{ $original := .Resources.GetMatch (printf "%s*" (.Params.featuredImageResource.src)) }}
+      {{ if $original }}
+        <div class='featured'>
+          <a href='{{ .Permalink }}'><img src="{{$original.RelPermalink}}"></a>
+        </div>
+      {{ end }}
+      </div>
+    {{ end }}
     <div class='summary'>
       <a href='{{ .Permalink }}'><aside class="dates">{{ .Date.Format "Jan 2" }}</aside></a>
       <a href='{{ .Permalink }}'>
