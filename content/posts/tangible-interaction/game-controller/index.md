@@ -14,11 +14,11 @@ we were supposed to make the controller work for both games.
 
 First,  I sketched out the current controls for each game:
 
-![Game Controls Concepts](/blog/images/tangible-interaction/game-controller/game_elements_sketch.jpg)
+{{< fullsizeimage title="Game Controls Concepts"  src="game" >}}
 
 Then I came up with an initial design:
 
-![Initial Design](/blog/images/tangible-interaction/game-controller/initial_design.png)
+{{< fullsizeimage title="Initial Design" src="initial_design.png" >}}
 
 This had a joystick on the left that would go only left and right, and a joystick on the right that would go up and down.
 A toggle switch in the middle would change if the game mode is Atari or the other one.  Depending on what
@@ -32,18 +32,18 @@ I could trigger the same keys no matter the game, so the toggle switch is no lon
 I redesigned without that middle button:
 
 
-![Redo Design](/blog/images/tangible-interaction/game-controller/redo_design_1.png)
+{{< fullsizeimage title="Redo Design" src="redo_design_1.png" >}}
 
 I also experimented with adding the space bar on the top of the controller, as this would be easier to build:
 
-![Redo Design With Space Bar on Top](/blog/images/tangible-interaction/game-controller/redo_design_2.png)
+{{< fullsizeimage title="Redo Design With Space Bar on Top" src="redo_design_2.png" >}}
 
 Then I thought a bit - users are not accustomed to using joysticks that just go in a single axis.  They are much more used
 to working with buttons.  So I should make a controller just with that.  Also I discovered there are joysticks you can also press
 down to click.  This would allow both the joystick and button on my controller for the mouse to be combined into that single joystick
 that can be clicked:
 
-![Design with buttons](/blog/images/tangible-interaction/game-controller/redo_design_2.png)
+{{< fullsizeimage title="Design with buttons" src="redo_design_2.png" >}}
 
 I would etch or draw on the conroller symbols showing what the buttons do.
 
@@ -51,7 +51,7 @@ After emailing back and forth with Tom Igoe (the instructor), I learned that we 
 needd to make controls for a specific game.  In this case, for the "other" version (not the Atari one), the only controls are
 really left, right, up for the gas, and click to start. This would let me do a controller with just those 4 controls:
 
-![Focused design](/blog/images/tangible-interaction/game-controller/focused_design.jpg)
+{{< fullsizeimage title="Focused design" src="focused_design.jpg" >}}
 
 ## Using a joystick to allow for adjustable thruster
 When playing the game, I found it annoying that the thruster could only be fully on or off.  This made
@@ -73,33 +73,33 @@ For the game, we could model the tapping of the *up* key just like this.
 For the physical control, I did not have a slide potentiometer; I only had a joystick that could move in both axises.  Allowing
 the user to move the joystick in both the x and y would be confusing, as the x is never used, and only one direction of the y is used.
 
-![Joystick in both axis](/blog/images/tangible-interaction/game-controller/joystick.jpg)
+{{< fullsizeimage title="Joystick in both axis" src="joystick.jpg" >}}
 
 A clearer interface would be one where they can only pull the y in one direction and that would control the strenght of the thruster.
 To try making this, I cut a thin slot into a piece of card-paper, and removing the knob from on top of the joystick:
 
-![Limiting to one direction](/blog/images/tangible-interaction/game-controller/limiting_joystick_axis.jpg)
+{{< fullsizeimage title="Limiting to one direction" src="limiting_joystick_axis.jpg" >}}
 
 I then use a button I had from a switch I removed off of a Korg mixer as this button would indicate it should be pushed in a single direction:
 
-![Limit switch](/blog/images/tangible-interaction/game-controller/limit_switch.gif)
+{{< image title="Limit switch" src="limit_switch.gif" >}}
 
 ## Assembling and Coding the Controller
 
 When it came time to assemble, I laid everything out similar to the sketch, except with the joystick on the right:
 
-![Assembled](/blog/images/tangible-interaction/game-controller/assembled_on_breadboard.jpg)
+{{< fullsizeimage title="Assembled" src="assembled_on_breadboard.jpg" >}}
 
 I originally attempted to have the joystick attached via pins to a small breadboard:
 
-![With Pins](/blog/images/tangible-interaction/game-controller/joystick_on_breadboard.jpg)
+{{< fullsizeimage title="With Pins" src="joystick_on_breadboard.jpg" >}}
 
 However, this proved unreliable, as the joystick would easily be pushed up or down, and could become slightly displaced
 for a moment from the breadboard, providing inconsistent resistance rating. This caused me hours of troubleshooting and pain.
 
 I ended up soldering wires to the pins on the joystick; this proved much more reliable:
 
-![Soldered Wires](/blog/images/tangible-interaction/game-controller/soldered_pins.jpg)
+{{< fullsizeimage title="Soldered Wires" src="soldered_pins.jpg" >}}
 
 I wrote code for the controller to achieve the pulse with modulation effect on the thrust key. To calibrate the 0 on the joystick,
 when the start key is pressed, the joystick y is zeroed. 
@@ -117,21 +117,20 @@ landing:
 
 To assemble the final case, I drew some guides on a piece of black card-paper and cut them with an exacto knife. 
 
-![Lines for Case](/blog/images/tangible-interaction/game-controller/lines_for_case.jpg)
+{{< fullsizeimage title="Lines for Case" src="lines_for_case" >}}
 
 To get precise folds I cut light lines into one of the sides.
 
-![Cut Case](/blog/images/tangible-interaction/game-controller/cut_case.jpg)
+{{< fullsizeimage title="Cut Case" src="cut_case.jpg" >}}
 
 To create a secure folding I used a glue gun.  I had the bottom close via a slot so that
 the case can be opened in case anything goes wrong.
 
-![Glue Gun](/blog/images/tangible-interaction/game-controller/glue_gun.jpg)
-![Bottom Fold](/blog/images/tangible-interaction/game-controller/bottom_fold.jpg)
+{{< fullsizeimage title="Glue Gun" src="glue_gun.jpg" >}}
+{{< fullsizeimage title="Bottom Fold" src="bottom_fold.jpg" >}}
 
+{{< fullsizeimage  src="assembled_case.jpg" caption="The fully assembled case" >}}
 
-{{< figure src="/blog/images/tangible-interaction/game-controller/assembled_case.jpg" caption="The fully assembled case" >}}
-
-{{< figure src="/blog/images/tangible-interaction/game-controller/controller_in_hands.jpg" caption="The controller felt great to hold and fun to play the game with" >}}
+{{< fullsizeimage   src="controller_in_hands.jpg" caption="The controller felt great to hold and fun to play the game with" >}}
 
 

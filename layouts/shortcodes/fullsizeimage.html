@@ -1,0 +1,12 @@
+{{ $original := .Page.Resources.GetMatch (printf "images/%s*" (.Get "src")) }}
+
+{{ if $original }}
+  {{ $image := $original.Resize "520x Lanczos" }}
+
+  <figure>
+    <img src="{{ $image.RelPermalink }}" />
+    {{ with .Get "caption" }}
+      <figcaption>{{.}}</figcaption>
+    {{ end }}
+  </figure>
+{{ end }}

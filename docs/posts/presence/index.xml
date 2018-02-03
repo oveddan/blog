@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>the project Presence on Dan Oved&#39;s Blog</title>
+    <link>https://oveddan.github.io/blog/posts/presence/</link>
+    <description>Recent content in the project Presence on Dan Oved&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Dec 2017 00:30:39 -0500</lastBuildDate>
+    
+	<atom:link href="https://oveddan.github.io/blog/posts/presence/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Presence - Fabricating the Kinetic Sculpture</title>
+      <link>https://oveddan.github.io/blog/posts/presence/fabricating-the-kinetic-sculpture/</link>
+      <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/presence/fabricating-the-kinetic-sculpture/</guid>
+      <description>After prototyping fabricating a small version of Presence to test the design and physical mechanics, it was time to build the real thing.
+I decided to go with a design of 21 tubes arranged tightly together in a curve.
+They would be mounted on long piece of arcrylic attached at the bottom to a piece of CNC routed plywood:
+For the sides, I designed walls with small .2&amp;rdquo; deep x .</description>
+    </item>
+    
+    <item>
+      <title>Presence - Fabricating the Prototype</title>
+      <link>https://oveddan.github.io/blog/posts/presence/fabricating-the-prototype/</link>
+      <pubDate>Tue, 05 Dec 2017 23:52:29 -0500</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/presence/fabricating-the-prototype/</guid>
+      <description>For the first phase of the physical installation, I wanted to fabricate a basic prototype that prove out the form factor, mechanics of the motors, and strength of the frame.
+The design for the full installation:
+Originally, I wanted to use wooden dowels and paint the patterns on them. However, these proved to be heavy and expensive. A cheaper, lighter solution was to use shipping tubes. I could order 2&amp;rdquo;x48&amp;rdquo; order in bulk from Mcmaster Carr for $16 per 5 tubes.</description>
+    </item>
+    
+    <item>
+      <title>Presence - Physical Design, Bill of Materials and Schematics</title>
+      <link>https://oveddan.github.io/blog/posts/presence/design-bom-schematics/</link>
+      <pubDate>Tue, 14 Nov 2017 15:38:22 -0500</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/presence/design-bom-schematics/</guid>
+      <description>After doing play testing for Presence, I concluded that:
+ Trying to make this a meditative experience would be challenging. It will be difficult enough to get the interation and gaze tracking right, so just create a experience that simply reacts to the users gaze. There should be, near-instantaneous, clear visuals showing where the user is gazing, instead of making a column and its surroundings turn blank gradually. Having the gaze represented in the y-axis when just rotating columns in the x-axis can be achieved with a spiral design similar to Daniel Rozin&amp;rsquo;s Twisted Strips  I came up with this design:</description>
+    </item>
+    
+    <item>
+      <title>Predicting Gaze in Python with the Eye Tracking for Everyone Neural Network</title>
+      <link>https://oveddan.github.io/blog/posts/presence/predicting-gaze-with-the-model/</link>
+      <pubDate>Mon, 13 Nov 2017 22:21:18 -0500</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/presence/predicting-gaze-with-the-model/</guid>
+      <description>View the ipython notebook with the code here
+My next goal for Presence was to try to get eye gaze prediction working using the Eye Tracking for Everyone model. I wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU. The ultimate deployment would be on the NVidia Jetson TX2, a single-board computer with a powerful GPU and support for six camera inputs.</description>
+    </item>
+    
+    <item>
+      <title>Presence - Concepts and Play Testing</title>
+      <link>https://oveddan.github.io/blog/posts/presence/concepts-and-play-testing/</link>
+      <pubDate>Tue, 07 Nov 2017 20:16:51 -0500</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/presence/concepts-and-play-testing/</guid>
+      <description>For Intro to Physical Computing this week, we were to play test our final project with our classmates.
+I collaborated with Katya Rozanova to come up with initial designs.
+Here are some of her sketches and concepts:
+We ultimately settled on a form with vertical columns that rotate and reveal certain patterns depending on where you are looking. We chose this because it would be easier to build; with a single axis, the x-axis, we could have servos rotate the columns to represent the gaze is on that axis.</description>
+    </item>
+    
+    <item>
+      <title>Presence - Proposal</title>
+      <link>https://oveddan.github.io/blog/posts/presence/proposal/</link>
+      <pubDate>Tue, 31 Oct 2017 22:55:41 -0400</pubDate>
+      
+      <guid>https://oveddan.github.io/blog/posts/presence/proposal/</guid>
+      <description>This is the proposal for Presence, an art piece that is activated the longer and the more people gaze directly at it. It would encourage being present and engaged, and connect the fellow participants with each other over moments of mindfulness. This will be my final project for Intro to Physical Computing and Design for Digital Fabrication.
+I will use small cameras and computer vision to detect the quantify of people present and how many of them are gazing at a specific point, and reveal parts of the piece using motors and other physical controls.</description>
+    </item>
+    
+  </channel>
+</rss>
