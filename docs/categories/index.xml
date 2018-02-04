@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Dan Oved&#39;s Blog</title>
-    <link>https://oveddan.github.io/blog/categories/</link>
+    <link>http://www.danioved.com/blog/categories/</link>
     <description>Recent content in Categories on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 21 Sep 2017 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://oveddan.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.danioved.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Basic Analog Circuits</title>
-      <link>https://oveddan.github.io/blog/categories/basic-analog-circuits/</link>
+      <link>http://www.danioved.com/blog/categories/basic-analog-circuits/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/categories/basic-analog-circuits/</guid>
+      <guid>http://www.danioved.com/blog/categories/basic-analog-circuits/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Designing for Digital Fabrication</title>
-      <link>https://oveddan.github.io/blog/categories/designing-for-digital-fabrication/</link>
+      <link>http://www.danioved.com/blog/categories/designing-for-digital-fabrication/</link>
       <pubDate>Fri, 06 Oct 2017 10:08:02 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/categories/designing-for-digital-fabrication/</guid>
+      <guid>http://www.danioved.com/blog/categories/designing-for-digital-fabrication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digital Fabrication</title>
-      <link>https://oveddan.github.io/blog/categories/digital-fabrication/</link>
+      <link>http://www.danioved.com/blog/categories/digital-fabrication/</link>
       <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/categories/digital-fabrication/</guid>
+      <guid>http://www.danioved.com/blog/categories/digital-fabrication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Energy</title>
-      <link>https://oveddan.github.io/blog/categories/energy/</link>
+      <link>http://www.danioved.com/blog/categories/energy/</link>
       <pubDate>Mon, 29 Jan 2018 23:07:13 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/categories/energy/</guid>
+      <guid>http://www.danioved.com/blog/categories/energy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Homemade Hardware</title>
-      <link>https://oveddan.github.io/blog/categories/homemade-hardware/</link>
+      <link>http://www.danioved.com/blog/categories/homemade-hardware/</link>
       <pubDate>Wed, 31 Jan 2018 20:33:10 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/categories/homemade-hardware/</guid>
+      <guid>http://www.danioved.com/blog/categories/homemade-hardware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interaction</title>
-      <link>https://oveddan.github.io/blog/categories/interaction/</link>
+      <link>http://www.danioved.com/blog/categories/interaction/</link>
       <pubDate>Tue, 30 Jan 2018 20:28:36 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/categories/interaction/</guid>
+      <guid>http://www.danioved.com/blog/categories/interaction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physical Computing</title>
-      <link>https://oveddan.github.io/blog/categories/physical-computing/</link>
+      <link>http://www.danioved.com/blog/categories/physical-computing/</link>
       <pubDate>Mon, 29 Jan 2018 23:07:13 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/categories/physical-computing/</guid>
+      <guid>http://www.danioved.com/blog/categories/physical-computing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tangible Interaction Workshop</title>
-      <link>https://oveddan.github.io/blog/categories/tangible-interaction-workshop/</link>
+      <link>http://www.danioved.com/blog/categories/tangible-interaction-workshop/</link>
       <pubDate>Tue, 30 Jan 2018 20:28:36 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/categories/tangible-interaction-workshop/</guid>
+      <guid>http://www.danioved.com/blog/categories/tangible-interaction-workshop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thoughts</title>
-      <link>https://oveddan.github.io/blog/categories/thoughts/</link>
+      <link>http://www.danioved.com/blog/categories/thoughts/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/categories/thoughts/</guid>
+      <guid>http://www.danioved.com/blog/categories/thoughts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visual Language</title>
-      <link>https://oveddan.github.io/blog/categories/visual-language/</link>
+      <link>http://www.danioved.com/blog/categories/visual-language/</link>
       <pubDate>Wed, 18 Oct 2017 00:43:12 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/categories/visual-language/</guid>
+      <guid>http://www.danioved.com/blog/categories/visual-language/</guid>
       <description></description>
     </item>
     

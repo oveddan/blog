@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Usability Testing on Dan Oved&#39;s Blog</title>
-    <link>https://oveddan.github.io/blog/tags/usability-testing/</link>
+    <link>http://www.danioved.com/blog/tags/usability-testing/</link>
     <description>Recent content in Usability Testing on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 13 Nov 2017 22:21:18 -0500</lastBuildDate>
     
-	<atom:link href="https://oveddan.github.io/blog/tags/usability-testing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.danioved.com/blog/tags/usability-testing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Predicting Gaze in Python with the Eye Tracking for Everyone Neural Network</title>
-      <link>https://oveddan.github.io/blog/posts/presence/predicting-gaze-with-the-model/</link>
+      <link>http://www.danioved.com/blog/posts/presence/predicting-gaze-with-the-model/</link>
       <pubDate>Mon, 13 Nov 2017 22:21:18 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/presence/predicting-gaze-with-the-model/</guid>
+      <guid>http://www.danioved.com/blog/posts/presence/predicting-gaze-with-the-model/</guid>
       <description>View the ipython notebook with the code here
 My next goal for Presence was to try to get eye gaze prediction working using the Eye Tracking for Everyone model. I wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU. The ultimate deployment would be on the NVidia Jetson TX2, a single-board computer with a powerful GPU and support for six camera inputs.</description>
     </item>
     
     <item>
       <title>Concepts and Play Testing</title>
-      <link>https://oveddan.github.io/blog/posts/presence/concepts-and-play-testing/</link>
+      <link>http://www.danioved.com/blog/posts/presence/concepts-and-play-testing/</link>
       <pubDate>Tue, 07 Nov 2017 20:16:51 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/presence/concepts-and-play-testing/</guid>
+      <guid>http://www.danioved.com/blog/posts/presence/concepts-and-play-testing/</guid>
       <description>For Intro to Physical Computing this week, we were to play test our final project with our classmates.
 I collaborated with Katya Rozanova to come up with initial designs.
 Here are some of her sketches and concepts:

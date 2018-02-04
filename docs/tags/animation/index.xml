@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Animation on Dan Oved&#39;s Blog</title>
-    <link>https://oveddan.github.io/blog/tags/animation/</link>
+    <link>http://www.danioved.com/blog/tags/animation/</link>
     <description>Recent content in Animation on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 25 Oct 2017 16:10:23 -0400</lastBuildDate>
     
-	<atom:link href="https://oveddan.github.io/blog/tags/animation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.danioved.com/blog/tags/animation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>From Shader to Physical Animation - the Voronoi Cellular Zoetrope</title>
-      <link>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</link>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</link>
       <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</guid>
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</guid>
       <description>This is a continuation of Part 1 and Part 2 of the Zeotrope project.
 Motivation This was the final phase of our homework assignment for Design for Digital Fabrication which was to design something algorithmically and laser cut it. Now that the mechanics of the Zoetrope animation were proven out the previous week, it was time to generate something elaborate. I was particularly inspired by John Edmark&amp;rsquo;s animated bloom sculptures:   After seeing what he made, my goal was to create an animation that:</description>
     </item>
     
     <item>
       <title>Generating Zoetrope Animations</title>
-      <link>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</link>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</link>
       <pubDate>Thu, 12 Oct 2017 13:25:28 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</guid>
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</guid>
       <description>This is a continuation of Part 1 of the Zeotrope project for my Design for Digital Fabrication class. The final phase can be seen in Part 3
 The next step of the project was to prototype the mechanics of the animation. The main questions were:
  How many frames of animation are optimal? What should the rotation speed be? At what rate should the lights flash?  The Rotation Mechanism - a Turntable There were many examples of Zoetropes on the web - the majority of them used a turntable to rotate the animation.</description>
@@ -34,10 +34,10 @@ The next step of the project was to prototype the mechanics of the animation. Th
     
     <item>
       <title>Zoetrope Light and Materials Exploration</title>
-      <link>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</link>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</link>
       <pubDate>Fri, 06 Oct 2017 10:08:02 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</guid>
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</guid>
       <description>See Part 2 and Part 3 of this project.
  For our first project for Designing for Digital Fabrication, we are to create something using the laser cutter, with at least some of the geometry generated algebraically. We have two weeks to complete this.
 Inspiration I searched for inspirations for a project like this and ended up discovering the Zoetrope and being blown away by what people have done with it:</description>

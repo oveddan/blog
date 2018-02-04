@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Dan Oved&#39;s Blog</title>
-    <link>https://oveddan.github.io/blog/posts/</link>
+    <link>http://www.danioved.com/blog/posts/</link>
     <description>Recent content in Posts on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 31 Jan 2018 20:33:10 -0500</lastBuildDate>
     
-	<atom:link href="https://oveddan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.danioved.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Homemade Hardware - Ultrasonic Distance Sensor Input</title>
-      <link>https://oveddan.github.io/blog/posts/homemade-hardware/ultrasonic-distance-sensor/</link>
+      <link>http://www.danioved.com/blog/posts/homemade-hardware/ultrasonic-distance-sensor/</link>
       <pubDate>Wed, 31 Jan 2018 20:33:10 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/homemade-hardware/ultrasonic-distance-sensor/</guid>
+      <guid>http://www.danioved.com/blog/posts/homemade-hardware/ultrasonic-distance-sensor/</guid>
       <description>For our first homework assignment for Homemade Hardware, we are to create a breadboard ATtiny project, using a sensor of your choosing that controls an LED. I chose the ultrasonic distance sensor, since I&amp;rsquo;ve never used it, and can see many uses for it.
 Here is a hand-drawn schematic of how it would be hooked up to an ATTiny85:
 And here is the ultrasonic distance sensor hooked up to the ATTiny85, controlling the brightness of an LED:</description>
@@ -24,10 +24,10 @@ And here is the ultrasonic distance sensor hooked up to the ATTiny85, controllin
     
     <item>
       <title>Tangible Interaction Workshop - Game Controller</title>
-      <link>https://oveddan.github.io/blog/posts/tangible-interaction/game-controller/</link>
+      <link>http://www.danioved.com/blog/posts/tangible-interaction/game-controller/</link>
       <pubDate>Tue, 30 Jan 2018 20:28:36 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/tangible-interaction/game-controller/</guid>
+      <guid>http://www.danioved.com/blog/posts/tangible-interaction/game-controller/</guid>
       <description>Design and Sketching Concepts For this assignment, I tried about both versions of the game. According to the instructions, we were supposed to make the controller work for both games.
 First, I sketched out the current controls for each game:
   Then I came up with an initial design:
@@ -36,10 +36,10 @@ First, I sketched out the current controls for each game:
     
     <item>
       <title>Kinetic Project - Concepts and Brainstorming</title>
-      <link>https://oveddan.github.io/blog/posts/energy/kinetic-project/concepts/</link>
+      <link>http://www.danioved.com/blog/posts/energy/kinetic-project/concepts/</link>
       <pubDate>Mon, 29 Jan 2018 23:07:13 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/energy/kinetic-project/concepts/</guid>
+      <guid>http://www.danioved.com/blog/posts/energy/kinetic-project/concepts/</guid>
       <description>For our Kinetic Energy assignment for the Energy class, I partnered up with Arnav. We came up with a few concepts for how to turn human motion into light.
 Hand-Crank Music Box The first thing we explored was turning a hand-crank music box into a music box that emits light.
  We would connect a motor to the end of the crank shaft and have that generate electricity.
@@ -48,10 +48,10 @@ Weelchair Powered Light We explored using the wheelchair on the ITP floor for ki
     
     <item>
       <title>Weather Diorama</title>
-      <link>https://oveddan.github.io/blog/posts/physical_computing/weather-diorama/</link>
+      <link>http://www.danioved.com/blog/posts/physical_computing/weather-diorama/</link>
       <pubDate>Sun, 29 Oct 2017 20:33:47 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/physical_computing/weather-diorama/</guid>
+      <guid>http://www.danioved.com/blog/posts/physical_computing/weather-diorama/</guid>
       <description>Background / Motivation This was my teams&amp;rsquo; project for our Intro to Physical Computing midterm, where we were encouraged to use serial communication. Barak Chamo and Mai Arakida Izsak were the other team members, and contributed to this post.
 After seeing Barak create his initial Fuji Diorama:
 We thought it would be interesting to insert lights between the layers that could change the appearance of the scene depend on the time of day or weather.</description>
@@ -59,30 +59,30 @@ We thought it would be interesting to insert lights between the layers that coul
     
     <item>
       <title>From Shader to Physical Animation - the Voronoi Cellular Zoetrope</title>
-      <link>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</link>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</link>
       <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</guid>
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</guid>
       <description>This is a continuation of Part 1 and Part 2 of the Zeotrope project.
 Motivation This was the final phase of our homework assignment for Design for Digital Fabrication which was to design something algorithmically and laser cut it. Now that the mechanics of the Zoetrope animation were proven out the previous week, it was time to generate something elaborate. I was particularly inspired by John Edmark&amp;rsquo;s animated bloom sculptures:   After seeing what he made, my goal was to create an animation that:</description>
     </item>
     
     <item>
       <title>Designing my Business Card</title>
-      <link>https://oveddan.github.io/blog/posts/visual_language/business-card/</link>
+      <link>http://www.danioved.com/blog/posts/visual_language/business-card/</link>
       <pubDate>Wed, 18 Oct 2017 00:43:12 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/visual_language/business-card/</guid>
+      <guid>http://www.danioved.com/blog/posts/visual_language/business-card/</guid>
       <description>For our final homework assignment in Visual Language, we were to design a logo and business card for ourselves.
 Earlier in the semseter, when I heard that this would be our final project, I was both excited and terrified. This proved to be very challenging in the end. When it finally came time to work on this, I found myself frequently criticizing my designs, starting over, and letting out a highly audible sigh that made those around me chuckle.</description>
     </item>
     
     <item>
       <title>Generating Zoetrope Animations</title>
-      <link>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</link>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</link>
       <pubDate>Thu, 12 Oct 2017 13:25:28 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</guid>
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</guid>
       <description>This is a continuation of Part 1 of the Zeotrope project for my Design for Digital Fabrication class. The final phase can be seen in Part 3
 The next step of the project was to prototype the mechanics of the animation. The main questions were:
  How many frames of animation are optimal? What should the rotation speed be? At what rate should the lights flash?  The Rotation Mechanism - a Turntable There were many examples of Zoetropes on the web - the majority of them used a turntable to rotate the animation.</description>
@@ -90,19 +90,19 @@ The next step of the project was to prototype the mechanics of the animation. Th
     
     <item>
       <title>Design for the ITP Winter Show 2017 Show Postcard</title>
-      <link>https://oveddan.github.io/blog/posts/visual_language/show-postcard/</link>
+      <link>http://www.danioved.com/blog/posts/visual_language/show-postcard/</link>
       <pubDate>Wed, 11 Oct 2017 02:15:02 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/visual_language/show-postcard/</guid>
+      <guid>http://www.danioved.com/blog/posts/visual_language/show-postcard/</guid>
       <description>  </description>
     </item>
     
     <item>
       <title>Zoetrope Light and Materials Exploration</title>
-      <link>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</link>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</link>
       <pubDate>Fri, 06 Oct 2017 10:08:02 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</guid>
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</guid>
       <description>See Part 2 and Part 3 of this project.
  For our first project for Designing for Digital Fabrication, we are to create something using the laser cutter, with at least some of the geometry generated algebraically. We have two weeks to complete this.
 Inspiration I searched for inspirations for a project like this and ended up discovering the Zoetrope and being blown away by what people have done with it:</description>
@@ -110,10 +110,10 @@ Inspiration I searched for inspirations for a project like this and ended up dis
     
     <item>
       <title>My Colors and Compositions</title>
-      <link>https://oveddan.github.io/blog/posts/visual_language/my-colors/</link>
+      <link>http://www.danioved.com/blog/posts/visual_language/my-colors/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/visual_language/my-colors/</guid>
+      <guid>http://www.danioved.com/blog/posts/visual_language/my-colors/</guid>
       <description>For this Visual Language homework assignment, I was tasked to pick a color palette that represents me, and create six compositions using those colors.
 The Color Palette I wanted a theme with red because this represents it represents love and life, and I believe in living a life doing what you love.
 I chose the color palette inspired by Tame Impala &amp;lsquo;Currents&amp;rsquo; from The Day&amp;rsquo;s Color:
@@ -122,30 +122,30 @@ I chose the color palette inspired by Tame Impala &amp;lsquo;Currents&amp;rsquo;
     
     <item>
       <title>Light Loop</title>
-      <link>https://oveddan.github.io/blog/posts/physical_computing/light-loop/</link>
+      <link>http://www.danioved.com/blog/posts/physical_computing/light-loop/</link>
       <pubDate>Tue, 26 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/physical_computing/light-loop/</guid>
+      <guid>http://www.danioved.com/blog/posts/physical_computing/light-loop/</guid>
       <description>The Features The goal of this project is to use analog input and digital input to drive digital output.
 This is accomplished by detecting when a photoresistor, an analog input, gets a certain amount of light. When that happens, it triggers an animation on the opposite end of the LEDS which travels through them back towards the photoresistor. When the photoresistor picks up enough light from the animation that has reached it, it triggers the start of the animation again.</description>
     </item>
     
     <item>
       <title>Expressive Words</title>
-      <link>https://oveddan.github.io/blog/posts/visual_language/expressive-words/</link>
+      <link>http://www.danioved.com/blog/posts/visual_language/expressive-words/</link>
       <pubDate>Mon, 25 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/visual_language/expressive-words/</guid>
+      <guid>http://www.danioved.com/blog/posts/visual_language/expressive-words/</guid>
       <description>For this homework assignment we were to design 3 expressive words that visually communicate their meanings. Here is what I created:  
  Icons used: The Rest, Afro and cat from The Noun Project</description>
     </item>
     
     <item>
       <title>Redesigning the Delta Boarding Pass</title>
-      <link>https://oveddan.github.io/blog/posts/visual_language/boarding-pass-redesign/</link>
+      <link>http://www.danioved.com/blog/posts/visual_language/boarding-pass-redesign/</link>
       <pubDate>Mon, 25 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/visual_language/boarding-pass-redesign/</guid>
+      <guid>http://www.danioved.com/blog/posts/visual_language/boarding-pass-redesign/</guid>
       <description>Original Design For this homework assignment we were to take the boarding pass below and redesign it:
  
 My Redesign   Icons used: Door and Airplane Seat from The Noun Project
@@ -154,20 +154,20 @@ My design assumes that the passenger gets this boarding pass at the check-in cou
     
     <item>
       <title>Doubling the Battery Power</title>
-      <link>https://oveddan.github.io/blog/posts/physical_computing/batteries-in-parallel/</link>
+      <link>http://www.danioved.com/blog/posts/physical_computing/batteries-in-parallel/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/physical_computing/batteries-in-parallel/</guid>
+      <guid>http://www.danioved.com/blog/posts/physical_computing/batteries-in-parallel/</guid>
       <description>A project I worked on this past summer required a portable power source of 3.3 - 4 volts. I used the Tenergy Li-Ion 3.7v 2600 mAH rechargeable battery, connected to the Adafruit LiPoly backpack charger and a Teensy 3.2. In this system, the battery would be drained after only about half an hour; I wanted to increase the capacity but did not know how.
 Then last week, for my Basic Analog Circuit course, I learned about connecting multiple batteries in parallel to maintain the same voltage but increase the current and capacity by connecting the powers and grounds together of the batteries.</description>
     </item>
     
     <item>
       <title>Designing for Digital Fabrication - Drawing a Real World Object in Vectorworks</title>
-      <link>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/drawing-a-real-world-object-in-vectorworks/</link>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/drawing-a-real-world-object-in-vectorworks/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/design_for_digital_fabrication/drawing-a-real-world-object-in-vectorworks/</guid>
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/drawing-a-real-world-object-in-vectorworks/</guid>
       <description>Our first homework assignment for Daniel Rozin&amp;rsquo;s Designing for Digital Fabrication class was to draw three 2d perspectives of a real world object in Vectorworks. I took this as an opportunity to get the exact dimensions of an object I&amp;rsquo;ve been eager to to incorporate into a project.
 At the Armory show in 2015, I discovered and was amazed by the low-resolution work of Jim Campbell.
 Jim Campbell - Scattered 25X (Marathon)</description>
@@ -175,29 +175,29 @@ Jim Campbell - Scattered 25X (Marathon)</description>
     
     <item>
       <title>Visual Language - This Is a Good and Bad Sign</title>
-      <link>https://oveddan.github.io/blog/posts/visual_language/this-is-a-good-and-bad-sign/</link>
+      <link>http://www.danioved.com/blog/posts/visual_language/this-is-a-good-and-bad-sign/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/visual_language/this-is-a-good-and-bad-sign/</guid>
+      <guid>http://www.danioved.com/blog/posts/visual_language/this-is-a-good-and-bad-sign/</guid>
       <description>For this homework assignment, we are to show two examples each of successful and unsuccessful signs, then redesign one of the bad signs.
 Unsuccessful Signs V-Nam cafe, on 1st and 1st, is in my opinion the best Vietnamese restaurant in New York City. I used to live a block away and would walk by it all the time, but had no idea it existed until discovering it through Yelp.</description>
     </item>
     
     <item>
       <title>An Example of Good Design</title>
-      <link>https://oveddan.github.io/blog/posts/visual_language/an-example-of-good-design/</link>
+      <link>http://www.danioved.com/blog/posts/visual_language/an-example-of-good-design/</link>
       <pubDate>Wed, 13 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/visual_language/an-example-of-good-design/</guid>
+      <guid>http://www.danioved.com/blog/posts/visual_language/an-example-of-good-design/</guid>
       <description>This last Sunday I was at a rooftop party at Output in Williamsburg and noticed my friend drinking what looked like a perfectly refreshing beverage – a can of Babe Rosé. Before even tasting her drink I decided to get one for myself, figuring it would be the perfect drink to enjoy during the sunset. In retrospect – the sleek, clean, and elegant design of the slender can is what lured me in.</description>
     </item>
     
     <item>
       <title>What Is Physical Interaction?</title>
-      <link>https://oveddan.github.io/blog/posts/physical_computing/what-is-physical-interaction/</link>
+      <link>http://www.danioved.com/blog/posts/physical_computing/what-is-physical-interaction/</link>
       <pubDate>Thu, 07 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/physical_computing/what-is-physical-interaction/</guid>
+      <guid>http://www.danioved.com/blog/posts/physical_computing/what-is-physical-interaction/</guid>
       <description>According to Chris Crawford in The Art of Interactive Design, Physical interaction is where a human interfaces with another entity, such as a person or computer, and that entity responds based on that action. It must be two-way; uni-directional communication is not interaction.
 Examples of physical interaction:
  Typing in a text editor and seeing letters appearing. Painting with hand-help controllers in virtual reality. Having a conversation with another person. Playing a competitive sport.</description>
@@ -205,10 +205,10 @@ Examples of physical interaction:
     
     <item>
       <title>Finally fulfilling a ten-year-old goal of starting a blog and posting something.</title>
-      <link>https://oveddan.github.io/blog/posts/about-writing-a-blog/</link>
+      <link>http://www.danioved.com/blog/posts/about-writing-a-blog/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/posts/about-writing-a-blog/</guid>
+      <guid>http://www.danioved.com/blog/posts/about-writing-a-blog/</guid>
       <description>Today was the final day of orientation for ITP. Thanks goes out to the residents for giving us great workshops on creating documentation and how to create a blog, then forcing us do it.
 I&amp;rsquo;ve been wanting to since I started coding, but each time my fear of public writing has turned into infinite procrastination.
 One of the biggest takeaways from this talk is that even if you build something amazing, if no one sees and learns from it, then it&amp;rsquo;s pretty wasteful.</description>

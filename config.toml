@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://oveddan.github.io/blog/"
+baseurl = "http://www.danioved.com/blog/"
 publishDir = "docs"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"

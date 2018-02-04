@@ -2,191 +2,191 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dan Oved&#39;s Blog</title>
-    <link>https://oveddan.github.io/blog/tags/</link>
+    <link>http://www.danioved.com/blog/tags/</link>
     <description>Recent content on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://oveddan.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.danioved.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Animation</title>
-      <link>https://oveddan.github.io/blog/tags/animation/</link>
+      <link>http://www.danioved.com/blog/tags/animation/</link>
       <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/animation/</guid>
+      <guid>http://www.danioved.com/blog/tags/animation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arduino</title>
-      <link>https://oveddan.github.io/blog/tags/arduino/</link>
+      <link>http://www.danioved.com/blog/tags/arduino/</link>
       <pubDate>Thu, 12 Oct 2017 13:25:28 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/arduino/</guid>
+      <guid>http://www.danioved.com/blog/tags/arduino/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Circuits</title>
-      <link>https://oveddan.github.io/blog/tags/circuits/</link>
+      <link>http://www.danioved.com/blog/tags/circuits/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/circuits/</guid>
+      <guid>http://www.danioved.com/blog/tags/circuits/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computer Graphics</title>
-      <link>https://oveddan.github.io/blog/tags/computer-graphics/</link>
+      <link>http://www.danioved.com/blog/tags/computer-graphics/</link>
       <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/computer-graphics/</guid>
+      <guid>http://www.danioved.com/blog/tags/computer-graphics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computer Vision</title>
-      <link>https://oveddan.github.io/blog/tags/computer-vision/</link>
+      <link>http://www.danioved.com/blog/tags/computer-vision/</link>
       <pubDate>Tue, 31 Oct 2017 22:55:41 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/computer-vision/</guid>
+      <guid>http://www.danioved.com/blog/tags/computer-vision/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design</title>
-      <link>https://oveddan.github.io/blog/tags/design/</link>
+      <link>http://www.danioved.com/blog/tags/design/</link>
       <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/design/</guid>
+      <guid>http://www.danioved.com/blog/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digital Fabrication</title>
-      <link>https://oveddan.github.io/blog/tags/digital-fabrication/</link>
+      <link>http://www.danioved.com/blog/tags/digital-fabrication/</link>
       <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/digital-fabrication/</guid>
+      <guid>http://www.danioved.com/blog/tags/digital-fabrication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Electronics</title>
-      <link>https://oveddan.github.io/blog/tags/electronics/</link>
+      <link>http://www.danioved.com/blog/tags/electronics/</link>
       <pubDate>Wed, 31 Jan 2018 20:33:10 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/electronics/</guid>
+      <guid>http://www.danioved.com/blog/tags/electronics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Energy</title>
-      <link>https://oveddan.github.io/blog/tags/energy/</link>
+      <link>http://www.danioved.com/blog/tags/energy/</link>
       <pubDate>Mon, 29 Jan 2018 23:07:13 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/energy/</guid>
+      <guid>http://www.danioved.com/blog/tags/energy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hardware</title>
-      <link>https://oveddan.github.io/blog/tags/hardware/</link>
+      <link>http://www.danioved.com/blog/tags/hardware/</link>
       <pubDate>Wed, 31 Jan 2018 20:33:10 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/hardware/</guid>
+      <guid>http://www.danioved.com/blog/tags/hardware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Homemade Hardware</title>
-      <link>https://oveddan.github.io/blog/tags/homemade-hardware/</link>
+      <link>http://www.danioved.com/blog/tags/homemade-hardware/</link>
       <pubDate>Wed, 31 Jan 2018 20:33:10 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/homemade-hardware/</guid>
+      <guid>http://www.danioved.com/blog/tags/homemade-hardware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interaction</title>
-      <link>https://oveddan.github.io/blog/tags/interaction/</link>
+      <link>http://www.danioved.com/blog/tags/interaction/</link>
       <pubDate>Tue, 30 Jan 2018 20:28:36 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/interaction/</guid>
+      <guid>http://www.danioved.com/blog/tags/interaction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Laser Cutting</title>
-      <link>https://oveddan.github.io/blog/tags/laser-cutting/</link>
+      <link>http://www.danioved.com/blog/tags/laser-cutting/</link>
       <pubDate>Fri, 06 Oct 2017 10:08:02 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/laser-cutting/</guid>
+      <guid>http://www.danioved.com/blog/tags/laser-cutting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physical Computing</title>
-      <link>https://oveddan.github.io/blog/tags/physical-computing/</link>
+      <link>http://www.danioved.com/blog/tags/physical-computing/</link>
       <pubDate>Mon, 29 Jan 2018 23:07:13 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/physical-computing/</guid>
+      <guid>http://www.danioved.com/blog/tags/physical-computing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Presence</title>
-      <link>https://oveddan.github.io/blog/tags/presence/</link>
+      <link>http://www.danioved.com/blog/tags/presence/</link>
       <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/presence/</guid>
+      <guid>http://www.danioved.com/blog/tags/presence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Processing</title>
-      <link>https://oveddan.github.io/blog/tags/processing/</link>
+      <link>http://www.danioved.com/blog/tags/processing/</link>
       <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/processing/</guid>
+      <guid>http://www.danioved.com/blog/tags/processing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tangible Interaction Workshop</title>
-      <link>https://oveddan.github.io/blog/tags/tangible-interaction-workshop/</link>
+      <link>http://www.danioved.com/blog/tags/tangible-interaction-workshop/</link>
       <pubDate>Tue, 30 Jan 2018 20:28:36 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/tangible-interaction-workshop/</guid>
+      <guid>http://www.danioved.com/blog/tags/tangible-interaction-workshop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thoughts</title>
-      <link>https://oveddan.github.io/blog/tags/thoughts/</link>
+      <link>http://www.danioved.com/blog/tags/thoughts/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/thoughts/</guid>
+      <guid>http://www.danioved.com/blog/tags/thoughts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Usability Testing</title>
-      <link>https://oveddan.github.io/blog/tags/usability-testing/</link>
+      <link>http://www.danioved.com/blog/tags/usability-testing/</link>
       <pubDate>Mon, 13 Nov 2017 22:21:18 -0500</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/usability-testing/</guid>
+      <guid>http://www.danioved.com/blog/tags/usability-testing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visual Language</title>
-      <link>https://oveddan.github.io/blog/tags/visual-language/</link>
+      <link>http://www.danioved.com/blog/tags/visual-language/</link>
       <pubDate>Wed, 18 Oct 2017 00:43:12 -0400</pubDate>
       
-      <guid>https://oveddan.github.io/blog/tags/visual-language/</guid>
+      <guid>http://www.danioved.com/blog/tags/visual-language/</guid>
       <description></description>
     </item>
     
