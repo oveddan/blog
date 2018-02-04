@@ -54,6 +54,11 @@
             <article class="post">
                 <header>
                     <h1>
+                        
+                          
+                            Presence -
+                          
+                        
                         Predicting Gaze in Python with the Eye Tracking for Everyone Neural Network
                     </h1>
                     <h2 class="headline">
@@ -75,6 +80,30 @@
                       
                       
                       </span>
+                      
+                        
+
+<nav id="post-nav">
+  <div class='next-and-previous'>
+    
+      <span class="prev">
+        <a href="/blog/posts/presence/concepts-and-play-testing/">
+          <span class="arrow">←</span> Previous post for Presence
+        </a>
+      </span>
+    
+    
+      <span class="next">
+        <a href="/blog/posts/presence/design-bom-schematics/">
+           Next post for Presence <span class="arrow">→</span>
+        </a>
+      </span>
+    
+  </div>
+</nav>
+
+
+                      
                     </h2>
                 </header>
                 
@@ -83,7 +112,8 @@
 
 <p><strong><a href="https://github.com/oveddan/gaze/blob/712d776af2cdd69f51c8dc8fd7893d6a0c4ba434/notebooks/Predicting%20Gaze%20with%20Eye%20Tracking%20for%20Everyone.ipynb">View the ipython notebook with the code here</a></strong></p>
 
-<p>My next goal for <a href="/blog/tags/the-gaze-project">Presence</a> was to try to get eye gaze prediction working using the <a href="http://gazecapture.csail.mit.edu/index.php">Eye Tracking for Everyone</a> model.  I  wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU.  The ultimate deployment would be on the <a href="http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html">NVidia Jetson TX2</a>, a single-board computer with a powerful GPU and support for six camera inputs.</p>
+<p>My next goal for <a href="/blog/posts/presence/
+">Presence</a> was to try to get eye gaze prediction working using the <a href="http://gazecapture.csail.mit.edu/index.php">Eye Tracking for Everyone</a> model.  I  wanted to get it working in Python so that it would be platform agnostic; the idea would be to eventually get this working on any computer with a webcam and decent GPU.  The ultimate deployment would be on the <a href="http://www.nvidia.com/object/embedded-systems-dev-kits-modules.html">NVidia Jetson TX2</a>, a single-board computer with a powerful GPU and support for six camera inputs.</p>
 
 <p>For the neural network framework I stuck with caffe since that&rsquo;s what the model is published in.   I struggled for days but finally setup Ubuntu with caffe and cuda on my macbook pro, which has a basic <em>NVIDIA GeForce GT 650M</em> graphics card.</p>
 
@@ -221,6 +251,27 @@ distances, so it will need to be smaller.</p>
 <li>Try to obtain the compressed model from the researchers, and see how it to run on my Macbook Pro&rsquo;s GPU</li>
 </ul>
 
+
+                    
+                      <div id="other-posts">
+  <h2>Other posts for <strong>the project Presence<strong /></h2>
+
+  <ul id="other-posts-list">
+    
+      <li><a href="/blog/posts/presence/fabricating-the-kinetic-sculpture/">Fabricating the Kinetic Sculpture</a></li>
+    
+      <li><a href="/blog/posts/presence/fabricating-the-prototype/">Fabricating the Prototype</a></li>
+    
+      <li><a href="/blog/posts/presence/design-bom-schematics/">Physical Design, Bill of Materials and Schematics</a></li>
+    
+      <li><a href="/blog/posts/presence/predicting-gaze-with-the-model/">Predicting Gaze in Python with the Eye Tracking for Everyone Neural Network</a></li>
+    
+      <li><a href="/blog/posts/presence/concepts-and-play-testing/">Concepts and Play Testing</a></li>
+    
+      <li><a href="/blog/posts/presence/proposal/">Presence - Proposal</a></li>
+    
+  </ul>
+</div>
 
                     
                 </section>

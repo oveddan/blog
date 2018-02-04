@@ -1,0 +1,21 @@
+{{ $projectName := .CurrentSection.Params.projectname }}
+{{ if $projectName }}
+<nav id="post-nav">
+  <div class='next-and-previous'>
+    {{ with .Page.PrevInSection }}
+      <span class="prev">
+        <a href="{{ .RelPermalink }}">
+          <span class="arrow">←</span> Previous post for {{ $projectName }}
+        </a>
+      </span>
+    {{ end }}
+    {{ with .Page.NextInSection }}
+      <span class="next">
+        <a href="{{ .RelPermalink }}">
+           Next post for {{ $projectName }} <span class="arrow">→</span>
+        </a>
+      </span>
+    {{ end }}
+  </div>
+</nav>
+{{ end }}

@@ -1,11 +1,12 @@
 ---
-title: 'Presence - Fabricating the Prototype'
+title: 'Fabricating the Prototype'
 date: 2017-12-05T23:52:29-05:00
 tags: ["Presence", "Digital Fabrication", "Physical Computing", "Design"]
 categories: ["Digital Fabrication", "Physical Computing"]
 featuredImage: "/blog/images/gaze/fabricate_prototype/fabricating_prototype_featured.png"
 description: "Designing the physical structure and building a miniature prototype that proves out the fabrication process and mechanics."
 draft: false
+showPagesInSection: true
 ---
 
 <img src="/blog/images/gaze/fabricate_prototype/rotating_tube.gif" />

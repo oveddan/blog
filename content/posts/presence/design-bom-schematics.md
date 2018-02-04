@@ -1,14 +1,15 @@
 ---
-title: 'Presence - Physical Design, Bill of Materials and Schematics'
+title: 'Physical Design, Bill of Materials and Schematics'
 date: 2017-11-14T15:38:22-05:00
 tags: [Presence, "Digital Fabrication", "Physical Computing", "Design"]
 featuredImage: "/blog/images/gaze/schematics/design_featured.png"
 categories: ["Digital Fabrication", "Physical Computing"]
+showPagesInSection: true
 
 draft: false 
 ---
 
-After [doing play testing]({{<relref "concepts-and-play-testing.md">}}) for [Presence](/blog/tags/the-gaze-project), I concluded that:
+After [doing play testing]({{<relref "concepts-and-play-testing.md">}}) for [Presence]({{< sectionlink >}}), I concluded that:
 
 * Trying to make this a meditative experience would be challenging.  It will be difficult enough to get the interation and gaze tracking right, so just create a experience that simply reacts to the users gaze.
 * There should be, near-instantaneous, clear visuals showing where the user is gazing, instead of making a column and its surroundings turn blank gradually.

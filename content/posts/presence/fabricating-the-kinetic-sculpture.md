@@ -1,15 +1,16 @@
 ---
-title: 'Presence - Fabricating the Kinetic Sculpture'
+title: 'Fabricating the Kinetic Sculpture'
 date: 2017-12-17T00:30:39-05:00
 tags: ["Presence", "Digital Fabrication", "Physical Computing", "Design"]
 categories: ["Digital Fabrication", "Physical Computing"]
 featuredImage: "/blog/images/gaze/fabricate_sculpture/sculpture_featured.png"
 description: After prototyping fabricating a prototype of Presence to test the design and physical mechanics, it was time to build the real thing.
+showPagesInSection: true
 
 draft: false
 ---
 
-After [prototyping fabricating a small version]({{<relref "fabricating-the-prototype.md">}}) of [Presence](/blog/tags/presence) to test the design and physical mechanics, it was
+After [prototyping fabricating a small version]({{<relref "fabricating-the-prototype.md">}}) of [Presence]({{< sectionlink >}}) to test the design and physical mechanics, it was
 time to build the real thing.
 
 I decided to go with a design of 21 tubes arranged tightly together in a curve.  

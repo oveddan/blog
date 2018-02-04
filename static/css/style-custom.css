@@ -11,6 +11,21 @@ figcaption {
   font-style: italic;
 }
 
+
+.post h2.headline {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.post h2.headline .tags {
+  margin: 5px 0 0 0;
+}
+
+.post h2.headline #post-nav {
+  margin-top: 5px;
+  padding-top: 0;
+}
+
 #post-list .featured {
   max-height: 170px;
   overflow-y: hidden;
@@ -28,15 +43,23 @@ figcaption {
 }
 
 #other-posts h2 {
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 #other-posts-list li {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 #other-posts-list li {
   list-style-type: none;
+}
+
+#other-posts-list li a {
+  color: #5badf0;
+  font-size: 13px;
+  line-height: 1.35;
+  border-radius: 3px;
+  font-weight: normal;
 }
 
 #post-list li+li {
