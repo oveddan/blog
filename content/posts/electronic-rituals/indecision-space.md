@@ -3,7 +3,7 @@ title: 'Indecision Space'
 date: 2018-02-07T00:13:34-05:00
 tags: [""]
 categories: [""]
-draft: false
+draft: true
 ---
 
 This is our submission for [Electronic Rituals, Oracles and Fortune Telling](http://eroft.decontextualize.com/) [Meditation #1,](http://eroft.decontextualize.com/schedule#meditation-1-assigned) 
