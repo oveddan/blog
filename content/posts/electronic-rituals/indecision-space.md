@@ -1,45 +1,66 @@
 ---
-title: 'Indecision Space'
-date: 2018-02-07T00:13:34-05:00
-tags: [""]
-categories: [""]
-draft: true
+title: 'Electronic Ritual - The Indecision Space'
+date: 2018-02-07T00:20:34-05:00
+tags: ["Electronic Rituals"]
+categories: ["ritual"]
+draft: false
 ---
 
 This is our submission for [Electronic Rituals, Oracles and Fortune Telling](http://eroft.decontextualize.com/) [Meditation #1,](http://eroft.decontextualize.com/schedule#meditation-1-assigned) 
 in which we are to:
 
-  > Imagine an “electronic” ritual and prototype the necessary systems to perform the ritual. Then perform the ritual and document the process."
+  > Imagine an “electronic” ritual and prototype the necessary systems to perform the ritual. Then perform the ritual and document the process.
 
-I constantly struggle with making decisions, and my fear of doing so makes me put things off to the last minute.  If I just made decisions and stuck with them,
-I'd be a lot more productive and feel less anxiety.  Many times I think too much about each choice when in reality the thigns I'm worried about do not really matter.
-All decisions have pros and cons, and we need to accept them for what they are and not be afraid.  This app is just about making a decision.  But most importantly
-it helps us acknowledge when we are stuck.
 
-With Tong Wu as my collaborator, we created the **Indecision Space**, accessed at [indecision.space](http://www.indecision.space), a place you go to when you are having difficulty making a decision.  In the app the user:
+With [Tong Wu](http://tongwu.io/) as my collaborator, we created the **Indecision Space**, a mobile-friendly ritual accessed at http://indecision.space:
 
-1. Acknowledges that they are undecided
-2. Is encouraged to think about the decision and the choices
-3. Gets vague guidance from an oracle on which choice to make
+{{< vimeo 254767579 >}}
 
-## What makes this a ritual?
+<br/>
+The participant:
 
-This is something that we do all the time.  By formalizing the process and repeating it, we are in essence ritualizing it.  The act
-of acknowledging we are struggling with being undecided is the entrace to this ritual.
+1. Acknowledges being undecided
+2. Is encouraged to evaluate the choices and question if the choices really matter
+3. Gets vague guidance from an "oracle" on what to choose
 
-> "The central role that religion plays in people's lives is to get things done, to make things right and to keep them that way.
 
-This experience is essentially a decision maker.  We can use the oracles advice to decide and help us "get things done."
+We are often stuck in indecision; this experience ritualizes the feeling and provides an electronic tool to guide us into make a decision.
+The ideal outcome is that the user makes a decision after participating in the ritual.
 
-## Why is this important for the person?
+## Background
 
-This can help the person make decisions and move on with their lives.  It can help them realize that no decision is perfect, and that
-in the end it doesn't really matter so much.  Both paths have merits.
+From Dan:
 
-For MH he said, "the fact that it said it has to do with something real" made him go for it.  We all went for it.  In reality we are just
-seeking some sort of validation for something, this app provides that.
+>This past weekend, I was feeling the intensity of being signed up for many different classes and having a lot of homework.
+>I had to decide by the end of the weekend if I wanted to drop a class, and if so, which class to drop. What made this difficult
+>was that I liked all of my classes and teachers, and would feel sad at missing out on one of them.
+>By university rules we had until the end of the weekend to change our schedule, and I spent much of the weekend going back and forth
+>on which choices to make.  Every time I was close to choosing, I backed out because of something wrong with that choice.  This gave me much anxiety, costing me 
+>hours of sleep at night and killing my productivity during the day.  I waited until an hour before the deadline to drop Tangible Interaction Workshop because
+>it had too much homework.  While I was sad to not be taking this course, I felt much relief of not needing to decide anymore, and at having less homework.
+>
+>This is a microcosm of a general problem I have where I avoid making decisions because of the fear that the choice isn't the right one. 
+>When I look back I realize that in reality I'm adding too much meaning and significance to the process; all decisions have pros and cons. 
+>If I would accept that no choice is perfect and decide earlier I would have a much more productive and less stressful life.
 
-## Why is it important for the world?
+## Why effect does the ritual have on its participants?
+
+With the "Indecision Space", by repeating the experience of being stuck in indecision then overcoming it,
+the paricipant can be taught to make choices without thinking too much about them.
+
+From Dan:
+
+> I first tried it out last night, when I was trying to figure out what to get for dinner.
+> The Oracle in the space told me that the answer had to do with something straight.
+> I then connected that with Japanese food, because the shape of the country of Japan is somewhat straight,
+> and right away ordered sushi delivery.  Normally I'd spend 10-20 minutes searching on Yelp or Seamless for the "perfect" meal.
+
+When testing it out with MH Rahmani, he said:
+
+> The fact that it said it "has to do with something real" made me go for it. In reality we are just seeking some sort of validation for something; this app provides that.
+
+The advice provided by the "Oracle" in the space is randomly generated. Most people trying the experience went with a decision because they made a loose connection with a choice and the advice.
+The rest wanted more guidance from the Oracle.  It seemed that there was a general desire for some sort of ritual to help make decision.
 
 If this kind of practice is taken across the world we could all feel less afraid to make decisions.  We would more go with the flow
-and not be scare to do something.
+and think less when confronted with a difficult choice.
