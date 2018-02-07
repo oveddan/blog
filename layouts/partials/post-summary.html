@@ -7,8 +7,16 @@
     {{ if .Params.featuredImageResource }}
       {{ $original := .Resources.GetMatch (printf "%s*" (.Params.featuredImageResource.src)) }}
       {{ if $original }}
+        {{ $image := $original }}
         <div class='featured'>
-          <a href='{{ .Permalink }}'><img src="{{$original.RelPermalink}}"></a>
+          <a href='{{ .Permalink }}'>
+            {{ if .Params.featuredImageResource.fillPosition }}
+              {{ $image := $original.Fill (printf "520x170 %s" .) }}
+              <img src="{{$image.RelPermalink}}" />
+            {{ else }}
+              <img src="{{$original.RelPermalink}}" />
+            {{ end }}
+          </a>
         </div>
       {{ end }}
       </div>

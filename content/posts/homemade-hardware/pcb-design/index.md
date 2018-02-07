@@ -4,6 +4,9 @@ date: 2018-02-07T12:33:03-05:00
 tags: ["Homemade Hardware", "Electronics"]
 classes: ["Homemade Hardware"]
 draft: false
+featuredImageResource:
+  src: "images/board_design"
+  fillPosition: "BottomLeft"
 ---
 
 For this homework assigment of [Homemade Hardware](/blog/posts/homemade-hardware/), we were to "Create Eagle files for ATtiny85 sensor + LED."
