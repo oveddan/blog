@@ -19,7 +19,7 @@
       <guid>http://www.danioved.com/blog/posts/homemade-hardware/ultrasonic-distance-sensor/</guid>
       <description>For our first homework assignment for Homemade Hardware, we are to create a breadboard ATtiny project, using a sensor of your choosing that controls an LED. I chose the ultrasonic distance sensor, since I&amp;rsquo;ve never used it, and can see many uses for it.
 Here is a hand-drawn schematic of how it would be hooked up to an ATTiny85:
-And here is the ultrasonic distance sensor hooked up to the ATTiny85, controlling the brightness of an LED:</description>
+ Input Schematic  And here is the ultrasonic distance sensor hooked up to the ATTiny85, controlling the brightness of an LED:</description>
     </item>
     
   </channel>

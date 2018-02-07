@@ -6,9 +6,19 @@
     <description>Recent content on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 07 Feb 2018 00:13:34 -0500</lastBuildDate>
     
 	<atom:link href="http://www.danioved.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>http://www.danioved.com/blog/tags/</link>
+      <pubDate>Wed, 07 Feb 2018 00:13:34 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/tags/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Animation</title>
@@ -76,7 +86,7 @@
     <item>
       <title>Electronics</title>
       <link>http://www.danioved.com/blog/tags/electronics/</link>
-      <pubDate>Wed, 31 Jan 2018 20:33:10 -0500</pubDate>
+      <pubDate>Wed, 07 Feb 2018 12:33:03 -0500</pubDate>
       
       <guid>http://www.danioved.com/blog/tags/electronics/</guid>
       <description></description>
@@ -103,7 +113,7 @@
     <item>
       <title>Homemade Hardware</title>
       <link>http://www.danioved.com/blog/tags/homemade-hardware/</link>
-      <pubDate>Wed, 31 Jan 2018 20:33:10 -0500</pubDate>
+      <pubDate>Wed, 07 Feb 2018 12:33:03 -0500</pubDate>
       
       <guid>http://www.danioved.com/blog/tags/homemade-hardware/</guid>
       <description></description>

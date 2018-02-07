@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Dan Oved&#39;s Blog">
     <meta name="description" content="Connecting the digital with the analog world @ ITP">
-    <meta property="og:title" content="Homemade Hardware - Ultrasonic Distance Sensor Input  - Dan Oved's blog" />
+    <meta property="og:title" content="Homemade Hardware - PCB Design  - Dan Oved's blog" />
     <meta property="og:description" content="" />
     
     
 
     
-      <meta property="og:updated_time" content="2018-01-31T20:33:10-05:00"/>
+      <meta property="og:updated_time" content="2018-02-07T12:33:03-05:00"/>
     
     <meta name="generator" content="Hugo 0.35" />
-    <title>Homemade Hardware - Ultrasonic Distance Sensor Input &middot; Dan Oved&#39;s Blog</title>
+    <title>Homemade Hardware - PCB Design &middot; Dan Oved&#39;s Blog</title>
     <link rel="shortcut icon" href="http://www.danioved.com/blog/images/favicon.ico">
     <link rel="stylesheet" href="http://www.danioved.com/blog/css/style.css">
     <link rel="stylesheet" href="http://www.danioved.com/blog/css/highlight.css">
@@ -53,11 +53,11 @@
                         
                           
                         
-                        Homemade Hardware - Ultrasonic Distance Sensor Input
+                        Homemade Hardware - PCB Design
                     </h1>
                     <h2 class="headline">
-                    Jan 31, 2018 20:33
-                    · 79 words
+                    Feb 7, 2018 12:33
+                    · 162 words
                     · 1 minute read
                       <span class="tags">
                       
@@ -67,8 +67,6 @@
                           
                               <a href="http://www.danioved.com/blog/tags/electronics">Electronics</a>
                           
-                              <a href="http://www.danioved.com/blog/tags/hardware">Hardware</a>
-                          
                       
                       
                       </span>
@@ -77,29 +75,68 @@
                 </header>
                 
                 <section id="post-body">
-                    <p>For our first homework assignment for Homemade Hardware, we are to create a breadboard ATtiny project, using a sensor of your choosing that controls an LED.
-I chose the ultrasonic distance sensor, since I&rsquo;ve never used it, and can see many uses for it.</p>
+                    <p>For this homework assigment of <a href="/blog/posts/homemade-hardware/">Homemade Hardware</a>, we were to &ldquo;Create Eagle files for ATtiny85 sensor + LED.&rdquo;</p>
 
-<p>Here is a hand-drawn schematic of how it would be hooked up to an ATTiny85:</p>
+<p>I decided to design a PCB for the <a href="../ultrasonic-distance-sensor/">Ultrasonic Distance Sensor breadboarded prototype</a> from the previous week.</p>
 
 
 
 
   <figure>
-    <img src="/blog/posts/homemade-hardware/ultrasonic-distance-sensor/images/hw1-input-schematic.gif" />
+    <img src="/blog/posts/homemade-hardware/pcb-design/images/hw1-input-schematic.gif" />
     
-      <figcaption>Input Schematic</figcaption>
+      <figcaption>The schematic design for connecting an HC-SR04 to an ATTiny85</figcaption>
     
   </figure>
 
 
 
-<p>And here is the ultrasonic distance sensor hooked up to the ATTiny85, controlling the brightness of an LED:</p>
+<p>Based on this design and our tutorial from the previous class, I created this schematic:</p>
 
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//player.vimeo.com/video/253825815" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
- </div>
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-design/posts/homemade-hardware/pcb-design/schema_hu239ebdaa43e43eb84cc25f03428234af_14817_520x0_resize_lanczos_center.png" />
+    
+  </figure>
+
+
+
+<p>When it came time to design the board, I wanted to be sure that the HC-SR04 Ultrasonic Distance sensor
+would be facing the outside of the board so that none of the board components would interfere
+with its signal. When arranging the <code>HC-SR04</code> pins on the board, I made sure the <code>VCC</code> and <code>Ground</code> pins would
+be oriented to make it face outside.</p>
+
+
+
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-design/images/hc-sr04.png" />
+    
+      <figcaption>The HC-SR04.  The pins would be oriented to have it face outside</figcaption>
+    
+  </figure>
+
+
+
+<p>For the board design, I got everything to be arranged compactly.  As per the <a href="https://vimeo.com/253974848">instructor&rsquo;s tutorial</a>,
+I made the connection routes 1mm wide:</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-design/posts/homemade-hardware/pcb-design/board_design_huac746cf12bdd304dab29ac38cba1800b_53433_520x0_resize_lanczos_center.png" />
+    
+      <figcaption>The PCB Board Design</figcaption>
+    
+  </figure>
+
 
 
 

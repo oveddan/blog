@@ -34,9 +34,8 @@ the wheel of the chair, the resistance causing it to break and generating electr
 
 ## Kinetic-Powered Poi
 
-Our final idea came from something Arnav saw in India, where someone spins a weighted ball attached to a rope around in circles.  
-I'm currently forgetting what the reason is.  
-We thought of turning this swinging motion into kinetic energy.  
+Our final idea came from something Arnav saw in India, where someone spins a weighted ball attached to a rope around in circles, in order
+to keep birds away from the crops. We thought of turning this swinging motion into kinetic energy.
 There would be a handle with a rope and wire coming out of it connected to a ball with a light in it.
 The rope would be by physically attached to the shaft of a gear motor which would be inside of the handle; when the ball would be swung around,
 it would cause the shaft to rotate, thus generating electricity.  This electricity would be outputted back to the wire which would power the light.
