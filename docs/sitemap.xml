@@ -207,13 +207,13 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/digital-fabrication/</loc>
+    <loc>http://www.danioved.com/blog/categories/digital-fabrication/</loc>
     <lastmod>2017-12-17T00:30:39-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/digital-fabrication/</loc>
+    <loc>http://www.danioved.com/blog/tags/digital-fabrication/</loc>
     <lastmod>2017-12-17T00:30:39-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -231,13 +231,13 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/energy/</loc>
+    <loc>http://www.danioved.com/blog/categories/energy/</loc>
     <lastmod>2018-01-29T23:07:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/energy/</loc>
+    <loc>http://www.danioved.com/blog/tags/energy/</loc>
     <lastmod>2018-01-29T23:07:13-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -249,14 +249,14 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/homemade-hardware/</loc>
-    <lastmod>2018-02-07T12:33:03-05:00</lastmod>
+    <loc>http://www.danioved.com/blog/categories/homemade-hardware/</loc>
+    <lastmod>2018-01-31T20:33:10-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/homemade-hardware/</loc>
-    <lastmod>2018-01-31T20:33:10-05:00</lastmod>
+    <loc>http://www.danioved.com/blog/tags/homemade-hardware/</loc>
+    <lastmod>2018-02-07T12:33:03-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -266,13 +266,13 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/interaction/</loc>
+    <loc>http://www.danioved.com/blog/categories/interaction/</loc>
     <lastmod>2018-01-30T20:28:36-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/interaction/</loc>
+    <loc>http://www.danioved.com/blog/tags/interaction/</loc>
     <lastmod>2018-01-30T20:28:36-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -284,13 +284,13 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/physical-computing/</loc>
+    <loc>http://www.danioved.com/blog/categories/physical-computing/</loc>
     <lastmod>2018-01-29T23:07:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/physical-computing/</loc>
+    <loc>http://www.danioved.com/blog/tags/physical-computing/</loc>
     <lastmod>2018-01-29T23:07:13-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -320,25 +320,25 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/tangible-interaction-workshop/</loc>
-    <lastmod>2018-01-30T20:28:36-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.danioved.com/blog/categories/tangible-interaction-workshop/</loc>
     <lastmod>2018-01-30T20:28:36-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/thoughts/</loc>
-    <lastmod>2017-09-01T00:00:00-04:00</lastmod>
+    <loc>http://www.danioved.com/blog/tags/tangible-interaction-workshop/</loc>
+    <lastmod>2018-01-30T20:28:36-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.danioved.com/blog/categories/thoughts/</loc>
+    <lastmod>2017-09-01T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/tags/thoughts/</loc>
     <lastmod>2017-09-01T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -350,13 +350,13 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/visual-language/</loc>
+    <loc>http://www.danioved.com/blog/categories/visual-language/</loc>
     <lastmod>2017-10-18T00:43:12-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/visual-language/</loc>
+    <loc>http://www.danioved.com/blog/tags/visual-language/</loc>
     <lastmod>2017-10-18T00:43:12-04:00</lastmod>
     <priority>0</priority>
   </url>

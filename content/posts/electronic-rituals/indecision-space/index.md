@@ -5,7 +5,8 @@ tags: ["Electronic Rituals"]
 categories: ["ritual"]
 draft: false
 featuredImageResource: 
-  src: "images/indecision-featured"
+  src: "images/indecision-featured.jpg"
+images: ["posts/electronic-rituals/indecision-space/images/indecision-featured.jpg"]
 description: "With Tong Wu as my collaborator, we created the Indecision Space, an electronic tool that ritualizes the experience of being undecided then making a choice."
 
 ---
