@@ -50,7 +50,7 @@ From Dan (me):
 
 ## Why effect does the ritual have on its participants?
 
-{{< image src="images/steps1and2" caption="The first two steps" >}}
+{{< image src="images/steps1and2" caption="Steps 1 and 2" >}}
 
 With the "Indecision Space", by repeating the experience of being stuck in indecision, then overcoming it and making a decision,
 the paricipant can learn to make choices without thinking too much about them.
