@@ -10,6 +10,8 @@ description: "With Tong Wu as my collaborator, we created the Indecision Space, 
 
 ---
 
+{{< image src="images/indecision-featured" >}}
+
 This is our submission for [Electronic Rituals, Oracles and Fortune Telling](http://eroft.decontextualize.com/) [Meditation #1,](http://eroft.decontextualize.com/schedule#meditation-1-assigned) 
 in which we are to:
 
