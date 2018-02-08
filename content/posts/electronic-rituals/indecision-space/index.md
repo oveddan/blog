@@ -17,7 +17,7 @@ in which we are to:
 
   > Imagine an “electronic” ritual and prototype the necessary systems to perform the ritual. Then perform the ritual...
 
-With [Tong Wu](http://tongwu.io/) as my collaborator, we created the **Indecision Space**, a mobile-friendly ritual accessed at http://indecision.space:
+With [Tong Wu](http://tongwu.io/) as my collaborator, we created the **Indecision Space**, an electronic tool that ritualizes the experience of being undecided then making a choice. It is accessed at http://indecision.space:
 
 {{< vimeo 254767579 >}}
 
@@ -27,10 +27,6 @@ In it, the participant:
 1. Acknowledges being undecided
 2. Is encouraged to evaluate the choices and question if the choices really matter
 3. Gets vague guidance from an "oracle" on what to choose
-
-
-We are often stuck in indecision; this experience ritualizes that feeling and provides an electronic tool to guide us into make a decision.
-The ideal outcome is that the user makes a decision after participating in the ritual.
 
 ## Background
 
