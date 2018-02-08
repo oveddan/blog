@@ -1,15 +1,19 @@
 ---
-title: 'Electronic Ritual - The Indecision Space'
+title: 'Electronic Rituals - The Indecision Space'
 date: 2018-02-07T00:20:34-05:00
 tags: ["Electronic Rituals"]
 categories: ["ritual"]
 draft: false
+featuredImageResource: 
+  src: "images/indecision-featured"
+description: "With Tong Wu as my collaborator, we created the Indecision Space, an electronic tool that ritualizes the experience of being undecided then making a choice."
+
 ---
 
 This is our submission for [Electronic Rituals, Oracles and Fortune Telling](http://eroft.decontextualize.com/) [Meditation #1,](http://eroft.decontextualize.com/schedule#meditation-1-assigned) 
 in which we are to:
 
-  > Imagine an “electronic” ritual and prototype the necessary systems to perform the ritual. Then perform the ritual and document the process.
+  > Imagine an “electronic” ritual and prototype the necessary systems to perform the ritual. Then perform the ritual...
 
 With [Tong Wu](http://tongwu.io/) as my collaborator, we created the **Indecision Space**, a mobile-friendly ritual accessed at http://indecision.space:
 
@@ -49,11 +53,9 @@ From Dan (me):
 With the "Indecision Space", by repeating the experience of being stuck in indecision, then overcoming it and making a decision,
 the paricipant can learn to make choices without thinking too much about them.
 
-
-
 From Dan (me):
 
-> I first tried it out last night, when I was trying to figure out what to get for dinner.
+> I first tried it out last night, when I wanted to figure out what to get for dinner.
 > The Oracle in the space told me that the answer had to do with something straight.
 > I then connected that with Japanese food, because the shape of the country of Japan is somewhat straight,
 > and right away ordered sushi delivery.  Normally I'd spend 10-20 minutes searching on Yelp or Seamless for the "perfect" meal.
