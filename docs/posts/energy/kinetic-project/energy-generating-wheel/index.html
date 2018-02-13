@@ -1,0 +1,525 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dan Oved&#39;s Blog">
+    <meta name="description" content="Connecting the digital with the analog world @ ITP">
+    <meta property="og:title" content="Turning Muscle Power into Usable Electricity  - Dan Oved's blog" />
+    <meta property="og:description" content="It was time to build something that would turn muscle power into usable electricity.  To power the lights, we would force a dc gear motor to turn and tap into the electricty it generates. We would make a wheel attached to the end of a rod, and lights attached around the wheel." />
+    
+    
+
+    
+      <meta property="og:updated_time" content="2018-02-12T18:30:08-05:00"/>
+    
+    <meta name="generator" content="Hugo 0.35" />
+    <title>Turning Muscle Power into Usable Electricity &middot; Dan Oved&#39;s Blog</title>
+    <link rel="shortcut icon" href="http://www.danioved.com/blog/images/favicon.ico">
+    <link rel="stylesheet" href="http://www.danioved.com/blog/css/style.css">
+    <link rel="stylesheet" href="http://www.danioved.com/blog/css/highlight.css">
+    
+    <link rel="stylesheet" href="http://www.danioved.com/blog//css/style-custom.css">
+    
+
+    
+    <link rel="stylesheet" href="http://www.danioved.com/blog/css/font-awesome.min.css">
+    
+
+    
+  </head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://www.danioved.com/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='http://www.danioved.com/blog/posts'>Archive</a>
+	<a href='http://www.danioved.com/blog/tags'>Tags</a>
+  
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        
+                          
+                            Kinetic Energy -
+                          
+                        
+                        Turning Muscle Power into Usable Electricity
+                    </h1>
+                    <h2 class="headline">
+                    Feb 12, 2018 18:30
+                    · 599 words
+                    · 3 minutes read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="http://www.danioved.com/blog/tags/energy">Energy</a>
+                          
+                              <a href="http://www.danioved.com/blog/tags/pcb">PCB</a>
+                          
+                              <a href="http://www.danioved.com/blog/tags/fabrication">Fabrication</a>
+                          
+                              <a href="http://www.danioved.com/blog/tags/hardware">Hardware</a>
+                          
+                      
+                      
+                      </span>
+                      
+                        
+
+<nav id="post-nav">
+  <div class='next-and-previous'>
+    
+      <span class="prev">
+        <a href="/blog/posts/energy/kinetic-project/concepts/">
+          <span class="arrow">←</span> Previous post for Kinetic Energy
+        </a>
+      </span>
+    
+    
+  </div>
+</nav>
+
+
+                      
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/rolling_for_light_2_hu8fdbe81a6b372b0fbcee5e20db7f71c5_2938160_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+<p>For our <a href="http://www.fddrsn.net/teaching/energy/2018-energy-project-briefs/">Kinetic Energy assignment</a>, with which
+I collaborated with Arnav Wagh, it was time to build something that would turn muscle power into usable electricity.</p>
+
+<h1 id="selecting-the-motor">Selecting the Motor</h1>
+
+<p>To power the lights, we would force a dc gear motor to turn and tap into the electricty it generates. We chose a <a href="https://www.servocity.com/127-rpm-mini-econ-gear-motor">127 RPM Mini Econ Gear Motor</a> from ServoCity,
+because it had optimal RPM and a low torque of 9,602 kgf-cm.</p>
+
+
+<figure >
+    
+        <img src="https://www.servocity.com/media/catalog/product/cache/1/image/438x280/602f0fa2c1f0d1ba5e241f914e856ff9/m/i/mini-econ_163-508-rpm-main-2-600px_7.jpg" alt="The 127 RPM dc gear motor we used from Servo City" />
+    
+    
+    <figcaption>
+        <p>
+        The 127 RPM dc gear motor we used from Servo City
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>We would use a <a href="https://www.servocity.com/770-clamping-hubs">.770&rdquo; Pattern Clamping Hub</a> which would attach to the shaft and rotate to generate torque:</p>
+
+<p><img src="https://www.servocity.com/media/catalog/product/cache/1/image/438x280/602f0fa2c1f0d1ba5e241f914e856ff9/7/7/770-clamping-hubs-main-1500px.jpg" alt="The clamping hub" /></p>
+
+<h1 id="prototyping-the-circuit">Prototyping the Circuit</h1>
+
+<p>Next it was time to build a circuit that would simulate the power generation.  We used 4 diodes as a bridge rectifier
+so that no matter which way the motor was turned, the current would flow through the circuit in the same direction.
+We used a bunch of capacitors to smooth out the current and store energy when the wheel stopped turning, enabling the lights
+to stay on.  We used a 12v white analog LED strip since it has the same voltage rating as the DC Gear Motor.</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/breadboard_circuit_huf94a489fb0149154601303eda7998821_5094413_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>The prototyped circuit with a bridge rectifier</figcaption>
+    
+  </figure>
+
+
+
+<p>We were able to test the circuit successfully.  Turning the motor in either direction generated power to turn on the lights:
+
+
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/images/testing_motor.gif" />
+    
+  </figure>
+
+</p>
+
+<h1 id="fabricating-the-device">Fabricating the Device</h1>
+
+<p>Our original plan was to swing a rope with a weight attached to the end around the motor, causing it to turn.  However,
+this proved to not be enough torque to turn the shaft, causing the rope to tangle.  Arnav came up with another design,
+a wheel attached to the end of a rod, and lights attached around the wheel. The shaft would be coupled to the rod,
+and the motor itself would be located inside the wheel; this would enable the output power lines of the motor to be connected
+to the circuit without a slip ring.</p>
+
+<script src="https://embed.github.com/view/3d/oveddan/blog/master/static/models/kinetic_energy_wheel.stl"></script>
+
+<p>We converted this 3d model into slices, and cut it on the CNC Router:</p>
+
+
+
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/images/cnc_wheel.gif" />
+    
+  </figure>
+
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/cnc_wheel_hu6ec3c9e3eed7c19439a2ea2385e23182_4689825_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+<p>Then we glued it all together and let it sit overnight:</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/glueing_wheel_hua713e5257f15546ddeb0d1ec01e6e62b_4999104_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/glueing_motor_wheel_hucacb106f1e6ad0ed99e29ba6ac9d19bc_4147279_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>The engine mounted to the wheel. This would allow the circuit to rotate with the wheel without the need for a slipring.</figcaption>
+    
+  </figure>
+
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/clamping_wheel_hu889baa5768655005a789970e60f5c100_4470713_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/glued_wheel_hu9c2b1b8b4c27df2d5ba4a606c9bf32db_4039736_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+<h1 id="fabricating-the-circuit">Fabricating the Circuit</h1>
+
+<p>Next it was time to build the circuit that could withstand a series of rapid rotational turns.  We designed
+something simple in EagleCad:</p>
+
+
+
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/images/kinetic_schema.png" />
+    
+      <figcaption>The circuit with the bridge rectifying diodes and 47uF capacitors in series</figcaption>
+    
+  </figure>
+
+
+
+<p>Then fabricated it on the Othermill:
+
+
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/images/milling_circuit.gif" />
+    
+  </figure>
+
+</p>
+
+<p>This created a compact, durable circuit that could fit many capacitors and be easily mounted to the wheel.
+A hole was left in the middle for the wires that would go to the motor to pass through.
+
+
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/images/kinetic_board_and_fabricated_scaled.jpg" />
+    
+  </figure>
+
+</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/soldered_bottom_hud86e04b2e53c6c6eadbb581cb21a0d09_3524068_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/fabricated_with_parts_hue80b41ed1f619bb5b70951d64f23f119_4707793_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>The circuit with the capacitors and bridge rectifying diodes.  Yellow wires would go to the motor and accept either polarity, and red and black wires would be power and ground for the lights.</figcaption>
+    
+  </figure>
+
+
+
+<p>We tested the circuit with an external 12v power supply, and also tested reversing the polarity of the power supply to see
+if the bridge rectification worked, and were glad to see that it did.
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/circuit_working_huca4b6fb062abd66cbfaa983ec0a56f9c_5303494_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+</p>
+
+<h1 id="putting-it-all-together">Putting it All Together</h1>
+
+<p>After coating the wheel with black spraypaint, it was time to assemble everything and test it all.</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/all_together_hu91a4687e9682a00fc4ec73f29740687b_2199191_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>The spraypainted wheel with circuit attached</figcaption>
+    
+  </figure>
+
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/circuit_on_wheel_hu5d1811d77cfc936f1309da7184882975_2318247_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>The circuit attached to the wheel.  Yellow wires pass through the center and are attached to the dc gear motor&#39;s power and ground.</figcaption>
+    
+  </figure>
+
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/joint_for_pole_huf02decd52e5c19763ea74a4aaef2c0e1_2316091_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>The shaft of the motor coupled to the rod; when rolling the wheel the torque would cause the engine to generate power.</figcaption>
+    
+  </figure>
+
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/on_the_floor_hu3c43fb2dae927d9bf33e0e481f46970a_3494404_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>Getting ready to test everything</figcaption>
+    
+  </figure>
+
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/lit_up_in_dark_hud6d3e825a82af1a8db480f6766222c79_4022632_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>It worked!</figcaption>
+    
+  </figure>
+
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/kinetic-project/energy-generating-wheel/posts/energy/kinetic-project/energy-generating-wheel/rolling_for_light_3_huea7f8babe3754f671c2ccfd948b8c014_2764370_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>It worked!</figcaption>
+    
+  </figure>
+
+
+
+
+                    
+                      <div id="other-posts">
+  <h2>Other posts for <strong>the Kinetic Energy Project<strong /></h2>
+
+  <ul id="other-posts-list">
+    
+      <li><a href="/blog/posts/energy/kinetic-project/energy-generating-wheel/">Turning Muscle Power into Usable Electricity</a></li>
+    
+      <li><a href="/blog/posts/energy/kinetic-project/concepts/">Concepts and Brainstorming</a></li>
+    
+  </ul>
+</div>
+
+                    
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'danoved'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/oveddan">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.instagram.com/stangogh/">
+        <i class="fa fa-instagram"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> Dan Oved&#39;s Blog
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="http://www.danioved.com/blog/js/jquery-2.2.4.min.js"></script>
+<script src="http://www.danioved.com/blog/js/main.js"></script>
+<script src="http://www.danioved.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-106896744-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>

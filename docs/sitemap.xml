@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.danioved.com/blog/posts/energy/kinetic-project/energy-generating-wheel/</loc>
+    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.danioved.com/blog/posts/homemade-hardware/pcb-design/</loc>
     <lastmod>2018-02-07T12:33:03-05:00</lastmod>
   </url>
@@ -190,7 +195,7 @@
   
   <url>
     <loc>http://www.danioved.com/blog/</loc>
-    <lastmod>2018-02-07T12:33:03-05:00</lastmod>
+    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -237,19 +242,31 @@
   
   <url>
     <loc>http://www.danioved.com/blog/tags/energy/</loc>
-    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
+    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.danioved.com/blog/categories/energy/</loc>
-    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
+    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/tags/fabrication/</loc>
+    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.danioved.com/blog/tags/hardware/</loc>
-    <lastmod>2018-01-31T20:33:10-05:00</lastmod>
+    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/categories/hardware/</loc>
+    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -285,6 +302,12 @@
   <url>
     <loc>http://www.danioved.com/blog/tags/laser-cutting/</loc>
     <lastmod>2017-10-06T10:08:02-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/tags/pcb/</loc>
+    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -368,7 +391,7 @@
   
   <url>
     <loc>http://www.danioved.com/blog/posts/energy/kinetic-project/</loc>
-    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
+    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
   </url>
   
   <url>

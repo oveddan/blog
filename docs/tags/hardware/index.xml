@@ -6,10 +6,20 @@
     <description>Recent content in Hardware on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 31 Jan 2018 20:33:10 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 12 Feb 2018 18:30:08 -0500</lastBuildDate>
     
 	<atom:link href="http://www.danioved.com/blog/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Turning Muscle Power into Usable Electricity</title>
+      <link>http://www.danioved.com/blog/posts/energy/kinetic-project/energy-generating-wheel/</link>
+      <pubDate>Mon, 12 Feb 2018 18:30:08 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/energy/kinetic-project/energy-generating-wheel/</guid>
+      <description>For our Kinetic Energy assignment, with which I collaborated with Arnav Wagh, it was time to build something that would turn muscle power into usable electricity.
+Selecting the Motor To power the lights, we would force a dc gear motor to turn and tap into the electricty it generates. We chose a 127 RPM Mini Econ Gear Motor from ServoCity, because it had optimal RPM and a low torque of 9,602 kgf-cm.</description>
+    </item>
     
     <item>
       <title>Homemade Hardware - Ultrasonic Distance Sensor Input</title>
