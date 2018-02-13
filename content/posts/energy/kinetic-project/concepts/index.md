@@ -5,7 +5,8 @@ tags: ["Energy", "Physical Computing"]
 categories: ["Energy", "Physical Computing"]
 draft: false
 description: For our for the Energy class, I partnered up with Arnav.  We came up with a few concepts for how to turn human motion into light.
-featuredImage: "/blog/images/energy/kinetic-project/concepts_featured.png"
+featuredImageResource: 
+  src: "images/concepts_featured"
 showPagesInSection: true
 ---
 
