@@ -11,7 +11,7 @@ description: It was time to build something that would turn muscle power into us
 
 ---
 
-{{< fullsizeimage src="images/rolling_for_light_2" >}}
+{{< image src="images/full_kinetic_demo" >}}
 
 For our [Kinetic Energy assignment](http://www.fddrsn.net/teaching/energy/2018-energy-project-briefs/), with which
 I collaborated with Arnav Wagh, it was time to build something that would turn muscle power into usable electricity.
@@ -100,6 +100,9 @@ After coating the wheel with black spraypaint, it was time to assemble everythin
 
 {{< fullsizeimage src="images/on_the_floor" caption="Getting ready to test everything">}}
 
-{{< fullsizeimage src="images/lit_up_in_dark" caption="It worked!" >}}
+{{< fullsizeimage src="images/rolling_for_light_2" caption="Testing it out - it worked!">}}
 
-{{< fullsizeimage src="images/rolling_for_light_3" caption="It worked!" >}}
+{{< image src="images/kinetic_demo" >}}
+
+{{< fullsizeimage src="images/lit_up_in_dark" >}}
+
