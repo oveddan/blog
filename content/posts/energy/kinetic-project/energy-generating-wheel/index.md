@@ -31,7 +31,7 @@ We would use a [.770" Pattern Clamping Hub](https://www.servocity.com/770-clampi
 
 Next it was time to build a circuit that would simulate the power generation.  We used 4 diodes as a bridge rectifier
 so that no matter which way the motor was turned, the current would flow through the circuit in the same direction.
-We used a bunch of capacitors to smooth out the current and store energy when the wheel stopped turning, enabling the lights
+We used a bunch of capacitors in parallel to smooth out the current and store energy when the wheel stopped turning, enabling the lights
 to stay on.  We used a 12v white analog LED strip since it has the same voltage rating as the DC Gear Motor.
 
 {{< fullsizeimage src="images/breadboard_circuit"  caption="The prototyped circuit with a bridge rectifier" >}}
@@ -82,7 +82,7 @@ A hole was left in the middle for the wires that would go to the motor to pass t
 
 {{< fullsizeimage src="images/soldered_bottom" >}}
 
-{{< fullsizeimage src="images/fabricated_with_parts" caption="The circuit with the capacitors and bridge rectifying diodes.  Yellow wires would go to the motor and accept either polarity, and red and black wires would be power and ground for the lights." >}}
+{{< fullsizeimage src="images/fabricated_with_parts" caption="The circuit with the capacitors in parallel and bridge rectifying diodes.  Yellow wires would go to the motor and accept either polarity, and red and black wires would be power and ground for the lights." >}}
 
 We tested the circuit with an external 12v power supply, and also tested reversing the polarity of the power supply to see
 if the bridge rectification worked, and were glad to see that it did.
