@@ -7,7 +7,7 @@ draft: false
 showPagesInSection: true
 featuredImageResource: 
   src: "images/kinetic_featured"
-imageResources: ["images/kinetic_wheel_og"]
+imageResources: ["images/kinetic_wheel_og", "images/circuit_on_wheel", "images/kinetic_board_and_fabricated_scaled", "images/on_the_floor"]
 description: It was time to build something that would turn muscle power into usable electricity.  To power the lights, we would force a dc gear motor to turn and tap into the electricty it generates. We would make a wheel attached to the end of a rod, and lights attached around the wheel.
 
 ---
