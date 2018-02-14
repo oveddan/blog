@@ -8,9 +8,14 @@
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     <meta property="og:title" content="{{ .Title }}  - Dan Oved's blog" />
     <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Description}}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-    {{ with .Params.images }}
-      {{ range first 6 . }}
+    {{ if .Params.images }}
+      {{ range first 6 .Params.images }}
         <meta property="og:image" content="{{ . | absURL }}" />
+      {{ end }}
+    {{ else }}
+    {{ if .Params.featuredImageResource }}
+      {{ $original := .Resources.GetMatch (printf "%s*" (.Params.featuredImageResource.src)) }}
+        <meta property="og:image" content="{{$original.RelPermalink | absURL }}" />
       {{ end }}
     {{ end }}
     {{ with .Params.videos}}
