@@ -16,7 +16,8 @@
       {{ $Page := .Page }}
       {{ range first 6 .Params.imageResources }}
         {{ $original := $Page.Resources.GetMatch (printf "%s*" (.)) }}
-        <meta property="og:image" content="{{ $original.RelPermalink  | absURL }}" />
+        {{ $image := $original.Resize "520x" }}
+        <meta property="og:image" content="{{ $image.RelPermalink  | absURL }}" />
       {{ end }}
     {{ else if .Params.featuredImageResource }}
       {{ $original := .Resources.GetMatch (printf "%s*" (.Params.featuredImageResource.src)) }}
