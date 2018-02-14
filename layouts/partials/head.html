@@ -12,11 +12,15 @@
       {{ range first 6 .Params.images }}
         <meta property="og:image" content="{{ . | absURL }}" />
       {{ end }}
-    {{ else }}
-    {{ if .Params.featuredImageResource }}
-      {{ $original := .Resources.GetMatch (printf "%s*" (.Params.featuredImageResource.src)) }}
-        <meta property="og:image" content="{{$original.RelPermalink | absURL }}" />
+    {{ else if .Params.imageResources }}
+      {{ $Page := .Page }}
+      {{ range first 6 .Params.imageResources }}
+        {{ $original := $Page.Resources.GetMatch (printf "%s*" (.)) }}
+        <meta property="og:image" content="{{ $original.RelPermalink  | absURL }}" />
       {{ end }}
+    {{ else if .Params.featuredImageResource }}
+      {{ $original := .Resources.GetMatch (printf "%s*" (.Params.featuredImageResource.src)) }}
+      <meta property="og:image" content="{{$original.RelPermalink | absURL }}" />
     {{ end }}
     {{ with .Params.videos}}
       {{ range first 6 . }}
