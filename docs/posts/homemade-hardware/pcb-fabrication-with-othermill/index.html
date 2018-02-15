@@ -1,0 +1,474 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dan Oved&#39;s Blog">
+    <meta name="description" content="Connecting the digital with the analog world @ ITP">
+    <meta property="og:title" content="PCB Circuit Fabrication With the Othermill  - Dan Oved's blog" />
+    <meta property="og:description" content="The process of designing circuits in Eaglecad and then fabricating the boards on the Othermill." />
+    
+      
+      <meta property="og:image" content="http://www.danioved.com/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/images/pcb_fab_featured.jpg" />
+    
+    
+
+    
+      <meta property="og:updated_time" content="2018-02-13T20:44:38-05:00"/>
+    
+    <meta name="generator" content="Hugo 0.35" />
+    <title>PCB Circuit Fabrication With the Othermill &middot; Dan Oved&#39;s Blog</title>
+    <link rel="shortcut icon" href="http://www.danioved.com/blog/images/favicon.ico">
+    <link rel="stylesheet" href="http://www.danioved.com/blog/css/style.css">
+    <link rel="stylesheet" href="http://www.danioved.com/blog/css/highlight.css">
+    
+    <link rel="stylesheet" href="http://www.danioved.com/blog//css/style-custom.css">
+    
+
+    
+    <link rel="stylesheet" href="http://www.danioved.com/blog/css/font-awesome.min.css">
+    
+
+    
+  </head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://www.danioved.com/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='http://www.danioved.com/blog/posts'>Archive</a>
+	<a href='http://www.danioved.com/blog/tags'>Tags</a>
+  
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        
+                          
+                        
+                        PCB Circuit Fabrication With the Othermill
+                    </h1>
+                    <h2 class="headline">
+                    Feb 13, 2018 20:44
+                    · 402 words
+                    · 2 minutes read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="http://www.danioved.com/blog/tags/homemade-hardware">Homemade Hardware</a>
+                          
+                              <a href="http://www.danioved.com/blog/tags/electronics">Electronics</a>
+                          
+                              <a href="http://www.danioved.com/blog/tags/fabrication">Fabrication</a>
+                          
+                      
+                      
+                      </span>
+                      
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/00-soldered-featured_huf225f9384239c25c1b73a2efbe50c829_5951665_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+<p>For this homework assignment for <a href="/blog/posts/homemade-hardware/">Homemade Hardware</a>, we were to fabricate a PCB Board using the Othermill.</p>
+
+<p>I continued with the <a href="../pcb-design">previous design</a> of an ATTiny85 controlling
+the brightness of an LED based on the reading from an HC-sr04 Ultrasonic Distance Sensor.
+I modified it slightly based on the instructions from class.   A 1k resistor
+connect the reset pin of the ATTiny85 to the power, and the output LED pin
+would be connected via a TIP120 Transistor to the ground line of the LEDs.
+I also added a debugging LED.</p>
+
+<h2 id="testing-out-the-circuit">Testing out the Circuit</h2>
+
+<p>First I breadboarded circuit with the modifications mentioned above:</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/01-breadboard_hu3279dc07ec3c10065f48010efb9cf3a4_5085843_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+<p>Then I tested it out:</p>
+
+
+
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/images/testing-light.gif" />
+    
+  </figure>
+
+
+
+<h2 id="designing-and-the-boards">Designing and the Boards</h2>
+
+<p>Then it was time to desing the circuit in EagleCad.</p>
+
+
+
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/images/sensor_board_schema.png" />
+    
+      <figcaption>The schema for the board with the sensor</figcaption>
+    
+  </figure>
+
+
+
+<p>For the board, I made sure that the ground pin for the sensor was on the left side; This would ensure
+that when the <a href="https://www.sparkfun.com/products/13959">HC-SR04</a> was placed on the board, it would be oriented
+to be protuding off of the board and not overlapping it, enabling the parts below to be accessible:</p>
+
+
+
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/images/sensor_board_design.png" />
+    
+      <figcaption>The design for the board with the sensor; 4 pins were made available for the HC-SR04 ultrasonic distance sensor and oriented so that the sensor would not overlap onto the board.</figcaption>
+    
+  </figure>
+
+
+
+<p>We were also to create a circuit for a letter with LEDs that would have its brightness be controlled by
+the reading from the sensor.  I was assigned the letter <code>T</code>.</p>
+
+
+
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/images/letter_t_design.png" />
+    
+      <figcaption>The design for a letter T made of leds. The red route indicates where a wire would need to be attached</figcaption>
+    
+  </figure>
+
+
+
+<h2 id="fabricating-the-boards">Fabricating the Boards</h2>
+
+<p>Now it was time to fabricate the circuit using the Othermill.  In bantamTools, I managed to fit both boards onto the bed
+by rotating the T slightly.</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/layout_on_othermill_hu7e2598a7afea0246653d135feee9239f_481540_520x0_resize_lanczos_center.png" />
+    
+  </figure>
+
+
+
+<p>For the bits, I set bantamTools to use <sup>1</sup>&frasl;<sub>32</sub>&rdquo; and <sup>1</sup>&frasl;<sub>16</sub>&rdquo; flat end mill bits.
+Then I watched in awe as the Othermill effortlessly and accurately milled the board:</p>
+
+<p>
+
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/images/othermill_1.gif" />
+    
+  </figure>
+
+
+
+
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/images/othermill_2.gif" />
+    
+  </figure>
+
+</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/02-PCB-FabOthermill_hucb26e0f3c6b95b5cc284032ce1ab1b7f_3857691_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+<p>
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/03-RemovingFromMaterial_hu320313600fda6194f7fdc0e7d482f741_4467381_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/04-FabricatedBoards_huae1fc27ef2286bc459b141c9958541c1_4045857_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+</p>
+
+<h2 id="assembling-the-boards">Assembling the Boards</h2>
+
+<p>Then it was time to put the components onto the boards and solder them.</p>
+
+<p>
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/06-parts-on-board_hua1aa85cb42effc04c8bb80ff18afd207_1942050_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/07-bottom-of-board_hu1df1d3ab632d02f4db2d2f0291398071_4138502_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/09-soldered-bottom_huaa18f8ac91d2f824159f0520c4d74bcb_5089690_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/10-light-works_hub1f36752d4b0288ebc466c9dfdd01235_4469520_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>With the power connected via jumpers.  The debugging light showed it was being powered correctly</figcaption>
+    
+  </figure>
+
+
+
+
+
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/images/testing_simple_light.gif" />
+    
+      <figcaption>Testing the output of the sensor with a basic LED light before putting together the letter T board</figcaption>
+    
+  </figure>
+
+
+
+<p>
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/11-comparing-circuit-to-t_huf88630f7e4b31037d81ab78f9dd5b489_5098119_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>Assembling the letter board</figcaption>
+    
+  </figure>
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/14-with-leds-in_hud2021ba9a0e9d4c33c50a036bcefd21e_5083840_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/15-soldered_hu8c7469d7c3b8f72c39628212ed306cd8_4910961_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/16-letter-soldered_hu143377b3658a567375bbc7e1079fe0d4_4984544_520x0_resize_q75_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/posts/homemade-hardware/pcb-fabrication-with-othermill/17-parts-together_hubc0ab8e6ee95d5c025820b6d68ed7e19_5388168_520x0_resize_q75_lanczos_center.jpg" />
+    
+      <figcaption>The assembled boards.</figcaption>
+    
+  </figure>
+
+</p>
+
+<p>And finally, testing that the sensor board can control the brightness of the leds on the letter board:</p>
+
+
+
+
+  <figure>
+    <img src="/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/images/testing_all_together.gif" />
+    
+      <figcaption>The assembled boards.</figcaption>
+    
+  </figure>
+
+
+
+
+                    
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'danoved'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/oveddan">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.instagram.com/stangogh/">
+        <i class="fa fa-instagram"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> Dan Oved&#39;s Blog
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="http://www.danioved.com/blog/js/jquery-2.2.4.min.js"></script>
+<script src="http://www.danioved.com/blog/js/main.js"></script>
+<script src="http://www.danioved.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-106896744-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
