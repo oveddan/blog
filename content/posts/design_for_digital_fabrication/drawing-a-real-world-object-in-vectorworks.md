@@ -2,11 +2,12 @@
 title = "Designing for Digital Fabrication - Drawing a Real World Object in Vectorworks"
 description = "Drawing the Lumenier Digital RGB Arm LED Board in Vectorworks"
 date = 2017-09-20
-categories = [
+classes = [
   "Designing for Digital Fabrication"
 ]
 tags = [
   "Digital Fabrication",
+  "Fabrication",
   "Design"
 ]
 menu = "main"

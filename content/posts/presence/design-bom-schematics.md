@@ -1,9 +1,9 @@
 ---
 title: 'Physical Design, Bill of Materials and Schematics'
 date: 2017-11-14T15:38:22-05:00
-tags: [Presence, "Digital Fabrication", "Physical Computing", "Design"]
+tags: [Presence, "Digital Fabrication", "Physical Computing", "Design", "Fabrication"]
 featuredImage: "/blog/images/gaze/schematics/design_featured.png"
-categories: ["Digital Fabrication", "Physical Computing"]
+classes: ["Design for Digital Fabrication", "Intro to Physical Computing"]
 showPagesInSection: true
 
 draft: false 

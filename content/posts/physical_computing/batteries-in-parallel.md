@@ -2,8 +2,8 @@
 title= "Doubling the Battery Power"
 date= 2017-09-21
 description= "Connecting batteries in parallel to double the capacity and keep the same voltage."
-categories= ["Basic Analog Circuits", "Physical Computing"]
-tags= ["Physical Computing", "Circuits"]
+classes= ["Basic Analog Circuits", "Intro to Physical Computing"]
+tags= ["Physical Computing", "Circuits", "Hardware"]
 featuredImage= "/blog/images/pcomp/parallelbatterycircuit_featured.png"
 +++
 

@@ -2,7 +2,8 @@
 title: "PCB Circuit Fabrication With the Othermill"
 date: 2018-02-13T20:44:38-05:00
 draft: false
-tags: ["Homemade Hardware", "Electronics", "Fabrication"]
+tags: ["Homemade Hardware", "Hardware", "Fabrication"]
+classes: ["Homemade Hardware"]
 featuredImageResource:
   src: "images/pcb_fab_featured"
   fillPosition: "Center"

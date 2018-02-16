@@ -1,8 +1,8 @@
 ---
 title: 'Generating Zoetrope Animations'
 date: 2017-10-12T13:25:28-04:00
-tags: ["Digital Fabrication", "Animation", "Processing", "Arduino", "Physical Computing"]
-categories: ["Digital Fabrication"]
+tags: ["Digital Fabrication", "Fabrication", "Animation", "Processing", "Hardware"]
+classes: ["Design for Digital Fabrication"]
 description: 'Using a Turntable, Processing, Laser Cutter, SVG animations, Arduino and analog leds to build a basic Zoetrope'
 featuredImage: "/blog/images/digitalfab/zoetrope/zoetrope_featured.png"
 images: ["/blog/images/digitalfab/zoetrope/onturntable_og.jpg"]

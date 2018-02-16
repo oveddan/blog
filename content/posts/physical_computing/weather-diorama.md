@@ -1,8 +1,8 @@
 ---
 title: 'Weather Diorama'
 date: 2017-10-29T20:33:47-04:00
-tags: ["Physical Computing"]
-categories: ["Physical Computing"]
+tags: ["Physical Computing", "Hardware", "Fabrication"]
+classes: ["Intro to Physical Computing"]
 featuredImage: "/blog/images/pcomp/diorama/diorama_featured.jpg"
 description: "How we built a diorama based on Japanese art that has lights which change the appearance of the scene depend on the time of day or weather."
 images: ["/blog/images/pcomp/diorama/sunset.jpg"]

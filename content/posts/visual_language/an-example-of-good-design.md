@@ -4,7 +4,7 @@ date = 2017-09-13
 tags = [
   "Visual Language"
 ]
-categories = [
+classes = [
   "Visual Language"
 ]
 description = "Looking closely at an enticing beverage can"

@@ -5,7 +5,7 @@ date = 2017-09-20
 categories = [
   "Visual Language"
 ]
-tags = [
+classes = [
   "Visual Language"
 ]
 +++

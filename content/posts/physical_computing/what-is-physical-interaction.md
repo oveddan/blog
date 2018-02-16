@@ -3,8 +3,8 @@ title = "What Is Physical Interaction?"
 description = "Defining what it is and what it is not."
 
 date = 2017-09-07
-categories = [
-  "Physical Computing"
+classes= [
+  "Intro to Physical Computing"
 ]
 tags = [
   "Physical Computing"

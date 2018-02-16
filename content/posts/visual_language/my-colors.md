@@ -3,8 +3,8 @@ title= "My Colors and Compositions"
 description= "Picking a color palette that represents me and creating six compositions using it"
 featuredImage= "/blog/images/visual_language/colors/color_featured.png"
 date= 2017-10-04
-tags = ["Visual Language"]
-categories = ["Visual Language"]
+tags = ["Visual Language", "Design"]
+classes = ["Visual Language"]
 +++
 
 For this Visual Language [homework assignment](https://itp.nyu.edu/~kd49/design/?page_id=1256), I was tasked to pick a color palette that represents me,

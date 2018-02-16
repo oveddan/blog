@@ -3,7 +3,7 @@ title = "Expressive Words"
 description = "Creating three words that visually communicate their meanings"
 date = 2017-09-25
 tags = ["Visual Language"]
-categories = ["Visual Language"]
+classes = ["Visual Language"]
 +++
 
 For this homework assignment we were to design 3 expressive words that visually communicate their meanings.  Here is what I created:

@@ -1,8 +1,8 @@
 ---
 title: 'Concepts and Brainstorming'
 date: 2018-01-29T23:07:13-05:00
-tags: ["Energy", "Physical Computing"]
-categories: ["Energy", "Physical Computing"]
+tags: ["Energy", "Hardware", "Fabrication"]
+classes: ["Energy"]
 draft: false
 description: For our for the Energy class, I partnered up with Arnav.  We came up with a few concepts for how to turn human motion into light.
 featuredImageResource: 

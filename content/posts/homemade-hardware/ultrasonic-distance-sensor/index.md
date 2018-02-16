@@ -1,7 +1,7 @@
 ---
 title: 'Homemade Hardware - Ultrasonic Distance Sensor Input'
 date: 2018-01-31T20:33:10-05:00
-tags: ["Homemade Hardware", "Electronics", "Hardware"]
+tags: ["Homemade Hardware", "Hardware", "Electronics"]
 categories: ["Homemade Hardware"]
 draft: false
 featuredImageResource: 

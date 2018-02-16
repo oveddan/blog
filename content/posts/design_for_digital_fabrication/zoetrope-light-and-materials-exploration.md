@@ -3,8 +3,8 @@ title: 'Zoetrope Light and Materials Exploration'
 description: 'Initial exploration for zoetrope project - experimenting with how materials appear and disappear when certain colors of light are projected onto them.'
 featuredImage: "/blog/images/digitalfab/materials_featured.png"
 date: 2017-10-06T10:08:02-04:00
-tags: ["Digital Fabrication", "Design", "Laser Cutting", "Animation"]
-categories: ["Designing for Digital Fabrication"]
+tags: ["Digital Fabrication", "Design", "Fabrication", "Animation"]
+classes: ["Designing for Digital Fabrication"]
 draft: false 
 ---
 

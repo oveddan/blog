@@ -1,8 +1,8 @@
 ---
 title: 'Fabricating the Kinetic Sculpture'
 date: 2017-12-17T00:30:39-05:00
-tags: ["Presence", "Digital Fabrication", "Physical Computing", "Design"]
-categories: ["Digital Fabrication", "Physical Computing"]
+tags: ["Presence", "Digital Fabrication", "Physical Computing", "Design", "Fabrication"]
+classes: ["Design for Digital Fabrication", "Intro to Physical Computing"]
 featuredImage: "/blog/images/gaze/fabricate_sculpture/sculpture_featured.png"
 description: After prototyping fabricating a prototype of Presence to test the design and physical mechanics, it was time to build the real thing.
 showPagesInSection: true

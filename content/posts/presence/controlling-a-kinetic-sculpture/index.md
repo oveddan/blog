@@ -2,6 +2,8 @@
 title: "Controlling a Kinetic Sculpture With Real Time Gaze Tracking"
 date: 2018-02-03T17:05:00-05:00
 showPagesInSection: true
+tags: ["Computer Vision", "Fabrication", "CnC"]
+classes: ["Design for Digital Fabrication", "Intro to Physical Computing"]
 draft: true
 ---
 
@@ -14,12 +16,13 @@ from the research paper [Eye Tracking for Everyone](http://gazecapture.csail.mit
 caption:  The installation is composed of a webcam, servo motors connected to tubes, and a pc that performs the gaze prediction and motor position calculations.
 
 It works as follows:
+
 1. A webcam captures a video feed and sends it over usb to a computer
 2. On the computer, opencv is used to extract faces and eyes from the frames of the video feed
 3. A pre-trained caffe model is fed these extracted features as inputs and outputs the predicted gaze
-4. The predicted gaze is sent over socket to a processing sketch
-5. The processing sketch calculates servo positions that will reveal a pattern based on the gaze position.
-6. The processing sketch sends the servo positions over serial to a Mini-Maeastro 24-channel servo controller.
+4. The predicted gaze is sent over socket to a Processing sketch
+5. The Processing sketch calculates servo positions that will reveal a pattern based on the gaze position.
+6. The Processing sketch sends the servo positions over serial to a Mini-Maeastro 24-channel servo controller.
 7. The servo controller rotates 21 Futaba (TODO: get model) servos into the specified positions.
 
 The flow of data starts with a webcam attached to the installation.  This is connected
@@ -53,15 +56,15 @@ ToDo: show dot prediction
 
 ## Scaling up the prediction space for a large installation
 
-The biggest question for me was if this would be able to predict the gaze across a larger format such as a kinetic installation.
+When I started work on this project, the biggest question for me was if this model would be able to predict the gaze across a larger format such as a kinetic installation.
 The prediction space for the model was in cm relative to the camera, but the predictions were done on devices as large as the IPad, at (x cm - TODO: fill out!) 
 
 This presented multiple challenges.  The installation was to be about 4 x 3 feet, much bigger than the prediction
-space.  How could this then be translated?
+space.  How could this then be translated to the breadth of a larger installation?
 
-When testing on a computer monitor, the predicted gaze would work reasonably well when moving eyes left to right near the camera,
-but would rarely reach the left and right edges of the screen and never reach the bottom corners.  
-This reflected the heat map of the prediction space, and I started to worry that the gaze prediction would perform even more poorly on a larger format than a computer monitor.  
+When I first got the model working I tested it on a computer monitor; the predicted gaze would work reasonably well when moving eyes left to right near the camera,
+but would rarely reach the left and right edges of the screen and never reach the bottom corners.
+This reflected the heat map of the prediction space, and I started to worry that the gaze prediction would perform even more poorly on a larger format than a computer monitor.
 I started to doubt if gaze prediction would work at all for the kinetic installation, felt dejected, and wanted to abandon the project.
 
 However, when testing on a large tv screen, the gaze estimations performed better, and would be able to reach the edges of the screen. I concluded that
@@ -127,12 +130,13 @@ rotated in 3d space to reflect the target rotations.
 
 !Show code for 3d sphere and rotations
 
-This made it really easy to switch to control the real motors.  The rotations of these cylinders mapped directly to target rotation values of the real servo motors and poles attaches to them,
-so when it came time to switch it was a simple direct conversion between the values.
+This made it really easy to switch back and forth between rendering a simulation and controlling the real motors.
+The rotations of these cylinders mapped directly to target rotation values of the real servo motors and poles attaches to them,
+so when it came time to switch it was a simple direct mapping between the values.
 
 ## Obtaining real-time performance with multithreading
 
-Before building the kinetic installation, I prototyped the installation in processing to test out the interaction with users.
+Before building the kinetic installation, I prototyped the installation in Processing to test out the interaction with users.
 The biggest feedback I got was that delay was noticeable, and the delay made it not as clear that the eyes were controlling
 the visuals. In some cases, it would take up to **3 seconds** from the time a frame was captured to when the gaze prediction was
 shown.
@@ -166,9 +170,90 @@ In the paper they got down to around 130 ms on an IPhone.  This was because they
 framework which [leverages specialed hardware and take around 1ms](https://machinelearning.apple.com/2017/11/16/face-detection.html), and used
 a compressed version of the model which they never published in the source code repository.
 
-That being siad, the performance of 200 ms in my installation was sufficient; many who tested it commented on how they were pleasently surprised at its responsivenes and how well it worked.
+That being said, the performance of 200 ms my solution was sufficient; many who tested it commented on how they were pleasently surprised at its responsivenes and how well it worked.
 
 ## Smoothing the gaze detection
 
-## Making work in an event environment - using person in middle 
+Since the neural network is making a prediction of the gaze, the gaze position would very slightly between each, and as a result
+this would cause the installation to jitter around the area where the viewer was gazing.  
+
+To address this, if the difference in distance between sequential gaze detections is within a threshold of 5 cm, the previous
+gaze location is used.  Otherwise, the new gaze prediction is lerped from the previous one, and the lerp is weighted
+based on the time since the previous gaze detection:
+
+TODO: show cleaned up smooth outputs code
+
+This resulted in a smoother and more calming experience for the user. 
+
+## Making it work in an event environment - using the person in middle 
+
+In a real event, such as our winter show, there are many people walking by that can interact with the installation.  
+To prevent it from going crazy and switching to detect different people who are standing in front of it, it is configured
+to only interact with the person standing in the middle; this is determined by using the face with a center x closest to the
+camera center.
+
+## Deploying it at the ITP Winter Show
+
+For the show, I was assigned a wall in a main corridor where lots of people would walk through. I was grateful to be given 
+such a busy area with high visibility but there were two main challenges:
+
+  * The lighting was poor with a strong light shining down into the middle the corridor, which would backlight viewers making it difficult for the camera to see their faces
+  * The wall was a drywall, which means it would be difficult to mount the heavy installation to the wall.
+
+To mount it to the wall, I bought a z-bracket from home depot, and with the help of John from the shop, we
+used drywall anchors to attach the bracket to the wall.  This let us mount the installation right up flush against the wall.
+
+Todo: show z bracket, show it flush with the wall
+
+For the lighting, I turned off the main light in the hallway and mounted two lights to the ceiling; one that would point away
+from the installation and illuminate the viewers, making them easily visible from the camera, and one to illuminate the installation.
+This ended up working well, as the camera could clearly see the viewers and the installation stood out to people walking by.  
+The main issue in the end was that the lighting made it difficult to photograph the installation well.  The contract
+was always off and the photos came out poorly in the show.
+
+I hid the computer under a podium and covered the podium with black fabric, laying some business cards on top of it.
+
+## Obersvations from Testing it at the ITP Winter Show
+
+When I stood back and observed users, and didn't tell them how to interact, the most common behavior was that they
+they would come up to it and wave their hands at the camera to try to get it to do something.  I would have to explain
+to viewers to use their eyes to control it.  When hearing that instruction, many people's first instinct was to move their
+face around.  This actually hurt the performance of the gaze detection because it would prevent the full face from being visible
+to the camera, and OpenCV's face detection does not work well in that case. When they stood there and just moved their eyes
+around they got it and were able to successfully interact and control the movement of the columns.  
+
+When others standing around were watching the main person interact with it, they generally understood how it worked and
+were able to come up and control it with their eyes without any instruction.
+
+It generally did not work when people wore glasses; this was because OpenCV Haar-Cascade classifiers in general fail to
+detect eyes when glasses are on the face.  I had to tell people to remove their glasses, and everyone was willing to do so.
+Still I would have rather it worked without people having to do that, because it lowers the experience for people that cannot
+see well without their glasses.
+
+Children they would always move their faces around and did not understand to not move their faces but to just move their eyes.
+It generally did not work with them, also because the camera would not see their face well when their faces were far away from the camera.
+I would have liked for it to work with them as well.
+
+Overall, the feedback was overwhelmingly positive.  Viewers were not accustomed to interacting with something in this way, so
+they were delighted to see something new like this.  Many asked if I used a special type of camera and were blown away
+when I explained how it just use a regular camera and machine learning.  A lot of people loved the aesthetic and how
+clean the fabrication was.  Quite a few people said it was the favorite thing they saw at the show.
+
+## Conclusions and Future Work
+
+Overall I'm encouraged and feeling great about the results of the project.  It was incredibly challenging from both a technical feasibility
+and fabrication standpoint, and I wanted to quit many times, such as when gaze detection didnt work well on the corners of the screen, or my system crashed I spent a few days
+trying to reinstall linux and all the dependencies.  A couple faculty here had doubts if the gaze detection would really work and encouraged
+me to go with a lower resolution type of sensor.  I'm glad to have persisted and overcome all the diffulties to make it work, with with 
+new kinds of interaction and technology that people hadn't seen before.  
+
+If I work to continue working on this, I would:
+
+1. Make it more portable by letting it run on something like a Mac mini or simple laptop.  This would require porting the model from caffe into another framework that can be run easily on lower end computers and on any environment. 
+2. Use a faster performing face and eye detector than the Haar-Cascade classifiers from OpenCV, and make it support faces with glasses.
+
+While the gaze tracking here was purely for artistic purposes, I'd love to try to use it in real, more utilitily like applications.  Since the show
+a few people have asked me how they can use this technology.  Right now to use it they need a linux pc with a semi-powerful GPU and a bunch of
+programs installed such as caffe and compiled OpenCV from source.  If I have time I will port it into deeplearn.js, so it can be used in the browser
+and developed with just an npm install.
 
