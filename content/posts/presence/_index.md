@@ -1,4 +1,4 @@
 ---
-title: "the project Presence"
-projectname: "Presence"
+title: "Presence"
+type: "Project"
 ---

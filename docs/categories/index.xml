@@ -6,55 +6,9 @@
     <description>Recent content in Categories on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Sep 2017 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="http://www.danioved.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Basic Analog Circuits</title>
-      <link>http://www.danioved.com/blog/categories/basic-analog-circuits/</link>
-      <pubDate>Thu, 21 Sep 2017 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.danioved.com/blog/categories/basic-analog-circuits/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Designing for Digital Fabrication</title>
-      <link>http://www.danioved.com/blog/categories/designing-for-digital-fabrication/</link>
-      <pubDate>Fri, 06 Oct 2017 10:08:02 -0400</pubDate>
-      
-      <guid>http://www.danioved.com/blog/categories/designing-for-digital-fabrication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Digital Fabrication</title>
-      <link>http://www.danioved.com/blog/categories/digital-fabrication/</link>
-      <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
-      
-      <guid>http://www.danioved.com/blog/categories/digital-fabrication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Energy</title>
-      <link>http://www.danioved.com/blog/categories/energy/</link>
-      <pubDate>Mon, 12 Feb 2018 18:30:08 -0500</pubDate>
-      
-      <guid>http://www.danioved.com/blog/categories/energy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hardware</title>
-      <link>http://www.danioved.com/blog/categories/hardware/</link>
-      <pubDate>Mon, 12 Feb 2018 18:30:08 -0500</pubDate>
-      
-      <guid>http://www.danioved.com/blog/categories/hardware/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Homemade Hardware</title>
@@ -75,24 +29,6 @@
     </item>
     
     <item>
-      <title>Physical Computing</title>
-      <link>http://www.danioved.com/blog/categories/physical-computing/</link>
-      <pubDate>Mon, 29 Jan 2018 23:07:13 -0500</pubDate>
-      
-      <guid>http://www.danioved.com/blog/categories/physical-computing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ritual</title>
-      <link>http://www.danioved.com/blog/categories/ritual/</link>
-      <pubDate>Wed, 07 Feb 2018 00:20:34 -0500</pubDate>
-      
-      <guid>http://www.danioved.com/blog/categories/ritual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Tangible Interaction Workshop</title>
       <link>http://www.danioved.com/blog/categories/tangible-interaction-workshop/</link>
       <pubDate>Tue, 30 Jan 2018 20:28:36 -0500</pubDate>
@@ -102,18 +38,9 @@
     </item>
     
     <item>
-      <title>Thoughts</title>
-      <link>http://www.danioved.com/blog/categories/thoughts/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 -0400</pubDate>
-      
-      <guid>http://www.danioved.com/blog/categories/thoughts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Visual Language</title>
       <link>http://www.danioved.com/blog/categories/visual-language/</link>
-      <pubDate>Wed, 18 Oct 2017 00:43:12 -0400</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
       
       <guid>http://www.danioved.com/blog/categories/visual-language/</guid>
       <description></description>

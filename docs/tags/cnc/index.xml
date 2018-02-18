@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cnc on Dan Oved&#39;s Blog</title>
+    <link>http://www.danioved.com/blog/tags/cnc/</link>
+    <description>Recent content in Cnc on Dan Oved&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Dec 2017 23:52:29 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.danioved.com/blog/tags/cnc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fabricating the Prototype</title>
+      <link>http://www.danioved.com/blog/posts/presence/fabricating-the-prototype/</link>
+      <pubDate>Tue, 05 Dec 2017 23:52:29 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/presence/fabricating-the-prototype/</guid>
+      <description>For the first phase of the physical installation, I wanted to fabricate a basic prototype that prove out the form factor, mechanics of the motors, and strength of the frame.
+The design for the full installation:
+Originally, I wanted to use wooden dowels and paint the patterns on them. However, these proved to be heavy and expensive. A cheaper, lighter solution was to use shipping tubes. I could order 2&amp;rdquo;x48&amp;rdquo; order in bulk from Mcmaster Carr for $16 per 5 tubes.</description>
+    </item>
+    
+  </channel>
+</rss>

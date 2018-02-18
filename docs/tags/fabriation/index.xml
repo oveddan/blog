@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabriation on Dan Oved&#39;s Blog</title>
+    <link>http://www.danioved.com/blog/tags/fabriation/</link>
+    <description>Recent content in Fabriation on Dan Oved&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Oct 2017 16:10:23 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.danioved.com/blog/tags/fabriation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From Shader to Physical Animation - the Voronoi Cellular Zoetrope</title>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</link>
+      <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</guid>
+      <description>This is a continuation of Part 1 and Part 2 of the Zeotrope project.
+Motivation This was the final phase of our homework assignment for Design for Digital Fabrication which was to design something algorithmically and laser cut it. Now that the mechanics of the Zoetrope animation were proven out the previous week, it was time to generate something elaborate. I was particularly inspired by John Edmark&amp;rsquo;s animated bloom sculptures:   After seeing what he made, my goal was to create an animation that:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,7 +2,7 @@
 title: 'Presence - Proposal'
 date: 2017-10-31T22:55:41-04:00
 tags: ["Presence", "Digital Fabrication", "Physical Computing", "Computer Vision"]
-classes: ["Design for Digital Fabrication", "Intro to Physical Computing"]
+classes: ["Designing for Digital Fabrication", "Intro to Physical Computing"]
 featuredImage: "/blog/images/gaze/proposal/proposal_featured.jpg"
 description:  "The proposal for an art installation that is activated the longer and the more people gaze directly at it.  It would encourage being present and engaged, and connect the fellow participants with each other over moments of mindfulness.  This will be my final project for Intro to Physical Computing and Design for Digital Fabrication."
 showPagesInSection: true

@@ -2,7 +2,7 @@
 title: "Concepts and Play Testing"
 date: 2017-11-07T20:16:51-05:00
 tags: ["Presence", "Digital Fabrication", "Physical Computing", "Interaction", "Usability Testing"]
-classes: ["Design for Digital Fabrication", "Intro to Physical Computing"]
+classes: ["Designing for Digital Fabrication", "Intro to Physical Computing"]
 featuredImage: "/blog/images/gaze/concepts/play_testing_featured.jpg"
 description: "Conceptualizing designs, and testing the assumptions and user experience."
 showPagesInSection: true

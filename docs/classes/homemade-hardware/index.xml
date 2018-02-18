@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homemade Hardware on Dan Oved&#39;s Blog</title>
+    <link>http://www.danioved.com/blog/classes/homemade-hardware/</link>
+    <description>Recent content in Homemade Hardware on Dan Oved&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Feb 2018 20:44:38 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.danioved.com/blog/classes/homemade-hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PCB Circuit Fabrication With the Othermill</title>
+      <link>http://www.danioved.com/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/</link>
+      <pubDate>Tue, 13 Feb 2018 20:44:38 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/</guid>
+      <description>For this homework assignment for Homemade Hardware, we were to fabricate a PCB Board using the Othermill.
+I continued with the previous design of an ATTiny85 controlling the brightness of an LED based on the reading from an HC-sr04 Ultrasonic Distance Sensor. I modified it slightly based on the instructions from class. A 1k resistor connect the reset pin of the ATTiny85 to the power, and the output LED pin would be connected via a TIP120 Transistor to the ground line of the LEDs.</description>
+    </item>
+    
+    <item>
+      <title>PCB Design</title>
+      <link>http://www.danioved.com/blog/posts/homemade-hardware/pcb-design/</link>
+      <pubDate>Wed, 07 Feb 2018 12:33:03 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/homemade-hardware/pcb-design/</guid>
+      <description>For this homework assigment of Homemade Hardware, we were to &amp;ldquo;Create Eagle files for ATtiny85 sensor + LED.&amp;rdquo;
+I decided to design a PCB for the Ultrasonic Distance Sensor breadboarded prototype from the previous week.
+ The schematic design for connecting an HC-SR04 to an ATTiny85  Based on this design and our tutorial from the previous class, I created this schematic:
+  When it came time to design the board, I wanted to be sure that the HC-SR04 Ultrasonic Distance sensor would be facing the outside of the board so that none of the board components would interfere with its signal.</description>
+    </item>
+    
+  </channel>
+</rss>

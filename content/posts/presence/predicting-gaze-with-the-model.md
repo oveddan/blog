@@ -2,7 +2,7 @@
 title: 'Predicting Gaze in Python with the Eye Tracking for Everyone Neural Network'
 date: 2017-11-13T22:21:18-05:00
 tags: ["Presence", "Digital Fabrication", "Physical Computing", "Usability Testing", "Computer Vision"]
-classes: ["Design for Digital Fabrication", "Intro to Physical Computing"]
+classes: ["Designing for Digital Fabrication", "Intro to Physical Computing"]
 featuredImage: "/blog/images/gaze/testing_model/testing_model_featured.jpg"
 images: ["/blog/images/gaze/testing_model/testing_model_featured.jpg"]
 showPagesInSection: true

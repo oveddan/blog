@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro to Physical Computing on Dan Oved&#39;s Blog</title>
+    <link>http://www.danioved.com/blog/posts/physical_computing/</link>
+    <description>Recent content in Intro to Physical Computing on Dan Oved&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Oct 2017 20:33:47 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.danioved.com/blog/posts/physical_computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weather Diorama</title>
+      <link>http://www.danioved.com/blog/posts/physical_computing/weather-diorama/</link>
+      <pubDate>Sun, 29 Oct 2017 20:33:47 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/physical_computing/weather-diorama/</guid>
+      <description>Background / Motivation This was my teams&amp;rsquo; project for our Intro to Physical Computing midterm, where we were encouraged to use serial communication. Barak Chamo and Mai Arakida Izsak were the other team members, and contributed to this post.
+After seeing Barak create his initial Fuji Diorama:
+We thought it would be interesting to insert lights between the layers that could change the appearance of the scene depend on the time of day or weather.</description>
+    </item>
+    
+    <item>
+      <title>Light Loop</title>
+      <link>http://www.danioved.com/blog/posts/physical_computing/light-loop/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/physical_computing/light-loop/</guid>
+      <description>The Features The goal of this project is to use analog input and digital input to drive digital output.
+This is accomplished by detecting when a photoresistor, an analog input, gets a certain amount of light. When that happens, it triggers an animation on the opposite end of the LEDS which travels through them back towards the photoresistor. When the photoresistor picks up enough light from the animation that has reached it, it triggers the start of the animation again.</description>
+    </item>
+    
+    <item>
+      <title>Doubling the Battery Power</title>
+      <link>http://www.danioved.com/blog/posts/physical_computing/batteries-in-parallel/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/physical_computing/batteries-in-parallel/</guid>
+      <description>A project I worked on this past summer required a portable power source of 3.3 - 4 volts. I used the Tenergy Li-Ion 3.7v 2600 mAH rechargeable battery, connected to the Adafruit LiPoly backpack charger and a Teensy 3.2. In this system, the battery would be drained after only about half an hour; I wanted to increase the capacity but did not know how.
+Then last week, for my Basic Analog Circuit course, I learned about connecting multiple batteries in parallel to maintain the same voltage but increase the current and capacity by connecting the powers and grounds together of the batteries.</description>
+    </item>
+    
+    <item>
+      <title>What Is Physical Interaction?</title>
+      <link>http://www.danioved.com/blog/posts/physical_computing/what-is-physical-interaction/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/physical_computing/what-is-physical-interaction/</guid>
+      <description>According to Chris Crawford in The Art of Interactive Design, Physical interaction is where a human interfaces with another entity, such as a person or computer, and that entity responds based on that action. It must be two-way; uni-directional communication is not interaction.
+Examples of physical interaction:
+ Typing in a text editor and seeing letters appearing. Painting with hand-help controllers in virtual reality. Having a conversation with another person. Playing a competitive sport.</description>
+    </item>
+    
+  </channel>
+</rss>

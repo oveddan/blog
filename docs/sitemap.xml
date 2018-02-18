@@ -153,6 +153,11 @@
   </url>
   
   <url>
+    <loc>http://www.danioved.com/blog/posts/design_for_digital_fabrication/</loc>
+    <lastmod>2017-10-25T16:10:23-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.danioved.com/blog/tags/</loc>
   </url>
   
@@ -163,26 +168,19 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/arduino/</loc>
-    <lastmod>2017-10-12T13:25:28-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/categories/basic-analog-circuits/</loc>
-    <lastmod>2017-09-21T00:00:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/categories/</loc>
-    <lastmod>2017-09-21T00:00:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.danioved.com/blog/tags/circuits/</loc>
     <lastmod>2017-09-21T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/classes/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/tags/cnc/</loc>
+    <lastmod>2017-12-05T23:52:29-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -194,7 +192,7 @@
   
   <url>
     <loc>http://www.danioved.com/blog/tags/computer-vision/</loc>
-    <lastmod>2017-10-31T22:55:41-04:00</lastmod>
+    <lastmod>2017-11-13T22:21:18-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -211,19 +209,13 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/designing-for-digital-fabrication/</loc>
-    <lastmod>2017-10-06T10:08:02-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/tags/digital-fabrication/</loc>
+    <loc>http://www.danioved.com/blog/classes/designing-for-digital-fabrication/</loc>
     <lastmod>2017-12-17T00:30:39-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/digital-fabrication/</loc>
+    <loc>http://www.danioved.com/blog/tags/digital-fabrication/</loc>
     <lastmod>2017-12-17T00:30:39-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -235,13 +227,19 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/electronics/</loc>
-    <lastmod>2018-02-13T20:44:38-05:00</lastmod>
+    <loc>http://www.danioved.com/blog/classes/electronic-rituals-oracles-and-fortune-telling/</loc>
+    <lastmod>2018-02-07T00:20:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/posts/energy/</loc>
+    <loc>http://www.danioved.com/blog/posts/electronic-rituals/</loc>
+    <lastmod>2018-02-07T00:20:34-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/tags/electronics/</loc>
+    <lastmod>2018-02-07T12:33:03-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -252,8 +250,18 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/energy/</loc>
+    <loc>http://www.danioved.com/blog/classes/energy/</loc>
     <lastmod>2018-02-12T18:30:08-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/posts/energy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/tags/fabriation/</loc>
+    <lastmod>2017-10-25T16:10:23-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -265,13 +273,7 @@
   
   <url>
     <loc>http://www.danioved.com/blog/tags/hardware/</loc>
-    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/categories/hardware/</loc>
-    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
+    <lastmod>2018-02-13T20:44:38-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -282,8 +284,8 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/homemade-hardware/</loc>
-    <lastmod>2018-01-31T20:33:10-05:00</lastmod>
+    <loc>http://www.danioved.com/blog/classes/homemade-hardware/</loc>
+    <lastmod>2018-02-13T20:44:38-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -299,38 +301,25 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/interaction/</loc>
-    <lastmod>2018-01-30T20:28:36-05:00</lastmod>
+    <loc>http://www.danioved.com/blog/classes/intro-to-physical-computing/</loc>
+    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/laser-cutting/</loc>
-    <lastmod>2017-10-06T10:08:02-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/tags/pcb/</loc>
-    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
-    <priority>0</priority>
+    <loc>http://www.danioved.com/blog/posts/physical_computing/</loc>
+    <lastmod>2017-10-29T20:33:47-04:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.danioved.com/blog/tags/physical-computing/</loc>
-    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/categories/physical-computing/</loc>
-    <lastmod>2018-01-29T23:07:13-05:00</lastmod>
+    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.danioved.com/blog/posts/</loc>
-    <lastmod>2018-02-07T00:20:34-05:00</lastmod>
+    <lastmod>2018-01-30T20:28:36-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -341,14 +330,13 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/processing/</loc>
-    <lastmod>2017-10-25T16:10:23-04:00</lastmod>
-    <priority>0</priority>
+    <loc>http://www.danioved.com/blog/posts/presence/</loc>
+    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/ritual/</loc>
-    <lastmod>2018-02-07T00:20:34-05:00</lastmod>
+    <loc>http://www.danioved.com/blog/tags/processing/</loc>
+    <lastmod>2017-10-25T16:10:23-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -359,19 +347,7 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/tangible-interaction-workshop/</loc>
-    <lastmod>2018-01-30T20:28:36-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.danioved.com/blog/tags/thoughts/</loc>
-    <lastmod>2017-09-01T00:00:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/categories/thoughts/</loc>
     <lastmod>2017-09-01T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -389,19 +365,25 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/categories/visual-language/</loc>
+    <loc>http://www.danioved.com/blog/classes/visual-language/</loc>
     <lastmod>2017-10-18T00:43:12-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/posts/visual_language/</loc>
+    <lastmod>2017-10-18T00:43:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/tags/web/</loc>
+    <lastmod>2018-02-07T00:20:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.danioved.com/blog/posts/energy/kinetic-project/</loc>
     <lastmod>2018-02-12T18:30:08-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/posts/presence/</loc>
-    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
   </url>
   
 </urlset>

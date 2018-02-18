@@ -3,7 +3,7 @@ title: "Controlling a Kinetic Sculpture With Real Time Gaze Tracking"
 date: 2018-02-03T17:05:00-05:00
 showPagesInSection: true
 tags: ["Computer Vision", "Fabrication", "CnC"]
-classes: ["Design for Digital Fabrication", "Intro to Physical Computing"]
+classes: ["Designing for Digital Fabrication", "Intro to Physical Computing"]
 draft: true
 ---
 

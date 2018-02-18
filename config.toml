@@ -57,11 +57,15 @@ hasCJKLanguage = true
   # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
   socialIconStyle = ""
 
-
 # Add additional social link entries underneath
 [social]
 	#facebook-square = "https://www.facebook.com/DanOved"
   instagram = "https://www.instagram.com/stangogh/"
   #twitter-square = "your_twitter_link"
   github-square = "https://github.com/oveddan"
+
+[taxonomies]
+  tags = "tags"
+  classes = "classes"
+
 

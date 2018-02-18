@@ -6,21 +6,10 @@
     <description>Recent content in Physical Computing on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jan 2018 23:07:13 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 17 Dec 2017 00:30:39 -0500</lastBuildDate>
     
 	<atom:link href="http://www.danioved.com/blog/tags/physical-computing/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Concepts and Brainstorming</title>
-      <link>http://www.danioved.com/blog/posts/energy/kinetic-project/concepts/</link>
-      <pubDate>Mon, 29 Jan 2018 23:07:13 -0500</pubDate>
-      
-      <guid>http://www.danioved.com/blog/posts/energy/kinetic-project/concepts/</guid>
-      <description>For our Kinetic Energy assignment for the Energy class, I partnered up with Arnav. We came up with a few concepts for how to turn human motion into light.
-Hand-Cranked Music Box The first thing we explored was turning a hand-crank music box into a music box that emits light.
-  We would connect a motor to the end of the crank shaft and have that generate electricity.</description>
-    </item>
     
     <item>
       <title>Fabricating the Kinetic Sculpture</title>
@@ -96,17 +85,6 @@ I will use small cameras and computer vision to detect the quantify of people pr
       <description>Background / Motivation This was my teams&amp;rsquo; project for our Intro to Physical Computing midterm, where we were encouraged to use serial communication. Barak Chamo and Mai Arakida Izsak were the other team members, and contributed to this post.
 After seeing Barak create his initial Fuji Diorama:
 We thought it would be interesting to insert lights between the layers that could change the appearance of the scene depend on the time of day or weather.</description>
-    </item>
-    
-    <item>
-      <title>Generating Zoetrope Animations</title>
-      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</link>
-      <pubDate>Thu, 12 Oct 2017 13:25:28 -0400</pubDate>
-      
-      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</guid>
-      <description>This is a continuation of Part 1 of the Zeotrope project for my Design for Digital Fabrication class. The final phase can be seen in Part 3
-The next step of the project was to prototype the mechanics of the animation. The main questions were:
- How many frames of animation are optimal? What should the rotation speed be? At what rate should the lights flash?  The Rotation Mechanism - a Turntable There were many examples of Zoetropes on the web - the majority of them used a turntable to rotate the animation.</description>
     </item>
     
     <item>

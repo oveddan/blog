@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electronic Rituals, Oracles, and Fortune Telling on Dan Oved&#39;s Blog</title>
+    <link>http://www.danioved.com/blog/posts/electronic-rituals/</link>
+    <description>Recent content in Electronic Rituals, Oracles, and Fortune Telling on Dan Oved&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Feb 2018 00:20:34 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.danioved.com/blog/posts/electronic-rituals/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Indecision Space</title>
+      <link>http://www.danioved.com/blog/posts/electronic-rituals/indecision-space/</link>
+      <pubDate>Wed, 07 Feb 2018 00:20:34 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/electronic-rituals/indecision-space/</guid>
+      <description>This is our submission for Electronic Rituals, Oracles and Fortune Telling Meditation #1, in which we are to:
+ Imagine an “electronic” ritual and prototype the necessary systems to perform the ritual. Then perform the ritual&amp;hellip;
+ With Tong Wu as my collaborator, we created the Indecision Space, an electronic tool that ritualizes the experience of being undecided then making a choice. It is accessed at http://indecision.space:</description>
+    </item>
+    
+  </channel>
+</rss>

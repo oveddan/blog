@@ -1,5 +1,5 @@
 ---
-title: 'Electronic Rituals - The Indecision Space'
+title: 'The Indecision Space'
 date: 2018-02-07T00:20:34-05:00
 tags: ["Electronic Rituals", "Web"]
 classes: ["Electronic Rituals, Oracles, and Fortune Telling"]

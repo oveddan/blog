@@ -20,20 +20,20 @@
     </item>
     
     <item>
-      <title>Arduino</title>
-      <link>http://www.danioved.com/blog/tags/arduino/</link>
-      <pubDate>Thu, 12 Oct 2017 13:25:28 -0400</pubDate>
-      
-      <guid>http://www.danioved.com/blog/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Circuits</title>
       <link>http://www.danioved.com/blog/tags/circuits/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 -0400</pubDate>
       
       <guid>http://www.danioved.com/blog/tags/circuits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cnc</title>
+      <link>http://www.danioved.com/blog/tags/cnc/</link>
+      <pubDate>Tue, 05 Dec 2017 23:52:29 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/tags/cnc/</guid>
       <description></description>
     </item>
     
@@ -49,7 +49,7 @@
     <item>
       <title>Computer Vision</title>
       <link>http://www.danioved.com/blog/tags/computer-vision/</link>
-      <pubDate>Tue, 31 Oct 2017 22:55:41 -0400</pubDate>
+      <pubDate>Mon, 13 Nov 2017 22:21:18 -0500</pubDate>
       
       <guid>http://www.danioved.com/blog/tags/computer-vision/</guid>
       <description></description>
@@ -85,7 +85,7 @@
     <item>
       <title>Electronics</title>
       <link>http://www.danioved.com/blog/tags/electronics/</link>
-      <pubDate>Tue, 13 Feb 2018 20:44:38 -0500</pubDate>
+      <pubDate>Wed, 07 Feb 2018 12:33:03 -0500</pubDate>
       
       <guid>http://www.danioved.com/blog/tags/electronics/</guid>
       <description></description>
@@ -101,6 +101,15 @@
     </item>
     
     <item>
+      <title>Fabriation</title>
+      <link>http://www.danioved.com/blog/tags/fabriation/</link>
+      <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/tags/fabriation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fabrication</title>
       <link>http://www.danioved.com/blog/tags/fabrication/</link>
       <pubDate>Tue, 13 Feb 2018 20:44:38 -0500</pubDate>
@@ -112,7 +121,7 @@
     <item>
       <title>Hardware</title>
       <link>http://www.danioved.com/blog/tags/hardware/</link>
-      <pubDate>Mon, 12 Feb 2018 18:30:08 -0500</pubDate>
+      <pubDate>Tue, 13 Feb 2018 20:44:38 -0500</pubDate>
       
       <guid>http://www.danioved.com/blog/tags/hardware/</guid>
       <description></description>
@@ -137,27 +146,9 @@
     </item>
     
     <item>
-      <title>Laser Cutting</title>
-      <link>http://www.danioved.com/blog/tags/laser-cutting/</link>
-      <pubDate>Fri, 06 Oct 2017 10:08:02 -0400</pubDate>
-      
-      <guid>http://www.danioved.com/blog/tags/laser-cutting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pcb</title>
-      <link>http://www.danioved.com/blog/tags/pcb/</link>
-      <pubDate>Mon, 12 Feb 2018 18:30:08 -0500</pubDate>
-      
-      <guid>http://www.danioved.com/blog/tags/pcb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Physical Computing</title>
       <link>http://www.danioved.com/blog/tags/physical-computing/</link>
-      <pubDate>Mon, 29 Jan 2018 23:07:13 -0500</pubDate>
+      <pubDate>Sun, 17 Dec 2017 00:30:39 -0500</pubDate>
       
       <guid>http://www.danioved.com/blog/tags/physical-computing/</guid>
       <description></description>
@@ -214,6 +205,15 @@
       <pubDate>Wed, 18 Oct 2017 00:43:12 -0400</pubDate>
       
       <guid>http://www.danioved.com/blog/tags/visual-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>http://www.danioved.com/blog/tags/web/</link>
+      <pubDate>Wed, 07 Feb 2018 00:20:34 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/tags/web/</guid>
       <description></description>
     </item>
     
