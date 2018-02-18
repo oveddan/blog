@@ -1,5 +1,5 @@
 
 ---
 aliases:
-  - /blog/tags/physical-computing
+  - /tags/physical-computing
 ---
