@@ -1,7 +1,7 @@
 ---
 title: 'From Shader to Physical Animation - the Voronoi Cellular Zoetrope'
 date: 2017-10-25T16:10:23-04:00
-tags: ["Digital Fabrication", "Fabriation", "Animation", "Processing", "Computer Graphics"]
+tags: ["Fabriation", "Animation", "Processing", "Computer Graphics"]
 classes: ["Designing for Digital Fabrication"]
 featuredImage: "/blog/images/digitalfab/cellular_zoetrope/voronoizoetrope_featured.jpg"
 images: ["/blog/images/digitalfab/cellular_zoetrope/finalresult_og.jpg"]

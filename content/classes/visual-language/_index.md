@@ -1,0 +1,4 @@
+---
+aliases:
+  - /tags/visual-language
+---

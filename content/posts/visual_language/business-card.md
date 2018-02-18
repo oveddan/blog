@@ -1,7 +1,7 @@
 ---
 title: 'Designing my Business Card'
 date: 2017-10-18T00:43:12-04:00
-tags: ["Visual Language", "Design", "Processing"]
+tags: ["Design", "Processing"]
 classes: ["Visual Language"]
 featuredImage: "/blog/images/visual_language/card_featured.gif"
 draft: false

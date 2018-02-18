@@ -2,7 +2,6 @@
 title = "Expressive Words"
 description = "Creating three words that visually communicate their meanings"
 date = 2017-09-25
-tags = ["Visual Language"]
 classes = ["Visual Language"]
 +++
 

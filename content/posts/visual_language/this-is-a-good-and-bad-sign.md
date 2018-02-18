@@ -2,9 +2,6 @@
 title = "Visual Language - This Is a Good and Bad Sign"
 description = "Two examples each of successful and unsuccessful signs, and redesigning one of the bad ones."
 date = 2017-09-20
-categories = [
-  "Visual Language"
-]
 classes = [
   "Visual Language"
 ]

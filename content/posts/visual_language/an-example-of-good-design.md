@@ -2,7 +2,6 @@
 title = "An Example of Good Design"
 date = 2017-09-13
 tags = [
-  "Visual Language"
 ]
 classes = [
   "Visual Language"

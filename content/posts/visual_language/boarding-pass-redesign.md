@@ -2,7 +2,7 @@
 title = "Redesigning the Delta Boarding Pass"
 description = "Emphasizing the important information on a boarding pass"
 date = 2017-09-25
-tags = ["Visual Language", "Design"]
+tags = ["Design"]
 classes = ["Visual Language"]
 +++
 

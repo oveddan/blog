@@ -1,8 +1,7 @@
 ---
-title: 'Tangible Interaction Workshop - Game Controller'
+title: 'Tangible Lunar Landar Controller'
 date: 2018-01-30T20:28:36-05:00
-tags: ["Tangible Interaction Workshop", "Interaction"]
-categories: ["Tangible Interaction Workshop", "Interaction"]
+tags: ["Interaction", "Fabrication"]
 draft: false
 featuredImageResource: 
   src: "images/game-controller-featured.png"

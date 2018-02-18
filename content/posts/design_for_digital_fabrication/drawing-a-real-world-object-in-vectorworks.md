@@ -6,7 +6,6 @@ classes = [
   "Designing for Digital Fabrication"
 ]
 tags = [
-  "Digital Fabrication",
   "Fabrication",
   "Design"
 ]

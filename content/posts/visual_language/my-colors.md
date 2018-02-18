@@ -3,7 +3,7 @@ title= "My Colors and Compositions"
 description= "Picking a color palette that represents me and creating six compositions using it"
 featuredImage= "/blog/images/visual_language/colors/color_featured.png"
 date= 2017-10-04
-tags = ["Visual Language", "Design"]
+tags = ["Design"]
 classes = ["Visual Language"]
 +++
 

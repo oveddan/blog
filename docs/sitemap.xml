@@ -153,8 +153,27 @@
   </url>
   
   <url>
+    <loc>http://www.danioved.com/blog/classes/design-for-digital-fabrication/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/classes/energy/</loc>
+    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/classes/homemade-hardware/</loc>
+    <lastmod>2018-02-13T20:44:38-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.danioved.com/blog/classes/intro-to-physical-computing/</loc>
     <lastmod>2017-12-17T00:30:39-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/classes/visual-language/</loc>
+    <lastmod>2017-10-18T00:43:12-04:00</lastmod>
   </url>
   
   <url>
@@ -180,7 +199,7 @@
   
   <url>
     <loc>http://www.danioved.com/blog/classes/</loc>
-    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
+    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -221,18 +240,6 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/digital-fabrication/</loc>
-    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/tags/electronic-rituals/</loc>
-    <lastmod>2018-02-07T00:20:34-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.danioved.com/blog/classes/electronic-rituals-oracles-and-fortune-telling/</loc>
     <lastmod>2018-02-07T00:20:34-05:00</lastmod>
     <priority>0</priority>
@@ -246,18 +253,6 @@
   <url>
     <loc>http://www.danioved.com/blog/tags/electronics/</loc>
     <lastmod>2018-02-07T12:33:03-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/tags/energy/</loc>
-    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/classes/energy/</loc>
-    <lastmod>2018-02-12T18:30:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -284,18 +279,6 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/homemade-hardware/</loc>
-    <lastmod>2018-02-13T20:44:38-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/classes/homemade-hardware/</loc>
-    <lastmod>2018-02-13T20:44:38-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.danioved.com/blog/posts/homemade-hardware/</loc>
     <lastmod>2018-02-13T20:44:38-05:00</lastmod>
   </url>
@@ -313,12 +296,6 @@
   </url>
   
   <url>
-    <loc>http://www.danioved.com/blog/tags/presence/</loc>
-    <lastmod>2017-12-17T00:30:39-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.danioved.com/blog/posts/presence/</loc>
     <lastmod>2017-12-17T00:30:39-05:00</lastmod>
   </url>
@@ -326,12 +303,6 @@
   <url>
     <loc>http://www.danioved.com/blog/tags/processing/</loc>
     <lastmod>2017-10-25T16:10:23-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/tags/tangible-interaction-workshop/</loc>
-    <lastmod>2018-01-30T20:28:36-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -344,18 +315,6 @@
   <url>
     <loc>http://www.danioved.com/blog/tags/usability-testing/</loc>
     <lastmod>2017-11-13T22:21:18-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/tags/visual-language/</loc>
-    <lastmod>2017-10-18T00:43:12-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.danioved.com/blog/classes/visual-language/</loc>
-    <lastmod>2017-10-18T00:43:12-04:00</lastmod>
     <priority>0</priority>
   </url>
   

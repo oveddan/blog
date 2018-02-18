@@ -1,7 +1,7 @@
 ---
 title: 'PCB Design'
 date: 2018-02-07T12:33:03-05:00
-tags: ["Homemade Hardware", "Electronics", "Hardware"]
+tags: ["Electronics", "Hardware"]
 classes: ["Homemade Hardware"]
 draft: false
 featuredImageResource:

@@ -1,7 +1,7 @@
 ---
 title: 'Turning Muscle Power into Usable Electricity'
 date: 2018-02-12T18:30:08-05:00
-tags: ["Energy", "Hardware", "Fabrication"]
+tags: ["Hardware", "Fabrication"]
 classes: ["Energy"]
 draft: false
 showPagesInSection: true
