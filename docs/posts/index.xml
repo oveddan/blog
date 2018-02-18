@@ -6,10 +6,54 @@
     <description>Recent content in Posts on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jan 2018 20:28:36 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 13 Feb 2018 20:44:38 -0500</lastBuildDate>
     
 	<atom:link href="http://www.danioved.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PCB Circuit Fabrication With the Othermill</title>
+      <link>http://www.danioved.com/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/</link>
+      <pubDate>Tue, 13 Feb 2018 20:44:38 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/</guid>
+      <description>For this homework assignment for Homemade Hardware, we were to fabricate a PCB Board using the Othermill.
+I continued with the previous design of an ATTiny85 controlling the brightness of an LED based on the reading from an HC-sr04 Ultrasonic Distance Sensor. I modified it slightly based on the instructions from class. A 1k resistor connect the reset pin of the ATTiny85 to the power, and the output LED pin would be connected via a TIP120 Transistor to the ground line of the LEDs.</description>
+    </item>
+    
+    <item>
+      <title>PCB Design</title>
+      <link>http://www.danioved.com/blog/posts/homemade-hardware/pcb-design/</link>
+      <pubDate>Wed, 07 Feb 2018 12:33:03 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/homemade-hardware/pcb-design/</guid>
+      <description>For this homework assigment of Homemade Hardware, we were to &amp;ldquo;Create Eagle files for ATtiny85 sensor + LED.&amp;rdquo;
+I decided to design a PCB for the Ultrasonic Distance Sensor breadboarded prototype from the previous week.
+ The schematic design for connecting an HC-SR04 to an ATTiny85  Based on this design and our tutorial from the previous class, I created this schematic:
+  When it came time to design the board, I wanted to be sure that the HC-SR04 Ultrasonic Distance sensor would be facing the outside of the board so that none of the board components would interfere with its signal.</description>
+    </item>
+    
+    <item>
+      <title>The Indecision Space</title>
+      <link>http://www.danioved.com/blog/posts/electronic-rituals/indecision-space/</link>
+      <pubDate>Wed, 07 Feb 2018 00:20:34 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/electronic-rituals/indecision-space/</guid>
+      <description>This is our submission for Electronic Rituals, Oracles and Fortune Telling Meditation #1, in which we are to:
+ Imagine an “electronic” ritual and prototype the necessary systems to perform the ritual. Then perform the ritual&amp;hellip;
+ With Tong Wu as my collaborator, we created the Indecision Space, an electronic tool that ritualizes the experience of being undecided then making a choice. It is accessed at http://indecision.space:</description>
+    </item>
+    
+    <item>
+      <title>Homemade Hardware - Ultrasonic Distance Sensor Input</title>
+      <link>http://www.danioved.com/blog/posts/homemade-hardware/ultrasonic-distance-sensor/</link>
+      <pubDate>Wed, 31 Jan 2018 20:33:10 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/homemade-hardware/ultrasonic-distance-sensor/</guid>
+      <description>For our first homework assignment for Homemade Hardware, we are to create a breadboard ATtiny project, using a sensor of your choosing that controls an LED. I chose the ultrasonic distance sensor, since I&amp;rsquo;ve never used it, and can see many uses for it.
+Here is a hand-drawn schematic of how it would be hooked up to an ATTiny85:
+ Input Schematic  And here is the ultrasonic distance sensor hooked up to the ATTiny85, controlling the brightness of an LED:</description>
+    </item>
     
     <item>
       <title>Tangible Lunar Landar Controller</title>
@@ -35,6 +79,69 @@ We thought it would be interesting to insert lights between the layers that coul
     </item>
     
     <item>
+      <title>From Shader to Physical Animation - the Voronoi Cellular Zoetrope</title>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</link>
+      <pubDate>Wed, 25 Oct 2017 16:10:23 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/voronoi-cellular-zoetrope/</guid>
+      <description>This is a continuation of Part 1 and Part 2 of the Zeotrope project.
+Motivation This was the final phase of our homework assignment for Design for Digital Fabrication which was to design something algorithmically and laser cut it. Now that the mechanics of the Zoetrope animation were proven out the previous week, it was time to generate something elaborate. I was particularly inspired by John Edmark&amp;rsquo;s animated bloom sculptures:   After seeing what he made, my goal was to create an animation that:</description>
+    </item>
+    
+    <item>
+      <title>Designing my Business Card</title>
+      <link>http://www.danioved.com/blog/posts/visual_language/business-card/</link>
+      <pubDate>Wed, 18 Oct 2017 00:43:12 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/visual_language/business-card/</guid>
+      <description>For our final homework assignment in Visual Language, we were to design a logo and business card for ourselves.
+Earlier in the semseter, when I heard that this would be our final project, I was both excited and terrified. This proved to be very challenging in the end. When it finally came time to work on this, I found myself frequently criticizing my designs, starting over, and letting out a highly audible sigh that made those around me chuckle.</description>
+    </item>
+    
+    <item>
+      <title>Generating Zoetrope Animations</title>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</link>
+      <pubDate>Thu, 12 Oct 2017 13:25:28 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/generating-zoetrope-animations/</guid>
+      <description>This is a continuation of Part 1 of the Zeotrope project for my Design for Digital Fabrication class. The final phase can be seen in Part 3
+The next step of the project was to prototype the mechanics of the animation. The main questions were:
+ How many frames of animation are optimal? What should the rotation speed be? At what rate should the lights flash?  The Rotation Mechanism - a Turntable There were many examples of Zoetropes on the web - the majority of them used a turntable to rotate the animation.</description>
+    </item>
+    
+    <item>
+      <title>Design for the ITP Winter Show 2017 Show Postcard</title>
+      <link>http://www.danioved.com/blog/posts/visual_language/show-postcard/</link>
+      <pubDate>Wed, 11 Oct 2017 02:15:02 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/visual_language/show-postcard/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Zoetrope Light and Materials Exploration</title>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</link>
+      <pubDate>Fri, 06 Oct 2017 10:08:02 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/zoetrope-light-and-materials-exploration/</guid>
+      <description>See Part 2 and Part 3 of this project.
+ For our first project for Designing for Digital Fabrication, we are to create something using the laser cutter, with at least some of the geometry generated algebraically. We have two weeks to complete this.
+Inspiration I searched for inspirations for a project like this and ended up discovering the Zoetrope and being blown away by what people have done with it:</description>
+    </item>
+    
+    <item>
+      <title>My Colors and Compositions</title>
+      <link>http://www.danioved.com/blog/posts/visual_language/my-colors/</link>
+      <pubDate>Wed, 04 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/visual_language/my-colors/</guid>
+      <description>For this Visual Language homework assignment, I was tasked to pick a color palette that represents me, and create six compositions using those colors.
+The Color Palette I wanted a theme with red because this represents it represents love and life, and I believe in living a life doing what you love.
+I chose the color palette inspired by Tame Impala &amp;lsquo;Currents&amp;rsquo; from The Day&amp;rsquo;s Color:
+ These colors are both vibrant and diverse.</description>
+    </item>
+    
+    <item>
       <title>Light Loop</title>
       <link>http://www.danioved.com/blog/posts/physical_computing/light-loop/</link>
       <pubDate>Tue, 26 Sep 2017 00:00:00 -0400</pubDate>
@@ -45,6 +152,28 @@ This is accomplished by detecting when a photoresistor, an analog input, gets a 
     </item>
     
     <item>
+      <title>Expressive Words</title>
+      <link>http://www.danioved.com/blog/posts/visual_language/expressive-words/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/visual_language/expressive-words/</guid>
+      <description>For this homework assignment we were to design 3 expressive words that visually communicate their meanings. Here is what I created:  
+ Icons used: The Rest, Afro and cat from The Noun Project</description>
+    </item>
+    
+    <item>
+      <title>Redesigning the Delta Boarding Pass</title>
+      <link>http://www.danioved.com/blog/posts/visual_language/boarding-pass-redesign/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/visual_language/boarding-pass-redesign/</guid>
+      <description>Original Design For this homework assignment we were to take the boarding pass below and redesign it:
+ 
+My Redesign   Icons used: Door and Airplane Seat from The Noun Project
+My design assumes that the passenger gets this boarding pass at the check-in counter or kiosk, and the stub on the right is torn off and handed to the passenger at the gate. The information hierarchy is organized to make it quick to find the most important information at every part of the way from the check-in counter to the seat.</description>
+    </item>
+    
+    <item>
       <title>Doubling the Battery Power</title>
       <link>http://www.danioved.com/blog/posts/physical_computing/batteries-in-parallel/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 -0400</pubDate>
@@ -52,6 +181,36 @@ This is accomplished by detecting when a photoresistor, an analog input, gets a 
       <guid>http://www.danioved.com/blog/posts/physical_computing/batteries-in-parallel/</guid>
       <description>A project I worked on this past summer required a portable power source of 3.3 - 4 volts. I used the Tenergy Li-Ion 3.7v 2600 mAH rechargeable battery, connected to the Adafruit LiPoly backpack charger and a Teensy 3.2. In this system, the battery would be drained after only about half an hour; I wanted to increase the capacity but did not know how.
 Then last week, for my Basic Analog Circuit course, I learned about connecting multiple batteries in parallel to maintain the same voltage but increase the current and capacity by connecting the powers and grounds together of the batteries.</description>
+    </item>
+    
+    <item>
+      <title>Drawing a Real World Object in Vectorworks</title>
+      <link>http://www.danioved.com/blog/posts/design_for_digital_fabrication/drawing-a-real-world-object-in-vectorworks/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/design_for_digital_fabrication/drawing-a-real-world-object-in-vectorworks/</guid>
+      <description>Our first homework assignment for Daniel Rozin&amp;rsquo;s Designing for Digital Fabrication class was to draw three 2d perspectives of a real world object in Vectorworks. I took this as an opportunity to get the exact dimensions of an object I&amp;rsquo;ve been eager to to incorporate into a project.
+At the Armory show in 2015, I discovered and was amazed by the low-resolution work of Jim Campbell.
+Jim Campbell - Scattered 25X (Marathon)</description>
+    </item>
+    
+    <item>
+      <title>Visual Language - This Is a Good and Bad Sign</title>
+      <link>http://www.danioved.com/blog/posts/visual_language/this-is-a-good-and-bad-sign/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/visual_language/this-is-a-good-and-bad-sign/</guid>
+      <description>For this homework assignment, we are to show two examples each of successful and unsuccessful signs, then redesign one of the bad signs.
+Unsuccessful Signs V-Nam cafe, on 1st and 1st, is in my opinion the best Vietnamese restaurant in New York City. I used to live a block away and would walk by it all the time, but had no idea it existed until discovering it through Yelp.</description>
+    </item>
+    
+    <item>
+      <title>An Example of Good Design</title>
+      <link>http://www.danioved.com/blog/posts/visual_language/an-example-of-good-design/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/visual_language/an-example-of-good-design/</guid>
+      <description>This last Sunday I was at a rooftop party at Output in Williamsburg and noticed my friend drinking what looked like a perfectly refreshing beverage – a can of Babe Rosé. Before even tasting her drink I decided to get one for myself, figuring it would be the perfect drink to enjoy during the sunset. In retrospect – the sleek, clean, and elegant design of the slender can is what lured me in.</description>
     </item>
     
     <item>

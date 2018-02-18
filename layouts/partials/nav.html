@@ -3,9 +3,9 @@
 	{{ if not .IsHome }}
     <section>
   		<a href='{{ .Site.BaseURL }}' class='home'> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
+      <a href='{{ .Site.BaseURL }}tags'>{{ with .Site.Params.tags }}{{ . }}{{ else }}Tags{{ end }}</a>
     </section>
 	{{ end }}
-	<!-- <a href='{{ .Site.BaseURL }}tags'>{{ with .Site.Params.tags }}{{ . }}{{ else }}Tags{{ end }}</a> -->
   <!-- <a href='{{ .Site.BaseURL }}about'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a> -->
 
 	<!-- {{ range $key, $val := .Site.Params.Links }} -->
@@ -13,7 +13,6 @@
 	<!-- {{ end }} -->
 
   <section>
-    <span class='title'>Classes:</span>
     {{ range .Site.Taxonomies.classes.ByCount }}
       <a href="{{ "/classes/" | relLangURL }}{{ .Term | urlize }}">{{ .Term | humanize }}</a>
     {{ end }}

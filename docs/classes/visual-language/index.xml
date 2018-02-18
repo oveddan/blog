@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dan Oved&#39;s Blog</title>
+    <title>Visual Language on Dan Oved&#39;s Blog</title>
     <link>http://www.danioved.com/blog/classes/visual-language/</link>
-    <description>Recent content on Dan Oved&#39;s Blog</description>
+    <description>Recent content in Visual Language on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 Oct 2017 00:43:12 -0400</lastBuildDate>
