@@ -13,6 +13,7 @@
 	<!-- {{ end }} -->
 
   <section>
+    <span class='title'>Classes:</span>
     {{ range .Site.Taxonomies.classes.ByCount }}
       <a href="{{ "/classes/" | relLangURL }}{{ .Term | urlize }}">{{ .Term | humanize }}</a>
     {{ end }}
