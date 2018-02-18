@@ -4,7 +4,7 @@ featuredImage = "/blog/images/pcomp/infinite_loop_featured.png"
 date= 2017-09-26
 description= "Creating a light loop that repeats itself"
 classes = ["Intro to Physical Computing"]
-tags = ["Physical Computing", "Hardware"]
+tags = ["Hardware"]
 +++
 
 {{<vimeo 235674020>}}

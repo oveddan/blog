@@ -7,7 +7,6 @@ classes= [
   "Intro to Physical Computing"
 ]
 tags = [
-  "Physical Computing"
 ]
 +++
 
