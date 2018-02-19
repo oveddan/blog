@@ -1,6 +1,13 @@
 <nav class="main-nav">
 	{{ $url := replace .Permalink .Site.BaseURL "" }}
-	{{ if not .IsHome }}
+  {{ if .IsHome }}
+    <section>
+      <span class='title'>Classes:</span>
+      {{ range .Site.Taxonomies.classes.ByCount }}
+        <a href="{{ "/classes/" | relLangURL }}{{ .Term | urlize }}">{{ .Term | humanize }}</a>
+      {{ end }}
+    </section>
+  {{ else }}
     <section>
   		<a href='{{ .Site.BaseURL }}' class='home'> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
       <!-- <a href='{{ .Site.BaseURL }}tags'>{{ with .Site.Params.tags }}{{ . }}{{ else }}Tags{{ end }}</a> -->
@@ -12,12 +19,6 @@
 		<!-- <a href="{{ $val }}">{{ $key }}</a> -->
 	<!-- {{ end }} -->
 
-  <section>
-    <span class='title'>Classes:</span>
-    {{ range .Site.Taxonomies.classes.ByCount }}
-      <a href="{{ "/classes/" | relLangURL }}{{ .Term | urlize }}">{{ .Term | humanize }}</a>
-    {{ end }}
-  </section>
 </nav>
 
 	{{ if .Site.Params.enableRSS }}
