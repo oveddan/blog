@@ -114,3 +114,7 @@ figure {
 #post-body p {
   text-align: justify;
 }
+
+.post h2 {
+  margin-bottom: 20px;
+}

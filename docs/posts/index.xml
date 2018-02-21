@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Feb 2018 20:44:38 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2018 17:38:51 -0500</lastBuildDate>
     
 	<atom:link href="http://www.danioved.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Interaction of Tarots</title>
+      <link>http://www.danioved.com/blog/posts/electronic-rituals/tarot-of-perception/</link>
+      <pubDate>Tue, 20 Feb 2018 17:38:51 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/electronic-rituals/tarot-of-perception/</guid>
+      <description>This is my submission for Electronic Rituals, Oracles and Fortune Telling Meditation #2, in which we are to:
+ Invent your own “oracle deck.” Keeping in mind the formal characteristics of cleromancy&amp;hellip;, consider how digital media can complicate/diminish/augment the parts and processes of a reading.
+ Concept My original idea for an electronic &amp;ldquo;oracle deck&amp;rdquo; would be a tarot reader that explores the interaction between cards using concepts from The Interaction of Color by Josef Albers.</description>
+    </item>
     
     <item>
       <title>PCB Circuit Fabrication With the Othermill</title>

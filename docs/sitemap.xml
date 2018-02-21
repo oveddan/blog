@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.danioved.com/blog/posts/electronic-rituals/tarot-of-perception/</loc>
+    <lastmod>2018-02-20T17:38:51-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.danioved.com/blog/posts/homemade-hardware/pcb-fabrication-with-othermill/</loc>
     <lastmod>2018-02-13T20:44:38-05:00</lastmod>
   </url>
@@ -154,6 +159,13 @@
   
   <url>
     <loc>http://www.danioved.com/blog/tags/</loc>
+    <lastmod>2018-02-20T17:38:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/tags/</loc>
+    <lastmod>2018-02-20T17:38:51-05:00</lastmod>
   </url>
   
   <url>
@@ -193,7 +205,7 @@
   
   <url>
     <loc>http://www.danioved.com/blog/</loc>
-    <lastmod>2018-02-13T20:44:38-05:00</lastmod>
+    <lastmod>2018-02-20T17:38:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -206,6 +218,12 @@
   <url>
     <loc>http://www.danioved.com/blog/classes/designing-for-digital-fabrication/</loc>
     <lastmod>2017-12-17T00:30:39-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.danioved.com/blog/classes/electonic-ritual-oracles-and-fortune-telling/</loc>
+    <lastmod>2018-02-20T17:38:51-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -266,7 +284,7 @@
   
   <url>
     <loc>http://www.danioved.com/blog/posts/</loc>
-    <lastmod>2018-02-13T20:44:38-05:00</lastmod>
+    <lastmod>2018-02-20T17:38:51-05:00</lastmod>
     <priority>0</priority>
   </url>
   
