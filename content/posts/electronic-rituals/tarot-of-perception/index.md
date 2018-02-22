@@ -5,7 +5,7 @@ tags: [""]
 classes: ["Electonic Ritual, Oracles, and Fortune Telling"]
 featuredImageResource: 
   src: "images/tarot-featured"
-description: 'My original idea for an electronic "oracle deck" would be a tarot reader that explores the interaction between tarod cards using concepts from The Interaction of Color by Josef Albers'
+description: 'My original idea for an electronic "oracle deck" would be a tarot reader that explores the interaction between tarot cards using concepts from The Interaction of Color by Josef Albers'
 draft: false
 ---
 
@@ -17,20 +17,24 @@ in which we are to:
   > Invent your own “oracle deck.”  Keeping in mind the formal characteristics of cleromancy..., 
   > consider how digital media can complicate/diminish/augment the parts and processes of a reading.
 
-
 ## Concept
 
 My original idea for an electronic "oracle deck" would be a tarot reader that explores the interaction
 between cards using concepts from [The Interaction of Color](https://yalebooks.yale.edu/book/9780300179354/interaction-color) 
 by Josef Albers.  In this book, he says:
 
-TODO: get quote
-> 
+> Our concern is the interaction of color, that is, seeing what happens between colors.
+>
+> We are able to hear a single tone.
+> But we almost never (that is, without special devices) see a single color
+> unconnected and unrelated to other colors. 
+> Colors present themselves in continuous flux, constantly related to
+> changing neighbors and changing conditions.
 
 {{< image src="images/albers-violets" caption="From the Interaction of Color - both the inner violets are the same color, but their perceived color is different because of the colors next to them" >}}
 
 Similary, in the Celtic Cross tarot reading, the cards are laid out in a way that the dynamic between the cards
-is as important as the interpretation of each card.
+can be as important as the interpretation of each card.
 
 From [Biddy Tarot's guide](https://www.biddytarot.com/how-to-read-the-celtic-cross-tarot-spread/) on how to read the Celtic Cross spread:
 
@@ -57,12 +61,12 @@ It can be accessed in its current state at **http://www.danioved.com/tarot/** an
 To reveal the tarots, click anywhere or hit the space key.
 
 I used the [Tarot Interpretations in JSON format](https://github.com/dariusk/corpora/blob/master/data/divination/tarot_interpretations.json) for the tarot cards, and icons from 
-[The Nounproject](https://thenounproject.com/) for the symbols on the cards.
+[The Nounproject](https://thenounproject.com/) for the symbols on the cards.  Color schemes from Alber's [Homage to the Square](https://g.co/kgs/oqVa3x) were used for the card colors.
 
 I decided to stop working on it for the following reasons: 
 
-* I started building the UI without sketching it out first.  This lead to a not truly thought out experience and confusion for me when trying to use the application.  I tried to force the concept of comparing card colors into the format of the celtic cross formation, which is not how it was intended to be viewed.  A simpler approach would have been just to select a couple cards and arrange their corresponding colors next to each other.
-* Albers chose his colors based on variation of specific values in the color, and laid them next to each other. When he lays colors on top of each other with transparency, it is meant to demonstrate how one appears in front of the other, not to compare them. In this protoype, using opacity to mix colors laid on top of each other is not an effective way to demonstrate their interactivity.
+* I started building the UI without sketching it out first.  This lead to a not truly thought out experience and confusion for me when trying to use the application.  I tried to wedge the concept of comparing card colors into the format of the celtic cross formation.  A simpler approach would have been just to select a couple cards and arrange their corresponding colors next to each other in an Alber's inspired way for comparison.
+* Albers chose his colors based on variation of specific values in the color, and laid them next to each other. When he laid colors on top of each other with transparency, it was meant to demonstrate how one appears in front of the other, not to compare them. In my protoype, using opacity to mix colors laid on top of each other is not an effective way to demonstrate their interactivity.
 * I spent way too much time trying to design 72 cards.
 * Even when trying to demo the work in progress to friends, the user interface didn't really show cards and their colors interacting with each other and they didn't get it.
 
@@ -72,5 +76,5 @@ integrating the tarot cards into the colors, instead of the other way around whe
 I would have sketched out more of the UI and seen how these color experiments would look before building the interface.
 It would have been better to just experiment with a few cards, and make sure I got the interaction right before building the full fledged 72-card reader.
 
-I take this as a learning on how to better design and prototype experiments.
+I take this as a learning on how to better design and prototype experiments in a short period.
 
