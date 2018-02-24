@@ -2,7 +2,7 @@
 title: 'The Interaction of Tarots'
 date: 2018-02-20T17:38:51-05:00
 tags: [""]
-classes: ["Electonic Ritual, Oracles, and Fortune Telling"]
+classes: ["Electronic Rituals, Oracles, and Fortune Telling"]
 featuredImageResource: 
   src: "images/tarot-featured"
 description: 'My original idea for an electronic "oracle deck" would be a tarot reader that explores the interaction between tarot cards using concepts from The Interaction of Color by Josef Albers'
