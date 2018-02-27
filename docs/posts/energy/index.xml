@@ -6,9 +6,20 @@
     <description>Recent content in Energies on Dan Oved&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 26 Feb 2018 22:38:26 -0500</lastBuildDate>
     
 	<atom:link href="http://www.danioved.com/blog/posts/energy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Solar Powered Analog Synthezier - Circuit Prototype and Power Budget</title>
+      <link>http://www.danioved.com/blog/posts/energy/solar-synth/</link>
+      <pubDate>Mon, 26 Feb 2018 22:38:26 -0500</pubDate>
+      
+      <guid>http://www.danioved.com/blog/posts/energy/solar-synth/</guid>
+      <description>For this assigment for Energy, we are to power computation with solar power. I am collaborating with Fanni Fazakas, and we are going to create a solar powered analog synthesizer. This will take energy from the sun and convert it directly into sound waves via a low-power analog circuit.
+Generating Sine, Square, and Triangle Waves We got a circuit design from Eric Rosenthal that can produce a sine, square and triangle wave:</description>
+    </item>
     
   </channel>
 </rss>

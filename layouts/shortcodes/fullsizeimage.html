@@ -1,7 +1,7 @@
 {{ $original := .Page.Resources.GetMatch (printf "%s*" (.Get "src")) }}
 
 {{ if $original }}
-  {{ $image := $original.Resize "520x Lanczos" }}
+  {{ $image := $original.Resize "520x Lanczos q100" }}
 
   <figure>
     <img src="{{ $image.RelPermalink }}" />

@@ -1,0 +1,396 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Dan Oved&#39;s Blog">
+    <meta name="description" content="Connecting the digital with the analog world @ ITP">
+    <meta property="og:title" content="Solar Powered Analog Synthezier - Circuit Prototype and Power Budget  - Dan Oved's blog" />
+    <meta property="og:description" content="" />
+    
+      
+      <meta property="og:image" content="http://www.danioved.com/blog/posts/energy/solar-synth/images/synth_featured.gif" />
+    
+    
+
+    
+      <meta property="og:updated_time" content="2018-02-26T22:38:26-05:00"/>
+    
+    <meta name="generator" content="Hugo 0.35" />
+    <title>Solar Powered Analog Synthezier - Circuit Prototype and Power Budget &middot; Dan Oved&#39;s Blog</title>
+    <link rel="shortcut icon" href="http://www.danioved.com/blog/images/favicon.ico">
+    <link rel="stylesheet" href="http://www.danioved.com/blog/css/style.css">
+    <link rel="stylesheet" href="http://www.danioved.com/blog/css/highlight.css">
+    
+    <link rel="stylesheet" href="http://www.danioved.com/blog//css/style-custom.css">
+    
+
+    
+    <link rel="stylesheet" href="http://www.danioved.com/blog/css/font-awesome.min.css">
+    
+
+    
+  </head>
+
+    <body>
+       <nav class="main-nav">
+	
+  
+    <section>
+  		<a href='http://www.danioved.com/blog/' class='home'> <span class="arrow">←</span>Home</a>
+    </section>
+  
+  <section>
+    
+      <a href="/blog/classes/designing-for-digital-fabrication">Designing for digital fabrication</a>
+    
+      <a href="/blog/classes/intro-to-physical-computing">Intro to physical computing</a>
+    
+      <a href="/blog/classes/visual-language">Visual language</a>
+    
+      <a href="/blog/classes/energy">Energy</a>
+    
+      <a href="/blog/classes/homemade-hardware">Homemade hardware</a>
+    
+      <a href="/blog/classes/electronic-rituals-oracles-and-fortune-telling">Electronic rituals oracles and fortune telling</a>
+    
+    <a href='http://www.danioved.com/blog/tags'>Tags</a>
+  </section>
+  
+
+	
+
+</nav>
+
+	
+</nav>
+
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>
+                        
+                          
+                        
+                        Solar Powered Analog Synthezier - Circuit Prototype and Power Budget
+                    </h1>
+                    <h2 class="headline">
+                    Feb 26, 2018 22:38
+                    · 552 words
+                    · 3 minutes read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="http://www.danioved.com/blog/tags/hardware">Hardware</a>
+                          
+                              <a href="http://www.danioved.com/blog/tags/fabrication">Fabrication</a>
+                          
+                              <a href="http://www.danioved.com/blog/tags/analog">Analog</a>
+                          
+                      
+                      
+                      </span>
+                      
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+
+
+
+  <figure>
+    <img src="/blog/posts/energy/solar-synth/images/triangle_wave.gif" />
+    
+  </figure>
+
+
+
+<p>For this assigment for <a href="http://www.fddrsn.net/teaching/energy">Energy</a>, we are to power computation
+with solar power.  I am collaborating with Fanni Fazakas, and we are going to create a
+solar powered analog synthesizer.  This will take energy from the sun and convert it directly
+into sound waves via a low-power analog circuit.</p>
+
+<h2 id="generating-sine-square-and-triangle-waves">Generating Sine, Square, and Triangle Waves</h2>
+
+<p>We got a circuit design from <a href="http://www.basicanalogcircuits.com/Syllabus.html">Eric Rosenthal</a>
+that can produce a sine, square and triangle wave:</p>
+
+
+
+
+  <figure>
+    <img src="/blog/posts/energy/solar-synth/images/eric_synth_schematic.gif" />
+    
+      <figcaption>Eric Rosenthal&#39;s circuit for a function generator using LM358 op-amps.  It can generate sine, square, and triangle waves.</figcaption>
+    
+  </figure>
+
+
+
+<p>First we wanted to breadboard it to see how it worked. This was super challenging, and took an entire day, but we finally got it to work.  In the circuit diagram,
+there is a 1 Megaohm potentiometer that can modify the frequency of the wave.  We replaced it with 5 buttons that
+each set a discreet resistance in the range of 100k to 1M Ohm:</p>
+
+
+
+
+  <figure>
+    <img src="/blog/posts/energy/solar-synth/images/breadboard_with_buttons_scaled.jpg" />
+    
+      <figcaption>The breadboarded circuit with two LM358 opamps, and 3 function outputs from left to right: sine, square, and triangle</figcaption>
+    
+  </figure>
+
+
+
+<p>To be honest we don&rsquo;t understand what the circuit is doing, all we know is how to assemble it and that it works.
+We tested each wave type with an oscilloscope:</p>
+
+<p>
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/solar-synth/posts/energy/solar-synth/sin-wave_hucbdfbd6f1364a739569a5c75217bed40_4667690_520x0_resize_q100_lanczos_center.jpg" />
+    
+      <figcaption>Sine wave output</figcaption>
+    
+  </figure>
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/solar-synth/posts/energy/solar-synth/square-wave_hub945e503677dfa140b61b37ea85ece43_5465291_520x0_resize_q100_lanczos_center.jpg" />
+    
+      <figcaption>Square wave output</figcaption>
+    
+  </figure>
+
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/solar-synth/posts/energy/solar-synth/triangle-wave_huc780064150586632f2ce1ae710af85c3_5066152_520x0_resize_q100_lanczos_center.jpg" />
+    
+      <figcaption>Triangle wave output</figcaption>
+    
+  </figure>
+
+</p>
+
+<p>Varying the frequency worked by altering the resistance with each button:</p>
+
+
+
+
+  <figure>
+    <img src="/blog/posts/energy/solar-synth/images/sin_wave.gif" />
+    
+      <figcaption>Different resistances produce different frequencied sine waves</figcaption>
+    
+  </figure>
+
+
+
+<h2 id="listening-to-the-produced-sound">Listening to the Produced Sound</h2>
+
+<p>To hear the sounds it generated, we connected headphone via a breadboardable headphone jack.  Nothing was audible, however.
+We asked our friend Amitabh to help us troubleshoot.  He showed us on the Oscilloscope how the waves were oscillating above 0,
+which would prevent the proper vibration from occuring in the headphones for the sound to be audible:</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/solar-synth/posts/energy/solar-synth/waves-above-zero_hua1aa85cb42effc04c8bb80ff18afd207_3731935_520x0_resize_q100_lanczos_center.jpg" />
+    
+      <figcaption>With the waves oscillating above 0, nothing could be heard in the headphones</figcaption>
+    
+  </figure>
+
+
+
+<p>Per his suggestion, we added a 100 nf capacitor to the output:</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/solar-synth/posts/energy/solar-synth/capacitor-output_hue7ebae42be2a06c6d96194d9b6e0c912_3078662_520x0_resize_q100_lanczos_center.jpg" />
+    
+      <figcaption>100nf capacitor added in series to output to make it oscillate around 0</figcaption>
+    
+  </figure>
+
+
+
+<p>This smoothed it out and the wave oscillated around 0:</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/solar-synth/posts/energy/solar-synth/oscillating-zero_hua1aa85cb42effc04c8bb80ff18afd207_4432051_520x0_resize_q100_lanczos_center.jpg" />
+    
+  </figure>
+
+
+
+<p>We could successfully now hear sounds tones from the headhpones when listening to sine, square, and triangle waves.</p>
+
+<h2 id="power-budget">Power Budget</h2>
+
+<p>The circuit is designed to work optimally at 12V, and the waves decayed as we lowered the voltage.  Around 6v is the minimum voltage.
+It worked at to 19V, but we didn&rsquo;t want to turn the voltage up higher for fear of burning something out.</p>
+
+
+
+
+  
+
+  <figure>
+    <img src="/blog/posts/energy/solar-synth/posts/energy/solar-synth/minmaxvolts_hu49c03114a9ce8ad2bc0bd62c0ddb3f2a_533215_520x0_resize_q100_lanczos_center.jpg" />
+    
+      <figcaption>The circuit operating at the max and min voltage of 19 and 6 correspondingly.  Anything lower and the wave totally loses its shape</figcaption>
+    
+  </figure>
+
+
+
+<p>We put a multimeter in series with the power supply&rsquo;s power and the board.  With the headphones and key pressed, and a sound decently audible, the draw was
+only about <strong>8ma</strong>.  If we want to connect speakers we would need some sort of an OpAmp.</p>
+
+<p>Assuming that the output wave is 7V as depicted in the oscilloscope, here are a few
+speakers and what we would need to power them:</p>
+
+<table>
+<thead>
+<tr>
+<th>Speaker</th>
+<th align="center">Watts</th>
+<th align="right">Ohms</th>
+<th align="right">Amps at 7V</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><a href="https://www.adafruit.com/product/1314">Adafruit 4 Ohm 3W</a></td>
+<td align="center">3</td>
+<td align="right">4</td>
+<td align="right">0.43</td>
+</tr>
+
+<tr>
+<td><a href="https://www.adafruit.com/product/1313">Adafruit 8 Ohm 1W</a></td>
+<td align="center">1</td>
+<td align="right">8</td>
+<td align="right">0.143</td>
+</tr>
+</tbody>
+</table>
+
+<p>Since the circuit itself only draws 8 ma, we can leave that out of the total since it&rsquo;s insegnificant. We
+would just need more current for the opamps to power the speakers.</p>
+
+
+                    
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'danoved'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/oveddan">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.instagram.com/stangogh/">
+        <i class="fa fa-instagram"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> Dan Oved&#39;s Blog
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="http://www.danioved.com/blog/js/jquery-2.2.4.min.js"></script>
+<script src="http://www.danioved.com/blog/js/main.js"></script>
+<script src="http://www.danioved.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-106896744-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
