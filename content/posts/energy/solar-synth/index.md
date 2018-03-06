@@ -1,5 +1,5 @@
 ---
-title: 'Solar Powered Analog Synthezier - Circuit Prototype and Power Budget'
+title: 'Solar Powered Analog Synthezier'
 date: 2018-02-26T22:38:26-05:00
 tags: ["Hardware", "Fabrication", "Analog"]
 classes: ["Energy", "Homemade Hardware"]
@@ -78,3 +78,24 @@ speakers and what we would need to power them:
 
 Since the circuit itself only draws 8 ma, we can leave that out of the total since it's insegnificant. We
 would just need more current for the opamps to power the speakers.
+
+## Powering it with Solar Energy
+
+For the final step, we wanted to power the circuit with solar energy.  We didn't want to add a battery - the
+goal of this experiment was to convert solar rays directly into sound, so we would connect solar panels
+directy to the circuit.
+
+All that was available to check-out from the ITP Equipment Room were 6V solar panels.  Since our circuit
+requires 12V, we checked out two of these and ran then in series:
+
+{{< fullsizeimage src="images/in_series" caption="Two 6V solar panels connected in series to produce 12V" >}}
+
+{{< fullsizeimage src="images/solar_high_freq" caption="Solar power generates sin waves through the analog circuit, as visible on the oscilloscope." >}}
+{{< fullsizeimage src="images/solar_low_freq" caption="Lower fequencey sin waves." >}}
+
+It was able to produce loud sounds through headphones:
+
+{{< vimeo 258723506 >}}
+
+
+
