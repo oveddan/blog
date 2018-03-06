@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://danoved.netlify.com/blog/"
+baseurl = "http://www.danioved.com/blog/"
 publishDir = "docs/blog"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
