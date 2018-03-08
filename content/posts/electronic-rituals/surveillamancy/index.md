@@ -54,12 +54,22 @@ is selected.  [Puppeteer](https://github.com/GoogleChrome/puppeteer) is used to 
 The camera is then navigated to, and a screenshot is captured of the video feed.  The code for
 this can be seen in [server/insecam_scraper.js](https://github.com/oveddan/surveillamancy/blob/master/server/insecam_scraper.js).
 
+{{< image src="images/insecam" caption="Insecure cameras exposed from insecam.com">}}
+
 To derive meaning from the contents of the photo, [clarifai's](https://clarifai.com/) image classification api is used
-to classify what's seen in the photos.  To derive meanings from this classifications, 
+to classify what's seen in the photos.
+
+{{< image src="images/clarifai" caption="A demo of Clarifai.  It's api is used to classify camera contents">}}
+
+To derive meanings from this classifications, 
 Gustav Hindman Miller’s [Ten Thousand Dreams Interpreted](https://nickm.com/dreams/index.html) was scraped for
 dream meanings.  The scraper can be seen at [server/scrape_dreams.js](https://github.com/oveddan/surveillamancy/blob/master/server/scrape_dreams.js)
+
+{{< image src="images/dreams" caption="Dream interpretations from 'Ten Thousand Dream Interpretations' are scraped and converted to vision interpretations">}}
+
 Then, at runtime, the dream interpretations for the classifications from clarifai are looked up in these
 dream interpreations.  All instances of `dream` are replaced with `see`:
+
 
 ```javascript
 function changeToSoundLikeVision(dreamMeaning) {
