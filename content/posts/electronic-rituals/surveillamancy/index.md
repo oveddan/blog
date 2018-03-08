@@ -28,6 +28,19 @@ Then the viewer waits as the camera is located.
 {{< image src="images/waiting" >}}
 
 Finally, the user sees a picture captured from the camera and an interpretation of meaning derived from the picture's contents.
+Artificial intelligence is used to determine what is in the photo.
+
+{{< image src="images/results" >}}
+
+## What makes it an 'omancy?'
+
+As we learned in class, the general characteristic of an 'omancy' or prophecy is `if x then y`.
+The prediction/prophecy should be based on something discreet, even if the connection between them
+is nonsensical.
+
+In the case of surveillamancy, the `x` in `if x` is both the viewer's choice in which type of camera,
+and the contents that exist in the photo.  AI's interpretation of the contents and the connection
+with a meaning are the `y`.
 
 ## How does it work?
 
