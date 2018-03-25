@@ -1,7 +1,7 @@
 # Dan Oved's Blog
 
-This is the repository for the content of my blog, hosted at http://oveddan.github.io/blog.
-It uses [Hugo](https://gohugo.io/) to generate a static site which is hosted by [Github Pages.](https://pages.github.com/)
+This is the repository for the content of my blog, hosted at http://danioved.com/blog.
+It uses [Hugo](https://gohugo.io/) to generate a static site which is hosted by [Netlify.](https://pages.github.com/)
 
 ## Creating/Editing Content
 
@@ -19,10 +19,10 @@ Create a new post:
 
 All static resources, such as images, should go into `static/`
 
-To generate the static site:
+## Deploying
 
-    hugo
+All that is required to deploy is to push to github:
 
-This will create the html files and content in the docs folder.
+    git push origin master
 
-To update the site on github pages, run the command `hugo` to generate the static site, commit the changes, then push to `master`.
+Netlify will detect this push, build the site, and deploy the static content.
