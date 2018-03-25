@@ -1,11 +1,15 @@
 ---
-title: "Kinetic POV Battery Charging Chip"
+title: "Designing and fabricating a 2-sided pcb, then surface mounting the parts"
 date: 2018-03-22T15:23:02-04:00
 draft: false
 classes: ["Homemade Hardware"]
+featuredImageResource: 
+  src: "images/midterm_featured"
 ---
 
 # Background 
+
+This post is about my midterm for [Homemade Hardware](http://homemadehardware.com/).
 
 Last summer, before I attended ITP, I spent countless days and nights fabricating
 a 5-foot long bow full of leds that would be animated to generate an image when
