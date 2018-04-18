@@ -19,6 +19,10 @@ nav.main-nav .title {
   border-radius: 3px;
 }
 
+body .modal {
+  max-width: inherit;
+}
+
 /* content */
 
 img {

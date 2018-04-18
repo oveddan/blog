@@ -3,7 +3,7 @@ title: 'Solar Analog Sequencer'
 date: 2018-04-18T15:48:40-04:00
 tags: ["Hardware, Analog, Solar"]
 classes: ["Energy, Basic Analog Circuits, Homemade Hardware"]
-draft: false
+draft: true
 ---
 
 # Solar Powered Analog Sequencer

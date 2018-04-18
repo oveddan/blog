@@ -4,7 +4,9 @@
   {{ $image := $original.Resize "520x Box q100" }}
 
   <figure>
-    <img src="{{ $image.RelPermalink }}" />
+    <a href='{{ $original.RelPermalink }}' data-modal>
+       <img src="{{ $image.RelPermalink }}" />
+    </a>
     {{ with .Get "caption" }}
       <figcaption>{{.}}</figcaption>
     {{ end }}
