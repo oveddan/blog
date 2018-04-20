@@ -1,8 +1,8 @@
 ---
 title: 'Energy and Homemade Hardware final - Solar-powered analog sequencer and synthesizer'
 date: 2018-04-18T15:48:40-04:00
-tags: ["Hardware, Analog, Solar"]
-classes: ["Energy, Basic Analog Circuits, Homemade Hardware"]
+tags: ["Hardware", "Analog", "Solar", "Sound", "Fabrication"]
+classes: ["Energy", "Homemade Hardware", "Basic Analog Circuits"]
 description: "We wanted to take the solar powered synthesizer we made for the midterm and turn it to a step-sequencer, which would loop through playing a sequence of tones at a timed interval, completely powered by and controlled by the sun." 
 
 draft: false
