@@ -1,5 +1,5 @@
 ---
-title: 'Energy and Homemade Hardware Final - Solar Powered Analog Sequencer and Synthesizer'
+title: 'Energy and Homemade Hardware final - Solar-powered analog sequencer and synthesizer'
 date: 2018-04-18T15:48:40-04:00
 tags: ["Hardware, Analog, Solar"]
 classes: ["Energy, Basic Analog Circuits, Homemade Hardware"]

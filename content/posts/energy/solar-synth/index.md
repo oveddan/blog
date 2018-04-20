@@ -6,7 +6,8 @@ classes: ["Energy", "Homemade Hardware"]
 draft: false
 featuredImageResource: 
   src: "images/synth_featured"
-
+description: "How we created a solar-powered analog synthesizer, which takes energy from the sun and converts it directly
+into sound waves via a low-power analog circuit."
 ---
 
 {{< image src="images/triangle_wave" >}}

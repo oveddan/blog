@@ -4,9 +4,10 @@ date: 2018-03-08T11:23:15-05:00
 tags: ["Computer Vision", "Web"]
 classes: ["Electronic Rituals, Oracles, and Fortune Telling"]
 draft: false
+description: "Surveillamancy is a form of prophecy that is generated off of what is seen when surveilling
+a camera somewhere in the world."
 featuredImageResource:
   src: "images/surveillmancy_featured"
-
 ---
 
 For this week's [Electronic Rituals, Oracles, and Fortune Telling](http://eroft.decontextualize.com/)

@@ -1,10 +1,11 @@
 ---
-title: "Designing and fabricating a 2-sided pcb, then surface mounting the parts"
+title: "Homemade Hardware midterm - designing and fabricating a 2-sided pcb, then surface mounting the parts"
 date: 2018-03-22T15:23:02-04:00
 draft: false
 classes: ["Homemade Hardware"]
 featuredImageResource: 
   src: "images/midterm_featured"
+description: "My failed attempt at fabricating a circuit with battery charger for driving kinetic LEDs."
 ---
 
 # Background 

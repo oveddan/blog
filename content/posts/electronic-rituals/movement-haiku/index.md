@@ -2,8 +2,11 @@
 title: 'Movement Haiku'
 date: 2018-03-29T11:59:45-04:00
 tags: [""]
-categories: [""]
 classes: ["Electronic Rituals, Oracles, and Fortune Telling"]
+description: "We created a method for
+facilitating automatic writing which uses body movement to generate Haikus.  It is an exploration of the concept
+that our body movements and dance moves express our subconcious, which can be express thoughts and words we are not fully aware of."
+
 draft: false
 ---
 

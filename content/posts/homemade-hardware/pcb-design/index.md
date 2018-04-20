@@ -7,6 +7,7 @@ draft: false
 featuredImageResource:
   src: "images/board_design"
   fillPosition: "BottomLeft"
+description: "My first schematic and board design in Eagle"
 ---
 
 For this homework assigment of [Homemade Hardware](/blog/posts/homemade-hardware/), we were to "Create Eagle files for ATtiny85 sensor + LED."
