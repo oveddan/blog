@@ -36,6 +36,7 @@ img {
 
 figcaption {
   font-style: italic;
+  text-align: left;
 }
 
 
@@ -113,6 +114,12 @@ figcaption {
 
 figure {
   margin-bottom: 20px;
+  text-align: center;
+}
+
+figure img {
+  text-align: center;
+  margin: auto;
 }
 
 #post-body p {
