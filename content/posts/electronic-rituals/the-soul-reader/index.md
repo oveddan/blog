@@ -3,11 +3,16 @@ title: 'The Soul Reader'
 date: 2018-05-01T22:05:18-04:00
 tags: ["generative", "randomness", "computer vision", "AI", "subconscious"]
 categories: [""]
-classes: [""]
+classes: ["Electronic Rituals, Oracles, and Fortune Telling"]
 draft: false
+featuredImageResource:
+    src: "images/soul_reader_featured"
+description: "The Soul Reader is my final for Electronic Rituals, Oracles, and Storytelling. It is a generative system for visuals that is driven by a viewer's gaze and subconscious. It uses the focus of a viewer's gaze to continuously generate imagery. It shows the viewer different colors, text, shapes, and scenes, and uses recent advances in machine learning to determine which of these elements the viewer's gaze is focused on. It uses this information to continuously generating new patterns, colors, and shapes similar to what the viewer was fixated on, and renders them away from the center of the gaze. This way, the scene is constantly changing out of the field of view."
+
+
 ---
 
-The Soul Reader is my final for [Electronic Rituals, Oracles, and Storytelling](ToDo: link).  It is a generative system for visuals that is driven by a viewer's gaze and subconscious.
+The Soul Reader is my final for [Electronic Rituals, Oracles, and Storytelling](blog/classes/electronic-rituals-oracles-and-fortune-telling).  It is a generative system for visuals that is driven by a viewer's gaze and subconscious.
 
 {{< vimeo 267715929 >}}
 
@@ -27,11 +32,50 @@ After realizing that the technology works, I got excited about the possiblities 
 
 ## Relevant Research
 
-Narrow field of view of the eye
+First I came on a great research, which I really recommend checking out, paper called [Eye Tracking in Advanced Interface Design](http://www.cs.tufts.edu/~jacob/papers/barfield.pdf) by Robert J.K. Jacob:
 
-How eye scans a scene.
+> Because eye movements are so different from conventional computer inputs, our overall
+approach in designing interaction techniques is, wherever possible, **to obtain information from
+a user’s natural eye movements** while viewing the screen, **rather than requiring the user to
+make specific trained eye movements** to actuate the system.    
 
-Eyes look up when challenged.
+This made me think back to my winter show project, where the user was required to control the installation with the gaze, which is not really the way humans.  A better use of gaze is to let it work naturally and respond base on that.
+
+Additionally in that research paper it is said:
+
+> The fovea, located near the center of the retina, is densely covered with receptors, and provides much higher acuity vision
+than the surrounding areas. The **fovea covers** approximately **one degree field of view**, that is, a
+one-degree angle with its vertex at the eye, extending outward into space. **Outside the fovea**,
+acuity ranges from **15 to 50 percent** of that of the fovea. 
+
+{{< image src="images/fovea" >}}
+
+This was corroborated in the fascinating John M. Handerson's [Human Gaze Control during Real-World Perception](https://www.sciencedirect.com/science/article/pii/S1364661303002481):
+
+> During human scene perception, **high quality visual
+information** is acquired only from a **limited spatial region
+surrounding the center of gaze (the fovea).** Visual quality
+falls off rapidly and continuously from the center of gaze
+into a low-resolution visual surround. **We move our eyes
+about three times each second** via rapid eye movements
+(saccades) to reorient the fovea through the scene. **Pattern
+information** is only acquired during periods of **relative
+gaze stability** (fixations) owing to ‘saccadic suppression’
+during the saccades themselves. Gaze control is the
+process of directing fixation through a scene in real time in
+the service of ongoing perceptual, cognitive and behavioral
+activity
+
+{{< image src="images/time_of_focus" caption="From John M. Handerson's research paper, showing scan patterns during visual search. The cirlces represent fixations (scaled to the size of their durations) in ms." >}}
+
+I wanted to conduct similar types of experiments with the gaze tracking technology, where viewers would be shown imagery and patterns, and the points and duration of fixation would be analyzed.  This could help guide the timing during the experience and the types of visuals shown.  I did not have a chance to do this howerver as I did not get the gaze tracking working in time. 
+
+Additionally, in that research paper he concludes:
+
+> Human eye movement control is ‘smart’ in the sense that it **draws** not only on currently available visual input, but also
+on several cognitive systems, including **short-term memory** for previously attended information in the current scene, **stored long-term visual, spatial and semantic information** about other similar scenes, and the **goals and plans of the viewer.** In fact, fixation sites are less strongly tied to visual saliency when meaningful scenes are viewed during active tasks. The **modulation** or replacement **of visual saliency** by knowledge driven control can increase over time within a sceneviewing episode as more knowledge is acquired about the identities and meanings of previously fixated objects and their relationships to each other and to the scene.
+
+This reminded me of the readings we did for class [The Language of Mediums and Psychics: The Social Organization of Everyday Miracles](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4817155around) and [How Ouija Boards Work. (Hint: It’s Not Ghosts.)](https://www.vox.com/2016/10/29/13301590/how-ouija-boards-work-debunked-ideomotor-effect) which both concuded that mediums, psychics and Oija boards in a way are a way of bringing out the subconcious.  Similarly, our eye gaze movements when scanning a scene are affected by our memories, emotions, and experience.  I wanted to build something that explored this connection.
 
 ## How The Experience Works
 
