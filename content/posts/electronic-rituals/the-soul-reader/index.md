@@ -241,100 +241,24 @@ It returns:
 
 {{< fullsizeimage src="images/eye_tracking" caption="From the research paper.  The neural network architecture">}}
 
-For Presence, I had gotten this to work using my Alienware gaming pc and a linux operating sytem.  While the gaze tracking worked well, there were a few issues with this setup:
-* It required me to lug around a gaming desktop, monitor, and keyboard, wherever I wanted to show the project.
-* Many people wanted to use the technlogy, but it required a complicated setup of linux  with cuda.  This would make access for more casual developers challenging.
-* If running over a long period, the GPU consumes a lot of power.
+For Presence, I had gotten this to work using my Alienware gaming pc and a linux operating sytem.  
 
-Another issue was that the eyes were not detectable with glasses. I used OpenCV's Haarcascade classifiers to detect faces and eyes.  The classifier would almost never work with users that had glasses, requiring users to remove their glasses if they wanted to interact with the installation.
+To make a long story short, which I will write about in another blog posts, I spent about 2 weeks trying to migrate this into a more portable and accessible solution.  I'm close on a few different options.  
 
-More on this later.
+This is where I am right now:
 
-I wanted to migrate the gaze detection into a system that is either portable or more accessible.  My first thought was to migrate the models to Tensorflow, and then tensorflow.js.
+{{< fullsizeimage src="images/system-diagram" >}}
 
-To make a long story short this did not work.
-
-
-
- I still have not figured out the OpenFrameworks to video stream, but it seems the way to go is to have runway do it and OF grabs the feed from there.  
+OpenFrameworks does the video capture, and streams it to a python application that extracts the features with opencv and feeds them through the Caffe model.  The python application streams the estimated gaze positions back to the client. 
 
 On my last go around with gaze detection, some of the biggest feedback I got was that they wanted it be very responsive to their gaze.  Getting real-time performance here is key.
 
 The way I set it up on the python side is that both the opencv feature extraction and the feed forwarding of the neural network happen concurrently using multithreading.  This means that both the faces are being detected and the neural network is feeding forward at the same time.  When the neural network is done being fed forward, there are already features from the next frame ready to be fed forward through the network.
 
+The communication is fully duplex and concurrent, meaning the python application can receive multiple frames while it is processing a previous frame.  It will always process the most recent frame received. It sends the gaze positions back as soon as they are processed.  This allows for the OpenFrameworks client to get gaze estimations for previous frames without having to wait for the current frame to be processed, providing a more real-time experience.
 
-**Aa collaboratory notebook with the gaze detection mechanism can be seen [here](https://colab.research.google.com/drive/11s5IQkI8H-kIn00Kg6Sqp-dD3RwsICdE).**
+The current communication protocol is using ZeroMq.  Unfortunately I spent a day trying to get ZeroMq working with openframeworks and xcode, with no luck.  
 
-The problem with the existing setup was:
+{{< fullsizeimage src="images/zmq_woes" caption="Incredibly frustrated with the awful development environment that is XCode.">}}
 
-Wanted something real time, more portable, and long lasting.
-Secondary goal accessible to other environments.
-
-First idea was to convert tensorflow, and then tensorflow.js.
-
-Could not convert to tensorflow with the converter (show the error)
-
-Then tried mxdnn to first convert to global format.
-
-Had this issue.
-
-### Jetson
-
-Then decided to give Jetson a shot again.  Got the system working
-by installing the Jetpack
-
-Downloaded jetson-inference, was able to run their examples well.
-
-Show pedestran detection
-
-Show face detection.
-
-Challenge was I had to use C++ with TensorRT, since it's pretty much impossible
-to install anything but what comes with the jetback.  TensorRT is not really documented well.
-
-Anyways started working on C++ system.
-
-biggest pain was everything was void* pointers! sometimes (void**)&
-
-First used dlib to do face and eye detection.  Results were very accurate, with outlines drawn on the face and eye glasses.
-
-Then converted it to create boxes around face and eyes.  This even worked with glasses:
-
-Then had to crop and scale images to feed into the neural network.  It takes 224x224.
-
-Wrote operators in cuda to do cropping.
-
-Wrote an operator to generate a 25x25 face grid.
-
-Figured out how to render those things to the buffer.  This was a huge pain (took about a day).
-
-Show results cropped and scaled to 224.
-
-Then got a gaze feeding through the network.
-
-Rendered red dot output.
-
-Mapped to screen coordinates using logic from before.  It didn't work.
-
-Wanted to then use open frameworks.
-
-Spent a long time trying to get it to install on Jetson.  Koji had a working on but I could not reproduce.
-
-Met with Kyle.  He asked me what is this for? I told him an installation.  He told me the only reason to use a Jetson is for when it needs to be run on a battery, like on a drone or robot.  he said if I have somethign working I should just use what I have and focus on the experience.  
-
-Also said it was better to not have a big behemoth.
-
-In the end I decided to get the original solution working. It was in python. I still didn't want to have to bring computer
-Spoke to Cristobal Venezuela who has Runway.  He said you can deploy it in the cloud and connect to it over ethernet and it's really fast.
-
-I decided to try the runway approach, but with the camera feed happening from the client.  I would use zeromq to communicate between the openframeworks client and the python server.
-
-Zeromq was documented very well.  I was able to setup a docker container with the server running, and a pythong client using zeromq.  I used a full-duplex communication protocol.  This worked on my computer.
-
-Then it came time to installed it in my xcode.  I could for the life of me not get zeromq to work.
-
-(Show Screenshot)
-
-Then it was time to move onto the UI. I would work on it later.
-
-
+This is where it stands now - the last bit that I neeed to get working for gaze estimation is this communication channel.  I will look into other things like UDP and posssibly migrating the UI to TouchDesigner and python.
