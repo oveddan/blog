@@ -216,12 +216,45 @@ def similar_word(word_key):
 
 ## How does this fit into the class?
 
-* Randomness - way it can be done is interesting
-* Artificial Intelligence interpretation of you, (and semi inaccurate)
+This experience ties into a few of the themes in the class.
 
-## Gaze Estimation Implementation
+* [Prophecy and Prediction](http://eroft.decontextualize.com/schedule/#session-05-prophecy-and-prediction) - this application  would qualify as an "-omancy" that we learned about in class, as it generates "a form of divination...based on observation and interpreting [of] natrual events".  In this it is a gazeomancy, and the natural event is the movement of the eye.   
+* [Mediums and Messages](http://eroft.decontextualize.com/schedule/#session-07-mediums-and-messages) - similar to how mediums bring out an expression of the subconsious of a sitter through vague questions and answers, the Soul Reader's visuals are generated based on movements of the eye in response to vague colors, texts and imagery.
+* [The aesthetics of randomness](http://eroft.decontextualize.com/schedule/#session-09-the-aesthetics-of-randomness) - This experience is built very much on randomness.  The elements that are shown are chosen using built-in random functions in c++ and python.   The randomness is controlled by the areas of focus, creating a normally distributed result.
 
-{{< fullsizeimage src="images/system-diagram" >}}
+## The Gaze Tracking
+
+To do gaze estimation, the pre-trained convolutional network model [Eye Tracking for Everyone](http://gazecapture.csail.mit.edu/cvpr2016_gazecapture.pdf) is used. This model can estimate gaze position using just an image.  It is device and screen invariant as it's output is in centimeters.
+
+**View the colaboratory notebook with this working [here](https://colab.research.google.com/drive/11s5IQkI8H-kIn00Kg6Sqp-dD3RwsICdE).**
+
+The model takes as inputs:
+
+* an image of the left eye, (224x224)
+* an image of the right eye (224x224)
+* an image of the fafce (224x224)
+* a 625 array representing where in a 25x25 grid the face is
+
+It returns:
+
+* Estimated gaze position in centimeters in xy coordinates relative to the camera.
+
+{{< fullsizeimage src="images/eye_tracking" caption="From the research paper.  The neural network architecture">}}
+
+For Presence, I had gotten this to work using my Alienware gaming pc and a linux operating sytem.  While the gaze tracking worked well, there were a few issues with this setup:
+* It required me to lug around a gaming desktop, monitor, and keyboard, wherever I wanted to show the project.
+* Many people wanted to use the technlogy, but it required a complicated setup of linux  with cuda.  This would make access for more casual developers challenging.
+* If running over a long period, the GPU consumes a lot of power.
+
+Another issue was that the eyes were not detectable with glasses. I used OpenCV's Haarcascade classifiers to detect faces and eyes.  The classifier would almost never work with users that had glasses, requiring users to remove their glasses if they wanted to interact with the installation.
+
+More on this later.
+
+I wanted to migrate the gaze detection into a system that is either portable or more accessible.  My first thought was to migrate the models to Tensorflow, and then tensorflow.js.
+
+To make a long story short this did not work.
+
+
 
  I still have not figured out the OpenFrameworks to video stream, but it seems the way to go is to have runway do it and OF grabs the feed from there.  
 
@@ -233,11 +266,6 @@ The way I set it up on the python side is that both the opencv feature extractio
 **Aa collaboratory notebook with the gaze detection mechanism can be seen [here](https://colab.research.google.com/drive/11s5IQkI8H-kIn00Kg6Sqp-dD3RwsICdE).**
 
 The problem with the existing setup was:
-* required gaming desktop
-* required linux to be installed with cuda
-* if running over a long period, consumes a lot of power.
-* eyes were not detectable with glasses
-
 
 Wanted something real time, more portable, and long lasting.
 Secondary goal accessible to other environments.
