@@ -249,6 +249,8 @@ This is where I am right now:
 
 {{< fullsizeimage src="images/system-diagram" >}}
 
+**The code for the python gaze detection server can be found [here](https://github.com/oveddan/runwayml-gazecapture)**
+
 OpenFrameworks does the video capture, and streams it to a python application that extracts the features with opencv and feeds them through the Caffe model.  The python application streams the estimated gaze positions back to the client. 
 
 On my last go around with gaze detection, some of the biggest feedback I got was that they wanted it be very responsive to their gaze.  Getting real-time performance here is key.
