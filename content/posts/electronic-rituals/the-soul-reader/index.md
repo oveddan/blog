@@ -224,6 +224,8 @@ This experience ties into a few of the themes in the class.
 
 To do gaze estimation, the pre-trained convolutional network model [Eye Tracking for Everyone](http://gazecapture.csail.mit.edu/cvpr2016_gazecapture.pdf) is used. This model can estimate gaze position using just an image.  It is device and screen invariant as it's output is in centimeters.
 
+{{< fullsizeimage src="images/eye_tracking" caption="From the research paper.  The neural network architecture">}}
+
 **View the colaboratory notebook with this working [here](https://colab.research.google.com/drive/11s5IQkI8H-kIn00Kg6Sqp-dD3RwsICdE).**
 
 The model takes as inputs:
@@ -236,8 +238,6 @@ The model takes as inputs:
 It returns:
 
 * Estimated gaze position in centimeters in xy coordinates relative to the camera.
-
-{{< fullsizeimage src="images/eye_tracking" caption="From the research paper.  The neural network architecture">}}
 
 For Presence, I had gotten this to work using my Alienware gaming pc and a linux operating sytem.  
 
