@@ -7,7 +7,7 @@ classes: ["Electronic Rituals, Oracles, and Fortune Telling"]
 draft: false
 featuredImageResource:
     src: "images/soul_reader_featured"
-description: "The Soul Reader is my final for Electronic Rituals, Oracles, and Storytelling. It is a generative system for visuals that is driven by a viewer's gaze and subconscious. It uses the focus of a viewer's gaze to continuously generate imagery. It shows the viewer different colors, text, shapes, and scenes, and uses recent advances in machine learning to determine which of these elements the viewer's gaze is focused on. It uses this information to continuously generating new patterns, colors, and shapes similar to what the viewer was fixated on, and renders them away from the center of the gaze. This way, the scene is constantly changing out of the field of view."
+description: "The Soul Reader is my final for Electronic Rituals, Oracles, and Storytelling. It is a generative system for visuals that is driven by a viewer's gaze and subconscious. It shows the viewer different colors, text, shapes, and scenes, and uses recent advances in machine learning to determine which of these elements the viewer's gaze is focused on. It uses this information to continuously generating new patterns, colors, and shapes similar to what the viewer was fixated on, and renders them away from the center of the gaze. This way, the scene is constantly changing out of the field of view."
 
 
 ---
