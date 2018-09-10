@@ -1,13 +1,16 @@
 ---
-title: 'Map of Systems relating to Sugars'
+title: 'Map of Systems Relating to Sugars'
 date: 2018-09-10T17:48:08-04:00
 tags: [""]
 categories: [""]
 classes: ["The Temporary Expert"]
 draft: false
+featuredImageResource:
+  src: "images/sugarsFeatured"
+description: "Mapping the system of the topic of Sugars for an "Energy Field Guide" - our first assignment for the Temporary Expert."
 ---
 
-## Our First Assignment
+## Our first assignment
 
 For the first assignment of The Temporary Expert, in which we are to create an "Energy Field Guide" 
 on a randomly selected subject, my topic is Sugars.
