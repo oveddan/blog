@@ -7,6 +7,7 @@ classes: ["The Temporary Expert"]
 draft: false
 featuredImageResource:
   src: "images/sugarsFeatured"
+  fillPosition: "Center"
 description: "Mapping the system of the topic of Sugars for an "Energy Field Guide" - our first assignment for the Temporary Expert."
 ---
 
