@@ -1,5 +1,5 @@
 ---
-title: 'Map of Systems Relating to Sugars'
+title: 'Sugars "Energy Field Guide" - Mapping the Systems'
 date: 2018-09-10T17:48:08-04:00
 draft: false
 tags: ["Research"]
