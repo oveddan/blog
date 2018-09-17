@@ -4,6 +4,7 @@ date: {{ .Date }}
 tags: [""]
 categories: [""]
 classes: [""]
+projects: [""]
 draft: false
 ---
 

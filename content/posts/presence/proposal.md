@@ -1,5 +1,5 @@
 ---
-title: 'Presence - Proposal'
+title: 'Proposal'
 date: 2017-10-31T22:55:41-04:00
 tags: ["Computer Vision"]
 classes: ["Designing for Digital Fabrication", "Intro to Physical Computing"]

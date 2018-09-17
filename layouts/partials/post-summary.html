@@ -28,8 +28,13 @@
             {{ with .CurrentSection.Params.projectname }}
               {{ . }} -
             {{ end }}
+         {{ end }}
+         {{ with .Parent }}
+          {{ if .Params.title }}
+            {{ .Params.title }} -
           {{ end }}
-          {{ .Title }}
+         {{ end }}
+         {{ .Title }}
         </h2>
         <p class='post-description'>{{ .Description | markdownify }}</p>
       </a>
