@@ -6,6 +6,9 @@ categories: [""]
 classes: ["Drawing on Everything"]
 projects: [""]
 draft: false
+featuredImageResource:
+  src: "images/featured"
+description: "For the first homework assignment of Drawing on Everything, we were instructed to try 3 drawing apps. Here are my experiences with a few of them"
 ---
 
 For the first homework assignment of Drawing on Everything, we were instructed to try 3 drawing apps. Here are my experiences with a few of them:
@@ -33,6 +36,5 @@ drawing freely than Sketchbook, inaccuracies do not matter:
 I enjoyed this drawing experience as it really took advantage of the 3d space.  That being said, I found it challenging
 to draw what I was thinking since the drawings were done in mid-air and scale became confusing.  It would be interesting to create
 a drawing app like this where the lines were attached to the walls or furniture.  This would let you in essence draw on real objects in 3d.
-
 
 {{<image src="images/just">}}
