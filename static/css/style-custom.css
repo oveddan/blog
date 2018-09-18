@@ -25,6 +25,18 @@ body .modal {
 
 /* content */
 
+li > ul {
+  margin-left: 20px;
+}
+
+.post li > ul {
+  margin-bottom: 0;
+}
+
+ul li > ul > li {
+  list-style-type: disc;
+}
+
 img {
   width: auto;
   border-radius: 0;
