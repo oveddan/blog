@@ -8,6 +8,7 @@ nav.main-nav a {
   top: 8px;
   right: 6px;
   padding: 0px 12px;
+  white-space: nowrap;
 }
 
 nav.main-nav .title {
