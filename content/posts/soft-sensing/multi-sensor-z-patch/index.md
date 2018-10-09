@@ -1,7 +1,7 @@
 ---
 title: "Multi-Sensor Z Patch"
 date: 2018-10-08T22:34:50-04:00
-draft: true
+draft: false
 classes: ["Soft Sensing"]
 featuredImageResource:
   src: "images/featured"
