@@ -188,4 +188,9 @@ However, after a while of pressing the buttons and moving my arm around, I notic
 
 Unfortunately I never recorded the thing working before the connections broke.  As time was running out, I called it a night.  I decided to record what was sort of working at the time.
 
-Next time, I will use better connectors.
+I used TouchDesigner to debug/visualise the outputs from the sensor.  Here is what I recorded after things stopped to work.  It appears as if only one of the pads works, and as of now the distance via capacitance sensor functionality is broken:
+
+{{<youtube k-AzAXZkU-w>}}
+
+
+Next time, I will use better connectors, and record things when they are working.
