@@ -2,7 +2,7 @@
 title: 'Soft Sensing - In Class Exercises'
 date: 2018-10-08T23:48:07-04:00
 classes: ["Soft Sensing"]
-draft: false
+draft: true 
 ---
 
 Here is a summary of the work my groups did during the Soft Sensing class:
