@@ -4,6 +4,8 @@ date: 2018-10-29T01:01:52-04:00
 draft: false
 classes: ["Creating with Interactive Media", "NIME"]
 draft: false
+featuredImageResource:
+  src: "images/featured"
 ---
 
 I was totally in awe after last weeks class with Todd Barton.

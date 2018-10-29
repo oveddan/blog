@@ -1,5 +1,5 @@
 ---
-title: "Multi-Sensor Z Patch"
+title: "Soft Sensing - Multi-Sensor Z Patch"
 date: 2018-10-08T22:34:50-04:00
 draft: false
 classes: ["Soft Sensing"]
