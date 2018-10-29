@@ -18,7 +18,7 @@ I chose the track [Tiefschwarz - Downstairs (Golffinch Remix)](https://www.beatp
 after hearing it on [Richie Hawtin's BBC Radio Christmas special](https://soundcloud.com/richiehawtin/bbc-radio-1-btraits-richie-hawtin-christmas-special). 
 The vj set had to be composed of videos we shot with our phones.  I used Touch Designer for my set, heavily linking morphing of the videos to the levels of the bass.
 
-{{<youtube vLcv8YCsGG8>}}
+{{<youtube mLMl-5_0XUQ>}}
 
 <br/>
 ## Portraits
