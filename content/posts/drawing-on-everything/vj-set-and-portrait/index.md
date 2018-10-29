@@ -20,6 +20,10 @@ The vj set had to be composed of videos we shot with our phones.  I used Touch D
 
 {{<youtube mLMl-5_0XUQ>}}
 
+I debuted this vj set at the ITP Halloween Party, where I also projected people’s moving bodies onto the screen using a webcam and PoseNet:
+
+{{<youtube IHpEAF3XlD0>}}
+
 <br/>
 ## Portraits
 
