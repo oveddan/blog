@@ -5,6 +5,8 @@ tags: ["Arduino", "Physical Computing", "Hardware"]
 categories: ["Fabrication", "Physical Computing", "Hardware"]
 classes: ["Haptics"]
 draft: false
+featuredImageResource:
+    src: "images/featured"
 ---
 
 This post goes through the work I did for the [Haptics weekend workshop](https://itp.nyu.edu/classes/haptics-fa18/).
@@ -134,6 +136,10 @@ A normal human's resting heart rate is between 60-100 beats per minute. When hea
 
 {{<fullsizeimage src="images/biomeda">}}
 {{<fullsizeimage src="images/oncloth">}}
+
+{{<fullsizeimage src="images/finalallmotors">}}
+
+{{<fullsizeimage src="images/finaltransistors">}}
 
 ### Diagram:
 
