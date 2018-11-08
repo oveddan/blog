@@ -6,6 +6,8 @@ categories: [""]
 classes: [""]
 projects: [""]
 draft: false
+featuredImageResource:
+    src: "images/featured"
 ---
 
 Last night we did a beta performance of our musical instrument for NIME in front of guest critics:
@@ -74,6 +76,8 @@ Overall, I'm glad about where the system is even the performance could have been
 
 Looking back at the video, I agree that the sound did not really sink up well with the visuals.  This is because of camera issue I ran into which I'll get ot in a bit.
 
+{{<fullsizeimage src="images/settingup" caption="setting up for the performance">}}
+
 I didn't have much time to setup for my performance, in fact it took me some time after the last person went off until I can start.  There were a few things that slowed me down:
 
 When connecting to the projector as a second monitor, the monitors were flipped.  This meant that the presentation screen was visible on my laptop and the controls on the projector.  It took me some time to flip these.
@@ -103,6 +107,8 @@ I need to have the sound tightly controlled to the visuals, and to do this the f
 I also want to explore **other methods of color filtering** that don't have to be so fine tuned.  Such as just the level or red, blue or green.  Or hsv based extraction.
 
 The sounds must be better.  Currently I allow many things to control many things.  This creates some sounds I didn't expect live and had to tune down to not hurt peoples' ears. As Oren correctly said I'm reaching too far into the knobs and not abstracting things enough.
+
+{{<image src="images/allControls" caption="showing part of my instrument, where all knobs of the Buchla 259e can be controlled directly by different aspects of the visuals.  Upon further thought it would be better to have fewer controls that are linked to one or two expressive control voltages.">}}
 
 When hearing Morton Subotnick talk in class he says how he spends hours and days tuning sounds.  He also said in one class how he has so many things controlled by just a couple control voltages.  This creates a more tighter integration with modulation and sound.  Also, Todd Barton says during his videos and his demo in class that you are only as expressive as your control voltage.
 
