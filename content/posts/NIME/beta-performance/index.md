@@ -14,13 +14,17 @@ Last night we did a beta performance of our musical instrument for NIME in front
 
 {{<youtube SD9KPQ_yEro>}}
 
-I intentionally wanted to perform without giving any introduction.
+I intentionally wanted to perform without giving any introduction, to see if the critics would get what it was about.
+
+Due to issues with exposure on the camera (to be discussed later), the red was not detected properly and the sounds were different than I had set up for.  Here is a video of me practicing beforehand, showing how it was supposed to sound:
+
+{{<vimeo 299562309>}}
 
 After the performance I showed the instrument and how it worked.
 
 ## Notes from performance
 
-Here are the awesome notes taken on the presentation by ITP Resident [Ari Melenciano:](http://www.ariciano.com/about/) 
+Here are the awesome notes taken on the performance and feedback by ITP Resident [Ari Melenciano:](http://www.ariciano.com/about/) 
 
 **current stage presented in class**
 Working prototype - with camera live feed, water in bowls with food dye
