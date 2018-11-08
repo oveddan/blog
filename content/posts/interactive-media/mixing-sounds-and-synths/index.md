@@ -1,5 +1,5 @@
 ---
-title: 'Mixing Sounds and Synths'
+title: 'NIME - Mixing Sounds and Synths'
 date: 2018-10-29T01:01:52-04:00
 draft: false
 classes: ["Creating with Interactive Media", "NIME"]
