@@ -1,6 +1,6 @@
 ---
 title: 'NIME - Musical Instrument at the Time of the Beta Performance'
-date: 2018-11-07T22:03:18-05:00
+date: 2018-11-07T18:03:18-05:00
 tags: [""]
 categories: [""]
 classes: [""]

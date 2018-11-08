@@ -1,6 +1,6 @@
 ---
-title: 'NIME - Beta Performance, Retrospective and State of the Instrument'
-date: 2018-11-07T16:58:05-05:00
+title: 'NIME - Beta Performance and Retrospective'
+date: 2018-11-07T20:58:05-05:00
 tags: [""]
 categories: [""]
 classes: [""]
