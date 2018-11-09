@@ -12,11 +12,19 @@ featuredImageResource:
 
 This post will go through the state of my musical instrument and the prossess of getting there at the time of the beta performance.
 
+## Description
+
+The Liquisynth is a modular synthesis system controlled by the performer and randomness in fluids as observed by cameras.
+
+{{<vimeo 299562309>}}
+
 {{<fullsizeimage src="images/commandCenter" caption="The whole system together.  I hooked up a Novation Launchcontrol XL to adjust the sound levels of each track in Ableton">}}
 
-**The instrument now consists of:**
+## The instrument now consists of:
 
-* An interface build in **TouchDesigner.** Multiple jars of liquid can be viewed at from a camera.   Views of these liquids are cropped from the camera feed, with sliders allowing for specifications of the crops.
+* An interface built in **TouchDesigner.** Multiple jars of liquid can be viewed at from a **camera.**   Views of these liquids are cropped from the camera feed, with sliders allowing for specifications of the crops.  
+* The shape of these liquids is used to modulate sounds by turning knobs in the **Softube** modular synthesizer system with the **[Buchla 259e twisted waveform generator](https://www.softube.com/index.php?id=buchla_259e)** used as an oscillator to produce unique, rich analog sounds.  
+* This modular system is accessed as a VST Plugin in **Ableton,** with the knobs linked to TouchDesigner using **[TDAbleton,](https://docs.derivative.ca/TDAbleton)** "a tool for linking TouchDesigner tightly with Ableton Live. It offers full access to most everything going on in an Ableton set, both for viewing and setting."
 
 TODO: gif
 
@@ -58,9 +66,6 @@ Any view can be **solod**, making the Ableton track solod and the view shown to 
 
 Here is one of the views in action:
 {{<vimeo 299573659>}}
-
-And another example, just showing the view:
-{{<vimeo 299562309>}}
 
 ## Fabrication
 
