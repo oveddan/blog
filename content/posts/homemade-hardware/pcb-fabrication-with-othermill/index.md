@@ -6,7 +6,6 @@ tags: ["Hardware", "Fabrication"]
 classes: ["Homemade Hardware"]
 featuredImageResource:
   src: "images/pcb_fab_featured"
-  fillPosition: "Center"
 description: "The process of designing circuits in Eaglecad and then fabricating the boards on the Othermill."
 ---
 

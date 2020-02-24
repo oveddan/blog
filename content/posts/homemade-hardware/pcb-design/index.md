@@ -6,7 +6,6 @@ classes: ["Homemade Hardware"]
 draft: false
 featuredImageResource:
   src: "images/board_design"
-  fillPosition: "BottomLeft"
 description: "My first schematic and board design in Eagle"
 ---
 
