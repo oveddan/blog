@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "https://www.danioved.com/blog/"
-publishDir = "docs/blog"
+publishDir = "public"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
 title = "Dan Oved's Blog"
@@ -69,6 +69,3 @@ timeout = 60000
 [taxonomies]
   tags = "tags"
   classes = "classes"
-
-[context.production.environment]
-  HUGO_VERSION = "0.32"
