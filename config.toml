@@ -12,6 +12,8 @@ hasCJKLanguage = true
 # pygmentsCodeFencesGuessSyntax = true
 # pygmentsStyle="monokai"
 
+timeout = 60000
+
 [params]
 	name = "Dan Oved's Blog"
 	description = "Connecting the digital with the analog world @ ITP"
