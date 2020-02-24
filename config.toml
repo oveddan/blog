@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "https://www.danioved.com/blog/"
-publishDir = "public"
+publishDir = "docs/blog"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
 title = "Dan Oved's Blog"
