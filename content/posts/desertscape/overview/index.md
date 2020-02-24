@@ -11,7 +11,7 @@ featuredImageResource:
   src: "images/featured"
 ---
 
--- show video of dropping sound sensor --
+<!--show video of dropping sound sensor -->
 
 # Overview
 
@@ -25,9 +25,9 @@ It is both a research and art project.  The research is primarily around how to 
 
 The art will be in the form of an installation that integrates these sensor perceptions in a physical form.  It can explore themes such as invasive species, where models trained on one environemnt are deployed into an environment that it doesn't understand.  
 
--- show image of charts
+<!--show image of charts-->
 
--- show image of sounds gathered over a long period of time.
+<!--show image of sounds gathered over a long period of time.-->
 
 # Data Gathering Techniques
 
