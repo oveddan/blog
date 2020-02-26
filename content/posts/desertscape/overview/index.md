@@ -116,7 +116,7 @@ Additionally, being able to connect any microphone to the input pins with the Te
 
 The circuit consists of two buttons; clicking on the record button, the one on the right, begins recording audio onto the micro sd card, and clicking it again stops recording.  The button on the left is the play button. Clicking on that begins playing the last audio clip that was recorded, and this can be listened to using the headphone jack.
 
-The code for this can be seen here # TODO: upload code and link to it
+The code for this [can be seen here.](https://github.com/oveddan/EnvironmentLogger)
 
 {{<fullsizeimage src="images/testingOutSounds" caption="Listening to the recorded audio.">}}
 
