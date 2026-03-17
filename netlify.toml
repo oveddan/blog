@@ -1,6 +1,6 @@
 [build]
   publish = "docs"
-  command = "hugo && echo '/blog/* /itp-blog/:splat 301' > docs/_redirects && echo '/blog /itp-blog/ 301' >> docs/_redirects"
+  command = "hugo && echo '/blog/* /itp-blog/:splat 200' > docs/_redirects && echo '/blog /itp-blog/ 200' >> docs/_redirects"
 
 [build.environment]
   HUGO_VERSION = "0.131.0"
