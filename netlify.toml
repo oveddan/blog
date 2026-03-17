@@ -8,3 +8,14 @@
 
 [context.production.environment]
   HUGO_ENV = "production"
+
+# Redirect /blog/* to /itp-blog/*
+[[redirects]]
+  from = "/blog/*"
+  to = "/itp-blog/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/blog"
+  to = "/itp-blog/"
+  status = 301
