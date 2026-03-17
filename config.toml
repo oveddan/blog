@@ -14,6 +14,11 @@ hasCJKLanguage = true
 
 timeout = 95000
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 	name = "Dan Oved's Blog"
 	description = "Connecting the digital with the analog world @ ITP"
