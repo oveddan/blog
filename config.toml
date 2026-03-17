@@ -1,6 +1,6 @@
 # Site settings
-baseurl = "https://danoved.xyz/blog/"
-publishDir = "docs/blog"
+baseurl = "https://danoved.xyz/itp-blog/"
+publishDir = "docs/itp-blog"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
 title = "Dan Oved's ITP Blog"
