@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-    <meta property="og:title" content="{{ .Title }}  - Dan Oved's blog" />
+    <meta property="og:title" content="{{ .Title }}  - Dan Oved's ITP Blog" />
     <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Description}}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
     {{ if .Params.images }}
       {{ range first 6 .Params.images }}

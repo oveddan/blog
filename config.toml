@@ -3,7 +3,7 @@ baseurl = "https://danoved.xyz/blog/"
 publishDir = "docs/blog"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
-title = "Dan Oved's Blog"
+title = "Dan Oved's ITP Blog"
 theme = "cactus-plus"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-106896744-1"
@@ -20,9 +20,9 @@ timeout = 95000
       unsafe = true
 
 [params]
-	name = "Dan Oved's Blog"
-	description = "Connecting the digital with the analog world @ ITP"
-	bio = "Connecting the digital with the analog world @ ITP"
+	name = "Dan Oved's ITP Blog"
+	description = "Documenting my work as a graduate student at NYU's ITP (2017–2019)"
+	bio = "Documenting my work as a graduate student at NYU's ITP (2017–2019)"
 	# Enter optionally your twitter account
 	enableRSS = false
 
@@ -52,7 +52,7 @@ timeout = 95000
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "I am so the best around."
+	aboutAuthor = "This blog documents my projects and coursework as a graduate student at NYU's ITP (Interactive Telecommunications Program) from 2017 to 2019."
 	tweet = ""
 	share = ""
 	# 404 page
