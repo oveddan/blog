@@ -7,7 +7,7 @@
   {{ end }}
   <section>
     {{ range .Site.Taxonomies.classes.ByCount }}
-      <a href="{{ "/classes/" | relLangURL }}{{ .Term | urlize }}">{{ .Term | humanize }}</a>
+      <a href='{{ $.Site.BaseURL }}classes/{{ .Term | urlize }}'>{{ .Term | humanize }}</a>
     {{ end }}
     <a href='{{ .Site.BaseURL }}tags'>{{ with .Site.Params.tags }}{{ . }}{{ else }}Tags{{ end }}</a>
   </section>
