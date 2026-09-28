@@ -3,7 +3,7 @@ title: "Concepts and Play Testing"
 date: 2017-11-07T20:16:51-05:00
 tags: ["Interaction", "Usability Testing"]
 classes: ["Designing for Digital Fabrication", "Intro to Physical Computing"]
-featuredImage: "/blog/images/gaze/concepts/play_testing_featured.jpg"
+featuredImage: "/itp-blog/images/gaze/concepts/play_testing_featured.jpg"
 description: "Conceptualizing designs, and testing the assumptions and user experience."
 showPagesInSection: true
 draft: false
@@ -14,20 +14,20 @@ For Intro to Physical Computing this week, we were to play test our final projec
 I collaborated with [Katya Rozanova](http://www.katyarozanova.com/) to come up with initial designs.  
 Here are some of her sketches and concepts:
 
-<img src="/blog/images/gaze/concepts/sketch_1.png"/>
-<img src="/blog/images/gaze/concepts/sketch_2.png"/>
-<img src="/blog/images/gaze/concepts/sketch_3.png"/>
+<img src="/itp-blog/images/gaze/concepts/sketch_1.png"/>
+<img src="/itp-blog/images/gaze/concepts/sketch_2.png"/>
+<img src="/itp-blog/images/gaze/concepts/sketch_3.png"/>
 
 We ultimately settled on a form with vertical columns that rotate and reveal certain patterns depending on where you are looking.
 We chose this because it would be easier to build; with a single axis, the x-axis, we
 could have servos rotate the columns to represent the gaze is on that axis.
 
 Here are some of her designs for this rotating column-based structure:
-<img src="/blog/images/gaze/concepts/column_2.png"/>
-<img src="/blog/images/gaze/concepts/column_1.png"/>
-<img src="/blog/images/gaze/concepts/column_3.png"/>
-<img src="/blog/images/gaze/concepts/column_4.png"/>
-<img src="/blog/images/gaze/concepts/column_5.png"/>
+<img src="/itp-blog/images/gaze/concepts/column_2.png"/>
+<img src="/itp-blog/images/gaze/concepts/column_1.png"/>
+<img src="/itp-blog/images/gaze/concepts/column_3.png"/>
+<img src="/itp-blog/images/gaze/concepts/column_4.png"/>
+<img src="/itp-blog/images/gaze/concepts/column_5.png"/>
 
 # Play Testing
 
@@ -58,7 +58,7 @@ To simulate it reacting to their gaze, I observed their eyes, and physically con
 ## Results
 I tested it without about 7 classmates, and recorded my conversations on index cards:
 
-<img src="/blog/images/gaze/play_testing/indexcards.jpg"/>
+<img src="/itp-blog/images/gaze/play_testing/indexcards.jpg"/>
 
 Unfortunately I can't seem to find the rest of the index cards.  A lot of this is from memory, and likely some of the things said are attributed to the wrong person.
 

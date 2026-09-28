@@ -14,7 +14,7 @@ Today was the final day of orientation for ITP.  Thanks goes out to the [reside
 [creating documentation](http://itp.nyu.edu/residents/doc-day-2017-documentation/) and [how to create a blog](http://itp.nyu.edu/residents/doc-day-2017-blog-setup/),
 then forcing us do it.
 
-![Why document?](/blog/images/IMG_3644.png)
+![Why document?](/itp-blog/images/IMG_3644.png)
 
 I've been wanting to since I started coding, but each time my fear of public writing has turned into infinite procrastination.
 

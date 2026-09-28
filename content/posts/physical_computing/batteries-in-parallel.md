@@ -4,10 +4,10 @@ date= 2017-09-21
 description= "Connecting batteries in parallel to double the capacity and keep the same voltage."
 classes= ["Intro to Physical Computing"]
 tags= ["Circuits", "Hardware"]
-featuredImage= "/blog/images/pcomp/parallelbatterycircuit_featured.png"
+featuredImage= "/itp-blog/images/pcomp/parallelbatterycircuit_featured.png"
 +++
 
-![Batteries In Parallel](/blog/images/pcomp/parallelbatterycircuit.jpg)
+![Batteries In Parallel](/itp-blog/images/pcomp/parallelbatterycircuit.jpg)
 
 A project I worked on this past summer required a portable power source of 3.3 - 4 volts. 
 I used the Tenergy Li-Ion 3.7v 2600 mAH rechargeable battery, connected to the Adafruit LiPoly backpack charger and a Teensy 3.2. 
@@ -20,7 +20,7 @@ was to build a circuit that uses switches.
 To design this the right way, I met with [Eric Rosenthal](http://www.basicanalogcircuits.com/Instructor_Bio.html) for his office hours and he explained me how the LiPoly chargers work by communicating with a PCB on the battery to determine how much charge to provide; only one
 charger can be connected to a battery at once.  He came up with this sketch:
 
-![Batteries In Parallel Sketch](/blog/images/pcomp/parallelbatterysketch.jpg)
+![Batteries In Parallel Sketch](/itp-blog/images/pcomp/parallelbatterysketch.jpg)
 
 In this design, a single dc power source is connected to two LiPoly chargers - each charger is connected to a battery.  The batteries' powers and grounds are connected together, and to an output which can power LEDS and be switched on and off. 
 

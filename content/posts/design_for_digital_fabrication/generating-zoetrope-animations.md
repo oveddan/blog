@@ -4,8 +4,8 @@ date: 2017-10-12T13:25:28-04:00
 tags: ["Fabrication", "Animation", "Processing", "Hardware"]
 classes: ["Designing for Digital Fabrication"]
 description: 'Using a Turntable, Processing, Laser Cutter, SVG animations, Arduino and analog leds to build a basic Zoetrope'
-featuredImage: "/blog/images/digitalfab/zoetrope/zoetrope_featured.png"
-images: ["/blog/images/digitalfab/zoetrope/onturntable_og.jpg"]
+featuredImage: "/itp-blog/images/digitalfab/zoetrope/zoetrope_featured.png"
+images: ["/itp-blog/images/digitalfab/zoetrope/onturntable_og.jpg"]
 draft: false 
 ---
 
@@ -24,13 +24,13 @@ There were many examples of Zoetropes on the web - the majority of them used a t
 I figured this would be the quickest and most affordable way for me to get something up and running.  I found and purchased a $30
 used Audio Technica one on Facebook Marketplace, for which the owner said that the sound didn't work.  This would be perfect 
 as all I needed was a consistent rotation speed. I met the owner at a coffeeshop, purchased it, and brought it back to the ITP shop:
-{{<figure src="/blog/images/digitalfab/zoetrope/turntable.jpg">}}
+{{<figure src="/itp-blog/images/digitalfab/zoetrope/turntable.jpg">}}
 
 As the turntable was *automatic*, it had an annoying feature where when it would start up, it would force the tonearm
 onto the rotating plate.  When I'd push the tonearm back onto the stand, the rotation would stop.  The tonearm could not be on the plate when an animation is running.
 To solve this I removed the bar that was pushing the tonearm up and cut off the tonearm with shears:
 
-{{<figure src="/blog/images/digitalfab/zoetrope/cutting_turntable.jpg">}}
+{{<figure src="/itp-blog/images/digitalfab/zoetrope/cutting_turntable.jpg">}}
 
 # Generating the Animation in Processing
 
@@ -81,7 +81,7 @@ void drawFrameBorder() {
 }
 ```
 
-<img src="/blog/images/digitalfab/zoetrope/divisions.svg">
+<img src="/itp-blog/images/digitalfab/zoetrope/divisions.svg">
 
 With the frames worked out, it was time to draw an animation frame in each arc.
 This is easier now as instead of drawing an arc, a frame of the animation can be drawn, but with a translation and rotation already applied that would draw the
@@ -141,7 +141,7 @@ void drawRotatingSquare(int frame){
 }
 ```
 
-<img src="/blog/images/digitalfab/zoetrope/ascending_square.svg">
+<img src="/itp-blog/images/digitalfab/zoetrope/ascending_square.svg">
 
 I also wanted to test an animation that looped, so I created one with an ellipse and a square that rotate, shrink and expand in a cycle. This is the updated `animateFrame` method:
 
@@ -195,7 +195,7 @@ void drawRotatingSquare(int frame){
 }
 ```
 
-<img src="/blog/images/digitalfab/zoetrope/loop_animation.svg">
+<img src="/itp-blog/images/digitalfab/zoetrope/loop_animation.svg">
 
 # Protoyping the Strobing with SVG
 
@@ -253,7 +253,7 @@ This 360 degree rotation animation is applied to the svg at the middle of the ci
 
 *You can view the source of this svg by downloading it:*
 
-<img src="/blog/images/digitalfab/zoetrope/loop_animation_rotating.svg">
+<img src="/itp-blog/images/digitalfab/zoetrope/loop_animation_rotating.svg">
 
 To calculate the strobing rate, we need to know the frame duration.  This is done by dividing the seconds per rotation by the frames, 1.79s / 33 which comes out to 0.054s per frame.
 This strobing can be simulated by adding an animation to the svg that changes the opacity from 0 to 1 at a desired rate.
@@ -289,15 +289,15 @@ After experimenting with various on/off percentages in the svg animation, **20% 
 ```
 
 **WARNING: Do not click to view the below animation if you have epilepsy as it strobes rapidly**
-## **[View the Strobing Simulation](/blog/images/digitalfab/zoetrope/loop_animation_flashing.svg)**
+## **[View the Strobing Simulation](/itp-blog/images/digitalfab/zoetrope/loop_animation_flashing.svg)**
 
 # Laser Cutting
 
 These svgs were easily importable into Illustrator, from which I laser cut some matte board
 I had lying around.
 
-<img src="/blog/images/digitalfab/zoetrope/animation_1.jpg" />
-<img src="/blog/images/digitalfab/zoetrope/both_animations.jpg" />
+<img src="/itp-blog/images/digitalfab/zoetrope/animation_1.jpg" />
+<img src="/itp-blog/images/digitalfab/zoetrope/both_animations.jpg" />
 
 # The Strobing Hardware
 
@@ -305,7 +305,7 @@ To build the strobing mechanism, I used a basic **analog rgb led strip** ($10 on
 This shield was already setup as instructed in Adafruit's [guide to rgb leds](https://learn.adafruit.com/rgb-led-strips/usage) to control the strip.
 I connected a potentiometer to be able to adjust the strobing rate. Both the Arduino and LEDs were powered directly by the same [12V power supply](https://www.amazon.com/gp/product/B019Q3U72M) by using a barrel jack splitter.
 
-<img src="/blog/images/digitalfab/zoetrope/rgb_circuit.jpg" />
+<img src="/itp-blog/images/digitalfab/zoetrope/rgb_circuit.jpg" />
 
 The code is below. 
 It flashes the LEDS on and off based on an interval controlled by the potentiometer.
@@ -368,7 +368,7 @@ void loop() {
 
 # The Final Result
 
-{{<figure src="/blog/images/digitalfab/zoetrope/onturntable.jpg">}}
+{{<figure src="/itp-blog/images/digitalfab/zoetrope/onturntable.jpg">}}
 
 By fine tuning the strobing interval with the potentiemeter, I could create crisp animations:
 

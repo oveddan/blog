@@ -11,7 +11,7 @@ description: "The process of designing circuits in Eaglecad and then fabricating
 
 {{<fullsizeimage src="images/00-soldered-featured">}}
 
-For this homework assignment for [Homemade Hardware](/blog/posts/homemade-hardware/), we were to fabricate a PCB Board using the Othermill.
+For this homework assignment for [Homemade Hardware](/itp-blog/classes/homemade-hardware/), we were to fabricate a PCB Board using the Othermill.
 
 I continued with the [previous design](../pcb-design) of an ATTiny85 controlling
 the brightness of an LED based on the reading from an HC-sr04 Ultrasonic Distance Sensor.

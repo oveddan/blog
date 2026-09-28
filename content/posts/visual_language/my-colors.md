@@ -1,7 +1,7 @@
 +++
 title= "My Colors and Compositions"
 description= "Picking a color palette that represents me and creating six compositions using it"
-featuredImage= "/blog/images/visual_language/colors/color_featured.png"
+featuredImage= "/itp-blog/images/visual_language/colors/color_featured.png"
 date= 2017-10-04
 tags = ["Design"]
 classes = ["Visual Language"]
@@ -15,40 +15,40 @@ and create six compositions using those colors.
 I wanted a theme with red because this represents it represents love and life, and I believe in living a life doing what you love.  
 I chose the color palette inspired by *Tame Impala 'Currents'* from [The Day's Color](http://thedayscolor.com/):
 
-{{<figure src="/blog/images/visual_language/colors/colortheme.png">}}
+{{<figure src="/itp-blog/images/visual_language/colors/colortheme.png">}}
 
 These colors are both vibrant and diverse.  To me, they represents how I'm always learning
 different things, and using them in innovative ways to create something exciting.  
 
 # The Compositions
 
-{{<figure src="/blog/images/visual_language/colors/breadth.png" caption="Breadth">}}
+{{<figure src="/itp-blog/images/visual_language/colors/breadth.png" caption="Breadth">}}
 Each leaf of this tree represents somethign I've discovered and pursued.  My path has not gone in a particular
 direction over a long period of time, but the short paths and pivots are all connected, and can be combined and built upon.
 
 ---
 
-{{<figure src="/blog/images/visual_language/colors/monet.png" caption="Monet - Sunset in Venice">}}
+{{<figure src="/itp-blog/images/visual_language/colors/monet.png" caption="Monet - Sunset in Venice">}}
 Monet's Sunset in Venice painting in my color palette.
 
 ---
 
-{{<figure src="/blog/images/visual_language/colors/cornucopia.png" caption="Cornucopia">}}
+{{<figure src="/itp-blog/images/visual_language/colors/cornucopia.png" caption="Cornucopia">}}
 Technology provides an infinite supply of possibilities.
 
 ---
 
-{{<figure src="/blog/images/visual_language/colors/solarclock.png" caption="Solar Flare">}}
+{{<figure src="/itp-blog/images/visual_language/colors/solarclock.png" caption="Solar Flare">}}
 A vector version of an LED clock I build with a friend.
 
 ---
 
-{{<figure src="/blog/images/visual_language/colors/danharvs.png" caption="Harvey Dan">}}
+{{<figure src="/itp-blog/images/visual_language/colors/danharvs.png" caption="Harvey Dan">}}
 My eyes and glasses on Harvey, the best cat ever.
 
 ---
 
-{{<figure src="/blog/images/visual_language/colors/pathways.png" caption="Now">}}
+{{<figure src="/itp-blog/images/visual_language/colors/pathways.png" caption="Now">}}
 The present is what matters.
 
 # The technique
@@ -62,7 +62,7 @@ and to color those pieces a different color.
 For **Monet - Sunset in Venice** I opened an image with the original painting in *Photoshop,* then set the image
 mode to indexed color with six colors.  
 
-{{<figure src="/blog/images/visual_language/colors/sunset-in-venice-colors.png" caption="The six color conversion in Photoshop">}}
+{{<figure src="/itp-blog/images/visual_language/colors/sunset-in-venice-colors.png" caption="The six color conversion in Photoshop">}}
 
 I then opened the six-color image in *Illustrator,* and used the *Pen* tool to
 draw polygons with fills of colors from the palette on top of the image.
@@ -107,7 +107,7 @@ For **Solar Flare** I drew a shape using the *Curvature* tool, and like in *Brea
 and color the cut pieces.
 
 For **Harvey Dan** I took a picture of Harvey, my brother's cat, and put my eyes and glasses on it using *Photoshop.*  
-{{<figure src="/blog/images/visual_language/colors/DanHarvsSource.png">}}
+{{<figure src="/itp-blog/images/visual_language/colors/DanHarvsSource.png">}}
 
 I then exported this into *Illustrator* and used the *Curvature* tool to draw shapes over this image.
 
