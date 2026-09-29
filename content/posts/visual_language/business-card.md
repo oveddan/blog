@@ -3,7 +3,7 @@ title: 'Designing my Business Card'
 date: 2017-10-18T00:43:12-04:00
 tags: ["Design", "Processing"]
 classes: ["Visual Language"]
-featuredImage: "/blog/images/visual_language/card_featured.gif"
+featuredImage: "/itp-blog/images/visual_language/card_featured.gif"
 draft: false
 ---
 
@@ -15,7 +15,7 @@ I found myself frequently criticizing my designs, starting over, and letting out
 
 With time running out, I settled on this:
 
-<img src="/blog/images/visual_language/card.png" />
+<img src="/itp-blog/images/visual_language/card.png" />
 
 For the logo, I wanted to portray something both connected and dynamic, and [Voronoi cells](https://en.wikipedia.org/wiki/Voronoi_diagram) fit this criteria.
 I used a modified version of Inigo Quillez' [Voronoi Lines shader code](http://www.iquilezles.org/www/articles/voronoilines/voronoilines.htm) in Processing, and

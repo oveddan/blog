@@ -1,6 +1,6 @@
 +++
 title= "Light Loop"
-featuredImage = "/blog/images/pcomp/infinite_loop_featured.png"
+featuredImage = "/itp-blog/images/pcomp/infinite_loop_featured.png"
 date= 2017-09-26
 description= "Creating a light loop that repeats itself"
 classes = ["Intro to Physical Computing"]
@@ -19,7 +19,7 @@ When that happens, it triggers an animation on the opposite end of the LEDS whic
 When the photoresistor picks up enough light from the animation that has reached it, it triggers the start of the animation again.  This 
 essentially creates an infinite feedback loop.  
 
-{{<figure src="/blog/images/pcomp/infinite_loop.jpg" >}}
+{{<figure src="/itp-blog/images/pcomp/infinite_loop.jpg" >}}
 
 The loop can be stopped by blocking the light from the photoresistor, as demonstrated in the video.  It can be initialized by pressing the
 **pushbutton** which acts as a **digital input** that turns on the last LED, placed next to the photoresistor.  This light causes the photoresistor to start the animation.

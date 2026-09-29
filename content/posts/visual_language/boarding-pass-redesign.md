@@ -10,13 +10,13 @@ classes = ["Visual Language"]
 
 For this homework assignment we were to take the boarding pass below and redesign it:
 
-{{<figure src="/blog/images/visual_language/DeltaTicketToDesign.gif">}}
+{{<figure src="/itp-blog/images/visual_language/DeltaTicketToDesign.gif">}}
 
 <br/>
 
 ## My Redesign
 
-{{<figure src="/blog/images/visual_language/DanODeltaTicket.gif">}}
+{{<figure src="/itp-blog/images/visual_language/DanODeltaTicket.gif">}}
 *Icons used: [Door](https://thenounproject.com/Aleksandr_Vector/collection/door/?oq=door&cidx=3&i=997892) and
 [Airplane Seat](https://thenounproject.com/search/?q=airplane%20seat&i=91605) from The Noun Project*
 

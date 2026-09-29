@@ -9,7 +9,7 @@ featuredImageResource:
 description: "My first schematic and board design in Eagle"
 ---
 
-For this homework assigment of [Homemade Hardware](/blog/posts/homemade-hardware/), we were to "Create Eagle files for ATtiny85 sensor + LED."
+For this homework assigment of [Homemade Hardware](/itp-blog/classes/homemade-hardware/), we were to "Create Eagle files for ATtiny85 sensor + LED."
 
 I decided to design a PCB for the [Ultrasonic Distance Sensor breadboarded prototype](../ultrasonic-distance-sensor/) from the previous week.
 

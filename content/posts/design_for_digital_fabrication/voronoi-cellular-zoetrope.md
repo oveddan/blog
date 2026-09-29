@@ -3,14 +3,14 @@ title: 'From Shader to Physical Animation - the Voronoi Cellular Zoetrope'
 date: 2017-10-25T16:10:23-04:00
 tags: ["Fabriation", "Animation", "Processing", "Computer Graphics"]
 classes: ["Designing for Digital Fabrication"]
-featuredImage: "/blog/images/digitalfab/cellular_zoetrope/voronoizoetrope_featured.jpg"
-images: ["/blog/images/digitalfab/cellular_zoetrope/finalresult_og.jpg"]
-videos: ["/blog/images/digitalfab/cellular_zoetrope/cellular_zoetrope_smaller.mov"]
+featuredImage: "/itp-blog/images/digitalfab/cellular_zoetrope/voronoizoetrope_featured.jpg"
+images: ["/itp-blog/images/digitalfab/cellular_zoetrope/finalresult_og.jpg"]
+videos: ["/itp-blog/images/digitalfab/cellular_zoetrope/cellular_zeotrope_smaller.mov"]
 description: "Using shaders, processing, and a laser cutter to generate a seamless physical animation that loops continuously."
 draft: false
 ---
 
-<img src="/blog/images/digitalfab/cellular_zoetrope/zoetrope_a.gif" />
+<img src="/itp-blog/images/digitalfab/cellular_zoetrope/zoetrope_a.gif" />
 
 This is a continuation of [Part 1]({{<relref "zoetrope-light-and-materials-exploration.md">}}) and [Part 2]({{<relref "generating-zoetrope-animations.md">}}) of the Zeotrope project.
 
@@ -66,17 +66,17 @@ float show = 1. - step(0.1, c.x);
 gl_FragColor = vec4(vec3(1.),show);
 ```
 *view all of the code [here](http://thebookofshaders.com/edit.php?log=171025211406)*
-{{<figure src="/blog/images/digitalfab/cellular_zoetrope/voronoi-borders-only.gif" link="http://thebookofshaders.com/edit.php?log=171025211406" >}}
+{{<figure src="/itp-blog/images/digitalfab/cellular_zoetrope/voronoi-borders-only.gif" link="http://thebookofshaders.com/edit.php?log=171025211406" >}}
 
 As it stood, the cells in the edges used points that extend beyond the edges:
-{{<figure src="/blog/images/digitalfab/cellular_zoetrope/using_points_around_edges.jpg">}}
+{{<figure src="/itp-blog/images/digitalfab/cellular_zoetrope/using_points_around_edges.jpg">}}
 This prevented a frame from tiling seamlessly next to itself:
 <a href="http://thebookofshaders.com/edit.php?log=171025211406">
-  <img src="/blog/images/digitalfab/cellular_zoetrope/non-tiled.gif"/>
+  <img src="/itp-blog/images/digitalfab/cellular_zoetrope/non-tiled.gif"/>
 </a>
 
 To fix this, in all of the cells at the edges, instead of searching for points that extended past the edges, I used points from cells on the opposite end:
-{{<figure src="/blog/images/digitalfab/cellular_zoetrope/using_wrapped_points.jpg">}}
+{{<figure src="/itp-blog/images/digitalfab/cellular_zoetrope/using_wrapped_points.jpg">}}
 
 ```GLSL
 int cols = 3;
@@ -131,7 +131,7 @@ vec3 voronoi( in vec2 x ) {
 
 This caused the edge cells to wrap around to the cells on the opposite end, letting the frames be tilable:
 <a href="http://thebookofshaders.com/edit.php?log=171025231819">
-  <img src="/blog/images/digitalfab/cellular_zoetrope/tiled.gif"/>
+  <img src="/itp-blog/images/digitalfab/cellular_zoetrope/tiled.gif"/>
 </a>
 
 # Projecting the Animation onto a Circle
@@ -195,7 +195,7 @@ void main() {
 ```
 
 <a href="http://thebookofshaders.com/edit.php?log=171016221639">
-  <img src="/blog/images/digitalfab/cellular_zoetrope/arc.gif"/>
+  <img src="/itp-blog/images/digitalfab/cellular_zoetrope/arc.gif"/>
 </a>
 
 To project this onto a circle in Processing, each frame was rendered into a `PGraphics` buffer, 
@@ -258,18 +258,18 @@ void draw() {
 }
 ```
 
-<img src="/blog/images/digitalfab/cellular_zoetrope/project_circle.gif"/>
+<img src="/itp-blog/images/digitalfab/cellular_zoetrope/project_circle.gif"/>
 
 As the voronoi approached the center of the circle, the borders become narrower and more skewed - this would be nearly impossible to cut.
 To improve this, within a specified radius, the animation was changed to be a different voronoi animation from the book of shaders, [meatballs:](https://thebookofshaders.com/edit.php#12/metaballs.frag)
 
-<img src="/blog/images/digitalfab/cellular_zoetrope/withmeatballs.gif"/>
+<img src="/itp-blog/images/digitalfab/cellular_zoetrope/withmeatballs.gif"/>
 
 With the animation created, I wanted to laser cut multiple layers of it, each with a slightly larger border, enabling the physical layers to have different colors and stack on top of each other, creating a sort
 of 3D/depth effect.  To generate these layers in processing, I parameterized the shader to be able to specify the border size and the color it renders.
 For each layer, the animation was projected around the circle with these parameters set layer by layer:
 <a href="https://gist.github.com/oveddan/509d9510974a5a1494c58a0d0b648a09">
-  <img src="/blog/images/digitalfab/cellular_zoetrope/layered.gif"/>
+  <img src="/itp-blog/images/digitalfab/cellular_zoetrope/layered.gif"/>
 </a>
 
 *view the code for this [here](https://gist.github.com/oveddan/509d9510974a5a1494c58a0d0b648a09)*
@@ -279,7 +279,7 @@ For each layer, the animation was projected around the circle with these paramet
 Converting these layers into vectors that could be laser cut was pretty straightforward.  First, I modified the processing script to render each layer as a separate image
 with resolution 2000x2000, and white for where the borders would be:
 
-<img src="/blog/images/digitalfab/cellular_zoetrope/export_for_illustrator.jpg"/>
+<img src="/itp-blog/images/digitalfab/cellular_zoetrope/export_for_illustrator.jpg"/>
 
 To convert a layer into a vector for laser cutting, in *Adobe Illustrator,* I:
 
@@ -288,30 +288,30 @@ To convert a layer into a vector for laser cutting, in *Adobe Illustrator,* I:
 * scaled the layer to its real size of 30 cm (or 11.81").
 * converted all the vectors to a red stroke with 0.1 size, so that the laser cutter would recognize it for cutting.
 
-<img src="/blog/images/digitalfab/cellular_zoetrope/illustrator_vector.gif" />
+<img src="/itp-blog/images/digitalfab/cellular_zoetrope/illustrator_vector.gif" />
 *Layer 2 prepared for laser cutting in Illustrator*
 
 # Laser Cutting
 
 The laser cutter was able to easily read these vectors and cut the layers:
 
-<img src="/blog/images/digitalfab/cellular_zoetrope/bluelayer.jpg" />
-<img src="/blog/images/digitalfab/cellular_zoetrope/layer1oncutter.jpg" />
-{{<figure src="/blog/images/digitalfab/cellular_zoetrope/layer1onblue3.jpg" caption="Layer 1 on a blue background" >}}
-{{<figure src="/blog/images/digitalfab/cellular_zoetrope/layer3and1and2.jpg" caption="Layer 3 (did not end up being used)" >}}
+<img src="/itp-blog/images/digitalfab/cellular_zoetrope/bluelayer.jpg" />
+<img src="/itp-blog/images/digitalfab/cellular_zoetrope/layer1oncutter.jpg" />
+{{<figure src="/itp-blog/images/digitalfab/cellular_zoetrope/layer1onblue3.jpg" caption="Layer 1 on a blue background" >}}
+{{<figure src="/itp-blog/images/digitalfab/cellular_zoetrope/layer3and1and2.jpg" caption="Layer 3 (did not end up being used)" >}}
 
 I tried stacking all the layers as originally intended on top of each other, but the blue on the bottom was barely visible under the purple.  I found the
 best combination was white top layer, blue under it, and white background:
 
-{{<figure src="/blog/images/digitalfab/cellular_zoetrope/layer1to3.jpg">}}
+{{<figure src="/itp-blog/images/digitalfab/cellular_zoetrope/layer1to3.jpg">}}
 
 The middle part, the meatball variation, ended up with a few gaps where the animation was not attached to the rest of the disc. I had intended to attach these back on, but these pieces fell through the cracks
 when laser cutting.  I left it off the main zoetrope animation:
 
-<img src="/blog/images/digitalfab/cellular_zoetrope/middlepart.jpg" />
+<img src="/itp-blog/images/digitalfab/cellular_zoetrope/middlepart.jpg" />
 I used acrylic glue to attach the top two layers to each other:
-{{<figure src="/blog/images/digitalfab/cellular_zoetrope/attached_on_turntable.jpg" >}}
-<img src="/blog/images/digitalfab/cellular_zoetrope/finalresult.jpg"/>
+{{<figure src="/itp-blog/images/digitalfab/cellular_zoetrope/attached_on_turntable.jpg" >}}
+<img src="/itp-blog/images/digitalfab/cellular_zoetrope/finalresult.jpg"/>
 
 # Filming the Zoetrope
 

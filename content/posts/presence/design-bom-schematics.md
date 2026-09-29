@@ -2,7 +2,7 @@
 title: 'Physical Design, Bill of Materials and Schematics'
 date: 2017-11-14T15:38:22-05:00
 tags: ["Design", "Fabrication"]
-featuredImage: "/blog/images/gaze/schematics/design_featured.png"
+featuredImage: "/itp-blog/images/gaze/schematics/design_featured.png"
 classes: ["Designing for Digital Fabrication", "Intro to Physical Computing"]
 showPagesInSection: true
 
@@ -17,7 +17,7 @@ After [doing play testing]({{<relref "concepts-and-play-testing.md">}}) for [Pre
 
 I came up with this design:
 
-<img src="/blog/images/gaze/schematics/x_y_column.gif" />
+<img src="/itp-blog/images/gaze/schematics/x_y_column.gif" />
 
 Here the columns can be rotated to create a wavy effect, and represent both on the x and y axis where the user is gazing.
 
@@ -51,8 +51,8 @@ I would want the design to be an even square.  The best tradeoff of size vs cost
 32" height.  At 20 dowels, to get 32" width (even with the height) there would be 7" of free space.  Taking 19 gaps between tubes and a gap at each end this gives 
 7/21 or a **1/3" gap** between tubes.  **A camera would be embeded into the top of the frame.** I rendered this in Vectorworks with the design as a texture:
 
-<img src="/blog/images/gaze/schematics/3d-rendering.png" />
-<img src="/blog/images/gaze/schematics/3d-rendering-face-on.png" />
+<img src="/itp-blog/images/gaze/schematics/3d-rendering.png" />
+<img src="/itp-blog/images/gaze/schematics/3d-rendering-face-on.png" />
 
 <script src="https://embed.github.com/view/3d/oveddan/blog/master/static/models/tubes_with_frame.stl"></script>
 
@@ -60,7 +60,7 @@ I would want the design to be an even square.  The best tradeoff of size vs cost
 
 Here is a wiring schematic.  It's format is based largely on [examples from Daniel Rozin](https://docs.google.com/document/d/11QbVGa3TRsxxnRebFqY91nC2fCozVcoa7H2XK_ffzJc/edit).
 
-{{<figure src="/blog/images/gaze/schematics/wiring_schematic.jpg" caption="click to enlarge" link="/blog/images/gaze/schematics/wiring_schematic.jpg">}}
+{{<figure src="/itp-blog/images/gaze/schematics/wiring_schematic.jpg" caption="click to enlarge" link="/itp-blog/images/gaze/schematics/wiring_schematic.jpg">}}
 
 In the current setup it would use a desktop with linux and a decent
 gpu to read from the camera and [predict the gaze with a neural network.]({{<relref "predicting-gaze-with-the-model.md">}})  This camera would communicate

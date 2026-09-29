@@ -1,7 +1,7 @@
 ---
 title: 'Zoetrope Light and Materials Exploration'
 description: 'Initial exploration for zoetrope project - experimenting with how materials appear and disappear when certain colors of light are projected onto them.'
-featuredImage: "/blog/images/digitalfab/materials_featured.png"
+featuredImage: "/itp-blog/images/digitalfab/materials_featured.png"
 date: 2017-10-06T10:08:02-04:00
 tags: ["Design", "Fabrication", "Animation"]
 classes: ["Designing for Digital Fabrication"]
@@ -10,7 +10,7 @@ draft: false
 
 See [Part 2]({{<relref "generating-zoetrope-animations.md">}}) and [Part 3]({{<relref "voronoi-cellular-zoetrope.md">}}) of this project.
 
-{{<figure src="/blog/images/digitalfab/light_testing_results.png" >}}
+{{<figure src="/itp-blog/images/digitalfab/light_testing_results.png" >}}
 
 For our first project for Designing for Digital Fabrication, we are to create
 something using the laser cutter, with at least some of the geometry generated
@@ -45,21 +45,21 @@ to flash.
 I went to [Canal Plastics](http://www.yelp.com/biz/canal-plastics-center-new-york) to pick up a bunch of
 samples of acrylic material so that I could test how they would appear under different colors of light.
 
-{{<figure src="/blog/images/digitalfab/canal_plastics.jpg" caption="Acrylic Materials at Canal Plastics">}}
+{{<figure src="/itp-blog/images/digitalfab/canal_plastics.jpg" caption="Acrylic Materials at Canal Plastics">}}
 
 I then built a simple circuit with an Arduino Teensy 3.2, an APA102 led strip (I had one lying around), 
 and some pentiometers that could control the Red, Green, and Blue colors of the strip.
 
-{{<figure src="/blog/images/digitalfab/light_testing_circuit.jpg">}}
+{{<figure src="/itp-blog/images/digitalfab/light_testing_circuit.jpg">}}
 
 I laid out all the samples in a line with the strip facing the samples:
 
-{{<figure src="/blog/images/digitalfab/acrylic_samples.jpg">}}
+{{<figure src="/itp-blog/images/digitalfab/acrylic_samples.jpg">}}
 
 I turned down the lights, and tested how each material reacted to red, green and blue lighting.
 Here are the results:
 
-{{<figure src="/blog/images/digitalfab/light_testing_results.png" >}}
+{{<figure src="/itp-blog/images/digitalfab/light_testing_results.png" >}}
 The top row shows the samples with standard room lighting. The remaining three rows are with the
 red, blue, and green lights activated correspondingly.
 

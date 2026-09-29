@@ -12,7 +12,7 @@ description: "The Soul Reader is my final for Electronic Rituals, Oracles, and S
 
 ---
 
-The Soul Reader is my final for [Electronic Rituals, Oracles, and Storytelling](blog/classes/electronic-rituals-oracles-and-fortune-telling).  It is a generative system for visuals that is driven by a viewer's gaze and subconscious.
+The Soul Reader is my final for [Electronic Rituals, Oracles, and Storytelling](/itp-blog/classes/electronic-rituals-oracles-and-fortune-telling/).  It is a generative system for visuals that is driven by a viewer's gaze and subconscious.
 
 {{< vimeo 267715929 >}}
 
